@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticEncoding",
+  "source_sha256": "e26a07bfab4585fc318fa2425878e2af9f72de7bbcd23d89b3b98bbe10f331b7",
+  "olean_sha256": "9a60e363fbfbf49c6707479da7bc6e2f9d1af25c744312d81bc48221a86d1214",
+  "imports": [
+    "AnalyticPrelude"
+  ],
+  "receipt_sha256": "c68ee6d3b1b6ab9d9717881a12ec799fb6a9e53adc08830072ea5019f42924be",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 29.953,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticEncoding.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

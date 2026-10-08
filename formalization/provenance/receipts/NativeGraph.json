@@ -1,0 +1,17 @@
+{
+  "module": "NativeGraph",
+  "source_sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014",
+  "olean_sha256": "7d0467ccfa998e2a8cc46c5bbf77f3e803b8dd402edb9e751f9a607f305852f4",
+  "imports": [
+    "Init"
+  ],
+  "receipt_sha256": "474a844f16cfe48bb79c816d21eb602d405e9a9d384a7f20e2e3630304cdff35",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 5.453,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeGraph.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

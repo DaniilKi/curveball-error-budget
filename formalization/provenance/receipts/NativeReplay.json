@@ -1,0 +1,22 @@
+{
+  "module": "NativeReplay",
+  "source_sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3",
+  "olean_sha256": "42df2790685bfd88d20d6d69f40da9f4c8579232e997bd8c6574d4c51a04496d",
+  "imports": [
+    "NativeGraph"
+  ],
+  "receipt_sha256": "526cdde6acbf1f969a38dea3f2a77ce54efee89551d785b00ee7965c8ab0925e",
+  "log_sha256": "1a15d0e95793e2c9ae37c423bdf870bc0a883baa3bedb863e64ba3eadeda0b72",
+  "printed_axioms": {
+    "CurveballNative.replay_attempted_count": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 1.39,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeReplay.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

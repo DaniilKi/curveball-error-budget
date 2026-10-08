@@ -1,0 +1,33 @@
+{
+  "module": "NativePrefixInference",
+  "source_sha256": "20ddc5d9aae4fad011e89d9c7d9b89b35c9ea0edd7251b43f357038ef2cef1b8",
+  "olean_sha256": "b217e172f3a9f9b8065c03f62fed9903a354b9c8f1be4082fc117f27fd9ee5b5",
+  "imports": [
+    "NativeFinalAudit",
+    "NativeRuntimePrefixTransfer"
+  ],
+  "receipt_sha256": "c4c012cf462c43011dd2ee2e832f1bdda139ac89607afcc3b097c2b3d904266d",
+  "log_sha256": "46cbbf2ebc97409b278707d4a23ed3a73698aa1b83d06a8742d19a5e594f9029",
+  "printed_axioms": {
+    "CurveballVerified.native_prefix_request_type_I": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_prefix_reject_admissible": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 14.016,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativePrefixInference.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

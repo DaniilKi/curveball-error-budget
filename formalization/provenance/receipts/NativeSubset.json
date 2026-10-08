@@ -1,0 +1,17 @@
+{
+  "module": "NativeSubset",
+  "source_sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff",
+  "olean_sha256": "5a60956eeb13809ca82c9a3367e089d697d74cd5a64b19f47b844b3fd1d633a9",
+  "imports": [
+    "NativeArithmetic"
+  ],
+  "receipt_sha256": "13439d8b62c872cf77197e3ec3b58ee60384786260ac967b3817468843a6d89b",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 1.969,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeSubset.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

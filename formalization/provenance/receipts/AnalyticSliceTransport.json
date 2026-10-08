@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticSliceTransport",
+  "source_sha256": "e0a7c876ea5d3d0b42ca490719dfd8efda8393055b59bbf1854b3004da83f6ca",
+  "olean_sha256": "22a1676e072c99caf0ac597d1884d8d3e7ff7415d775884047853687d2cdfc41",
+  "imports": [
+    "AnalyticCrossCell"
+  ],
+  "receipt_sha256": "441dd4419b715cd62437130d645f2f3f35cf5decc7b258a7e7c4a4a27c70275e",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 27.14,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticSliceTransport.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

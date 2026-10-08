@@ -1,0 +1,36 @@
+{
+  "module": "NativePlanJoins",
+  "source_sha256": "6887c34b8f5e9d2800d21c4f88eb7b210281badbcd04dfdacc0acfa510acc1fa",
+  "olean_sha256": "80db9584e6b68979093c2a5020e2fc71bf748dff8c313c4e2628c453fb3fb3f3",
+  "imports": [
+    "NativeBatchStatistics",
+    "BudgetCoreLite"
+  ],
+  "receipt_sha256": "f40923d183d5dac0ebf96bfc3fc434e0a7b48a8a48093da56e38a1d2ba5d158c",
+  "log_sha256": "dd741b4d81a61728e3cadd54885d0b8662baa051c6546e8c2ec58b64a3a9c2de",
+  "printed_axioms": {
+    "CurveballVerified.native_limits_dimensions": [
+      "propext"
+    ],
+    "CurveballVerified.native_plan_budget": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_plan_joint_error": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_plan_degree_budget": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 140.547,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativePlanJoins.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,29 @@
+{
+  "module": "NativeSamplingByteInference",
+  "source_sha256": "0238de69b2c133bbd19d352de9a7c895fb0d4623f966dff61cfca8dff61a9df3",
+  "olean_sha256": "58d5a5af360bcb16e46043e4d4bb3af830c45a84d132a4b36bc64d97f4a95aee",
+  "imports": [
+    "NativeByteBatchLaw",
+    "NativeSamplingInference"
+  ],
+  "receipt_sha256": "4fd4f121596fd2426ed4551b9f986d44d10ae4eb9a7f6023a02da1155cc5e3c8",
+  "log_sha256": "03984b08e7ceee97fa0b289b09d3957e548f9171196e9f6eb696b1f66cb12504",
+  "printed_axioms": {
+    "CurveballVerified.native_byte_graph_experiment_eq_bits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_native_byte_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 18.735,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSamplingByteInference.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

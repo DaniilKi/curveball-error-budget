@@ -1,0 +1,36 @@
+{
+  "module": "NativeRankCounting",
+  "source_sha256": "c72d4aa1c92c1a3b0594c94c154449e2b92c7dbb96fa39f137ad32a6bc92b4ba",
+  "olean_sha256": "f6e20ff5869d3d9bb5c1445bbb19887e20f8fa8719637e4f336eaa36e026046a",
+  "imports": [
+    "ProbabilityProofBundle",
+    "NativeArithmetic",
+    "Mathlib.Algebra.BigOperators.Fin",
+    "Mathlib.Tactic.FieldSimp"
+  ],
+  "receipt_sha256": "54d4b6a7d5b1f636a9425cbca94478818f0b5c4ac070c7de6034b692f8ebf389",
+  "log_sha256": "1bee38a5e90aca478e7bf2c8eddaffbff75ab262c1bce6c6eaf9d27571e53d31",
+  "printed_axioms": {
+    "CurveballVerified.rankCount_observed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_rank_implies_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.rational_cutoff_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 9.469,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRankCounting.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

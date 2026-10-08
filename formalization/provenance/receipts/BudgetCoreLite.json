@@ -1,0 +1,43 @@
+{
+  "module": "BudgetCoreLite",
+  "source_sha256": "c0f241d2d111b06ab9509f511287c61fea41441688e5e93ca2b1e92cdb2e0f0e",
+  "olean_sha256": "b20b822a7934be03baeb40d32479ed886adb53b0e6624b68f3e0eb35332e19c1",
+  "imports": [
+    "Mathlib.Data.Nat.Choose.Basic",
+    "Lean.Elab.Tactic.Omega",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt"
+  ],
+  "receipt_sha256": "4cf066e3921f2f5b63f52c3f52927d0772186b94607170c656593d3fd83e0ada",
+  "log_sha256": "411b8af75e9ade9626a7663636208099cf233bae28e2741156237c093b5047ae",
+  "printed_axioms": {
+    "CurveballVerified.budgetCheck_sound": [
+      "propext"
+    ],
+    "CurveballVerified.integer_budget_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_budget_real_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.rankCheck_sound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.14,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/BudgetCoreLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

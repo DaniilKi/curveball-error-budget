@@ -1,17 +1,938 @@
 {
-  "version": "0.1.0",
-  "utc": "2026-10-08T08:37:40Z",
-  "source_hashes": {
-    "__init__.py": "6ba7e37a6020ec4e54e8e5a486b243b4354e49646258342cdb5bd9a82bc634a8",
-    "cli.py": "6caa4bc8ffc95aef062e10112346a5593d6e9c4e3e11c954b93a3f24698798c6",
-    "inputs.py": "7712c61f8dc5aae9c35ae0d36a79a647f8495521bca5bc6ce53fd7d2d016d665",
-    "jobs.py": "aec943f6bb2582113457b9eee3a4932d28909ae5cf297cded3c98916209690f4",
-    "kernel.py": "cbd894eb63c2491e73b199d19c8d141cd183ec5aff0a15127a043bc0e255581c",
-    "report.py": "d1301b8cd299767fba3e6dc401ed217764df9051ecceb8af11696d3d6574ddbc"
+  "version": "0.2.0",
+  "status": "draft_sources_only",
+  "baseline_commit": "894a659c22cd29dc33a09019a8c784abacd20ebc",
+  "official_openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "frozen_proof_packet_sha256": "c9bb05549519a3d9433fc180f1a8cfc43a00eb73c42c629974932c92ca931521",
+  "legacy_python_source_hashes": {
+    "__init__.py": "7cf9e58648b600cbd3852291161b2ab271500d358d2bc6b637c1e009c8518636",
+    "cli.py": "2317e4049651a044bd938bdc341e9aae7253bfbd919e7433fbed29ac41824269",
+    "inputs.py": "f47ef09695fd652bff7e8f5c06c3d94e70e26aae4017e8bb8be1273274ace404",
+    "jobs.py": "d6a66b318c5cdf4835d386b3b583959ce0e29647c56719b79f620eec137f900b",
+    "kernel.py": "a0c200d7676560fcac2832503beb40eb3cca52b70304f05a938a55b948c5fe5f",
+    "report.py": "aed7f0a4a857421e00b765a2f4d4963dc59aaaaf573708debfe62c088c7c911a"
   },
-  "source_pin": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
-  "alpha_semantics": "overall target; rawcutoff alpha minus wholebatchTV; conservative score min(1,rank+TV)",
-  "resume_export_integrity": "verify_stored_plan fingerprint plus labels mapping before outputs; no partialbatchinference",
-  "scope": "frozenresearchprototype; operator theorem/formal replay remainsconditional; no new sampler or speed theorem",
-  "mathematical_assurance": "Focused153official-body Lean replay and ordinary-Curveball gap corollary passed; source receipts consumed and hash/body checked; Python,PRNG andTV/batch/rank not formally verified."
+  "preserved_v010_files": [
+    {
+      "path": "LICENSE",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "NOTICE",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "162f3916e6b8327475f9ebc47c8854e2c4f63679eaeda68013d1560107c8061a"
+    },
+    {
+      "path": "docs/legacy/OPERATIONS.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d2d1ca7fbe72cedbc9eec909aefcb060eac65776e56baa5a0245c4c7e95fbb8e"
+    },
+    {
+      "path": "docs/legacy/PROVENANCE.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "9c3a2c09ec6fcaff7d13d123a3c916bc0fd2fd875bdd27ebba29fdf4f77025d2"
+    },
+    {
+      "path": "docs/legacy/THEORY.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b28732230609a180a2b1acf2462606873bee1eab82cf2a64de1c9809b8d9e247"
+    },
+    {
+      "path": "docs/legacy/THIRD_PARTY.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "07589616ac8a5a515131e6d1a7bdf46c7dcc34a7191c2fda90e384223503b227"
+    },
+    {
+      "path": "docs/legacy/VALIDATION.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c7e004956b2c1b8fba80a516ad1cc01542721f784001b2d4ddce3b8137fba74a"
+    },
+    {
+      "path": "examples/friendships.csv",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c1980209b9a2b71f50d96ba15c25afa9ebf691723d50276431b1afec644abeeb"
+    },
+    {
+      "path": "examples/people.txt",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7e356855619252625c398812cc065632127de661f0c589e23310b361421e1ca0"
+    },
+    {
+      "path": "formalization/legacy/CurveballAssurance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f62003c5afe3b49a77f33fcafa2d2d75f204836e4794bcd5c06821419797e525"
+    },
+    {
+      "path": "formalization/legacy/ExactBodyExtraction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d6cc089ca8793bf923427f83d96b7c35f55361a03d6331e221b8cd961dec74b6"
+    },
+    {
+      "path": "formalization/legacy/README.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ad721a8fd172b641e79ed724eb073ebca5555cce801c925a9f21aedec6e779ef"
+    },
+    {
+      "path": "formalization/legacy/lake-manifest.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "43c353cae55d9cbe7a85f9e88a2437aab20ff408624e363b3de39d25650ea441"
+    },
+    {
+      "path": "formalization/legacy/lakefile.toml",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "1451fea540e6e8980d0ca7936046cd6ef52abb7131812eb3f487ecbba561035f"
+    },
+    {
+      "path": "formalization/legacy/lean-toolchain",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formalization/legacy/provenance/axiom-check.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8cebadf1a24a8d008555ece3d8b3b175a7327e91c1abc709388ec8a0a2971a8a"
+    },
+    {
+      "path": "formalization/legacy/provenance/exact-body-extraction-map.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c16ebc653ba4acd77eb1796fca00c82c7e80b8d90434a0f6c40a5ae77aaabaae"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-module-order.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8f4a61e9d1abf304aa9959795a422aa48d7fdf2a73d7a9562b7bee2d8efc9bbd"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-source-lock.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "36058a44db3e7daa381aeb3958a6dd69ef0e9d30ded2789470d6a5a08adc561d"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-verification.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "85972f1ebb43fbe427665e96e5e96a125f50d5514e8b627c9e011d058c696e17"
+    },
+    {
+      "path": "formalization/legacy/upstream/LICENSE",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ActualTripleSquare.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "bdaa7a751df0774e7f00af7b5b90fad66105e385cd1db46d158da37308cd1fd9"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BalancedBlockVariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "75f29e043b63dcd80180389a72a7d9b0f2a8f380cab93c77babc2de909ac200e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BinaryAssignments.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "66501f891b8f0f57e49e1e4730b92da036adba1e46e97373581f80cc19279293"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BinaryColumnPartitions.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "169cdcd4cb6f29d587cc380a66ea45e2204ca2272714fa429a536072fb4fce08"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CellProjectionTransport.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "cf7478273ff92e1e522256de44bccf608ec6a9d6d24bbf677d191af45f1a98c7"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountCoupling.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0f5aa62f85b9531624df49147bb7cb681b2cfa6903f259444dfc5cf774461478"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountCovering.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5ce30f9daffc03dc72b7850047ad26fd1fdd99cc7b1454758c9a5aa09f5c33ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountEigenEquation.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f39bdd800cba3688b55552b248177cc4eec9475440fe0d441aa01a85b5dc75ed"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountEigenvalue.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4c56deda7e93e76988612e08c8f6beb0caab8eadc000a29f848c81a3a6fcd202"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellAffineComposition.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8ef3312911467872d25fc40b777572694945fe4387c8ef8979c03d37976afa1f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellConditionalExpectation.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e8e6a48bb0d0daa759213972025b1ba3a8b6e96cf166220f2259f4fbb947f5ea"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellMoments.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "6feabcda1ea00ea2e5a3465a589d82f06a6d29e4a6fc5adb35389fe3359d874f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCovariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e860c47dbae2bfe233c8e65de870647ba48cf609e2c2395b865c052a581af565"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossIndependent.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "1bf19842ae0c2a91c739ef3febbed58ec3455e16b72448c606fd1433cb6fbb02"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossMatrix.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "840ed656ed02ada5a8771540f37dad04251aa74e1ec2dc59dfc34649ca504ed6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossToggleCells.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "88fcce3ad0b4f9d5cadc6c8fa1ac6d92c291f679fd2753ff6d3603c10bdcffaa"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossToggleGain.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "9f24f379ae134607ee194fb052ff51d1a56e1fca74ab9971212a1eae9dbadd6e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossTogglePairs.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "6be8a12dd2bf80fce4cd29ceafe70249d5a90ba34a7a564c823477f01488be43"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/Definitions.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "62cd5736b5403852e1102e71a5ef17efe6fc03e80417c625e030b54ffe3b747c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointBoundary.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "249875416b320014af4dbde2f9ea6324c3dd1f18a8840d27481968a7582df07c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCellCounting.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f4bdc3d19c0867d9d999a53067d9bf2331009f91f9bd92e795a78fab980d9afb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCellGlobal.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "13467de85493d8a801972c7432dee01c210e6926584c76c727d3191a426e993c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCoordinateFeasibility.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b497fbf488120f5dc160f73d1b306f1b8f54d5fdfd23671e4b1da494aa43481e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCrossCellEquiv.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "eaf8fb663153e9c3acf71160f0a9a1782dc881c26ecad7a7c3e319ac70c08c6f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointEncoding.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2f71b4b0644b4f6e6932a335a10a9d98072e403d05725bc76ffe566377c1fde9"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointEqualityFlags.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "483366d566098d2ae3645aa64b31290f2c23e7e6216a82a4a775262122fdc772"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointFiberCell.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d7aeaff25610ca38c658cea26e93173e079d55f101d7ce99d1cd2b81b4ce8c96"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointFiberCoordinates.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2f492bfd07e7f8878cdecb40923ce77d5b66513ac775abed7d6ae0484f130d92"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointGraphAffine.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ccd69d396b9aaf8969429a9de8888ef3877b9af0412b074e4cc46670ca504d83"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointInternal.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "24a45d7db395fffe6aa75527240b41093fe4490fa16fe358339fe4be1c273b01"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointProjectionCell.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ad076531d00f0e5fe8f92ba5d8e0c2a9601ed59df6418280ff160cc9b6c5e855"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointRealization.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e316ea394f16aacf16d302198741d66ee70f3c2afb6324e6349653172634bbcb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointReconstruct.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "30f6308971a51b0aff62c2bd470306015d7e08ff18cf19335d943ca2d8a1070d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointStateCell.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4e3d030daadae63ea1d65e7f4358b427153632629eb7f6959ad5ddf9b95d5a68"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointStateLaw.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "6e5d68442b8a34b0d7a22b82adbf77bbf4e1debdb9c00e3e3c11e4714225f52f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/EnergyTransfer.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "1d7d8cbca36e7b4e6a1fd04b934547dd8d9b840a7c2ba3355272fba7b2c0a14d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiberLabelCounting.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0834ea4e09113f824542d3576902a401cdefbe357bf05b7c12292cf8855281ba"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiniteVarianceDecomposition.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2c47a1274ad3f86b948d996bcf4bb2e5d704f2b7000137c3fafd90e161c55b77"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiniteVarianceEuclidean.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e822a97f2cda8406d7b318a655c6012963107b04b8e8ec731674e00d249ed10e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockCount.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e70838af817fe1aef476a2fbda4801780e0f3d67cd8e1a29b8d7b94f1d117925"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockMarginal.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2c1c7f3f82ef036eaa750e0720ef31dce3c8b8ce1c089f1a7ff9daa0f42c65e4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockPartitions.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "acc9adc6bb7cdbf8f7b1ce5d00cc351fbffbafe0132dd8b6de6866f8a3024793"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockVariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "9f649e012c547fed8cce7822f323cf1520ecd82857ce9102930ddeed27f0b8a6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ForcedColumns.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5ff9d5135aa92adfd19eea7a60f881b80f303d464afd8ecf9ade6e317536b3fb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FourVertexSwitch.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c6e355ef21f68a033a97f0af79bf997986f87782adcf22b598aaa45b8f7ad6f5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FrameSynthesis.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "abec6e2ef80be8f48fe4361dd8802aad53fcb115a576cd43c33eaa264fe94bdf"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FrozenRows.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "03c36830c661fd4fff3fd23a7a277ca4107d76799ffb4f3bba0a219860c5449d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/GramComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4d8e6e7a9aa1910149c0b39a8a143427fe3898c2b1ede5c65ca1ca5fa826f666"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/HavelConnectivity.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "383773079074e1f751c293c6a395eb8dac50c7f63c46fba6aa21658b6834e866"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/HavelInduction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0e40e2bda785143e5bb2484256daf49730deaf96ea39b5d614c610c5f5080722"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/KernelNormalization.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c2869bef0fab4d5b0fe11ccc773871249e894d7ff8679cc16f24e79821a1702a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/MatchingCount.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "a8aac391ecdc71580014fd815139a4a417710f0921f7007f2c7158b6331d84c1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/MatrixRowVariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c0e4fa05d4383275cd2ecc3ea3c8167141c7ace96e7c61828f9af846c98225ae"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/NeighborAlignment.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "876093bbe8e96bf8b8ee7c545eebd104dfc4f6ab25c8a822cee1af4a18f37072"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/OrthogonalPairResampling.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "03e80f02380e3142b99011951cdd7bac1e05e0b98a08dbd7f6d551820390b22e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairActualAffine.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "81521f5ad99fd0cd2d8c214a7dbec5f5bb365510c69f5d2ffa4342b9d629078c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAffineInteraction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "37ebfd5f3d2513521b6ecb88083b38d4fc33cceb5a6e99071b9320ed2455a8a3"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAggregation.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "bf4436c612d46618a782cb8d1150e32ece55d246f44fef5f9bd8857c183d4b3d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAssignmentMoves.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7f255c22e4f781855443d262f8cddcd67c6a5706784cb221f0c500b253186a9b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairCrossToggleTransport.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "67bc01983266eb9ab0f8bc60e408ca04ba1f423e245b0353814a293a51e686f4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairDisjointAssembly.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7dd67cb22cbab2f0ad7ef9fa8981e1f7399e817dbb6c86e557bfd6af0ddb380e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairDisjointBudget.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "6bb0632096b8fd8c48d969ff2a11f39979fd5390d10599ae40226b637e28a154"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityBudget.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d9cd633ff5c79f8b838b12e4fe7c52b0c69ccc47493e7517a7dc64dd48d042ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityBudgetUnordered.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c4834dc1308763f26f570841215aa7f908e867b2976bec9adab42433a8cf323e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityLocalization.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b60c26e6d9fd82cdb2a04faeb96aa81df751e4629d4f6c89694ab6c64930e022"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityOrientation.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "3f78e926ce6b209044f32749f1d63357335d8063799f1e3c877c76c920913e19"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityProjection.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c38a28a4abde4aa0baf7e5edcac68cd924ff2594a4b9fe27b04b2942b2cfbed4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityRestriction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0321af7d7260475cd742194e60d338a62cb8585727596dccb3002016d0d5f236"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualitySlice.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "24ec4b769ec5074ace82dfafbe88e5560af892b458301ceac4cb6b525d6dfec8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityUnordered.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "bb8c74e90166fba41772091ca833e7ef57ec41c3dd9028df07eadf5e568e229b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityUnorderedSum.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8f945def26bdb7f305f80ba4d940efd2969eb37e60ef92cbd4a0bea364680d93"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiber.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2b4253ac143e383fbc3350019dd9eb8f2749dbf1c832b99e861cbc427a83cbca"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberBridge.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "38c3e181f707e76c77f8f59da832465d5a2fbac721c66a39ff442bbad92b5415"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberConnectivity.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "609f18e4371287750cea13d07d8e04375ae66e7b6694a07a7f2ca53ebbe19c19"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberDegree.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ff2e90564a85c1f46252e662f917d0b817968ab9bc2918c52a96cb6b170e370a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEnergy.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4821101d673b36008c18b91ba74ee087e94187ef2cfec2b4a66a34f2e5d12343"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEqualityTransport.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "81168b0b88409ae9c9667204d184b50c6173d264df8e255256a4e3e7745bb3ef"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEquiv.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "00e8bd86949098685ea79061dfddde7188afd923ed02637c125f24c5a1dc4268"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberOrientation.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ea68218a30cc76265eedee974a1ac3d06823fc03d06681e85e6f219f37a0d097"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberRedundancy.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "94caacc30d3959d68418858cd6e56036d6d7d3f128902c7a9030294c9c743839"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberSliceComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d1d72e2e338d3ce06259798de8be58da77fd628566fb98ea59943be54bfcea9a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberTransport.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "3f9dae285623a277294f953e3b2cadedbaac8b9a001e6ab2410dc097217efd3d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFibers.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "01ac43bb20ae3ac9cf3b9a1aa19bad449322be37aca2bfcd68873b2b5f37c49f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairGeneratorSquare.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e6af454fbb904bb4e82d7e65167fff5e76041e015cc5f122cb92cecf9f07f48b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairOrbit.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "d3953398f9825470b7940945237cdb801646c39e0a6c0c77cb98905b8406a3bc"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairPoincare.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "41596276f2825548821dbe0790f0f828955ede902ad063cd71dc6e88c8f38d9f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairProjectionCell.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "eda9d2531df28af1b186e09e32781bc4e321302bab8ba9c398c5566e4b076959"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairRangeInteraction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "a625848e86bdda6e1596ec6bfc95cb9517798d112bf20baba84bece1cb4e5f49"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSquaredEnergy.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "dade12d536d6fad72f4a17d815f8e13255573e22d1a14be416f262693572ca83"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapFlip.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ba0f148fa6bd686944c6030db4721a871af7d2241424299af4d8dfbba96bb8e3"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapFlipProjection.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "278ef68b221bfc909b949fe39bf5e1e9ce0c0ebbc25443417489dd54c387062b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapInjectivity.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "bb010b212840603e8015570642d9cd50c86ba33fdf97251f6c898d0cd2f592b5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairTradeSwitch.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "338c5524bdf0754ee58826da35ff82e5ab3ae0c92313d9653b6703251994bd6d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairTripleBridge.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "66af510d346755fcf6c8a1a86129cb4a03e1bc100a719fec25f5cc001930c770"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationFactors.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "6ed01342bf6f05b0844b52843d75622494bc12281ca4602c1b69a9d671a0028a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationGenerator.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "03964eef72a86916e12c7c1b41c5194a1c5edf73e7e014e5f17fb2728c09f5c2"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationPathComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c33a00a3518a84ac46929be8bfafd2641b6630e7081de2a2a31c6c581fd41105"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProjectionRangeInteraction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5a001bed26185f8ced573ecdcabcf78591fb695dda91ed9a5231debe5184702a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProjectionTools.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b00d67db35f8b84435b91a0c422d66853c82470d3a67ceb5841ac60ad1714621"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProposalLaplacian.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "1c9430b833d8e10a84e055236da8c73512cf4078b8003e10ffb0b4bd19d85621"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProposalUniqueness.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8c689e3c72630b43da3d561caecdc871140ac3dca7ff072fbf7304bf87c91aaf"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/RankOneInteraction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f828884f0ea5224c9909d14ef569cc10ddbbd6f0bacc6b4fede37f884557413f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceActualSynthesis.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0e2020a299a35368ebdab02fc34bc584d4a0212114b1372b30e247962f198409"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceBounds.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "32565eb15330961a06a8a5a3906537339c4265608fd672be0a029e7295ef4ee6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceCardEncoding.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0dae6bc65edd736866c267da6f81589e64632b489180d93a72f3c2f8aa5e0285"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceCoefficientAlgebra.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "8c8470c6314daa21e4987f53af51d8a03d1445c23f0816f38dcaf2c8cebe7988"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceEquality.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "689bd84554d48a25cec67b66f0c2a103762c0fb850b688dd397cd582c693e92b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceEuclideanGenerator.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5b92614eaa4735a5650e7ddb2701e2bd73a1e790876e461f20e0bfc275ce485f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceFrameProjection.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "18cb7193fa854470edc998f608e57770288e033cd72aa09b90273473a43c95ce"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGenerator.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7694658c3d08069a07eaec3af876f57981e024500c9a14672b5fb7302be1d126"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGeneratorEquality.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ebf362238c67a702e841ce0f1e181f1f6a4437e64126711c97f30dc6970ba8f5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGeneratorSampling.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c0ec4f4e7b6b9b784914eaae2e1bf3118e997a0be521cbcd245ad31c50781418"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramAction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "88b9a06d856761194c8c193c5fc6e0fdce6c5d0feedd47289574caf162c90663"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramConstant.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c8e5aa88d64b5a2d1811ce78b14007a810b12a10ab8257d9059851d029f1512c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramOrbit.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e75b7f01405c1f04ecc8a8abf30075194b0e3d1eac3f309f40af166c91675712"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramProfile.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e54651483b51357f45fb508cf65c34ae10002229e80f69ef2a19ac7308dad1fd"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramScalars.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4d8a3d3e01e93502df8223c5afe1fb90b33f20407d02d069aacbf72e7e4621ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceImageNorm.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "4f214fd6296fb80d77d274f880058ad2478508f9bf2815df8e76478de9566b69"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceMoments.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "9f8776a077ef7794bc00fd43c4b2387e25d9c9bd8ff2a02d904b30bfb6ddd29f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceNormalizedFamily.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "527525f5a9fe17c7c913d0ffe286443336ee425cd7f999ab4a9bb446665723e1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceOperatorComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "335e7d87dff29a446d682a3cf34dcced91cb45176b61928e3fbd83c65159bf22"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SlicePathComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ba4f4372e9b463596d62e3777f1682942925f470c27bcbff3f8dbad7ead9204a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SlicePermutationAction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "74ad4658f7967e9f4305a2477831fe73c1b918cd393f0a1ce620930071182d5b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceProjectionComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "85bc3d03be9a354e154c7cb457c27372d63ac001498805516715011551f62819"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceReindexedComparison.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "adb01137e58d69d841d010d17d48da560700f2e823ce0244a0a28ab0756491db"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesis.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "2724af0b60ae91ee8d2885073d431f3fe47b17b83c5d7495a324246e790f627c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesisAction.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "222a6f545736b234943faf533af00162bcd379c68831340316816e2537514fca"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesisBounds.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "32bb7cff2159005f06a6b7bb98422598548f6b579935a81a938cf1e6cc0e2030"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SpectralFromSquare.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "3782cf6883e98c95cab759b88aa174735d62e333ce39fb0e52905f85e7ff21c8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchFlip.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ccd1d97d770082e61f0ca08b4a734718f69ed88496a2681824b795c81d29710a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchFoundations.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f20919edc9152cf689a86607879096588f6b6476fa04bf8f43ad3fbd6f18df4c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchInFiber.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "eb2745947d421c560d344c531bf92d7b9d22148ab9a7d0271f95ac23fcbb1e55"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchLaplacian.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ab226af72ef76387b10880833e962957d7886c76d2bfeeb5dca9ada9f3a97e4e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchMultiplicity.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ebc092deb9843180f64be8be2199113c51d97f4266da0c740353dc37c123e087"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchPairFiber.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "0c2cbfab5dc18f86ffa440621959eeea370793001fb5c9712bb0a26ba0f2e435"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchWitness.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e97a8c6e7502ee98b58807c107c012c5967ed248afb428916572bb2758955820"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TransitiveAverage.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "88e6e86c49806e1284da73e188a0553fbb7781289d7f2cb069b0540ea4d60bed"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleActualRowBound.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "01f7688757b8af1b346be5e90c73b67aafb162238d59c1a9bc4544cc3ce5aa15"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCellTransport.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "acac92fb10ca64bf8713f2fd6e2f8ac4f3aaa28e14d93389d6842bba42fceb7c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCellVarianceGluing.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7b453c87a2b19ee3c44fa533650aa60508d5c3a418c5d905be2d27e492ee9be1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountEigenvalue.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "312d646386e4c1268fd42c065fdb9228f70b64d6cb918b5b653e68bd1c57823a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountGram.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "87e43d372f4b08767b5967362dd55a27acfbd2f9e0ad4574d5ed52a43756b782"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountLaw.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5241966dafdc5a55a39d48f098417ab80d1fdbd1f32de9a2ca49bc685bd45f8a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleGraphEncoding.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "39554df5f43e38764a5b76c274c1a11395e6c202e96f8e129e1a4c5a533b9597"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleInternalEncoding.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "ea6ac3883d7e9168ee45f4e15e358ee4bd808ee7e2458eb990ed1a9ef21b8fa7"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleMatrixEncoding.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "79d2a68e5bb7f27ac530c254ee5eed76de7504c0739940e6d44ece892a4b4fa8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleMatrixFinEquiv.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "5c6db515b55c2cdd2369b98a3855ad679c89d0071d78765055314d4a0ab1f70c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TriplePairFiber.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "f57767d6300fdc2b5aa22f63115db87928e52bab2306a2764af3947e2ef25670"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleProjectionBridge.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "433d4a51d1b3ef3235c2fb43573919f8972925ad6366763b366ad47bfe50c183"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleStateReindex.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "bd29eb2e0f44761c784d37fbff689e473d1474350b061204f1bd3a0ba5b15f98"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/UnorderedPairSums.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "fc230126733dfc65a26415baf02e3486665c065f6f2e15929afc8509480c13f1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/VariableBlockVariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "63dc0478db3a27ad81e491f4fcf063f992870e621c9a367fb2c1af178cf8abfb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/WeightedConditionalVariance.lean",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "aefd612fe02c3e76ce336ea080112c495276c4eee0c0a7a4da5091893b999196"
+    },
+    {
+      "path": "formalization/legacy/verify_sources.py",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "e78d60a80c77acb91bd03bba4b1bce69331d3b439b800a5ddb54fd7d66eb8b4d"
+    },
+    {
+      "path": "paper/LICENSE.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "72de7beb5175d50041057b7babd737051dbec859402958167fb19126165078ab"
+    },
+    {
+      "path": "paper/README.md",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "69fcfb6540325ee3376f058cf60b66761168460092f807baf0638f9c458090a0"
+    },
+    {
+      "path": "paper/curveball-note.pdf",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "c42fdccb085b7f0fbaad1084a28f991c5442fd005a64d78a95b2397fec5e3cd2"
+    },
+    {
+      "path": "paper/curveball-note.tex",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b81cae87c6d9eea1ace473fbe77600ecbe489455500bf3ea8c2d430a817f9e9c"
+    },
+    {
+      "path": "paper/provenance.json",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "b1283c0188066903e6ef3b40ed14c2de43e2736e92010255ca2a43cdcf2bc79d"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "7de583afb293b6be59dab69dfe8cdfde90ab1258b3d59bf60601a5636ef03575"
+    },
+    {
+      "path": "run.py",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "79b38ade589d447f9f5d67125c02ab9445686ad3c97f1ed6c92c8b0dd54d5ff2"
+    },
+    {
+      "path": "tests/test_tool.py",
+      "origin": "preserved_v0.1.0",
+      "origin_sha256": "78218139bbee1dc8c9dadcffc4f94cc3e38520fae5b805150ed7401908a9ff2b"
+    }
+  ],
+  "new_model_scope": "uniform labeled-degree-conditioned observed graph and independent full uniform bytes; no completion conditioning or retry",
+  "optimized_shipped_assurance": false,
+  "fast_backend_verified_by_new_native_proof": false,
+  "optimized_proof_packet_sha256": "62122dc81c09885062e83bb81bd62753052e7fa47809f3c9d0484237811f1e55",
+  "optimized_owner_root": "CurveballVerified.native_prefix_request_type_I",
+  "optimized_binary_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7"
 }

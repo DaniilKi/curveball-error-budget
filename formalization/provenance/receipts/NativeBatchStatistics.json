@@ -1,0 +1,35 @@
+{
+  "module": "NativeBatchStatistics",
+  "source_sha256": "9b70ef0807ffcfbe0c281493b801d1ed5e87b2a1b7fa019a5c704278b466a660",
+  "olean_sha256": "bf636541694c149e11a8b06fcbd46f7358246141b63f2173bb093223273a8f59",
+  "imports": [
+    "NativeBatchLaw",
+    "NativeTriangles",
+    "NativeRankCounting"
+  ],
+  "receipt_sha256": "99cc8f9e3683147e87e710cf3ac4ac2a13f94152b4a41de3378a108fa21e43bf",
+  "log_sha256": "daf2835ee1569b190a543cdc8f3b35584a78c91c73ea32f09e2c5380cf379580",
+  "printed_axioms": {
+    "CurveballVerified.native_model_triangles": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.raw_graph_batch_statistics": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.raw_graph_batch_exceed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.594,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeBatchStatistics.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

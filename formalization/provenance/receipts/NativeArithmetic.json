@@ -1,0 +1,17 @@
+{
+  "module": "NativeArithmetic",
+  "source_sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d",
+  "olean_sha256": "a622731b09ec6713eff93727aee098fb908100bc71d2595673b719001767c09e",
+  "imports": [
+    "Init"
+  ],
+  "receipt_sha256": "af1428184553e611c93af780618b2b0783a6feaecb89aea02f48bdea822c06cf",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 2.719,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeArithmetic.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

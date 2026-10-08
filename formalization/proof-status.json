@@ -1,0 +1,20 @@
+{
+  "status": "release_held",
+  "frozen_root": "CurveballVerified.native_request_type_I",
+  "frozen_owner_acceptance": true,
+  "independent_final_semantic_review": false,
+  "optimized_complete_statistical_transfer_accepted": true,
+  "pending_prefix_sources_not_packaged": {},
+  "prefix_local_decoder_equality_accepted": true,
+  "prefix_deterministic_native_pilot_accepted": true,
+  "source_only_assembly": true,
+  "compiler_calls": 0,
+  "package_build_calls": 0,
+  "native_sampler_calls": 0,
+  "scientific_rejection_authorized": false,
+  "tv_assurance_authorized": false,
+  "ideal_randomness_claim": false,
+  "graph_refinement_binary_claim": false,
+  "optimized_root": "CurveballVerified.native_prefix_request_type_I",
+  "whole_io_expression_root": "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen"
+}

@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticMatrixVariance",
+  "source_sha256": "7abcf72f2e64b70083715b4df0fecd4b257b4679128ff353634978f884693b36",
+  "olean_sha256": "746255ee11bf0e6bf10f003265a01d60b1c8f888a3ea8cb309f8fd5d14b65da8",
+  "imports": [
+    "AnalyticCountVariance"
+  ],
+  "receipt_sha256": "f5d6dde99a28cd22a9acb9bc1cdb2acf13ab5cc04ee9d69670200746a25d5703",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 19.969,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticMatrixVariance.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

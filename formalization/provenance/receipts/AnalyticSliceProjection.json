@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticSliceProjection",
+  "source_sha256": "62bcfbf8254acbda7ae785dd6cde23b8f215aa799613f6aa45d8deef67a31f61",
+  "olean_sha256": "a02d902d6c67c5088ec7ed29ebe5ae7115c0243309d0d87871d77a2b5f09ac2f",
+  "imports": [
+    "AnalyticSliceSynthesis"
+  ],
+  "receipt_sha256": "aaa998ba3c742b398ef2b8e0cda498991f99604990fb0e55d55bf19689764e82",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 24.86,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticSliceProjection.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

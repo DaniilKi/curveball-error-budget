@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticDisjointEncoding",
+  "source_sha256": "79fc9322db6e69b31a035d3e1e97dd69e7d702f463b955bc413cb1c87672b568",
+  "olean_sha256": "25a02c0965f6f0f86ea4e1213ab7016b8d8bfa5e1311a4820dc2902ad8e917ed",
+  "imports": [
+    "AnalyticCrossToggle"
+  ],
+  "receipt_sha256": "9942d5cf2fcd4dadfaa639ca1500549ae08905793d33db5036ae7334f1d3c96a",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 26.313,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticDisjointEncoding.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

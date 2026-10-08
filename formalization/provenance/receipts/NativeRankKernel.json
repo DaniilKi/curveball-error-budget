@@ -1,0 +1,36 @@
+{
+  "module": "NativeRankKernel",
+  "source_sha256": "475a0c912149390b3ea2b346d9ed69fe9aae63afc55a452820576895b0fb65ee",
+  "olean_sha256": "be17b570e5bf3d6e5c62ee4758a72ebd5832dab35988c1c8d9a79b57e782a504",
+  "imports": [
+    "NatFinSubsets",
+    "PairFiberFiniteBridge",
+    "CurveballTransitionCore",
+    "FiniteTapeLaw"
+  ],
+  "receipt_sha256": "7cdc171cbdf81d9e9d280d9b6d64434a512f8dd80eb515fdace8f9a08d327060",
+  "log_sha256": "1006be3f5ef9d883477f32b0ce4a51fec09519bd1c311da57d27c1cc7083a516",
+  "printed_axioms": {
+    "CurveballVerified.nativeRankOutput_at": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.fiberLaw_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_rank_uniform_fiber": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 18.907,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRankKernel.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

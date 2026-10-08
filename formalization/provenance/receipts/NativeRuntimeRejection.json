@@ -1,0 +1,39 @@
+{
+  "module": "NativeRuntimeRejection",
+  "source_sha256": "d1a4540fe27c717dd95ea4cc7509239f45d42d8392fb99359d2519cbc3b0f7d2",
+  "olean_sha256": "6d942e40549d3b5d2210c0e147e39a3108fba292a7f6a8c9c52caaf1eb8c2888",
+  "imports": [
+    "NativeSamplingByteInference",
+    "NativeBatchObserverJoins",
+    "NativeSamplingBoundary"
+  ],
+  "receipt_sha256": "f1480cbb5d42350fd774deb6b11703e8df5646b46dbcf549760b541cf5bea463",
+  "log_sha256": "3917b04c6c03849a18dc3b8bd2330c09538e340e51716241508fabe74e679dfc",
+  "printed_axioms": {
+    "CurveballVerified.native_reply_reject_success": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_reply_reject_projected": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.conditional_map_event_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_raw_byte_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 20.093,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRuntimeRejection.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

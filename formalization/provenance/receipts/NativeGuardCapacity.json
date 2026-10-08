@@ -1,0 +1,33 @@
+{
+  "module": "NativeGuardCapacity",
+  "source_sha256": "7e8e392265723eb91c85104d401a1bc81230d2b4d1defabbd6e9b63d38f795bb",
+  "olean_sha256": "2dce2362593ad100c919215ad558c54f19ced1e504def426176a631dec13b3c2",
+  "imports": [
+    "NativeGraphCapacity",
+    "NativeRequestCapacity",
+    "NativeConcreteExecution"
+  ],
+  "receipt_sha256": "0b5da77ddafc21be8991ff06bccf59ab766ff71d4ebf9ea6d7a59e5d1cb9b7f8",
+  "log_sha256": "7b70655462f73685ef19b0a269f74a813aad137f6308166231e96748166d5dcc",
+  "printed_axioms": {
+    "CurveballVerified.native_subset_bound_global": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_limits_sampling_capacities": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_limits_representation_bound": [
+      "propext"
+    ]
+  },
+  "elapsed_seconds": 9.625,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeGuardCapacity.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

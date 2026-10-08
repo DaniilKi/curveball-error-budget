@@ -1,0 +1,28 @@
+{
+  "module": "NativeDrawAllocationPrefix",
+  "source_sha256": "ec1638493b1b6ea1b71903ddd73df0feb08bfc4fd064d388c7bd6224b4433baa",
+  "olean_sha256": "7025a2f9789b365e7c3c41912d13b96b0866879b5f780db664618dc8c78bcf73",
+  "imports": [
+    "NativeConcreteExecution"
+  ],
+  "receipt_sha256": "6231b87ea84ab6aa6f1c06ea35e1be95964cafde3c6bcdbb72a443c70830a8fe",
+  "log_sha256": "1a699bb799f2d2ff019bbff8b5aaac3ebb44c0593572aa952726a7a5d15b245b",
+  "printed_axioms": {
+    "CurveballVerified.draw_allocated_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.draw_allocated_success_suffix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.531,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeDrawAllocationPrefix.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

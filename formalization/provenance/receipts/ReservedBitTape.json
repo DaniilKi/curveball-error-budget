@@ -1,0 +1,32 @@
+{
+  "module": "ReservedBitTape",
+  "source_sha256": "87567c8ae0804ac55379ad00e63d4959f2c4e0798c2fa5a390e3036c7b0ff899",
+  "olean_sha256": "f25257cfb86c02721ffae7bd64f64cdb3adfa5c1d97355cfe157dc4add6adb33",
+  "imports": [
+    "ProbabilityProofBundle"
+  ],
+  "receipt_sha256": "749586d859e705b5a62bacbd1ed300cb709025f42dc0e44ef7d8470cbd6dc897",
+  "log_sha256": "f7a2d3af6f706efdc7325265abc495f7c551baccc3826edb978504964e150fd0",
+  "printed_axioms": {
+    "CurveballVerified.reserved_bits_refines": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_reserved_bit_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.reserved_suffix_independent": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.75,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/ReservedBitTape.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,24 @@
+{
+  "module": "NativeRequestInference",
+  "source_sha256": "1e34fe15bcf784408daa059231986be59e62053438c9d7b5e970051923236ee4",
+  "olean_sha256": "35dbfb89b53c15d288c8355a542ec6a901221e6e5c10eae764b48babbae5d2fe",
+  "imports": [
+    "NativeRuntimeRejection",
+    "NativeModelGraphJoins"
+  ],
+  "receipt_sha256": "f6f368ffccbe82e518935a8761adabca8de946f7bf870cefe42fb13dd38a3e0e",
+  "log_sha256": "5c181cdce13f04abe662da46e23d5051a0d06e5b77d54b0bafe73d04cf7dfc44",
+  "printed_axioms": {
+    "CurveballVerified.native_request_type_I": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 20.672,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRequestInference.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

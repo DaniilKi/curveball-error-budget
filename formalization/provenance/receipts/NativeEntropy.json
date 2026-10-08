@@ -1,0 +1,17 @@
+{
+  "module": "NativeEntropy",
+  "source_sha256": "50a27c32f87dbc09910eb37d65e7ff2fb247104d7201e7d14d34fa5673e59afa",
+  "olean_sha256": "9cb0a8619150acb9e126138e28fb279b630daeea6eea8dfe0cd3fbb68c221a1f",
+  "imports": [
+    "Init"
+  ],
+  "receipt_sha256": "7d3657583aee0582f348222f144a4b56fc80e3576b70e9657b2a6618918c44f1",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 1.984,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeEntropy.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

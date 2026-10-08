@@ -1,0 +1,1828 @@
+{
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "checked_utc": "2026-10-08T07:47:25.951821+00:00",
+  "source_kind": "Inert official text, no repository scripts executed.",
+  "files": [
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ActualTripleSquare.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ActualTripleSquare.lean",
+      "bytes": 672,
+      "git_blob_sha1": "a129df84499e9a9e51081d109aee1e6f43a955b5",
+      "sha256": "bdaa7a751df0774e7f00af7b5b90fad66105e385cd1db46d158da37308cd1fd9",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ActualTripleSquare.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/AugmentedMatrixEquiv.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\AugmentedMatrixEquiv.lean",
+      "bytes": 4639,
+      "git_blob_sha1": "9467492c3000b158b99be7c14e5b06bf75851bc5",
+      "sha256": "e33a8e6c1a3c40d0645c823eb30d7a679ad8774fd41249c59ca37a4c638c4d66",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/AugmentedMatrixEquiv.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/BalancedBlockVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\BalancedBlockVariance.lean",
+      "bytes": 6404,
+      "git_blob_sha1": "b8530f7bdb3c63db05f00a811d83c10b156711ee",
+      "sha256": "75f29e043b63dcd80180389a72a7d9b0f2a8f380cab93c77babc2de909ac200e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/BalancedBlockVariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/BinaryAssignments.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\BinaryAssignments.lean",
+      "bytes": 2451,
+      "git_blob_sha1": "8aee13285647939e4b002f265b31a8ef23fe8a08",
+      "sha256": "66501f891b8f0f57e49e1e4730b92da036adba1e46e97373581f80cc19279293",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/BinaryAssignments.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/BinaryColumnPartitions.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\BinaryColumnPartitions.lean",
+      "bytes": 5809,
+      "git_blob_sha1": "f1b7cf0e6ed3500783f59569614ffc238a0dbac0",
+      "sha256": "169cdcd4cb6f29d587cc380a66ea45e2204ca2272714fa429a536072fb4fce08",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/BinaryColumnPartitions.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Cardinality.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Cardinality.lean",
+      "bytes": 775,
+      "git_blob_sha1": "177601d85b40acc33e3c91263bc7cfb110cdf996",
+      "sha256": "f26b741f4326a201060924973ccf84f4cf1d264932a81b57e4fad77f174f142c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Cardinality.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CellProjectionTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CellProjectionTransport.lean",
+      "bytes": 7770,
+      "git_blob_sha1": "8b19da766eb5308d5d5c732a94083d71e0737cb9",
+      "sha256": "cf7478273ff92e1e522256de44bccf608ec6a9d6d24bbf677d191af45f1a98c7",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CellProjectionTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CenteredKernelEvolution.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CenteredKernelEvolution.lean",
+      "bytes": 3587,
+      "git_blob_sha1": "99d03979ee643ad0f6fe30a912d4ca3b6d449b7f",
+      "sha256": "c57113273bfc7a31a56b91d7b614655717a031cf2c80ee10d292d405c02ed479",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CenteredKernelEvolution.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CountCDF.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CountCDF.lean",
+      "bytes": 5477,
+      "git_blob_sha1": "154a8e6907761010e8d9327fdf4c0fe6df94947d",
+      "sha256": "6953d7663ef2f0b2257427c5b3edf33ecb988267a93b5250ff2691567b9c321b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CountCDF.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CountCoupling.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CountCoupling.lean",
+      "bytes": 9674,
+      "git_blob_sha1": "efeceed66e9c013e61409c068eb9ffd4c407b263",
+      "sha256": "0f5aa62f85b9531624df49147bb7cb681b2cfa6903f259444dfc5cf774461478",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CountCoupling.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CountCovering.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CountCovering.lean",
+      "bytes": 8952,
+      "git_blob_sha1": "9636aeed7141ca72ccf0055489d329037e12244d",
+      "sha256": "5ce30f9daffc03dc72b7850047ad26fd1fdd99cc7b1454758c9a5aa09f5c33ff",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CountCovering.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CountEigenEquation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CountEigenEquation.lean",
+      "bytes": 4376,
+      "git_blob_sha1": "0abcc49ddcb88ac902899e23094603773b5103ee",
+      "sha256": "f39bdd800cba3688b55552b248177cc4eec9475440fe0d441aa01a85b5dc75ed",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CountEigenEquation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CountEigenvalue.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CountEigenvalue.lean",
+      "bytes": 3751,
+      "git_blob_sha1": "bde6720dfd0e12032e5e41b844ba80147841a966",
+      "sha256": "4c56deda7e93e76988612e08c8f6beb0caab8eadc000a29f848c81a3a6fcd202",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CountEigenvalue.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellAffineComposition.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellAffineComposition.lean",
+      "bytes": 5238,
+      "git_blob_sha1": "038446c5326fb2a9b425bb535b528dde4b90a168",
+      "sha256": "8ef3312911467872d25fc40b777572694945fe4387c8ef8979c03d37976afa1f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellAffineComposition.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellAssignments.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellAssignments.lean",
+      "bytes": 4559,
+      "git_blob_sha1": "e5f78dae428f3336c0f8fb3957e6b79f450517a0",
+      "sha256": "b324e17af66dfe7b0876af289c653d751d9d506c2fa72dbe36d0e64064aae4ef",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellAssignments.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellConditionalExpectation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellConditionalExpectation.lean",
+      "bytes": 2453,
+      "git_blob_sha1": "a1dbc7632c997aa043c1d7c5d1c389f52dfec4a9",
+      "sha256": "e8e6a48bb0d0daa759213972025b1ba3a8b6e96cf166220f2259f4fbb947f5ea",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellConditionalExpectation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellIndependence.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellIndependence.lean",
+      "bytes": 5099,
+      "git_blob_sha1": "fdabe02315bcba613266903c0d7411b7f8c61a87",
+      "sha256": "7a1491019918965079ccbd1b69c855b061a0a334fe391fe8efe0ce11d6241c4e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellIndependence.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellMoments.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellMoments.lean",
+      "bytes": 10164,
+      "git_blob_sha1": "35c18f2a694dfa7e82af480e5cc4890d14d2a6e1",
+      "sha256": "6feabcda1ea00ea2e5a3465a589d82f06a6d29e4a6fc5adb35389fe3359d874f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellMoments.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCellProjectionIndependence.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCellProjectionIndependence.lean",
+      "bytes": 4794,
+      "git_blob_sha1": "80518f00f433556a21ab704738fdcbde3ac52464",
+      "sha256": "ed2988e6d6b3b6bf22301aecc91b2376bd827643a6a663c950decc28e6ad43c4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCellProjectionIndependence.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossCovariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossCovariance.lean",
+      "bytes": 4751,
+      "git_blob_sha1": "4652418b9e2e2cc386ee36b58d42ae13e4e948bd",
+      "sha256": "e860c47dbae2bfe233c8e65de870647ba48cf609e2c2395b865c052a581af565",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossCovariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossIndependent.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossIndependent.lean",
+      "bytes": 9955,
+      "git_blob_sha1": "f0ceb6ff77c5907c4609ef8882aa0a3d9afb1652",
+      "sha256": "1bf19842ae0c2a91c739ef3febbed58ec3455e16b72448c606fd1433cb6fbb02",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossIndependent.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossMatrix.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossMatrix.lean",
+      "bytes": 2426,
+      "git_blob_sha1": "44bbbe6e200de3180e8c17421b25ca404607a429",
+      "sha256": "840ed656ed02ada5a8771540f37dad04251aa74e1ec2dc59dfc34649ca504ed6",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossMatrix.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossToggleCells.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossToggleCells.lean",
+      "bytes": 2811,
+      "git_blob_sha1": "1414e9ef3f88431d3cca7a91c5a2b7e3283c4ab2",
+      "sha256": "88fcce3ad0b4f9d5cadc6c8fa1ac6d92c291f679fd2753ff6d3603c10bdcffaa",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossToggleCells.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossToggleGain.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossToggleGain.lean",
+      "bytes": 6486,
+      "git_blob_sha1": "e3c095452f5f2e2e65d30e21fb455f8f0d54b5f2",
+      "sha256": "9f24f379ae134607ee194fb052ff51d1a56e1fca74ab9971212a1eae9dbadd6e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossToggleGain.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossToggleGainFacts.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossToggleGainFacts.lean",
+      "bytes": 1995,
+      "git_blob_sha1": "5b6989296e5761ce823ee90ee6dbf3ec02e9b2f2",
+      "sha256": "8d13d4269a477385c47a53f944d0e227eeb2f156d029b7b66ba24939807eb226",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossToggleGainFacts.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/CrossTogglePairs.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\CrossTogglePairs.lean",
+      "bytes": 9971,
+      "git_blob_sha1": "7b42b0ed930aebe4fa1580683af215d1e5d1adc3",
+      "sha256": "6be8a12dd2bf80fce4cd29ceafe70249d5a90ba34a7a564c823477f01488be43",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/CrossTogglePairs.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Definitions.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Definitions.lean",
+      "bytes": 4722,
+      "git_blob_sha1": "5801f8189cfa3ce4b53d2287627a0a740a6f6810",
+      "sha256": "62cd5736b5403852e1102e71a5ef17efe6fc03e80417c625e030b54ffe3b747c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Definitions.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointAlgebra.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointAlgebra.lean",
+      "bytes": 3452,
+      "git_blob_sha1": "95be7cce6b9c8d01377054722a719df515416a21",
+      "sha256": "ba16417a8f1b15525c1da9e0bae233ac07056ecf2fbd0456328a11f462cae58e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointAlgebra.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointBlockGraph.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointBlockGraph.lean",
+      "bytes": 4712,
+      "git_blob_sha1": "d629b9be1c96f253441c622eea554e1c0afbb8df",
+      "sha256": "6ef37b1ad00e0eb17bc40019b6bff5a8162e0db3e41b64b966228b6dab33b476",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointBlockGraph.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointBoundary.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointBoundary.lean",
+      "bytes": 3690,
+      "git_blob_sha1": "bdbc16b36ee93a502dab17b43d5d23331e0133e7",
+      "sha256": "249875416b320014af4dbde2f9ea6324c3dd1f18a8840d27481968a7582df07c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointBoundary.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointCellCounting.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointCellCounting.lean",
+      "bytes": 7031,
+      "git_blob_sha1": "c13ceb1aa4c381310efaf458dc8491f6040bea13",
+      "sha256": "f4bdc3d19c0867d9d999a53067d9bf2331009f91f9bd92e795a78fab980d9afb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointCellCounting.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointCellGlobal.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointCellGlobal.lean",
+      "bytes": 2998,
+      "git_blob_sha1": "4e8f1a8f864912880677b879a54eb8e58e50692d",
+      "sha256": "13467de85493d8a801972c7432dee01c210e6926584c76c727d3191a426e993c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointCellGlobal.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointCellGraph.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointCellGraph.lean",
+      "bytes": 6375,
+      "git_blob_sha1": "1b7b0e88481864a8583fcaa744c732bd0173a98a",
+      "sha256": "6485d9e9e0165c992d15d16a5f818f1a78180a5d11f0bbcb23d41a3d7fdeab09",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointCellGraph.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointConditionalRange.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointConditionalRange.lean",
+      "bytes": 3955,
+      "git_blob_sha1": "2c95e1c723ec7015f666427605c86d0d418594f1",
+      "sha256": "3a621e92e80622a33166e9930588c344fa8dc7b60b781a7ef1b7b9f32165a7e0",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointConditionalRange.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointCoordinateFeasibility.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointCoordinateFeasibility.lean",
+      "bytes": 4591,
+      "git_blob_sha1": "7fdb3c4cea0981a6774d82549796943abc26b9e5",
+      "sha256": "b497fbf488120f5dc160f73d1b306f1b8f54d5fdfd23671e4b1da494aa43481e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointCoordinateFeasibility.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointCrossCellEquiv.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointCrossCellEquiv.lean",
+      "bytes": 7490,
+      "git_blob_sha1": "c95d557e1a72217b73581861273d9aa0e63f11dd",
+      "sha256": "eaf8fb663153e9c3acf71160f0a9a1782dc881c26ecad7a7c3e319ac70c08c6f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointCrossCellEquiv.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointDegreeCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointDegreeCell.lean",
+      "bytes": 3543,
+      "git_blob_sha1": "0c0d66feb1254826029db5b0fb21673a6c36262c",
+      "sha256": "f1c9a0f794d18d46323e96989e5fd61c6b7494b47977f2364e6f5413788a5eb7",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointDegreeCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointEncoding.lean",
+      "bytes": 6279,
+      "git_blob_sha1": "7b492a205d49c7b3d0603a003b7e0721df56b230",
+      "sha256": "2f71b4b0644b4f6e6932a335a10a9d98072e403d05725bc76ffe566377c1fde9",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointEqualityFlags.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointEqualityFlags.lean",
+      "bytes": 5300,
+      "git_blob_sha1": "ea47485f002ef6f7ae3e9c679ab2cd04a4c65286",
+      "sha256": "483366d566098d2ae3645aa64b31290f2c23e7e6216a82a4a775262122fdc772",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointEqualityFlags.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointFiberCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointFiberCell.lean",
+      "bytes": 2998,
+      "git_blob_sha1": "7b04b95140f1345a86a0fdf391dc655f26359c45",
+      "sha256": "d7aeaff25610ca38c658cea26e93173e079d55f101d7ce99d1cd2b81b4ce8c96",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointFiberCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointFiberCoordinates.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointFiberCoordinates.lean",
+      "bytes": 7982,
+      "git_blob_sha1": "4a01b6a9fbd8a59a378cd263f2663742df1be759",
+      "sha256": "2f492bfd07e7f8878cdecb40923ce77d5b66513ac775abed7d6ae0484f130d92",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointFiberCoordinates.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointGraphAffine.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointGraphAffine.lean",
+      "bytes": 5617,
+      "git_blob_sha1": "85abe54c38f295ba3111e7ebc516452436d5f6af",
+      "sha256": "ccd69d396b9aaf8969429a9de8888ef3877b9af0412b074e4cc46670ca504d83",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointGraphAffine.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointIndicators.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointIndicators.lean",
+      "bytes": 4813,
+      "git_blob_sha1": "512e5049b9bbb2641a34f9bfc362e9c6b036bc55",
+      "sha256": "b67f458f0f61ec4c41c661e913bcdeb9f88af71a611e226c7bb7f56484090c9c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointIndicators.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointInternal.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointInternal.lean",
+      "bytes": 2136,
+      "git_blob_sha1": "d12fb7c1183712d0a3e7050e752249a3a3b84742",
+      "sha256": "24a45d7db395fffe6aa75527240b41093fe4490fa16fe358339fe4be1c273b01",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointInternal.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointMomentBridge.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointMomentBridge.lean",
+      "bytes": 9771,
+      "git_blob_sha1": "6ed3784652d4ee5ad2f4d1f455bc7e9edba936d3",
+      "sha256": "4a83c769bf83bfad93888484caef37b713e518d49467f5985f1ce8f97759eed9",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointMomentBridge.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointPairAggregation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointPairAggregation.lean",
+      "bytes": 2083,
+      "git_blob_sha1": "78a2622ecdea2f2bb74e11206ad2369a78c2a2a2",
+      "sha256": "1a01bee2ac65fb36d44a0d817f59aacae625166309de9341ee7c59eb3d2027a9",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointPairAggregation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointPairLabels.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointPairLabels.lean",
+      "bytes": 1858,
+      "git_blob_sha1": "8997576225a16a372f1e22002117d5b97a3564cc",
+      "sha256": "ae5f3768df5a07b91e62073f5c33c4177d9228bd7a1fe35bce2be304cc78fa62",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointPairLabels.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointPairOrdering.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointPairOrdering.lean",
+      "bytes": 1195,
+      "git_blob_sha1": "53cd4d4ecca3f8a7d09a5369994f55039203a6e6",
+      "sha256": "0de5a13d0ed07e7cfef36e00179953d4fd74c4ef6cabf0192bbc5bee48416fb1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointPairOrdering.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointProjectionCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointProjectionCell.lean",
+      "bytes": 6214,
+      "git_blob_sha1": "9ec5d6095714c76d06f9af95627a7d5e64fca9f9",
+      "sha256": "ad076531d00f0e5fe8f92ba5d8e0c2a9601ed59df6418280ff160cc9b6c5e855",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointProjectionCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointRealization.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointRealization.lean",
+      "bytes": 9522,
+      "git_blob_sha1": "f494d164c6fb417e90a30d9aa8a4e12a64a3730d",
+      "sha256": "e316ea394f16aacf16d302198741d66ee70f3c2afb6324e6349653172634bbcb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointRealization.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointReconstruct.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointReconstruct.lean",
+      "bytes": 8086,
+      "git_blob_sha1": "581da132f21f7858561fcec46d7952fd30b65b38",
+      "sha256": "30f6308971a51b0aff62c2bd470306015d7e08ff18cf19335d943ca2d8a1070d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointReconstruct.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointStateCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointStateCell.lean",
+      "bytes": 1291,
+      "git_blob_sha1": "3c61575b9350afdfcf547fc981e5b232f28427fa",
+      "sha256": "4e3d030daadae63ea1d65e7f4358b427153632629eb7f6959ad5ddf9b95d5a68",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointStateCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointStateCoordinates.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointStateCoordinates.lean",
+      "bytes": 2653,
+      "git_blob_sha1": "3c2f4f879d4d15f7d2c8ceaa5a93be93b04f2ce5",
+      "sha256": "6ed0e6093bbfdf7985437f17520e7e738a5f28d46262331166af607ad254ddb3",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointStateCoordinates.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointStateExpectation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointStateExpectation.lean",
+      "bytes": 5046,
+      "git_blob_sha1": "e7bf16daa544ec9e8609f3925909448fd6849a2b",
+      "sha256": "41b54fe51728261ec6dbe31f2d595e1aa364e95f26afe83956bc2032987a0772",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointStateExpectation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/DisjointStateLaw.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\DisjointStateLaw.lean",
+      "bytes": 8093,
+      "git_blob_sha1": "a08741f86e6ff58c272cdf82d06ad9c0c5eb2d05",
+      "sha256": "6e5d68442b8a34b0d7a22b82adbf77bbf4e1debdb9c00e3e3c11e4714225f52f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/DisjointStateLaw.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Energy.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Energy.lean",
+      "bytes": 6549,
+      "git_blob_sha1": "59ebf049c9f27f1cf0fca62b4231d3a9bd847235",
+      "sha256": "25d06e13e699c150e927de7c7a9d3ddb68ae030889349c961737e53c41d10637",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Energy.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/EnergyTransfer.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\EnergyTransfer.lean",
+      "bytes": 3995,
+      "git_blob_sha1": "8d5de3d1dc848ee9151fdba7ef8b84a0791d6063",
+      "sha256": "1d7d8cbca36e7b4e6a1fd04b934547dd8d9b840a7c2ba3355272fba7b2c0a14d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/EnergyTransfer.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiberLabelCounting.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiberLabelCounting.lean",
+      "bytes": 4461,
+      "git_blob_sha1": "7c3c012ac1c7ad7a7d6048a994967a179a532013",
+      "sha256": "0834ea4e09113f824542d3576902a401cdefbe357bf05b7c12292cf8855281ba",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiberLabelCounting.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiberPairIndex.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiberPairIndex.lean",
+      "bytes": 6308,
+      "git_blob_sha1": "c1480348e6843f67e9d87644567c5b9eb73ab8d1",
+      "sha256": "e72f8186ecb91d9b7827c212b7ac6356deff81c15665309e52c5bebccba7b869",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiberPairIndex.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteCellProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteCellProjection.lean",
+      "bytes": 5234,
+      "git_blob_sha1": "3f4c91f7604fcfb79e3f762ed2c7a4396bdaf8d3",
+      "sha256": "053aee9c1bc08f595214e09783a848e4ab993df6c860dbde2f669d83db2a459c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteCellProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteConnectivity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteConnectivity.lean",
+      "bytes": 2595,
+      "git_blob_sha1": "860dbeb78e260e6b77bcbfa4d6fcf9bd91ce08fe",
+      "sha256": "d940ac9951c5c8d0587ad81d4c3bd77e48d3ec72d3d7c171d5e49e7e7febb130",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteConnectivity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteCountTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteCountTransport.lean",
+      "bytes": 4037,
+      "git_blob_sha1": "2303afdee584ec12682599541e63c9dd6058e189",
+      "sha256": "ca17facc1b0156ee4be85698c476c0a8b5db0083d89331aae3220eda8d781910",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteCountTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteEventVectors.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteEventVectors.lean",
+      "bytes": 6660,
+      "git_blob_sha1": "fe4f0b9173ef4db2e4aae8cd00ad9b4d906a5d43",
+      "sha256": "39bd953667c84a9569ce7c94164f2fdaa3b7c9837d77b96c38ef0112c4088537",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteEventVectors.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteKernelAlgebra.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteKernelAlgebra.lean",
+      "bytes": 7188,
+      "git_blob_sha1": "cfc1d2d73fb37ef29d20bf168c2374e2db595c04",
+      "sha256": "b33335c3bd4c03ba9e771ff306b718070cea363c72ce9583e287d3f348cdbeee",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteKernelAlgebra.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteKernelTV.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteKernelTV.lean",
+      "bytes": 8397,
+      "git_blob_sha1": "cef0c3a03cd6e7bb3cc9aee30537b31e7a63a9d5",
+      "sha256": "69a2b5ecd241e72b47adc223c666d474dd5eafa3e9287e520410426c180a7493",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteKernelTV.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteObservableGeometry.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteObservableGeometry.lean",
+      "bytes": 6096,
+      "git_blob_sha1": "2c92965232f387101978d9e8b606bc16d4f94a1f",
+      "sha256": "95d66a71d9f40bdaaec8ae0c10673747ff178f30a36249c3d799b47cdec7b1cd",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteObservableGeometry.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteVarianceDecomposition.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteVarianceDecomposition.lean",
+      "bytes": 3721,
+      "git_blob_sha1": "46c0bedf4eea7f0de46854902049ee7681b1b103",
+      "sha256": "2c47a1274ad3f86b948d996bcf4bb2e5d704f2b7000137c3fafd90e161c55b77",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteVarianceDecomposition.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FiniteVarianceEuclidean.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FiniteVarianceEuclidean.lean",
+      "bytes": 1916,
+      "git_blob_sha1": "7d020417b0a4d1b679bee0ba13b0e999894c9777",
+      "sha256": "e822a97f2cda8406d7b318a655c6012963107b04b8e8ec731674e00d249ed10e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FiniteVarianceEuclidean.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FixedBlockCount.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FixedBlockCount.lean",
+      "bytes": 6534,
+      "git_blob_sha1": "6010f9c79e6588283f33c42fa1e25ae50b76b83e",
+      "sha256": "e70838af817fe1aef476a2fbda4801780e0f3d67cd8e1a29b8d7b94f1d117925",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FixedBlockCount.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FixedBlockMarginal.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FixedBlockMarginal.lean",
+      "bytes": 9686,
+      "git_blob_sha1": "4096dba607df9731134d839549d88288127fd8b9",
+      "sha256": "2c1c7f3f82ef036eaa750e0720ef31dce3c8b8ce1c089f1a7ff9daa0f42c65e4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FixedBlockMarginal.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FixedBlockPartitions.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FixedBlockPartitions.lean",
+      "bytes": 4189,
+      "git_blob_sha1": "61f670930aa12dfd7c369e0598b2d2e93aa16938",
+      "sha256": "acc9adc6bb7cdbf8f7b1ce5d00cc351fbffbafe0132dd8b6de6866f8a3024793",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FixedBlockPartitions.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FixedBlockVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FixedBlockVariance.lean",
+      "bytes": 8230,
+      "git_blob_sha1": "7a845bdc27700e8d1a2ffa25b77f3d72dfda1a52",
+      "sha256": "9f649e012c547fed8cce7822f323cf1520ecd82857ce9102930ddeed27f0b8a6",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FixedBlockVariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ForcedColumns.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ForcedColumns.lean",
+      "bytes": 9238,
+      "git_blob_sha1": "3e2e5a4f118ceffd3d3e751e55f41256a4f7ea4a",
+      "sha256": "5ff9d5135aa92adfd19eea7a60f881b80f303d464afd8ecf9ade6e317536b3fb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ForcedColumns.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FourVertexSwitch.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FourVertexSwitch.lean",
+      "bytes": 8012,
+      "git_blob_sha1": "8df231b50fe9e269a8af375cda23267643c82f4d",
+      "sha256": "c6e355ef21f68a033a97f0af79bf997986f87782adcf22b598aaa45b8f7ad6f5",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FourVertexSwitch.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FrameSynthesis.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FrameSynthesis.lean",
+      "bytes": 6661,
+      "git_blob_sha1": "5efb35d3435d44e00e9079d10600f15e589634a3",
+      "sha256": "abec6e2ef80be8f48fe4361dd8802aad53fcb115a576cd43c33eaa264fe94bdf",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FrameSynthesis.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/FrozenRows.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\FrozenRows.lean",
+      "bytes": 4382,
+      "git_blob_sha1": "2cf2f511857b5b66a5ac7dbd5e0ca377eba1d3e5",
+      "sha256": "03c36830c661fd4fff3fd23a7a277ca4107d76799ffb4f3bba0a219860c5449d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/FrozenRows.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/GapConnectivity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\GapConnectivity.lean",
+      "bytes": 2881,
+      "git_blob_sha1": "b0af6828be8175728ce119a3408a5e5cf5f9ee6a",
+      "sha256": "7ef462f29a83156a9b606f40224b56ec758faa792048b97419000aa02a2f46e8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/GapConnectivity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/GramComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\GramComparison.lean",
+      "bytes": 7553,
+      "git_blob_sha1": "05cd3c0e02712a45b97d07fb04d915e738baaf7f",
+      "sha256": "4d8e6e7a9aa1910149c0b39a8a143427fe3898c2b1ede5c65ca1ca5fa826f666",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/GramComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/HavelConnectivity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\HavelConnectivity.lean",
+      "bytes": 5209,
+      "git_blob_sha1": "168fce0c747db40f648fbbb59defe86391949f29",
+      "sha256": "383773079074e1f751c293c6a395eb8dac50c7f63c46fba6aa21658b6834e866",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/HavelConnectivity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/HavelInduction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\HavelInduction.lean",
+      "bytes": 7693,
+      "git_blob_sha1": "f05d8cd9911c22990751d9f69d1d390cc202eb70",
+      "sha256": "0e40e2bda785143e5bb2484256daf49730deaf96ea39b5d614c610c5f5080722",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/HavelInduction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/IndependentCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\IndependentCell.lean",
+      "bytes": 4790,
+      "git_blob_sha1": "434b121bf4cc02118c7e02c8f578df5345a2662f",
+      "sha256": "4fddab5ec52aca129f933a1453c224e56b8c3c16e4e136b2db0ccecb605448c0",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/IndependentCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/IndependentMomentProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\IndependentMomentProjection.lean",
+      "bytes": 2485,
+      "git_blob_sha1": "c5f18be6e9fcb53711b2bb0655c3e2e648da68e6",
+      "sha256": "2548f6398842166caf0e5376b61d21bb42ea14461097d47df4e4e3cf419e420b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/IndependentMomentProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/IndependentProjectionInteraction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\IndependentProjectionInteraction.lean",
+      "bytes": 3740,
+      "git_blob_sha1": "ebc149a2d9ecbb592ca3269ec9ad7111c7d48e9c",
+      "sha256": "df3f30fc7b730bbfcdb6aa209e16774226ea83cb28a3db7eb4a57b850b0f5ee8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/IndependentProjectionInteraction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/InitialTV.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\InitialTV.lean",
+      "bytes": 2649,
+      "git_blob_sha1": "71c707ce6fb9125907f72909609b3b4e19df0640",
+      "sha256": "f0754421702578fde0a7b7f43bdea63b53d93482c80451d15d0f49d132e6c7eb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/InitialTV.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/InitialTVGraph.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\InitialTVGraph.lean",
+      "bytes": 2354,
+      "git_blob_sha1": "32f236e0d146b922b4913153c822a2a911c19610",
+      "sha256": "c5844d08f2fc7c5575a18684379132d1a7670256db8c02af72cb87c9551219ca",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/InitialTVGraph.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/InvariantEnergyVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\InvariantEnergyVariance.lean",
+      "bytes": 9014,
+      "git_blob_sha1": "9d278a9a9a032ec06916b5420b5997f91a627ddd",
+      "sha256": "3ea5f7c9885366266a103b45daf399882cb8d62287fa4eb9ea76bdc6c0e41aef",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/InvariantEnergyVariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/KernelNormalization.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\KernelNormalization.lean",
+      "bytes": 2019,
+      "git_blob_sha1": "c61402b0460d38858233baedce079404db59934c",
+      "sha256": "c2869bef0fab4d5b0fe11ccc773871249e894d7ff8679cc16f24e79821a1702a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/KernelNormalization.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/LocalGapEndgame.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\LocalGapEndgame.lean",
+      "bytes": 2042,
+      "git_blob_sha1": "8ea6816375553a5149941140a3d04c353807829e",
+      "sha256": "fcb0a1e0d7b06489c8ee125337118d643d8d185d442667be4a16b1526bd2af79",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/LocalGapEndgame.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Main.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Main.lean",
+      "bytes": 2119,
+      "git_blob_sha1": "f57bfdeb78b3af3dec46c90aeaa145b85d044140",
+      "sha256": "ade00e55a157ee7bc2dc1fff71777e8cf717cbba7463819938f62de639c32d15",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Main.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/MainFromGap.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\MainFromGap.lean",
+      "bytes": 1260,
+      "git_blob_sha1": "d71e509ab730ee6b0ad1b2959720e8e2890908d3",
+      "sha256": "8a667ce85e3b8e1696d89409430f322905a2b1faca139c9c2d30ede7a34983d8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/MainFromGap.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/MatchingCount.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\MatchingCount.lean",
+      "bytes": 6355,
+      "git_blob_sha1": "0b8e91018d4baa3226473e61c1c9c2b662c36484",
+      "sha256": "a8aac391ecdc71580014fd815139a4a417710f0921f7007f2c7158b6331d84c1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/MatchingCount.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/MatrixRowVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\MatrixRowVariance.lean",
+      "bytes": 4359,
+      "git_blob_sha1": "ea6cbc36c125c3e51998dbcf60467d540be508ee",
+      "sha256": "c0e4fa05d4383275cd2ecc3ea3c8167141c7ace96e7c61828f9af846c98225ae",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/MatrixRowVariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/MixingArithmetic.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\MixingArithmetic.lean",
+      "bytes": 3329,
+      "git_blob_sha1": "9c70b7b11bf167bd681f14d8f5220b67d140b6a3",
+      "sha256": "5cd974745182df0a37f11a760a97d9e1d8dd497a986a4c0434a159f2d83cfb7f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/MixingArithmetic.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/MixingTimeFromTV.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\MixingTimeFromTV.lean",
+      "bytes": 1884,
+      "git_blob_sha1": "40e447a6dac0f31ed9f37873276411e6d0415c12",
+      "sha256": "a0b495886f48a7aca56eb736d5bdcf6750ffde03f378299172e32cf05f321ef1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/MixingTimeFromTV.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/NeighborAlignment.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\NeighborAlignment.lean",
+      "bytes": 1768,
+      "git_blob_sha1": "568aea545cf79cd236c7b04d8f8efc63eb290339",
+      "sha256": "876093bbe8e96bf8b8ee7c545eebd104dfc4f6ab25c8a822cee1af4a18f37072",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/NeighborAlignment.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/NumericMixing.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\NumericMixing.lean",
+      "bytes": 2821,
+      "git_blob_sha1": "347b83c611b469f77ea6203c819afc32c6be9746",
+      "sha256": "e78311ce23764962db26fdc6062948a4b34b86772a34b7a4033ca47a4ac5628f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/NumericMixing.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/OrthogonalPairResampling.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\OrthogonalPairResampling.lean",
+      "bytes": 10549,
+      "git_blob_sha1": "c341bbbd3d45b334dc74832f315519d979d6b018",
+      "sha256": "03e80f02380e3142b99011951cdd7bac1e05e0b98a08dbd7f6d551820390b22e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/OrthogonalPairResampling.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairActualAffine.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairActualAffine.lean",
+      "bytes": 3957,
+      "git_blob_sha1": "c097d0cd33aee37331958ed04367f758c6e2cb38",
+      "sha256": "81521f5ad99fd0cd2d8c214a7dbec5f5bb365510c69f5d2ffa4342b9d629078c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairActualAffine.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairAffineInteraction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairAffineInteraction.lean",
+      "bytes": 4778,
+      "git_blob_sha1": "3dcc9a2ea5f162717450fdd0c38ebd6100554be4",
+      "sha256": "37ebfd5f3d2513521b6ecb88083b38d4fc33cceb5a6e99071b9320ed2455a8a3",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairAffineInteraction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairAggregation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairAggregation.lean",
+      "bytes": 7772,
+      "git_blob_sha1": "4d5fdd56dbf714332c40bb1dd56f40d63dba864e",
+      "sha256": "bf4436c612d46618a782cb8d1150e32ece55d246f44fef5f9bd8857c183d4b3d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairAggregation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairArrayEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairArrayEncoding.lean",
+      "bytes": 4875,
+      "git_blob_sha1": "0022b35ca650d3f3abf5e3053d87b3a239b61f55",
+      "sha256": "e697ed6b622033f2abb3aea726e670bc999145c71cbe92a9e78e66c2924655cc",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairArrayEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairArraySlice.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairArraySlice.lean",
+      "bytes": 2226,
+      "git_blob_sha1": "49f933329d5d66de3e49ee468b745484206beaac",
+      "sha256": "b4d0ca076fee37d75f053855c20ac185235381d736dfca1c79e715740e1cc4b1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairArraySlice.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairAssignmentMoves.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairAssignmentMoves.lean",
+      "bytes": 4517,
+      "git_blob_sha1": "252c2a133a226e53a98081c7fee30d8fddd48065",
+      "sha256": "7f255c22e4f781855443d262f8cddcd67c6a5706784cb221f0c500b253186a9b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairAssignmentMoves.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairCellProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairCellProjection.lean",
+      "bytes": 4120,
+      "git_blob_sha1": "5615fc447bc85f065dc97b2534190a9005986e5c",
+      "sha256": "06bcc6f5d648e774d7d2cbfa828347602f1b183c2a5cc0a12723102a03e1b432",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairCellProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairComparisonEndpoint.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairComparisonEndpoint.lean",
+      "bytes": 1129,
+      "git_blob_sha1": "48312ec72447032839c1654ba1f8b3faa040cd65",
+      "sha256": "ffd2cd4a5c4e7a7d646d07db23f75f5383ed3acf8870b1bc1ccd12f3a051198a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairComparisonEndpoint.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairCrossToggleTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairCrossToggleTransport.lean",
+      "bytes": 4187,
+      "git_blob_sha1": "089e2db2340c4692a923fa2d436099d843bfabf9",
+      "sha256": "67bc01983266eb9ab0f8bc60e408ca04ba1f423e245b0353814a293a51e686f4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairCrossToggleTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairDisjointAssembly.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairDisjointAssembly.lean",
+      "bytes": 3575,
+      "git_blob_sha1": "31b9bad18286c4ad5623d1e75a179955d3564626",
+      "sha256": "7dd67cb22cbab2f0ad7ef9fa8981e1f7399e817dbb6c86e557bfd6af0ddb380e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairDisjointAssembly.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairDisjointBudget.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairDisjointBudget.lean",
+      "bytes": 3154,
+      "git_blob_sha1": "082f4a75c350d0bec068e0893f244bf625755d8f",
+      "sha256": "6bb0632096b8fd8c48d969ff2a11f39979fd5390d10599ae40226b637e28a154",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairDisjointBudget.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityBudget.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityBudget.lean",
+      "bytes": 12621,
+      "git_blob_sha1": "f82b9420d8510cb89aa8e14e732589c29ad479d1",
+      "sha256": "d9cd633ff5c79f8b838b12e4fe7c52b0c69ccc47493e7517a7dc64dd48d042ff",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityBudget.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityBudgetUnordered.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityBudgetUnordered.lean",
+      "bytes": 3314,
+      "git_blob_sha1": "a4fbc1dc304b5ba642cc1c6491f03e731b510c53",
+      "sha256": "c4834dc1308763f26f570841215aa7f908e867b2976bec9adab42433a8cf323e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityBudgetUnordered.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityCell.lean",
+      "bytes": 2214,
+      "git_blob_sha1": "d4e226d43972b0418fdd73bb595f73b70834e416",
+      "sha256": "d25f109bdaa8e886216b1a0b33207fff5b1267d37826d551473551a5176562ca",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityErrorLine.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityErrorLine.lean",
+      "bytes": 6725,
+      "git_blob_sha1": "2c3c1925aed7598f4f4d89caab1ad1a53cf5d78f",
+      "sha256": "551ab74a11c8b58fb254b3a932c04c3665c5fd6c870e32b5993a57a4fc4fa10b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityErrorLine.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityInactive.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityInactive.lean",
+      "bytes": 2570,
+      "git_blob_sha1": "c12a47ca975af0418d869cc6bf7bcd5ab584a6c1",
+      "sha256": "8b61a617c4ebbf8bd09f1c8c37e4ca10ab20e181e5a15c815d0a76ba3e89249f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityInactive.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityLocalization.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityLocalization.lean",
+      "bytes": 4024,
+      "git_blob_sha1": "f34c7a85d0e2aae3aa760a3a0d55b6a866a2fb4a",
+      "sha256": "b60c26e6d9fd82cdb2a04faeb96aa81df751e4629d4f6c89694ab6c64930e022",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityLocalization.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityOrientation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityOrientation.lean",
+      "bytes": 4793,
+      "git_blob_sha1": "d56859644e5943e2e4c713546c9b918a7d6dc9ec",
+      "sha256": "3f78e926ce6b209044f32749f1d63357335d8063799f1e3c877c76c920913e19",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityOrientation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityProjection.lean",
+      "bytes": 8133,
+      "git_blob_sha1": "7de0cafcfc18ed9c7e544966d156313e2ab7afb7",
+      "sha256": "c38a28a4abde4aa0baf7e5edcac68cd924ff2594a4b9fe27b04b2942b2cfbed4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityProjectionFacts.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityProjectionFacts.lean",
+      "bytes": 8960,
+      "git_blob_sha1": "8e4f2a49e344e8b62b2d1f2628b1cd7a48168fe8",
+      "sha256": "744e1c8ee85dc735d6a4c1817e0ae6dd47fdb3874061e5bd46c170c947a0944e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityProjectionFacts.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityRestriction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityRestriction.lean",
+      "bytes": 4913,
+      "git_blob_sha1": "9ac4df33f5dc4c0192c3ba2350339f3e953300ff",
+      "sha256": "0321af7d7260475cd742194e60d338a62cb8585727596dccb3002016d0d5f236",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityRestriction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualitySlice.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualitySlice.lean",
+      "bytes": 5841,
+      "git_blob_sha1": "ed2df4ce689960c7a6c01501651eeff5daf5ab38",
+      "sha256": "24ec4b769ec5074ace82dfafbe88e5560af892b458301ceac4cb6b525d6dfec8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualitySlice.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityUnordered.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityUnordered.lean",
+      "bytes": 6198,
+      "git_blob_sha1": "70008e903e32e0f939966336f8af4bffd34b8da2",
+      "sha256": "bb8c74e90166fba41772091ca833e7ef57ec41c3dd9028df07eadf5e568e229b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityUnordered.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairEqualityUnorderedSum.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairEqualityUnorderedSum.lean",
+      "bytes": 3005,
+      "git_blob_sha1": "4ff82cb1d82bf686ff3c97ddaebef2eea423a360",
+      "sha256": "8f945def26bdb7f305f80ba4d940efd2969eb37e60ef92cbd4a0bea364680d93",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairEqualityUnorderedSum.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiber.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiber.lean",
+      "bytes": 12782,
+      "git_blob_sha1": "2df1be5057c1ab63a30352918f0d37b8e7bf6dc7",
+      "sha256": "2b4253ac143e383fbc3350019dd9eb8f2749dbf1c832b99e861cbc427a83cbca",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiber.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberBridge.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberBridge.lean",
+      "bytes": 4139,
+      "git_blob_sha1": "8cd22371dc3537ce693725a2f5999987b628d9a4",
+      "sha256": "38c3e181f707e76c77f8f59da832465d5a2fbac721c66a39ff442bbad92b5415",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberBridge.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberConnectivity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberConnectivity.lean",
+      "bytes": 3152,
+      "git_blob_sha1": "a43cf05bd521703e12a721e81984dccac2e5a86b",
+      "sha256": "609f18e4371287750cea13d07d8e04375ae66e7b6694a07a7f2ca53ebbe19c19",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberConnectivity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberDegree.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberDegree.lean",
+      "bytes": 5056,
+      "git_blob_sha1": "f75780f68b1e0cdbebe66466d2d8357b3ba5e932",
+      "sha256": "ff2e90564a85c1f46252e662f917d0b817968ab9bc2918c52a96cb6b170e370a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberDegree.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberEnergy.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberEnergy.lean",
+      "bytes": 5454,
+      "git_blob_sha1": "41ed40824600bf4017d3eb8bf882c2d79023fe6e",
+      "sha256": "4821101d673b36008c18b91ba74ee087e94187ef2cfec2b4a66a34f2e5d12343",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberEnergy.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberEqualityTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberEqualityTransport.lean",
+      "bytes": 6863,
+      "git_blob_sha1": "2a2e48a1120df634b89ab91704718185f5dfc021",
+      "sha256": "81168b0b88409ae9c9667204d184b50c6173d264df8e255256a4e3e7745bb3ef",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberEqualityTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberEquiv.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberEquiv.lean",
+      "bytes": 4582,
+      "git_blob_sha1": "dc294b1e7bf10cd080bafe341534d9f3b99b7450",
+      "sha256": "00e8bd86949098685ea79061dfddde7188afd923ed02637c125f24c5a1dc4268",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberEquiv.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberOrientation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberOrientation.lean",
+      "bytes": 4828,
+      "git_blob_sha1": "bcf459476e1626b4606c5fc176ca62b5817a02a4",
+      "sha256": "ea68218a30cc76265eedee974a1ac3d06823fc03d06681e85e6f219f37a0d097",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberOrientation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberRedundancy.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberRedundancy.lean",
+      "bytes": 2148,
+      "git_blob_sha1": "3a0c8e14d3e7b10fce173e76b148e94900379990",
+      "sha256": "94caacc30d3959d68418858cd6e56036d6d7d3f128902c7a9030294c9c743839",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberRedundancy.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberSliceComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberSliceComparison.lean",
+      "bytes": 5132,
+      "git_blob_sha1": "04fe47d8a52a095726e50354e2206422303a88f3",
+      "sha256": "d1d72e2e338d3ce06259798de8be58da77fd628566fb98ea59943be54bfcea9a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberSliceComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFiberTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFiberTransport.lean",
+      "bytes": 4482,
+      "git_blob_sha1": "7e4ba4c9d569721235b87d29cbc4c06b93a6a2eb",
+      "sha256": "3f9dae285623a277294f953e3b2cadedbaac8b9a001e6ab2410dc097217efd3d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFiberTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairFibers.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairFibers.lean",
+      "bytes": 7614,
+      "git_blob_sha1": "d2736f7f27aa0b775788a60b2934e876254f35fe",
+      "sha256": "01ac43bb20ae3ac9cf3b9a1aa19bad449322be37aca2bfcd68873b2b5f37c49f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairFibers.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairGeneratorSquare.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairGeneratorSquare.lean",
+      "bytes": 3428,
+      "git_blob_sha1": "a56bdd7e68c251dd026d44413bdd31820ba43b63",
+      "sha256": "e6af454fbb904bb4e82d7e65167fff5e76041e015cc5f122cb92cecf9f07f48b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairGeneratorSquare.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairInternalRedundancy.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairInternalRedundancy.lean",
+      "bytes": 4565,
+      "git_blob_sha1": "31d85e12bc3635303a2c31b42fb6396992419723",
+      "sha256": "27b5e15fb05a3eeb197f481993349ac7a1eca00a75f41d864480b960a0204f1e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairInternalRedundancy.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairLocalComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairLocalComparison.lean",
+      "bytes": 7599,
+      "git_blob_sha1": "3574b53d90fd3533ddc34cead1b2bccf5f869dd0",
+      "sha256": "d33c38b3ffe0984fb88aaa0721e81c92a82417df906dc1a56e72c3a2f5850344",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairLocalComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairOrbit.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairOrbit.lean",
+      "bytes": 5438,
+      "git_blob_sha1": "7c05ef31bc8310bcd0537d4da2ef347821909cc6",
+      "sha256": "d3953398f9825470b7940945237cdb801646c39e0a6c0c77cb98905b8406a3bc",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairOrbit.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairPoincare.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairPoincare.lean",
+      "bytes": 4295,
+      "git_blob_sha1": "3d4cfccf05180857df82bc4488327b7cc4029930",
+      "sha256": "41596276f2825548821dbe0790f0f828955ede902ad063cd71dc6e88c8f38d9f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairPoincare.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairProjectionCell.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairProjectionCell.lean",
+      "bytes": 5124,
+      "git_blob_sha1": "2a7db8ff31c7991d9555f9a242afabb553681352",
+      "sha256": "eda9d2531df28af1b186e09e32781bc4e321302bab8ba9c398c5566e4b076959",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairProjectionCell.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairRangeInteraction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairRangeInteraction.lean",
+      "bytes": 1771,
+      "git_blob_sha1": "d7b52323680b3f1a9d9ac501b53dc93112164858",
+      "sha256": "a625848e86bdda6e1596ec6bfc95cb9517798d112bf20baba84bece1cb4e5f49",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairRangeInteraction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSquaredEnergy.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSquaredEnergy.lean",
+      "bytes": 4265,
+      "git_blob_sha1": "58bfac976e7bf6ab494a555f9554cc2861bf43e7",
+      "sha256": "dade12d536d6fad72f4a17d815f8e13255573e22d1a14be416f262693572ca83",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSquaredEnergy.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwapFlip.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwapFlip.lean",
+      "bytes": 8903,
+      "git_blob_sha1": "4ace789fbcbcf365499176d914705bf3ef4c5ed3",
+      "sha256": "ba0f148fa6bd686944c6030db4721a871af7d2241424299af4d8dfbba96bb8e3",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwapFlip.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwapFlipProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwapFlipProjection.lean",
+      "bytes": 3800,
+      "git_blob_sha1": "d98dd8dea4a66974ec118ff668271630e7b4a731",
+      "sha256": "278ef68b221bfc909b949fe39bf5e1e9ce0c0ebbc25443417489dd54c387062b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwapFlipProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwapInactive.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwapInactive.lean",
+      "bytes": 3453,
+      "git_blob_sha1": "b9a67fc036116222984b200d92d151ac69b813e2",
+      "sha256": "7c48b858a4dc373f213c09a7ca7a90e5e5b498d33d560089451bdf90976ec533",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwapInactive.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwapInactiveFlip.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwapInactiveFlip.lean",
+      "bytes": 2269,
+      "git_blob_sha1": "95f4635d917b6653e7ebc00e2c428e9725dc0a44",
+      "sha256": "f055756d0a0e0c8b5f8773636f6c9f7eb129b33a54dc8d58c8d3f33fa28e9703",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwapInactiveFlip.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwapInjectivity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwapInjectivity.lean",
+      "bytes": 2657,
+      "git_blob_sha1": "5c82a22108f58f957c2de2c8481cf4851d1b4d33",
+      "sha256": "bb010b212840603e8015570642d9cd50c86ba33fdf97251f6c898d0cd2f592b5",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwapInjectivity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairSwitchComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairSwitchComparison.lean",
+      "bytes": 2852,
+      "git_blob_sha1": "76ea6f82f64ec69723d240791d9c4b3de5a9cf34",
+      "sha256": "cf41519a505903c07ed34c0025519ac97dbf2f98165eb213d8b0ae1975e6e2a3",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairSwitchComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairTradeSwitch.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairTradeSwitch.lean",
+      "bytes": 10537,
+      "git_blob_sha1": "40790925764527e1e2916b6c9039c3841aa04e35",
+      "sha256": "338c5524bdf0754ee58826da35ff82e5ab3ae0c92313d9653b6703251994bd6d",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairTradeSwitch.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PairTripleBridge.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PairTripleBridge.lean",
+      "bytes": 3648,
+      "git_blob_sha1": "c68c9100c924c477800bffbffa788f71e7fbf7da",
+      "sha256": "66af510d346755fcf6c8a1a86129cb4a03e1bc100a719fec25f5cc001930c770",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PairTripleBridge.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PermutationFactors.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PermutationFactors.lean",
+      "bytes": 2778,
+      "git_blob_sha1": "ff97a5056d577d08f48d3eacbea711d5e607b048",
+      "sha256": "6ed01342bf6f05b0844b52843d75622494bc12281ca4602c1b69a9d671a0028a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PermutationFactors.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PermutationGenerator.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PermutationGenerator.lean",
+      "bytes": 6331,
+      "git_blob_sha1": "656dd32ab4febd4ad65435aa2112e70e8588c57d",
+      "sha256": "03964eef72a86916e12c7c1b41c5194a1c5edf73e7e014e5f17fb2728c09f5c2",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PermutationGenerator.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PermutationPathComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PermutationPathComparison.lean",
+      "bytes": 9288,
+      "git_blob_sha1": "978b52f923cd6e72bd995da219a1ccf146d8858b",
+      "sha256": "c33a00a3518a84ac46929be8bfafd2641b6630e7081de2a2a31c6c581fd41105",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PermutationPathComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/PermutationPoincare.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\PermutationPoincare.lean",
+      "bytes": 6537,
+      "git_blob_sha1": "470dd30501f8f79b84535d721dc1f8dd6fbcbca4",
+      "sha256": "90d333c5f417c1cebd0bea52a74feea5bae8c95fe2e252aefc60079e73a69531",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/PermutationPoincare.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Prelude.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Prelude.lean",
+      "bytes": 15,
+      "git_blob_sha1": "0b4be76b1d496db7a9ddbe3aba98a49478d54dfe",
+      "sha256": "1015f8f4676a27ea63780b30cc916712232857097b2bdf635dc61cb949c107fb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Prelude.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ProjectionRangeInteraction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ProjectionRangeInteraction.lean",
+      "bytes": 9613,
+      "git_blob_sha1": "db186e150a6a82b01ab063691d379c1d60cc0d43",
+      "sha256": "5a001bed26185f8ced573ecdcabcf78591fb695dda91ed9a5231debe5184702a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ProjectionRangeInteraction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ProjectionTools.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ProjectionTools.lean",
+      "bytes": 5108,
+      "git_blob_sha1": "877689278df6c8610725f22b47f8c50d2fab2303",
+      "sha256": "b00d67db35f8b84435b91a0c422d66853c82470d3a67ceb5841ac60ad1714621",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ProjectionTools.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ProposalLaplacian.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ProposalLaplacian.lean",
+      "bytes": 4755,
+      "git_blob_sha1": "cf683a0b20e9e679ef50d4dfa2651f3554b1ae2e",
+      "sha256": "1c9430b833d8e10a84e055236da8c73512cf4078b8003e10ffb0b4bd19d85621",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ProposalLaplacian.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ProposalUniqueness.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ProposalUniqueness.lean",
+      "bytes": 5739,
+      "git_blob_sha1": "d59ff3b8ea945010f7830ce0f2e6165b51f6cfce",
+      "sha256": "8c689e3c72630b43da3d561caecdc871140ac3dca7ff072fbf7304bf87c91aaf",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ProposalUniqueness.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/RankOneCentering.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\RankOneCentering.lean",
+      "bytes": 8866,
+      "git_blob_sha1": "ae63d6cf9f1e4ec5a22f7db6f4132639f97eda55",
+      "sha256": "c31bc6707bb5211768f428c281cc1f1b3b2095b7c220a2c873ded00e0367433e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/RankOneCentering.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/RankOneInteraction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\RankOneInteraction.lean",
+      "bytes": 11709,
+      "git_blob_sha1": "051db951cf1f9e013d0cb37744b9837aee0814cb",
+      "sha256": "f828884f0ea5224c9909d14ef569cc10ddbbd6f0bacc6b4fede37f884557413f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/RankOneInteraction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/RankOneRestriction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\RankOneRestriction.lean",
+      "bytes": 3813,
+      "git_blob_sha1": "cce70c03f9c90b403f1c8d780db974b8f40e2aff",
+      "sha256": "6114e093acc25c0139ead8165d0287b3d60498fae997d82986ff986dbfbf8692",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/RankOneRestriction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/RowVarianceAssembly.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\RowVarianceAssembly.lean",
+      "bytes": 2690,
+      "git_blob_sha1": "6773414655af3d0aef94c8510a17ddea5cee96d1",
+      "sha256": "515899385a1ccd8f312612557bd042b5107d22f407956109bc3b3da2fe97bc07",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/RowVarianceAssembly.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceActualSynthesis.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceActualSynthesis.lean",
+      "bytes": 4919,
+      "git_blob_sha1": "36d75feb23603c877971245f4121366160acc7e1",
+      "sha256": "0e2020a299a35368ebdab02fc34bc584d4a0212114b1372b30e247962f198409",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceActualSynthesis.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceBounds.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceBounds.lean",
+      "bytes": 3375,
+      "git_blob_sha1": "d48c50e92ab44c65758102bb78ea029fb2657471",
+      "sha256": "32565eb15330961a06a8a5a3906537339c4265608fd672be0a029e7295ef4ee6",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceBounds.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceCardEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceCardEncoding.lean",
+      "bytes": 2257,
+      "git_blob_sha1": "ee7f2ec0368a781da6c85ac26fb1566813b67b9a",
+      "sha256": "0dae6bc65edd736866c267da6f81589e64632b489180d93a72f3c2f8aa5e0285",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceCardEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceCoefficientAlgebra.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceCoefficientAlgebra.lean",
+      "bytes": 10658,
+      "git_blob_sha1": "033bf022f595f2d5d80b64f89f606a7acedbd3b2",
+      "sha256": "8c8470c6314daa21e4987f53af51d8a03d1445c23f0816f38dcaf2c8cebe7988",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceCoefficientAlgebra.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceEquality.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceEquality.lean",
+      "bytes": 7189,
+      "git_blob_sha1": "ccda6b6bf5c10c9fe00c9881ec66bcb2ff14ebc9",
+      "sha256": "689bd84554d48a25cec67b66f0c2a103762c0fb850b688dd397cd582c693e92b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceEquality.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceEuclideanGenerator.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceEuclideanGenerator.lean",
+      "bytes": 4348,
+      "git_blob_sha1": "10fdb8f098ee79b026c2b872b496a5532cb6f600",
+      "sha256": "5b92614eaa4735a5650e7ddb2701e2bd73a1e790876e461f20e0bfc275ce485f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceEuclideanGenerator.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceFrameProjection.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceFrameProjection.lean",
+      "bytes": 2057,
+      "git_blob_sha1": "576b7efa3254d1b735f9baf3613b8ceb45a4260b",
+      "sha256": "18cb7193fa854470edc998f608e57770288e033cd72aa09b90273473a43c95ce",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceFrameProjection.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGenerator.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGenerator.lean",
+      "bytes": 7846,
+      "git_blob_sha1": "9b52e9538a7ef93f77ed8973ba76783697d9250d",
+      "sha256": "7694658c3d08069a07eaec3af876f57981e024500c9a14672b5fb7302be1d126",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGenerator.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGeneratorEquality.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGeneratorEquality.lean",
+      "bytes": 3093,
+      "git_blob_sha1": "726768d47c7641d32b181a6946d2fa8e325ff0ef",
+      "sha256": "ebf362238c67a702e841ce0f1e181f1f6a4437e64126711c97f30dc6970ba8f5",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGeneratorEquality.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGeneratorSampling.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGeneratorSampling.lean",
+      "bytes": 3079,
+      "git_blob_sha1": "dce7b567cb6f2d239061f75bb0eeaeb74d3d9050",
+      "sha256": "c0ec4f4e7b6b9b784914eaae2e1bf3118e997a0be521cbcd245ad31c50781418",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGeneratorSampling.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGramAction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGramAction.lean",
+      "bytes": 5724,
+      "git_blob_sha1": "696fc784bfcdcc67fcbbdb2b05d4bb29f5e0a836",
+      "sha256": "88b9a06d856761194c8c193c5fc6e0fdce6c5d0feedd47289574caf162c90663",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGramAction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGramConstant.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGramConstant.lean",
+      "bytes": 2650,
+      "git_blob_sha1": "2e0af4f862d71a8991ee79fb972a760f1a13c6c5",
+      "sha256": "c8e5aa88d64b5a2d1811ce78b14007a810b12a10ab8257d9059851d029f1512c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGramConstant.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGramOrbit.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGramOrbit.lean",
+      "bytes": 3916,
+      "git_blob_sha1": "f60d2dcf02fc9f18ca6bd906ff8d822a0b6d92b2",
+      "sha256": "e75b7f01405c1f04ecc8a8abf30075194b0e3d1eac3f309f40af166c91675712",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGramOrbit.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGramProfile.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGramProfile.lean",
+      "bytes": 4056,
+      "git_blob_sha1": "a9535bfaded34d5e47acf3f8557d12272d6190b2",
+      "sha256": "e54651483b51357f45fb508cf65c34ae10002229e80f69ef2a19ac7308dad1fd",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGramProfile.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceGramScalars.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceGramScalars.lean",
+      "bytes": 1568,
+      "git_blob_sha1": "4cae91ecbb3dd0c2e7d8ebb7c13c648ec2a24d57",
+      "sha256": "4d8a3d3e01e93502df8223c5afe1fb90b33f20407d02d069aacbf72e7e4621ff",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceGramScalars.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceImageNorm.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceImageNorm.lean",
+      "bytes": 10400,
+      "git_blob_sha1": "0c441aab168bf8a859446e046cd53842f8b1f32e",
+      "sha256": "4f214fd6296fb80d77d274f880058ad2478508f9bf2815df8e76478de9566b69",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceImageNorm.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceLinearNorm.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceLinearNorm.lean",
+      "bytes": 4677,
+      "git_blob_sha1": "0e083ebd0713b8785c8f0948425ec3adcee2d1ce",
+      "sha256": "13e22614fa0d27185461135190037ca59a571c1100340c8b29295c82a7dfa4d4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceLinearNorm.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceMoments.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceMoments.lean",
+      "bytes": 17433,
+      "git_blob_sha1": "1772fcf48423314cbfc6ccd6de1f46f5ff89b79a",
+      "sha256": "9f8776a077ef7794bc00fd43c4b2387e25d9c9bd8ff2a02d904b30bfb6ddd29f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceMoments.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceNormalizedFamily.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceNormalizedFamily.lean",
+      "bytes": 7268,
+      "git_blob_sha1": "b37a6b7ee87e901588dab1525968802fc08f1ae5",
+      "sha256": "527525f5a9fe17c7c913d0ffe286443336ee425cd7f999ab4a9bb446665723e1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceNormalizedFamily.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceOperatorComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceOperatorComparison.lean",
+      "bytes": 7191,
+      "git_blob_sha1": "d24dda3d27e41f604b9f8fd1b2175878bde452e0",
+      "sha256": "335e7d87dff29a446d682a3cf34dcced91cb45176b61928e3fbd83c65159bf22",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceOperatorComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SlicePathComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SlicePathComparison.lean",
+      "bytes": 4787,
+      "git_blob_sha1": "cfb4421f01732669e48f4a8a2ab26aff622112bd",
+      "sha256": "ba4f4372e9b463596d62e3777f1682942925f470c27bcbff3f8dbad7ead9204a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SlicePathComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SlicePermutationAction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SlicePermutationAction.lean",
+      "bytes": 4787,
+      "git_blob_sha1": "608fac1906c07eb1fe4255ee4c8c7309f90274c3",
+      "sha256": "74ad4658f7967e9f4305a2477831fe73c1b918cd393f0a1ce620930071182d5b",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SlicePermutationAction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceProjectionComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceProjectionComparison.lean",
+      "bytes": 3563,
+      "git_blob_sha1": "2148cc1fd928bfe231c777fdf34ece8a76f02aaf",
+      "sha256": "85bc3d03be9a354e154c7cb457c27372d63ac001498805516715011551f62819",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceProjectionComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceReindexedComparison.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceReindexedComparison.lean",
+      "bytes": 3695,
+      "git_blob_sha1": "25d95a52d15bc4ade3f14882505a82f040cde2a5",
+      "sha256": "adb01137e58d69d841d010d17d48da560700f2e823ce0244a0a28ab0756491db",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceReindexedComparison.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceSynthesis.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceSynthesis.lean",
+      "bytes": 6884,
+      "git_blob_sha1": "e0f0c18668d22bf053c0d8fd23bb7c9cd8139925",
+      "sha256": "2724af0b60ae91ee8d2885073d431f3fe47b17b83c5d7495a324246e790f627c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceSynthesis.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceSynthesisAction.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceSynthesisAction.lean",
+      "bytes": 2682,
+      "git_blob_sha1": "9d6bd759fdf84a79c6e2f7bd540f11be6dfcda83",
+      "sha256": "222a6f545736b234943faf533af00162bcd379c68831340316816e2537514fca",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceSynthesisAction.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SliceSynthesisBounds.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SliceSynthesisBounds.lean",
+      "bytes": 2305,
+      "git_blob_sha1": "0292de72cfbe4d75af4e2f7149eb8173c05028dd",
+      "sha256": "32bb7cff2159005f06a6b7bb98422598548f6b579935a81a938cf1e6cc0e2030",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SliceSynthesisBounds.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SpectralFromSquare.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SpectralFromSquare.lean",
+      "bytes": 4769,
+      "git_blob_sha1": "a1cd3500d8cf3a2f292ce388e75683e288d96626",
+      "sha256": "3782cf6883e98c95cab759b88aa174735d62e333ce39fb0e52905f85e7ff21c8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SpectralFromSquare.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchConnectivityFromGap.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchConnectivityFromGap.lean",
+      "bytes": 1610,
+      "git_blob_sha1": "4670810b06160e3edd68560e582e1dd7d3e57176",
+      "sha256": "fb9842445247024219f481bca88f3f4e169407fae605e274ac4b3411ac3ef595",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchConnectivityFromGap.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchFlip.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchFlip.lean",
+      "bytes": 11406,
+      "git_blob_sha1": "aa7be430cfd9b7e60354de570927d7a6805bfb92",
+      "sha256": "ccd1d97d770082e61f0ca08b4a734718f69ed88496a2681824b795c81d29710a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchFlip.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchFoundations.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchFoundations.lean",
+      "bytes": 7307,
+      "git_blob_sha1": "884605a51692c7d10ba1b0a7939cd2e1bb95b20a",
+      "sha256": "f20919edc9152cf689a86607879096588f6b6476fa04bf8f43ad3fbd6f18df4c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchFoundations.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchInFiber.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchInFiber.lean",
+      "bytes": 2296,
+      "git_blob_sha1": "b0e5bec32cc0cee972b646856429b5a41b8af564",
+      "sha256": "eb2745947d421c560d344c531bf92d7b9d22148ab9a7d0271f95ac23fcbb1e55",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchInFiber.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchLaplacian.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchLaplacian.lean",
+      "bytes": 3830,
+      "git_blob_sha1": "7740a87b180adb4729eb1fe40bd7ba44918253e9",
+      "sha256": "ab226af72ef76387b10880833e962957d7886c76d2bfeeb5dca9ada9f3a97e4e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchLaplacian.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchMultiplicity.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchMultiplicity.lean",
+      "bytes": 4861,
+      "git_blob_sha1": "3394900bbb2ba1fccac23aa0f2ec6d7f8426c018",
+      "sha256": "ebc092deb9843180f64be8be2199113c51d97f4266da0c740353dc37c123e087",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchMultiplicity.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchPairFiber.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchPairFiber.lean",
+      "bytes": 7074,
+      "git_blob_sha1": "3df0a497dc1f47893583f6dd315924f9cede7165",
+      "sha256": "0c2cbfab5dc18f86ffa440621959eeea370793001fb5c9712bb0a26ba0f2e435",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchPairFiber.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchTV.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchTV.lean",
+      "bytes": 4255,
+      "git_blob_sha1": "04effa4148522b91e1a330829b0b82ed5e3efec0",
+      "sha256": "a1b93038793796e3a8b7a3fcb08752580adaef5d4d3376faec4dbe555df61202",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchTV.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/SwitchWitness.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\SwitchWitness.lean",
+      "bytes": 6818,
+      "git_blob_sha1": "2948300b99a2d4b68e28e2e66a6be20d72fd007f",
+      "sha256": "e97a8c6e7502ee98b58807c107c012c5967ed248afb428916572bb2758955820",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/SwitchWitness.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TVFromL2.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TVFromL2.lean",
+      "bytes": 4361,
+      "git_blob_sha1": "e469b39085d53e5d9429a5929238adf2e10f9e50",
+      "sha256": "be7dd4f2957ae9d6950e4d650d58ed612553db2c461ca072fa2b97cac44c564a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TVFromL2.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/ThreeVertexEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\ThreeVertexEncoding.lean",
+      "bytes": 12980,
+      "git_blob_sha1": "dbffaf2171948d007ce180f29b1064243a581ee7",
+      "sha256": "2d53422d8e5ac883a450ea2d0e325856f93396fd0d322334e621830f30149804",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/ThreeVertexEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/Transfer.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\Transfer.lean",
+      "bytes": 5317,
+      "git_blob_sha1": "3da3a5de22f0c7b28592f5845cbbf1907e3e2647",
+      "sha256": "5de3fdaa54a25585f1bd7a7da632ee29bf10cf713094a44451a5e1a554e73343",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/Transfer.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TransitiveAverage.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TransitiveAverage.lean",
+      "bytes": 2179,
+      "git_blob_sha1": "bd07bd4228b3bdf7116c6e8775cc9c6b801a5276",
+      "sha256": "88e6e86c49806e1284da73e188a0553fbb7781289d7f2cb069b0540ea4d60bed",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TransitiveAverage.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleActualRowBound.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleActualRowBound.lean",
+      "bytes": 8200,
+      "git_blob_sha1": "b1be6644a829c860c761e7a629f28309faa96736",
+      "sha256": "01f7688757b8af1b346be5e90c73b67aafb162238d59c1a9bc4544cc3ce5aa15",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleActualRowBound.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleAugmentedMatrix.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleAugmentedMatrix.lean",
+      "bytes": 3169,
+      "git_blob_sha1": "12a4e205cda2713aa155e63e12ffd67f9817a192",
+      "sha256": "e6314f6b1ba025f870aba5ca01aa3ab4630ec6737a117c3f38be45aa58fd454a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleAugmentedMatrix.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCellSummation.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCellSummation.lean",
+      "bytes": 4176,
+      "git_blob_sha1": "bf8c029074397cbecd34eab3a64b5ccf5eb03b84",
+      "sha256": "e7d5c123eb91cafd294cce2deeb5d62722a628a5b205ef786996286e357adf01",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCellSummation.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCellTransport.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCellTransport.lean",
+      "bytes": 11265,
+      "git_blob_sha1": "1955ac8cd03ef32861aa2a9f79e8ec647245b67b",
+      "sha256": "acac92fb10ca64bf8713f2fd6e2f8ac4f3aaa28e14d93389d6842bba42fceb7c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCellTransport.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCellVarianceGluing.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCellVarianceGluing.lean",
+      "bytes": 8102,
+      "git_blob_sha1": "88f25760b672c8aad89ba91707f48883a6f8e0bb",
+      "sha256": "7b453c87a2b19ee3c44fa533650aa60508d5c3a418c5d905be2d27e492ee9be1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCellVarianceGluing.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCountEigenvalue.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCountEigenvalue.lean",
+      "bytes": 1639,
+      "git_blob_sha1": "c671063e1ef75f4273f632c7f10a3520b1d7144f",
+      "sha256": "312d646386e4c1268fd42c065fdb9228f70b64d6cb918b5b653e68bd1c57823a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCountEigenvalue.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCountGram.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCountGram.lean",
+      "bytes": 6586,
+      "git_blob_sha1": "42e0ae3a4356ed6656626b7db800e0e9796ea072",
+      "sha256": "87e43d372f4b08767b5967362dd55a27acfbd2f9e0ad4574d5ed52a43756b782",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCountGram.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleCountLaw.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleCountLaw.lean",
+      "bytes": 8275,
+      "git_blob_sha1": "2590fdb0c541e309c73c693c9acff3c60b0c9e98",
+      "sha256": "5241966dafdc5a55a39d48f098417ab80d1fdbd1f32de9a2ca49bc685bd45f8a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleCountLaw.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleFiberConditioning.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleFiberConditioning.lean",
+      "bytes": 7066,
+      "git_blob_sha1": "30c8d4cadd7a95e92f402427af2b7517c2876017",
+      "sha256": "a1ef6b48d2bfc2a0f1efd6c3a0b3d1baa42e360cb8e1c568b5c1dfa3424bca0f",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleFiberConditioning.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleGraphEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleGraphEncoding.lean",
+      "bytes": 5458,
+      "git_blob_sha1": "b394357ccd4d1ef014b097cb1970bbd2ff277b9a",
+      "sha256": "39554df5f43e38764a5b76c274c1a11395e6c202e96f8e129e1a4c5a533b9597",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleGraphEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleInternalEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleInternalEncoding.lean",
+      "bytes": 12153,
+      "git_blob_sha1": "d0c807661c05562be8c3c061eb471655cd36661d",
+      "sha256": "ea6ac3883d7e9168ee45f4e15e358ee4bd808ee7e2458eb990ed1a9ef21b8fa7",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleInternalEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleMatrixEncoding.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleMatrixEncoding.lean",
+      "bytes": 5743,
+      "git_blob_sha1": "98de771ce38121761c8da02c11a2633b3284c214",
+      "sha256": "79d2a68e5bb7f27ac530c254ee5eed76de7504c0739940e6d44ece892a4b4fa8",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleMatrixEncoding.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleMatrixFinEquiv.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleMatrixFinEquiv.lean",
+      "bytes": 3160,
+      "git_blob_sha1": "e6dfe2b801b2d014e3fe48374b42c5efb96f1ace",
+      "sha256": "5c6db515b55c2cdd2369b98a3855ad679c89d0071d78765055314d4a0ab1f70c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleMatrixFinEquiv.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TriplePairFiber.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TriplePairFiber.lean",
+      "bytes": 11596,
+      "git_blob_sha1": "5a497a7885b9fcb8daef7fccf715bc2125b322ee",
+      "sha256": "f57767d6300fdc2b5aa22f63115db87928e52bab2306a2764af3947e2ef25670",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TriplePairFiber.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleProjectionBridge.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleProjectionBridge.lean",
+      "bytes": 2920,
+      "git_blob_sha1": "5a6bf570fc66bb426fa51866e545abb82248a228",
+      "sha256": "433d4a51d1b3ef3235c2fb43573919f8972925ad6366763b366ad47bfe50c183",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleProjectionBridge.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/TripleStateReindex.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\TripleStateReindex.lean",
+      "bytes": 5225,
+      "git_blob_sha1": "4b9baa877b15134e3bc5ef3f03afd2eb755a0d94",
+      "sha256": "bd29eb2e0f44761c784d37fbff689e473d1474350b061204f1bd3a0ba5b15f98",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/TripleStateReindex.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/UnorderedPairSums.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\UnorderedPairSums.lean",
+      "bytes": 2379,
+      "git_blob_sha1": "2c8f9dfe33afe0506177c73949fb8e1bdf0e7ea2",
+      "sha256": "fc230126733dfc65a26415baf02e3486665c065f6f2e15929afc8509480c13f1",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/UnorderedPairSums.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/VariableBlockVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\VariableBlockVariance.lean",
+      "bytes": 6871,
+      "git_blob_sha1": "d3767c67afd04ab9286c64002cd05d06b5226371",
+      "sha256": "63dc0478db3a27ad81e491f4fcf063f992870e621c9a367fb2c1af178cf8abfb",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/VariableBlockVariance.lean"
+    },
+    {
+      "path": "lean/OAI/Probability/SwitchChain/WeightedConditionalVariance.lean",
+      "local_path": "source\\OAI\\Probability\\SwitchChain\\WeightedConditionalVariance.lean",
+      "bytes": 13170,
+      "git_blob_sha1": "3f1a73a9ab909cf2d02185ab1e9b50de39d6b545",
+      "sha256": "aefd612fe02c3e76ce336ea080112c495276c4eee0c0a7a4da5091893b999196",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/Probability/SwitchChain/WeightedConditionalVariance.lean"
+    },
+    {
+      "path": "LICENSE",
+      "local_path": "source/LICENSE",
+      "bytes": 11357,
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/LICENSE",
+      "acquired_utc": "2026-10-08T06:54:08.052289+00:00"
+    },
+    {
+      "path": "lean/docs/131.md",
+      "local_path": "source/docs/131.md",
+      "bytes": 1176,
+      "git_blob_sha1": "c8f733a08e4536d0184873086ee4fbaa9e077690",
+      "sha256": "95890a0433c375da400f600f581f1eb352416bc25f720c3483767022ce3fba4c",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/131.md",
+      "acquired_utc": "2026-10-08T06:58:01.298039+00:00"
+    },
+    {
+      "path": "lean/ComparatorChallenges/SwitchChain.lean",
+      "local_path": "source/ComparatorChallenges/SwitchChain.lean",
+      "bytes": 5706,
+      "git_blob_sha1": "3a275cf5c0cccff2921b091799299cd7795c1d2f",
+      "sha256": "b138abf5c2f30bf7124064f3b9c1464ff9110ca4647e6a2f1117b131f636e18e",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/SwitchChain.lean",
+      "acquired_utc": "2026-10-08T07:20:44.513184+00:00"
+    },
+    {
+      "path": "lean/ComparatorChallenges/SwitchChain.json",
+      "local_path": "source/ComparatorChallenges/SwitchChain.json",
+      "bytes": 406,
+      "git_blob_sha1": "67753efda0a4d807a0aa2c0caf9fbcfa7e869055",
+      "sha256": "be54c6cb351e52a09d39c96b5929cf4f79547253d376b941f20fc10f65696d99",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/SwitchChain.json",
+      "acquired_utc": "2026-10-08T07:20:44.464184+00:00"
+    },
+    {
+      "path": "preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/README.md",
+      "local_path": "source/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/README.md",
+      "bytes": 723,
+      "git_blob_sha1": "56d52f6c788c2b0535f385be604b5df836a74576",
+      "sha256": "c843b6e9097e56738b273acf3b5685dc91851eb793ff914ad666e42d77e5f19a",
+      "url": "https://raw.githubusercontent.com/openai/math/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026/README.md",
+      "acquired_utc": "2026-10-08T06:57:46.122239+00:00"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "module": "RankCounting",
+  "source_sha256": "b2e950af45a041f9ebfbad9453b736963c63f4d3d307b96f989da8cae33c0aa3",
+  "olean_sha256": "9454c24a16da698bd30a0c8de089eb22bb3c904bd32434d90135c65c4f064c7a",
+  "imports": [
+    "FiniteProbability",
+    "Mathlib.Data.Finset.Max"
+  ],
+  "receipt_sha256": "b463551faa01a26aa5fb7196760cb29c5421c305eaf247d0d4b377af19ca9fdc",
+  "log_sha256": "7c28e76166b9260068b674b0969ffc230a21ee28eabf0e58e74138558af11325",
+  "printed_axioms": {
+    "CurveballVerified.smallRanks_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.conservative_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 13.703,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/RankCounting.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

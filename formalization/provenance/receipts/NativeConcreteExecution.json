@@ -1,0 +1,40 @@
+{
+  "module": "NativeConcreteExecution",
+  "source_sha256": "7e4b7c4abcc16fbf41688695f4109aa733b08dc59644bd06765849a07a557b14",
+  "olean_sha256": "2dd9e1b28e9129c7980fc8905155e7afdfeb8d2f8309d17435e71d8e38f313c2",
+  "imports": [
+    "NativeSubsetCapacity",
+    "FiniteCurveballKernel",
+    "ControlledEntropyExecution"
+  ],
+  "receipt_sha256": "1511ba96e4d9dbf547cf885f129031eafc70d1842d43507b03062748bc9a3ffb",
+  "log_sha256": "a3f422e5d81d43fadab1c1cf76ccaf15fbec4b9a1490a98ffb24e4e0b8baf722",
+  "printed_axioms": {
+    "CurveballVerified.nativeConcreteStep_project": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.observeNativeModel_after_trade": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_concrete_row_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_concrete_execution_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.844,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeConcreteExecution.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

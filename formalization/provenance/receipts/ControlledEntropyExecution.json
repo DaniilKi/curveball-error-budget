@@ -1,0 +1,33 @@
+{
+  "module": "ControlledEntropyExecution",
+  "source_sha256": "042e2b85ad9fb5c48e0999b4b99fa21d572f1e7cc632bda080aeca2313a11059",
+  "olean_sha256": "2fc39c9ea96bc976430a1d91ae35b9ea680c89b71493bdc203f7929db1d19c6f",
+  "imports": [
+    "ProbabilityProofBundle"
+  ],
+  "receipt_sha256": "058ea35b9d4ed38965123ca0d05fe590523a5f2f14a9861e9a1525f0a2b4daec",
+  "log_sha256": "0333b1ee479cdd042526ebcd621fd08c6a5a1cd72f71520a4640f44d35d73f76",
+  "printed_axioms": {
+    "CurveballVerified.mapLaw_weighted_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.controlledLaw_succ_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.controlledLaw_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.5,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/ControlledEntropyExecution.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

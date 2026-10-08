@@ -1,0 +1,47 @@
+{
+  "module": "NativeByteTapeLaw",
+  "source_sha256": "6763e508e2410d4a8346e680a6aa0942f2ea1fa5d3b8562f46c3cc5eac3b5bcf",
+  "olean_sha256": "88a7134c2bf53c7b030a0608130cdd30f87d6ab6b17cfd1e5ab20cbe95a1bb68",
+  "imports": [
+    "NativeBatchStatistics",
+    "Init.Data.ByteArray.Lemmas",
+    "Init.Data.UInt.Lemmas"
+  ],
+  "receipt_sha256": "7bd2464e9c7387b7305d133333c9fecd45c620ab628fe889de734370f60c2d80",
+  "log_sha256": "557329503aecb1a8632d6accc36a712b3aa0ee4f12d5247973ceb79776b28e17",
+  "printed_axioms": {
+    "CurveballVerified.byteArray_toList_eq_data": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.decode_byte_vector": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.byteVectorBits_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.bytesBits_bytesFromBlocks": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.uniform_native_byte_tape_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_bytesBits_pushforward": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 9.765,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeByteTapeLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

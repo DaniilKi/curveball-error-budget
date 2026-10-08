@@ -1,0 +1,2926 @@
+{
+  "schema": 1,
+  "status": "publication_documentation_overlay_runtime_profile_unchanged",
+  "files": [
+    {
+      "path": "backend-approval.json",
+      "bytes": 5983,
+      "sha256": "bed682eeacbac69fc896c1f993778d6aa0d69cb885e6de6a5d8128c024e10506"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2009,
+      "sha256": "72651762ba37962e23b5393367949b11fb11a3c195ae27d0d753a285e0fc6ec1"
+    },
+    {
+      "path": "CITATION-v0.1.0.cff",
+      "bytes": 534,
+      "sha256": "64cfc5614bf8f769fbf25594370cd5a5d8197161bb526b3dc58ac492fb8841b4"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 527,
+      "sha256": "1717b47edfd0acabac1d16c0e5bd60e842d3161e6e97ec1505873e285d1abc3c"
+    },
+    {
+      "path": "docs/ASSUMPTIONS.md",
+      "bytes": 4743,
+      "sha256": "d6c011ab4acc7741fb22c416c54d5db70204c1071e7ef3bae36ce5d2b2d6cf58"
+    },
+    {
+      "path": "docs/legacy/OPERATIONS.md",
+      "bytes": 2757,
+      "sha256": "d2d1ca7fbe72cedbc9eec909aefcb060eac65776e56baa5a0245c4c7e95fbb8e"
+    },
+    {
+      "path": "docs/legacy/PROVENANCE.md",
+      "bytes": 2850,
+      "sha256": "9c3a2c09ec6fcaff7d13d123a3c916bc0fd2fd875bdd27ebba29fdf4f77025d2"
+    },
+    {
+      "path": "docs/legacy/THEORY.md",
+      "bytes": 4777,
+      "sha256": "b28732230609a180a2b1acf2462606873bee1eab82cf2a64de1c9809b8d9e247"
+    },
+    {
+      "path": "docs/legacy/THIRD_PARTY.md",
+      "bytes": 1413,
+      "sha256": "07589616ac8a5a515131e6d1a7bdf46c7dcc34a7191c2fda90e384223503b227"
+    },
+    {
+      "path": "docs/legacy/VALIDATION.md",
+      "bytes": 3694,
+      "sha256": "c7e004956b2c1b8fba80a516ad1cc01542721f784001b2d4ddce3b8137fba74a"
+    },
+    {
+      "path": "docs/PERFORMANCE.md",
+      "bytes": 2083,
+      "sha256": "a8370319c82ce41db284238338220557ac82db872db9e4ff6672c6c29b5aa3c6"
+    },
+    {
+      "path": "docs/PUBLICATION_v0.2.0.md",
+      "bytes": 4358,
+      "sha256": "d413b6f2e59e876de84ae3cc7a1bf3ffd650416d3261ad6344809e098417cfc0"
+    },
+    {
+      "path": "docs/REFERENCE_INSTALL.md",
+      "bytes": 3988,
+      "sha256": "0871224f912708d929770e75bccbf1c1b654bd5d6d10b407e5194d5d28e0b8c4"
+    },
+    {
+      "path": "examples/friendships.csv",
+      "bytes": 80,
+      "sha256": "c1980209b9a2b71f50d96ba15c25afa9ebf691723d50276431b1afec644abeeb"
+    },
+    {
+      "path": "examples/native-sampling-six-vertex.request",
+      "bytes": 77,
+      "sha256": "86e03fdc4d064cd57a7a933db7881e2ca50a3406043f34f6a656ab77e87b2e0d"
+    },
+    {
+      "path": "examples/people.txt",
+      "bytes": 50,
+      "sha256": "7e356855619252625c398812cc065632127de661f0c589e23310b361421e1ca0"
+    },
+    {
+      "path": "formalization/lake-manifest.json",
+      "bytes": 3565,
+      "sha256": "2f062b37d81873c44789bde7cc9ee35df560d6e859779af09fb5063967d744cb"
+    },
+    {
+      "path": "formalization/lakefile.toml",
+      "bytes": 294,
+      "sha256": "ad404bcff77a033e31f568018e5cab687d09d2724f3b72032da36d6ffb381500"
+    },
+    {
+      "path": "formalization/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formalization/legacy/CurveballAssurance.lean",
+      "bytes": 6084,
+      "sha256": "f62003c5afe3b49a77f33fcafa2d2d75f204836e4794bcd5c06821419797e525"
+    },
+    {
+      "path": "formalization/legacy/ExactBodyExtraction.lean",
+      "bytes": 921380,
+      "sha256": "d6cc089ca8793bf923427f83d96b7c35f55361a03d6331e221b8cd961dec74b6"
+    },
+    {
+      "path": "formalization/legacy/lake-manifest.json",
+      "bytes": 3689,
+      "sha256": "43c353cae55d9cbe7a85f9e88a2437aab20ff408624e363b3de39d25650ea441"
+    },
+    {
+      "path": "formalization/legacy/lakefile.toml",
+      "bytes": 355,
+      "sha256": "1451fea540e6e8980d0ca7936046cd6ef52abb7131812eb3f487ecbba561035f"
+    },
+    {
+      "path": "formalization/legacy/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "formalization/legacy/provenance/axiom-check.json",
+      "bytes": 1313,
+      "sha256": "8cebadf1a24a8d008555ece3d8b3b175a7327e91c1abc709388ec8a0a2971a8a"
+    },
+    {
+      "path": "formalization/legacy/provenance/exact-body-extraction-map.json",
+      "bytes": 530292,
+      "sha256": "c16ebc653ba4acd77eb1796fca00c82c7e80b8d90434a0f6c40a5ae77aaabaae"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-module-order.json",
+      "bytes": 3862,
+      "sha256": "8f4a61e9d1abf304aa9959795a422aa48d7fdf2a73d7a9562b7bee2d8efc9bbd"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-source-lock.json",
+      "bytes": 65183,
+      "sha256": "36058a44db3e7daa381aeb3958a6dd69ef0e9d30ded2789470d6a5a08adc561d"
+    },
+    {
+      "path": "formalization/legacy/provenance/focused-verification.json",
+      "bytes": 4537,
+      "sha256": "85972f1ebb43fbe427665e96e5e96a125f50d5514e8b627c9e011d058c696e17"
+    },
+    {
+      "path": "formalization/legacy/README.md",
+      "bytes": 3663,
+      "sha256": "ad721a8fd172b641e79ed724eb073ebca5555cce801c925a9f21aedec6e779ef"
+    },
+    {
+      "path": "formalization/legacy/upstream/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ActualTripleSquare.lean",
+      "bytes": 672,
+      "sha256": "bdaa7a751df0774e7f00af7b5b90fad66105e385cd1db46d158da37308cd1fd9"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BalancedBlockVariance.lean",
+      "bytes": 6404,
+      "sha256": "75f29e043b63dcd80180389a72a7d9b0f2a8f380cab93c77babc2de909ac200e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BinaryAssignments.lean",
+      "bytes": 2451,
+      "sha256": "66501f891b8f0f57e49e1e4730b92da036adba1e46e97373581f80cc19279293"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/BinaryColumnPartitions.lean",
+      "bytes": 5809,
+      "sha256": "169cdcd4cb6f29d587cc380a66ea45e2204ca2272714fa429a536072fb4fce08"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CellProjectionTransport.lean",
+      "bytes": 7770,
+      "sha256": "cf7478273ff92e1e522256de44bccf608ec6a9d6d24bbf677d191af45f1a98c7"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountCoupling.lean",
+      "bytes": 9674,
+      "sha256": "0f5aa62f85b9531624df49147bb7cb681b2cfa6903f259444dfc5cf774461478"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountCovering.lean",
+      "bytes": 8952,
+      "sha256": "5ce30f9daffc03dc72b7850047ad26fd1fdd99cc7b1454758c9a5aa09f5c33ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountEigenEquation.lean",
+      "bytes": 4376,
+      "sha256": "f39bdd800cba3688b55552b248177cc4eec9475440fe0d441aa01a85b5dc75ed"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CountEigenvalue.lean",
+      "bytes": 3751,
+      "sha256": "4c56deda7e93e76988612e08c8f6beb0caab8eadc000a29f848c81a3a6fcd202"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellAffineComposition.lean",
+      "bytes": 5238,
+      "sha256": "8ef3312911467872d25fc40b777572694945fe4387c8ef8979c03d37976afa1f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellConditionalExpectation.lean",
+      "bytes": 2453,
+      "sha256": "e8e6a48bb0d0daa759213972025b1ba3a8b6e96cf166220f2259f4fbb947f5ea"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCellMoments.lean",
+      "bytes": 10164,
+      "sha256": "6feabcda1ea00ea2e5a3465a589d82f06a6d29e4a6fc5adb35389fe3359d874f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossCovariance.lean",
+      "bytes": 4751,
+      "sha256": "e860c47dbae2bfe233c8e65de870647ba48cf609e2c2395b865c052a581af565"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossIndependent.lean",
+      "bytes": 9955,
+      "sha256": "1bf19842ae0c2a91c739ef3febbed58ec3455e16b72448c606fd1433cb6fbb02"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossMatrix.lean",
+      "bytes": 2426,
+      "sha256": "840ed656ed02ada5a8771540f37dad04251aa74e1ec2dc59dfc34649ca504ed6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossToggleCells.lean",
+      "bytes": 2811,
+      "sha256": "88fcce3ad0b4f9d5cadc6c8fa1ac6d92c291f679fd2753ff6d3603c10bdcffaa"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossToggleGain.lean",
+      "bytes": 6486,
+      "sha256": "9f24f379ae134607ee194fb052ff51d1a56e1fca74ab9971212a1eae9dbadd6e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/CrossTogglePairs.lean",
+      "bytes": 9971,
+      "sha256": "6be8a12dd2bf80fce4cd29ceafe70249d5a90ba34a7a564c823477f01488be43"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/Definitions.lean",
+      "bytes": 4722,
+      "sha256": "62cd5736b5403852e1102e71a5ef17efe6fc03e80417c625e030b54ffe3b747c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointBoundary.lean",
+      "bytes": 3690,
+      "sha256": "249875416b320014af4dbde2f9ea6324c3dd1f18a8840d27481968a7582df07c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCellCounting.lean",
+      "bytes": 7031,
+      "sha256": "f4bdc3d19c0867d9d999a53067d9bf2331009f91f9bd92e795a78fab980d9afb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCellGlobal.lean",
+      "bytes": 2998,
+      "sha256": "13467de85493d8a801972c7432dee01c210e6926584c76c727d3191a426e993c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCoordinateFeasibility.lean",
+      "bytes": 4591,
+      "sha256": "b497fbf488120f5dc160f73d1b306f1b8f54d5fdfd23671e4b1da494aa43481e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointCrossCellEquiv.lean",
+      "bytes": 7490,
+      "sha256": "eaf8fb663153e9c3acf71160f0a9a1782dc881c26ecad7a7c3e319ac70c08c6f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointEncoding.lean",
+      "bytes": 6279,
+      "sha256": "2f71b4b0644b4f6e6932a335a10a9d98072e403d05725bc76ffe566377c1fde9"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointEqualityFlags.lean",
+      "bytes": 5300,
+      "sha256": "483366d566098d2ae3645aa64b31290f2c23e7e6216a82a4a775262122fdc772"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointFiberCell.lean",
+      "bytes": 2998,
+      "sha256": "d7aeaff25610ca38c658cea26e93173e079d55f101d7ce99d1cd2b81b4ce8c96"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointFiberCoordinates.lean",
+      "bytes": 7982,
+      "sha256": "2f492bfd07e7f8878cdecb40923ce77d5b66513ac775abed7d6ae0484f130d92"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointGraphAffine.lean",
+      "bytes": 5617,
+      "sha256": "ccd69d396b9aaf8969429a9de8888ef3877b9af0412b074e4cc46670ca504d83"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointInternal.lean",
+      "bytes": 2136,
+      "sha256": "24a45d7db395fffe6aa75527240b41093fe4490fa16fe358339fe4be1c273b01"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointProjectionCell.lean",
+      "bytes": 6214,
+      "sha256": "ad076531d00f0e5fe8f92ba5d8e0c2a9601ed59df6418280ff160cc9b6c5e855"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointRealization.lean",
+      "bytes": 9522,
+      "sha256": "e316ea394f16aacf16d302198741d66ee70f3c2afb6324e6349653172634bbcb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointReconstruct.lean",
+      "bytes": 8086,
+      "sha256": "30f6308971a51b0aff62c2bd470306015d7e08ff18cf19335d943ca2d8a1070d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointStateCell.lean",
+      "bytes": 1291,
+      "sha256": "4e3d030daadae63ea1d65e7f4358b427153632629eb7f6959ad5ddf9b95d5a68"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/DisjointStateLaw.lean",
+      "bytes": 8093,
+      "sha256": "6e5d68442b8a34b0d7a22b82adbf77bbf4e1debdb9c00e3e3c11e4714225f52f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/EnergyTransfer.lean",
+      "bytes": 3995,
+      "sha256": "1d7d8cbca36e7b4e6a1fd04b934547dd8d9b840a7c2ba3355272fba7b2c0a14d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiberLabelCounting.lean",
+      "bytes": 4461,
+      "sha256": "0834ea4e09113f824542d3576902a401cdefbe357bf05b7c12292cf8855281ba"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiniteVarianceDecomposition.lean",
+      "bytes": 3721,
+      "sha256": "2c47a1274ad3f86b948d996bcf4bb2e5d704f2b7000137c3fafd90e161c55b77"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FiniteVarianceEuclidean.lean",
+      "bytes": 1916,
+      "sha256": "e822a97f2cda8406d7b318a655c6012963107b04b8e8ec731674e00d249ed10e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockCount.lean",
+      "bytes": 6534,
+      "sha256": "e70838af817fe1aef476a2fbda4801780e0f3d67cd8e1a29b8d7b94f1d117925"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockMarginal.lean",
+      "bytes": 9686,
+      "sha256": "2c1c7f3f82ef036eaa750e0720ef31dce3c8b8ce1c089f1a7ff9daa0f42c65e4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockPartitions.lean",
+      "bytes": 4189,
+      "sha256": "acc9adc6bb7cdbf8f7b1ce5d00cc351fbffbafe0132dd8b6de6866f8a3024793"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FixedBlockVariance.lean",
+      "bytes": 8230,
+      "sha256": "9f649e012c547fed8cce7822f323cf1520ecd82857ce9102930ddeed27f0b8a6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ForcedColumns.lean",
+      "bytes": 9238,
+      "sha256": "5ff9d5135aa92adfd19eea7a60f881b80f303d464afd8ecf9ade6e317536b3fb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FourVertexSwitch.lean",
+      "bytes": 8012,
+      "sha256": "c6e355ef21f68a033a97f0af79bf997986f87782adcf22b598aaa45b8f7ad6f5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FrameSynthesis.lean",
+      "bytes": 6661,
+      "sha256": "abec6e2ef80be8f48fe4361dd8802aad53fcb115a576cd43c33eaa264fe94bdf"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/FrozenRows.lean",
+      "bytes": 4382,
+      "sha256": "03c36830c661fd4fff3fd23a7a277ca4107d76799ffb4f3bba0a219860c5449d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/GramComparison.lean",
+      "bytes": 7553,
+      "sha256": "4d8e6e7a9aa1910149c0b39a8a143427fe3898c2b1ede5c65ca1ca5fa826f666"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/HavelConnectivity.lean",
+      "bytes": 5209,
+      "sha256": "383773079074e1f751c293c6a395eb8dac50c7f63c46fba6aa21658b6834e866"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/HavelInduction.lean",
+      "bytes": 7693,
+      "sha256": "0e40e2bda785143e5bb2484256daf49730deaf96ea39b5d614c610c5f5080722"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/KernelNormalization.lean",
+      "bytes": 2019,
+      "sha256": "c2869bef0fab4d5b0fe11ccc773871249e894d7ff8679cc16f24e79821a1702a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/MatchingCount.lean",
+      "bytes": 6355,
+      "sha256": "a8aac391ecdc71580014fd815139a4a417710f0921f7007f2c7158b6331d84c1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/MatrixRowVariance.lean",
+      "bytes": 4359,
+      "sha256": "c0e4fa05d4383275cd2ecc3ea3c8167141c7ace96e7c61828f9af846c98225ae"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/NeighborAlignment.lean",
+      "bytes": 1768,
+      "sha256": "876093bbe8e96bf8b8ee7c545eebd104dfc4f6ab25c8a822cee1af4a18f37072"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/OrthogonalPairResampling.lean",
+      "bytes": 10549,
+      "sha256": "03e80f02380e3142b99011951cdd7bac1e05e0b98a08dbd7f6d551820390b22e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairActualAffine.lean",
+      "bytes": 3957,
+      "sha256": "81521f5ad99fd0cd2d8c214a7dbec5f5bb365510c69f5d2ffa4342b9d629078c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAffineInteraction.lean",
+      "bytes": 4778,
+      "sha256": "37ebfd5f3d2513521b6ecb88083b38d4fc33cceb5a6e99071b9320ed2455a8a3"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAggregation.lean",
+      "bytes": 7772,
+      "sha256": "bf4436c612d46618a782cb8d1150e32ece55d246f44fef5f9bd8857c183d4b3d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairAssignmentMoves.lean",
+      "bytes": 4517,
+      "sha256": "7f255c22e4f781855443d262f8cddcd67c6a5706784cb221f0c500b253186a9b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairCrossToggleTransport.lean",
+      "bytes": 4187,
+      "sha256": "67bc01983266eb9ab0f8bc60e408ca04ba1f423e245b0353814a293a51e686f4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairDisjointAssembly.lean",
+      "bytes": 3575,
+      "sha256": "7dd67cb22cbab2f0ad7ef9fa8981e1f7399e817dbb6c86e557bfd6af0ddb380e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairDisjointBudget.lean",
+      "bytes": 3154,
+      "sha256": "6bb0632096b8fd8c48d969ff2a11f39979fd5390d10599ae40226b637e28a154"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityBudget.lean",
+      "bytes": 12621,
+      "sha256": "d9cd633ff5c79f8b838b12e4fe7c52b0c69ccc47493e7517a7dc64dd48d042ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityBudgetUnordered.lean",
+      "bytes": 3314,
+      "sha256": "c4834dc1308763f26f570841215aa7f908e867b2976bec9adab42433a8cf323e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityLocalization.lean",
+      "bytes": 4024,
+      "sha256": "b60c26e6d9fd82cdb2a04faeb96aa81df751e4629d4f6c89694ab6c64930e022"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityOrientation.lean",
+      "bytes": 4793,
+      "sha256": "3f78e926ce6b209044f32749f1d63357335d8063799f1e3c877c76c920913e19"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityProjection.lean",
+      "bytes": 8133,
+      "sha256": "c38a28a4abde4aa0baf7e5edcac68cd924ff2594a4b9fe27b04b2942b2cfbed4"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityRestriction.lean",
+      "bytes": 4913,
+      "sha256": "0321af7d7260475cd742194e60d338a62cb8585727596dccb3002016d0d5f236"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualitySlice.lean",
+      "bytes": 5841,
+      "sha256": "24ec4b769ec5074ace82dfafbe88e5560af892b458301ceac4cb6b525d6dfec8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityUnordered.lean",
+      "bytes": 6198,
+      "sha256": "bb8c74e90166fba41772091ca833e7ef57ec41c3dd9028df07eadf5e568e229b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairEqualityUnorderedSum.lean",
+      "bytes": 3005,
+      "sha256": "8f945def26bdb7f305f80ba4d940efd2969eb37e60ef92cbd4a0bea364680d93"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiber.lean",
+      "bytes": 12782,
+      "sha256": "2b4253ac143e383fbc3350019dd9eb8f2749dbf1c832b99e861cbc427a83cbca"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberBridge.lean",
+      "bytes": 4139,
+      "sha256": "38c3e181f707e76c77f8f59da832465d5a2fbac721c66a39ff442bbad92b5415"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberConnectivity.lean",
+      "bytes": 3152,
+      "sha256": "609f18e4371287750cea13d07d8e04375ae66e7b6694a07a7f2ca53ebbe19c19"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberDegree.lean",
+      "bytes": 5056,
+      "sha256": "ff2e90564a85c1f46252e662f917d0b817968ab9bc2918c52a96cb6b170e370a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEnergy.lean",
+      "bytes": 5454,
+      "sha256": "4821101d673b36008c18b91ba74ee087e94187ef2cfec2b4a66a34f2e5d12343"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEqualityTransport.lean",
+      "bytes": 6863,
+      "sha256": "81168b0b88409ae9c9667204d184b50c6173d264df8e255256a4e3e7745bb3ef"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberEquiv.lean",
+      "bytes": 4582,
+      "sha256": "00e8bd86949098685ea79061dfddde7188afd923ed02637c125f24c5a1dc4268"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberOrientation.lean",
+      "bytes": 4828,
+      "sha256": "ea68218a30cc76265eedee974a1ac3d06823fc03d06681e85e6f219f37a0d097"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberRedundancy.lean",
+      "bytes": 2148,
+      "sha256": "94caacc30d3959d68418858cd6e56036d6d7d3f128902c7a9030294c9c743839"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFibers.lean",
+      "bytes": 7614,
+      "sha256": "01ac43bb20ae3ac9cf3b9a1aa19bad449322be37aca2bfcd68873b2b5f37c49f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberSliceComparison.lean",
+      "bytes": 5132,
+      "sha256": "d1d72e2e338d3ce06259798de8be58da77fd628566fb98ea59943be54bfcea9a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairFiberTransport.lean",
+      "bytes": 4482,
+      "sha256": "3f9dae285623a277294f953e3b2cadedbaac8b9a001e6ab2410dc097217efd3d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairGeneratorSquare.lean",
+      "bytes": 3428,
+      "sha256": "e6af454fbb904bb4e82d7e65167fff5e76041e015cc5f122cb92cecf9f07f48b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairOrbit.lean",
+      "bytes": 5438,
+      "sha256": "d3953398f9825470b7940945237cdb801646c39e0a6c0c77cb98905b8406a3bc"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairPoincare.lean",
+      "bytes": 4295,
+      "sha256": "41596276f2825548821dbe0790f0f828955ede902ad063cd71dc6e88c8f38d9f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairProjectionCell.lean",
+      "bytes": 5124,
+      "sha256": "eda9d2531df28af1b186e09e32781bc4e321302bab8ba9c398c5566e4b076959"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairRangeInteraction.lean",
+      "bytes": 1771,
+      "sha256": "a625848e86bdda6e1596ec6bfc95cb9517798d112bf20baba84bece1cb4e5f49"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSquaredEnergy.lean",
+      "bytes": 4265,
+      "sha256": "dade12d536d6fad72f4a17d815f8e13255573e22d1a14be416f262693572ca83"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapFlip.lean",
+      "bytes": 8903,
+      "sha256": "ba0f148fa6bd686944c6030db4721a871af7d2241424299af4d8dfbba96bb8e3"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapFlipProjection.lean",
+      "bytes": 3800,
+      "sha256": "278ef68b221bfc909b949fe39bf5e1e9ce0c0ebbc25443417489dd54c387062b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairSwapInjectivity.lean",
+      "bytes": 2657,
+      "sha256": "bb010b212840603e8015570642d9cd50c86ba33fdf97251f6c898d0cd2f592b5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairTradeSwitch.lean",
+      "bytes": 10537,
+      "sha256": "338c5524bdf0754ee58826da35ff82e5ab3ae0c92313d9653b6703251994bd6d"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PairTripleBridge.lean",
+      "bytes": 3648,
+      "sha256": "66af510d346755fcf6c8a1a86129cb4a03e1bc100a719fec25f5cc001930c770"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationFactors.lean",
+      "bytes": 2778,
+      "sha256": "6ed01342bf6f05b0844b52843d75622494bc12281ca4602c1b69a9d671a0028a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationGenerator.lean",
+      "bytes": 6331,
+      "sha256": "03964eef72a86916e12c7c1b41c5194a1c5edf73e7e014e5f17fb2728c09f5c2"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/PermutationPathComparison.lean",
+      "bytes": 9288,
+      "sha256": "c33a00a3518a84ac46929be8bfafd2641b6630e7081de2a2a31c6c581fd41105"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProjectionRangeInteraction.lean",
+      "bytes": 9613,
+      "sha256": "5a001bed26185f8ced573ecdcabcf78591fb695dda91ed9a5231debe5184702a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProjectionTools.lean",
+      "bytes": 5108,
+      "sha256": "b00d67db35f8b84435b91a0c422d66853c82470d3a67ceb5841ac60ad1714621"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProposalLaplacian.lean",
+      "bytes": 4755,
+      "sha256": "1c9430b833d8e10a84e055236da8c73512cf4078b8003e10ffb0b4bd19d85621"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/ProposalUniqueness.lean",
+      "bytes": 5739,
+      "sha256": "8c689e3c72630b43da3d561caecdc871140ac3dca7ff072fbf7304bf87c91aaf"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/RankOneInteraction.lean",
+      "bytes": 11709,
+      "sha256": "f828884f0ea5224c9909d14ef569cc10ddbbd6f0bacc6b4fede37f884557413f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceActualSynthesis.lean",
+      "bytes": 4919,
+      "sha256": "0e2020a299a35368ebdab02fc34bc584d4a0212114b1372b30e247962f198409"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceBounds.lean",
+      "bytes": 3375,
+      "sha256": "32565eb15330961a06a8a5a3906537339c4265608fd672be0a029e7295ef4ee6"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceCardEncoding.lean",
+      "bytes": 2257,
+      "sha256": "0dae6bc65edd736866c267da6f81589e64632b489180d93a72f3c2f8aa5e0285"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceCoefficientAlgebra.lean",
+      "bytes": 10658,
+      "sha256": "8c8470c6314daa21e4987f53af51d8a03d1445c23f0816f38dcaf2c8cebe7988"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceEquality.lean",
+      "bytes": 7189,
+      "sha256": "689bd84554d48a25cec67b66f0c2a103762c0fb850b688dd397cd582c693e92b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceEuclideanGenerator.lean",
+      "bytes": 4348,
+      "sha256": "5b92614eaa4735a5650e7ddb2701e2bd73a1e790876e461f20e0bfc275ce485f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceFrameProjection.lean",
+      "bytes": 2057,
+      "sha256": "18cb7193fa854470edc998f608e57770288e033cd72aa09b90273473a43c95ce"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGenerator.lean",
+      "bytes": 7846,
+      "sha256": "7694658c3d08069a07eaec3af876f57981e024500c9a14672b5fb7302be1d126"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGeneratorEquality.lean",
+      "bytes": 3093,
+      "sha256": "ebf362238c67a702e841ce0f1e181f1f6a4437e64126711c97f30dc6970ba8f5"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGeneratorSampling.lean",
+      "bytes": 3079,
+      "sha256": "c0ec4f4e7b6b9b784914eaae2e1bf3118e997a0be521cbcd245ad31c50781418"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramAction.lean",
+      "bytes": 5724,
+      "sha256": "88b9a06d856761194c8c193c5fc6e0fdce6c5d0feedd47289574caf162c90663"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramConstant.lean",
+      "bytes": 2650,
+      "sha256": "c8e5aa88d64b5a2d1811ce78b14007a810b12a10ab8257d9059851d029f1512c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramOrbit.lean",
+      "bytes": 3916,
+      "sha256": "e75b7f01405c1f04ecc8a8abf30075194b0e3d1eac3f309f40af166c91675712"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramProfile.lean",
+      "bytes": 4056,
+      "sha256": "e54651483b51357f45fb508cf65c34ae10002229e80f69ef2a19ac7308dad1fd"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceGramScalars.lean",
+      "bytes": 1568,
+      "sha256": "4d8a3d3e01e93502df8223c5afe1fb90b33f20407d02d069aacbf72e7e4621ff"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceImageNorm.lean",
+      "bytes": 10400,
+      "sha256": "4f214fd6296fb80d77d274f880058ad2478508f9bf2815df8e76478de9566b69"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceMoments.lean",
+      "bytes": 17433,
+      "sha256": "9f8776a077ef7794bc00fd43c4b2387e25d9c9bd8ff2a02d904b30bfb6ddd29f"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceNormalizedFamily.lean",
+      "bytes": 7268,
+      "sha256": "527525f5a9fe17c7c913d0ffe286443336ee425cd7f999ab4a9bb446665723e1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceOperatorComparison.lean",
+      "bytes": 7191,
+      "sha256": "335e7d87dff29a446d682a3cf34dcced91cb45176b61928e3fbd83c65159bf22"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SlicePathComparison.lean",
+      "bytes": 4787,
+      "sha256": "ba4f4372e9b463596d62e3777f1682942925f470c27bcbff3f8dbad7ead9204a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SlicePermutationAction.lean",
+      "bytes": 4787,
+      "sha256": "74ad4658f7967e9f4305a2477831fe73c1b918cd393f0a1ce620930071182d5b"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceProjectionComparison.lean",
+      "bytes": 3563,
+      "sha256": "85bc3d03be9a354e154c7cb457c27372d63ac001498805516715011551f62819"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceReindexedComparison.lean",
+      "bytes": 3695,
+      "sha256": "adb01137e58d69d841d010d17d48da560700f2e823ce0244a0a28ab0756491db"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesis.lean",
+      "bytes": 6884,
+      "sha256": "2724af0b60ae91ee8d2885073d431f3fe47b17b83c5d7495a324246e790f627c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesisAction.lean",
+      "bytes": 2682,
+      "sha256": "222a6f545736b234943faf533af00162bcd379c68831340316816e2537514fca"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SliceSynthesisBounds.lean",
+      "bytes": 2305,
+      "sha256": "32bb7cff2159005f06a6b7bb98422598548f6b579935a81a938cf1e6cc0e2030"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SpectralFromSquare.lean",
+      "bytes": 4769,
+      "sha256": "3782cf6883e98c95cab759b88aa174735d62e333ce39fb0e52905f85e7ff21c8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchFlip.lean",
+      "bytes": 11406,
+      "sha256": "ccd1d97d770082e61f0ca08b4a734718f69ed88496a2681824b795c81d29710a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchFoundations.lean",
+      "bytes": 7307,
+      "sha256": "f20919edc9152cf689a86607879096588f6b6476fa04bf8f43ad3fbd6f18df4c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchInFiber.lean",
+      "bytes": 2296,
+      "sha256": "eb2745947d421c560d344c531bf92d7b9d22148ab9a7d0271f95ac23fcbb1e55"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchLaplacian.lean",
+      "bytes": 3830,
+      "sha256": "ab226af72ef76387b10880833e962957d7886c76d2bfeeb5dca9ada9f3a97e4e"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchMultiplicity.lean",
+      "bytes": 4861,
+      "sha256": "ebc092deb9843180f64be8be2199113c51d97f4266da0c740353dc37c123e087"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchPairFiber.lean",
+      "bytes": 7074,
+      "sha256": "0c2cbfab5dc18f86ffa440621959eeea370793001fb5c9712bb0a26ba0f2e435"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/SwitchWitness.lean",
+      "bytes": 6818,
+      "sha256": "e97a8c6e7502ee98b58807c107c012c5967ed248afb428916572bb2758955820"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TransitiveAverage.lean",
+      "bytes": 2179,
+      "sha256": "88e6e86c49806e1284da73e188a0553fbb7781289d7f2cb069b0540ea4d60bed"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleActualRowBound.lean",
+      "bytes": 8200,
+      "sha256": "01f7688757b8af1b346be5e90c73b67aafb162238d59c1a9bc4544cc3ce5aa15"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCellTransport.lean",
+      "bytes": 11265,
+      "sha256": "acac92fb10ca64bf8713f2fd6e2f8ac4f3aaa28e14d93389d6842bba42fceb7c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCellVarianceGluing.lean",
+      "bytes": 8102,
+      "sha256": "7b453c87a2b19ee3c44fa533650aa60508d5c3a418c5d905be2d27e492ee9be1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountEigenvalue.lean",
+      "bytes": 1639,
+      "sha256": "312d646386e4c1268fd42c065fdb9228f70b64d6cb918b5b653e68bd1c57823a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountGram.lean",
+      "bytes": 6586,
+      "sha256": "87e43d372f4b08767b5967362dd55a27acfbd2f9e0ad4574d5ed52a43756b782"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleCountLaw.lean",
+      "bytes": 8275,
+      "sha256": "5241966dafdc5a55a39d48f098417ab80d1fdbd1f32de9a2ca49bc685bd45f8a"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleGraphEncoding.lean",
+      "bytes": 5458,
+      "sha256": "39554df5f43e38764a5b76c274c1a11395e6c202e96f8e129e1a4c5a533b9597"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleInternalEncoding.lean",
+      "bytes": 12153,
+      "sha256": "ea6ac3883d7e9168ee45f4e15e358ee4bd808ee7e2458eb990ed1a9ef21b8fa7"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleMatrixEncoding.lean",
+      "bytes": 5743,
+      "sha256": "79d2a68e5bb7f27ac530c254ee5eed76de7504c0739940e6d44ece892a4b4fa8"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleMatrixFinEquiv.lean",
+      "bytes": 3160,
+      "sha256": "5c6db515b55c2cdd2369b98a3855ad679c89d0071d78765055314d4a0ab1f70c"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TriplePairFiber.lean",
+      "bytes": 11596,
+      "sha256": "f57767d6300fdc2b5aa22f63115db87928e52bab2306a2764af3947e2ef25670"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleProjectionBridge.lean",
+      "bytes": 2920,
+      "sha256": "433d4a51d1b3ef3235c2fb43573919f8972925ad6366763b366ad47bfe50c183"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/TripleStateReindex.lean",
+      "bytes": 5225,
+      "sha256": "bd29eb2e0f44761c784d37fbff689e473d1474350b061204f1bd3a0ba5b15f98"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/UnorderedPairSums.lean",
+      "bytes": 2379,
+      "sha256": "fc230126733dfc65a26415baf02e3486665c065f6f2e15929afc8509480c13f1"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/VariableBlockVariance.lean",
+      "bytes": 6871,
+      "sha256": "63dc0478db3a27ad81e491f4fcf063f992870e621c9a367fb2c1af178cf8abfb"
+    },
+    {
+      "path": "formalization/legacy/upstream/OAI/Probability/SwitchChain/WeightedConditionalVariance.lean",
+      "bytes": 13170,
+      "sha256": "aefd612fe02c3e76ce336ea080112c495276c4eee0c0a7a4da5091893b999196"
+    },
+    {
+      "path": "formalization/legacy/verify_sources.py",
+      "bytes": 2131,
+      "sha256": "e78d60a80c77acb91bd03bba4b1bce69331d3b439b800a5ddb54fd7d66eb8b4d"
+    },
+    {
+      "path": "formalization/local-prefix/NativeEntropy.lean",
+      "bytes": 1850,
+      "sha256": "30a59de5d4b04311d0fe4896835c94e495bb983c6d73c34c8fee7e35be5aa149"
+    },
+    {
+      "path": "formalization/local-prefix/NativeEntropyPrefixProof.lean",
+      "bytes": 2528,
+      "sha256": "91a6b5b1f1ddf8f56c63b080a1fcbb3242d3e7c600c5771538f647380b00e3dd"
+    },
+    {
+      "path": "formalization/local-prefix/status.json",
+      "bytes": 984,
+      "sha256": "0a0a57a50cf1d10513b0b3a7cf73b909bec7a5be74b57e7a44b65abbba555d9d"
+    },
+    {
+      "path": "formalization/pending-prefix/README.md",
+      "bytes": 210,
+      "sha256": "38ef8f763ab83f8be87281c135a76cf14c949a9ba8d0683d1a7665ee862a3692"
+    },
+    {
+      "path": "formalization/proof/AnalyticConnectivity.lean",
+      "bytes": 47650,
+      "sha256": "ecea50731ef0d58de4a71f133c6a6ee5e8dfc030d9adfde07d2d40669663423a"
+    },
+    {
+      "path": "formalization/proof/AnalyticCountVariance.lean",
+      "bytes": 62175,
+      "sha256": "b279860f83835074b3a93f0c410247fd9b48e8a3d28994890fe41ae046b8853c"
+    },
+    {
+      "path": "formalization/proof/AnalyticCrossCell.lean",
+      "bytes": 85338,
+      "sha256": "27d9e3449c9e0e0cbf37d7ff6b97a9d0f6bbaf4460b7b2db8224fef73ce19304"
+    },
+    {
+      "path": "formalization/proof/AnalyticCrossToggle.lean",
+      "bytes": 68578,
+      "sha256": "f7cd3f7d7fdd91fbd20d43b80d6e6370793e8fea1eab649c1a284a2b96eb2089"
+    },
+    {
+      "path": "formalization/proof/AnalyticDisjointEncoding.lean",
+      "bytes": 72894,
+      "sha256": "79fc9322db6e69b31a035d3e1e97dd69e7d702f463b955bc413cb1c87672b568"
+    },
+    {
+      "path": "formalization/proof/AnalyticEncoding.lean",
+      "bytes": 82394,
+      "sha256": "e26a07bfab4585fc318fa2425878e2af9f72de7bbcd23d89b3b98bbe10f331b7"
+    },
+    {
+      "path": "formalization/proof/AnalyticGeneratorSquare.lean",
+      "bytes": 30076,
+      "sha256": "382faf716cbbd3cc7b210f0dfbfd46e8b835918ac809f15c14470dee56ede991"
+    },
+    {
+      "path": "formalization/proof/AnalyticMatrixVariance.lean",
+      "bytes": 57146,
+      "sha256": "7abcf72f2e64b70083715b4df0fecd4b257b4679128ff353634978f884693b36"
+    },
+    {
+      "path": "formalization/proof/AnalyticPrelude.lean",
+      "bytes": 866,
+      "sha256": "fb58766a44bdd8940a89254cf4868048427c64c96afa853cf6a01c2043d4fe2d"
+    },
+    {
+      "path": "formalization/proof/AnalyticSliceProjection.lean",
+      "bytes": 55243,
+      "sha256": "62bcfbf8254acbda7ae785dd6cde23b8f215aa799613f6aa45d8deef67a31f61"
+    },
+    {
+      "path": "formalization/proof/AnalyticSliceSynthesis.lean",
+      "bytes": 63233,
+      "sha256": "5f0b2bd12abd2af5bd7ee8798815ea322ac06aa9276651c5749a1c7a5edc1e75"
+    },
+    {
+      "path": "formalization/proof/AnalyticSliceTransport.lean",
+      "bytes": 98594,
+      "sha256": "e0a7c876ea5d3d0b42ca490719dfd8efda8393055b59bbf1854b3004da83f6ca"
+    },
+    {
+      "path": "formalization/proof/AnalyticSwitchEnergy.lean",
+      "bytes": 42241,
+      "sha256": "ada66ae2723b49be7668905b2a3a59e46c8eec83c478b3283a7c84fb941b885f"
+    },
+    {
+      "path": "formalization/proof/AnalyticTripleProjection.lean",
+      "bytes": 40825,
+      "sha256": "d39f04ccb55b24d06261be29dca9b5a614e5489429f432c79fc1b56e06141292"
+    },
+    {
+      "path": "formalization/proof/AnalyticUnorderedBudget.lean",
+      "bytes": 52368,
+      "sha256": "bb6f18e560745abc9b6b55ced5aa7c73721badbb50d9210b01bdb3973d5c9a00"
+    },
+    {
+      "path": "formalization/proof/BatchOperations.lean",
+      "bytes": 3891,
+      "sha256": "e54822c8e39c3bed9386990f5d29d94a97466a7316be0656bb74e0f2bab122c4"
+    },
+    {
+      "path": "formalization/proof/BudgetCoreLite.lean",
+      "bytes": 4157,
+      "sha256": "c0f241d2d111b06ab9509f511287c61fea41441688e5e93ca2b1e92cdb2e0f0e"
+    },
+    {
+      "path": "formalization/proof/CanonicalGraphLite.lean",
+      "bytes": 6541,
+      "sha256": "b6c64de17b011dc34056b166ce8900aab7fff90b060bab922a12754177ec88c3"
+    },
+    {
+      "path": "formalization/proof/CertifiedScheduleLite.lean",
+      "bytes": 2242,
+      "sha256": "095233cad28231e2d0cf473e1af2a6bb2ed4951dde5b1d543eacca78fc06e611"
+    },
+    {
+      "path": "formalization/proof/ConditionalProbability.lean",
+      "bytes": 2284,
+      "sha256": "18ed87ecf67a0890baf533625ce16dcb3dcbbc0a9e6e915c34c41348760b8ff1"
+    },
+    {
+      "path": "formalization/proof/ControlledEntropyExecution.lean",
+      "bytes": 5295,
+      "sha256": "042e2b85ad9fb5c48e0999b4b99fa21d572f1e7cc632bda080aeca2313a11059"
+    },
+    {
+      "path": "formalization/proof/CurveballKernelLaw.lean",
+      "bytes": 3825,
+      "sha256": "e4285be10948b7cf467eb2627fd0739d79484fb9ddd3cfe587d546f0905af616"
+    },
+    {
+      "path": "formalization/proof/CurveballTransitionCore.lean",
+      "bytes": 620,
+      "sha256": "00d55c40dca27337808806676f66322dff70c887bf4b3cd6f0133fd4808a203f"
+    },
+    {
+      "path": "formalization/proof/CurveballTVLite.lean",
+      "bytes": 5709,
+      "sha256": "6e9e910c0bd1b4172dd4f4462d39b33803734a9272711d6d0fcbfdc7218b05e1"
+    },
+    {
+      "path": "formalization/proof/ExactBodyExtractionLite.lean",
+      "bytes": 5877,
+      "sha256": "6679c7dcf3758ee1799245672eb6e0621c30e2ee5c0f26859d7fbf30cddd2e9a"
+    },
+    {
+      "path": "formalization/proof/FiniteCurveballKernel.lean",
+      "bytes": 1998,
+      "sha256": "59d5a16b1f8206ee1ffb507c22a7e45ef1c054aa9a8f9482190cce0efefd7def"
+    },
+    {
+      "path": "formalization/proof/FiniteLawMapping.lean",
+      "bytes": 1820,
+      "sha256": "76a38b40f9043123bc3278a853ef41f2eed53bf1d1a3cba459dd3a3e5699675d"
+    },
+    {
+      "path": "formalization/proof/FiniteProbability.lean",
+      "bytes": 4907,
+      "sha256": "c6dc514094b6696d41c1615261b85026e9b1fe02b512a6a052ada86311f2e336"
+    },
+    {
+      "path": "formalization/proof/FiniteTapeLaw.lean",
+      "bytes": 6132,
+      "sha256": "c63379d9aa4d84ddae1460e70ac98f014a9038f7b438fefa8cf6f98b60c60488"
+    },
+    {
+      "path": "formalization/proof/GenericTVLite.lean",
+      "bytes": 8569,
+      "sha256": "30db7e0c4fb50d686c08bf480b0d9248e492763d22ebe179f45e9f4398dde39a"
+    },
+    {
+      "path": "formalization/proof/GraphFiberOnly.lean",
+      "bytes": 5037,
+      "sha256": "c0d701fe22478d76bed8ec7caabda4e24f723d6290b3a05a1acc07929358f7fc"
+    },
+    {
+      "path": "formalization/proof/GraphStructureOnly.lean",
+      "bytes": 23929,
+      "sha256": "518eec3f8e46569a670bab2829e6b6b23117d84f68899060a5a622b3d1a2b178"
+    },
+    {
+      "path": "formalization/proof/IIDRank.lean",
+      "bytes": 1989,
+      "sha256": "dc5bb3f2a69686303f3449aeab34a7fb4befaadb496cfb216338ef1ea5b48cad"
+    },
+    {
+      "path": "formalization/proof/NatFinSubsets.lean",
+      "bytes": 5304,
+      "sha256": "708edcc1f7ca6f8c176c852a89c9b0d9d23d6f29ddaa97c90568de76d173c81c"
+    },
+    {
+      "path": "formalization/proof/NativeArithmetic.lean",
+      "bytes": 918,
+      "sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d"
+    },
+    {
+      "path": "formalization/proof/NativeBatchLaw.lean",
+      "bytes": 5186,
+      "sha256": "7dc822747d8b37a492ef94d9096c823cf7311c29a5c4c2bd890e3521f99f1eb4"
+    },
+    {
+      "path": "formalization/proof/NativeBatchObserverJoins.lean",
+      "bytes": 5842,
+      "sha256": "52664f722e9b9bec0d16c0a4b4d75cc032edc814d060f44388b1b3185afbf2b1"
+    },
+    {
+      "path": "formalization/proof/NativeBatchStatistics.lean",
+      "bytes": 4562,
+      "sha256": "9b70ef0807ffcfbe0c281493b801d1ed5e87b2a1b7fa019a5c704278b466a660"
+    },
+    {
+      "path": "formalization/proof/NativeByteBatchLaw.lean",
+      "bytes": 2236,
+      "sha256": "c033b0382ae94f1b377109b9afa989f766470b7b11fef5d64725fedc13cfb559"
+    },
+    {
+      "path": "formalization/proof/NativeByteTapeLaw.lean",
+      "bytes": 5145,
+      "sha256": "6763e508e2410d4a8346e680a6aa0942f2ea1fa5d3b8562f46c3cc5eac3b5bcf"
+    },
+    {
+      "path": "formalization/proof/NativeCanonicalCounting.lean",
+      "bytes": 3436,
+      "sha256": "8ee035b4b54245c5134869257b5258ea7a82a4ba5f3782391a70d9b6d7d2f951"
+    },
+    {
+      "path": "formalization/proof/NativeCardinality.lean",
+      "bytes": 3482,
+      "sha256": "272d80b6b93e83b4ebcd68228d0157e6d7ab53550d4168dab381c588013079fc"
+    },
+    {
+      "path": "formalization/proof/NativeChecks.lean",
+      "bytes": 1916,
+      "sha256": "f7934b27a79bf0e6ed899c80611d9cd4409b2e92e37e3e9a83b1eac0c5cdb814"
+    },
+    {
+      "path": "formalization/proof/NativeConcreteExecution.lean",
+      "bytes": 6362,
+      "sha256": "7e4b7c4abcc16fbf41688695f4109aa733b08dc59644bd06765849a07a557b14"
+    },
+    {
+      "path": "formalization/proof/NativeDecoderIntegration.lean",
+      "bytes": 6308,
+      "sha256": "62740b422a9b1812958edd8b28a5bbc58f510875072a5384879f6d3f9089ae5d"
+    },
+    {
+      "path": "formalization/proof/NativeDrawAllocationPrefix.lean",
+      "bytes": 4614,
+      "sha256": "ec1638493b1b6ea1b71903ddd73df0feb08bfc4fd064d388c7bd6224b4433baa"
+    },
+    {
+      "path": "formalization/proof/NativeDrawRow.lean",
+      "bytes": 8049,
+      "sha256": "d6a189d1fde3cd06187cd13a15c1b6c987d9758e24371a8628349ba9170a6c65"
+    },
+    {
+      "path": "formalization/proof/NativeEntropy.lean",
+      "bytes": 1604,
+      "sha256": "50a27c32f87dbc09910eb37d65e7ff2fb247104d7201e7d14d34fa5673e59afa"
+    },
+    {
+      "path": "formalization/proof/NativeEntropyPrefixTransfer.lean",
+      "bytes": 2241,
+      "sha256": "7e3f112b0e266050f1bb5b3f912a59e980edf87230790a9a710f0bff2fca2e25"
+    },
+    {
+      "path": "formalization/proof/NativeEntropyProof.lean",
+      "bytes": 4178,
+      "sha256": "92622d51ee15e5930efa5f21c89899126a3572598656df18702aa6d176f86c28"
+    },
+    {
+      "path": "formalization/proof/NativeFinalAudit.lean",
+      "bytes": 1976,
+      "sha256": "fe897e882314eef02b60db761d056974cd6e7811a39bc8f5873908f432ca628a"
+    },
+    {
+      "path": "formalization/proof/NativeGeneratedTraceLaw.lean",
+      "bytes": 5684,
+      "sha256": "7d9e01bf119f025dba45b8e911339dd3518e89d92a2c7397130eac96c356f87e"
+    },
+    {
+      "path": "formalization/proof/NativeGenerationFraming.lean",
+      "bytes": 4130,
+      "sha256": "d9d7430df1f1c8f5e2ef486333ecae344e4b31d1868a4c2bd716eda1457cb38e"
+    },
+    {
+      "path": "formalization/proof/NativeGraph.lean",
+      "bytes": 2447,
+      "sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014"
+    },
+    {
+      "path": "formalization/proof/NativeGraphCapacity.lean",
+      "bytes": 4770,
+      "sha256": "5f82b2e013eb13ce8165b2a13fe4c28c9e2e7c16fb9ae3486d414e7a4c0d382e"
+    },
+    {
+      "path": "formalization/proof/NativeGraphProof.lean",
+      "bytes": 3441,
+      "sha256": "42a19ef463b78f0bb90e78afc19d32996633a7789a0326c3639c739af69b8353"
+    },
+    {
+      "path": "formalization/proof/NativeGuardCapacity.lean",
+      "bytes": 1732,
+      "sha256": "7e8e392265723eb91c85104d401a1bc81230d2b4d1defabbd6e9b63d38f795bb"
+    },
+    {
+      "path": "formalization/proof/NativeInference.lean",
+      "bytes": 2077,
+      "sha256": "cb4331fa58c27002e2b82e66d53e77db11e4762b91634b54d8961c1500340e09"
+    },
+    {
+      "path": "formalization/proof/NativeJointDomination.lean",
+      "bytes": 3667,
+      "sha256": "24888a4a98d6ab137c33824a504620bfc2a7450b1b3cd6df927d37b9cc28ab31"
+    },
+    {
+      "path": "formalization/proof/NativeModelGraphJoins.lean",
+      "bytes": 3984,
+      "sha256": "15c6b5278bec0e42c1e4d812987356e8f3a8a60876ce154474a4f9dce31871b4"
+    },
+    {
+      "path": "formalization/proof/NativeOneChainLaw.lean",
+      "bytes": 3474,
+      "sha256": "e9d1505289778219e14a5c139d5c0f2165403700b937640e3497e2d6a12d653e"
+    },
+    {
+      "path": "formalization/proof/NativePairFin.lean",
+      "bytes": 3628,
+      "sha256": "21dd339e4257e0717372367bdb14778dcfac6273179d5e8fdb247bb32388b338"
+    },
+    {
+      "path": "formalization/proof/NativePairLaw.lean",
+      "bytes": 4058,
+      "sha256": "00061cea4b798abb58c16e3c80772b262de67f9f75c1f7bd5cbb003b32b940c0"
+    },
+    {
+      "path": "formalization/proof/NativePlanJoins.lean",
+      "bytes": 2497,
+      "sha256": "6887c34b8f5e9d2800d21c4f88eb7b210281badbcd04dfdacc0acfa510acc1fa"
+    },
+    {
+      "path": "formalization/proof/NativePrefixInference.lean",
+      "bytes": 2727,
+      "sha256": "20ddc5d9aae4fad011e89d9c7d9b89b35c9ea0edd7251b43f357038ef2cef1b8"
+    },
+    {
+      "path": "formalization/proof/NativeRankCounting.lean",
+      "bytes": 3063,
+      "sha256": "c72d4aa1c92c1a3b0594c94c154449e2b92c7dbb96fa39f137ad32a6bc92b4ba"
+    },
+    {
+      "path": "formalization/proof/NativeRankKernel.lean",
+      "bytes": 7765,
+      "sha256": "475a0c912149390b3ea2b346d9ed69fe9aae63afc55a452820576895b0fb65ee"
+    },
+    {
+      "path": "formalization/proof/NativeReplay.lean",
+      "bytes": 1216,
+      "sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3"
+    },
+    {
+      "path": "formalization/proof/NativeReplayProof.lean",
+      "bytes": 2306,
+      "sha256": "a4226473dd460257f2bd3f0fc75edf49e16635bdfaaa0b679c55f2324131b382"
+    },
+    {
+      "path": "formalization/proof/NativeRequestCapacity.lean",
+      "bytes": 3841,
+      "sha256": "996e8bcb72534b8c0362ee0c40e4d946315ad716cc53c9d150fe58b5ef809f7c"
+    },
+    {
+      "path": "formalization/proof/NativeRequestInference.lean",
+      "bytes": 3315,
+      "sha256": "1e34fe15bcf784408daa059231986be59e62053438c9d7b5e970051923236ee4"
+    },
+    {
+      "path": "formalization/proof/NativeReservedObservation.lean",
+      "bytes": 1173,
+      "sha256": "a17a6166e35e3cff18fba02e2360d1e9125a1b156377c50490ff7da6d7072c96"
+    },
+    {
+      "path": "formalization/proof/NativeRuntimePrefixTransfer.lean",
+      "bytes": 5928,
+      "sha256": "2a38a7525a1ab47d6da496a3373888f2b06e0967b5bf020af84c39595d6443bb"
+    },
+    {
+      "path": "formalization/proof/NativeRuntimeRejection.lean",
+      "bytes": 5590,
+      "sha256": "d1a4540fe27c717dd95ea4cc7509239f45d42d8392fb99359d2519cbc3b0f7d2"
+    },
+    {
+      "path": "formalization/proof/NativeSamplingBoundary.lean",
+      "bytes": 17299,
+      "sha256": "8c45ac81103b5c0b796869e8c18775004ada7875600456c68bb4b1a7a3b35f67"
+    },
+    {
+      "path": "formalization/proof/NativeSamplingByteInference.lean",
+      "bytes": 2537,
+      "sha256": "0238de69b2c133bbd19d352de9a7c895fb0d4623f966dff61cfca8dff61a9df3"
+    },
+    {
+      "path": "formalization/proof/NativeSamplingInference.lean",
+      "bytes": 4630,
+      "sha256": "f141ca5fdd3eaec16ed6bb076cd45ff8a75a92804b56c91d8d5d575fca69f11e"
+    },
+    {
+      "path": "formalization/proof/NativeSamplingProtocol.lean",
+      "bytes": 7479,
+      "sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+    },
+    {
+      "path": "formalization/proof/NativeSubset.lean",
+      "bytes": 718,
+      "sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff"
+    },
+    {
+      "path": "formalization/proof/NativeSubsetCapacity.lean",
+      "bytes": 1367,
+      "sha256": "c4140aae18876785602092047a8eaee532d279443c432f5a7ec0bcd78058c13a"
+    },
+    {
+      "path": "formalization/proof/NativeSubsetRow.lean",
+      "bytes": 4407,
+      "sha256": "4993cefcc07273489b2f943cad29af4d7c248b84f6e863483bb8878faad762f1"
+    },
+    {
+      "path": "formalization/proof/NativeSuccess.lean",
+      "bytes": 2142,
+      "sha256": "872e0135eca0c6224a9780b4d1f4d85c3ffcc256e3a24914ef71aa4f3693d01f"
+    },
+    {
+      "path": "formalization/proof/NativeTradeRefinement.lean",
+      "bytes": 6461,
+      "sha256": "98f5ef8b43312ce0d48d21e1fce71b10ca11c1134d5177d0222b5ad1caf851e8"
+    },
+    {
+      "path": "formalization/proof/NativeTriangles.lean",
+      "bytes": 1467,
+      "sha256": "25e5917a2ec3c6408ab143aa2220cd2c7cc3aae0731117e33efbe7971a26e6d1"
+    },
+    {
+      "path": "formalization/proof/PairFiberFiniteBridge.lean",
+      "bytes": 3622,
+      "sha256": "292379f9cd4289cb420ae3ed4b964f6b3913fa04e449ad1fe0b636fa9ac5d3ab"
+    },
+    {
+      "path": "formalization/proof/PairResamplingFinite.lean",
+      "bytes": 3804,
+      "sha256": "d2d9c96e3c1b94751606cb566c1b90678c5fb722d92c740eb60a715a248c6dbf"
+    },
+    {
+      "path": "formalization/proof/PartialIndependentBatch.lean",
+      "bytes": 3618,
+      "sha256": "e8dbe91b13a92f5bcc0dcea75eb34bec3e2fe30a03a596accbfb46c4cc296275"
+    },
+    {
+      "path": "formalization/proof/PartialTapeBind.lean",
+      "bytes": 2475,
+      "sha256": "6c95798d50c32c73b566b4bba843d1c7336bf42f5fba72db02186c8529d363cf"
+    },
+    {
+      "path": "formalization/proof/ProbabilityProofBundle.lean",
+      "bytes": 33231,
+      "sha256": "8fbf54612b308549c11e276ecac2e2b5854c0a5d129f06bb1ec20be7e141138b"
+    },
+    {
+      "path": "formalization/proof/RandomBits.lean",
+      "bytes": 3330,
+      "sha256": "ac58b09b02c53b5ad62d5da0be6cf89ecf2d4f3b0fe5ec233232fde98dfbc7b4"
+    },
+    {
+      "path": "formalization/proof/RankCounting.lean",
+      "bytes": 3363,
+      "sha256": "b2e950af45a041f9ebfbad9453b736963c63f4d3d307b96f989da8cae33c0aa3"
+    },
+    {
+      "path": "formalization/proof/ReservedBitTape.lean",
+      "bytes": 4530,
+      "sha256": "87567c8ae0804ac55379ad00e63d4959f2c4e0798c2fa5a390e3036c7b0ff899"
+    },
+    {
+      "path": "formalization/proof/StateCountLite.lean",
+      "bytes": 1868,
+      "sha256": "90fda95c9390c17b94fad3eba513c03b7f589fa8a4f73cce1766848066687bee"
+    },
+    {
+      "path": "formalization/proof-status.json",
+      "bytes": 827,
+      "sha256": "08af21b7b992ceff9e51553ff3289fadd1e7d5c7367d227be274a8e745c2b50e"
+    },
+    {
+      "path": "formalization/provenance/final-root.log",
+      "bytes": 5171,
+      "sha256": "ab08e0ff1d94ecb6fde39c2bc7d1723856f42a80d192f8dc6b991b1224e7c730"
+    },
+    {
+      "path": "formalization/provenance/frozen-proof-ledger.json",
+      "bytes": 139492,
+      "sha256": "ac7421e9cec18e4187226711f5b473360e3a15c508b78a64fca76727e99c5970"
+    },
+    {
+      "path": "formalization/provenance/prefix-proof-ledger.json",
+      "bytes": 127335,
+      "sha256": "c3330cc98a085178dd01c5f7f9cdaa4f1295dcd73c2e7673fec353ddf7fe3b13"
+    },
+    {
+      "path": "formalization/provenance/prefix-root.log",
+      "bytes": 556,
+      "sha256": "46cbbf2ebc97409b278707d4a23ed3a73698aa1b83d06a8742d19a5e594f9029"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticConnectivity.json",
+      "bytes": 761,
+      "sha256": "d0c0f9f63af5381c9feae06d8a49ba2081c7d81d5cad25d20d31daea3a1e933a"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticCountVariance.json",
+      "bytes": 755,
+      "sha256": "e6d775e828732713d3c3067c406e8aa662da33bd2be9d127293bf7f36f87b54b"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticCrossCell.json",
+      "bytes": 755,
+      "sha256": "61180ebdb4cb4d8cba37d7faaec5c392f493e634c91be3856b6038096c938887"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticCrossToggle.json",
+      "bytes": 755,
+      "sha256": "38681b8532f77ac45f36f3b2ec51a2c4a0ee6e4ee4a0dcb2aff96d35278327d1"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticDisjointEncoding.json",
+      "bytes": 764,
+      "sha256": "6f34a6f882e923f94a4932267f5332074657e0c89a92c23f32e26acc7eba3b97"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticEncoding.json",
+      "bytes": 744,
+      "sha256": "6b9fc7cb03a906aee29e263113a9fdf0f6216ca330c59ec853546aa7c60cd6a0"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticGeneratorSquare.json",
+      "bytes": 763,
+      "sha256": "e8359a689d1370b208f810fcdb7e6f509e040ee1d749f8c4b74a842821de4205"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticMatrixVariance.json",
+      "bytes": 762,
+      "sha256": "dd82f0eb58a68d844391ad8ceb7f9f71240c39f74bbe9e8a976e26ebb87c57e5"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticPrelude.json",
+      "bytes": 1604,
+      "sha256": "68332299fe7b0fdb8bafbe2fc6f32261fdd8f3868104439f12fce3898a5e724c"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticSliceProjection.json",
+      "bytes": 764,
+      "sha256": "957601bc2e6e55796e906d061eb101ab58a78abe85f38a635feca9b10a4438f9"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticSliceSynthesis.json",
+      "bytes": 763,
+      "sha256": "2f4278078ec2cf206894f520ccb9be8ed1904a108c027589f143658c9c3b0896"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticSliceTransport.json",
+      "bytes": 757,
+      "sha256": "a6c7b82926f83c68af46f0257eb4e8247370b2b7ef2790aa854371966c4d59e5"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticSwitchEnergy.json",
+      "bytes": 760,
+      "sha256": "5192e2e77dc0a22a604530f1d3ba7f7c86deddf83ff1af47f9a2bfce6a6461ea"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticTripleProjection.json",
+      "bytes": 767,
+      "sha256": "68ba0fdfc0d39b2e8fa90fdea170b5ee17bb052fa446460820a92e256a5e5bde"
+    },
+    {
+      "path": "formalization/provenance/receipts/AnalyticUnorderedBudget.json",
+      "bytes": 766,
+      "sha256": "6654088ae5f12522bd77e0ba6f9f70586441a69f3e4583e802164ddad801ade8"
+    },
+    {
+      "path": "formalization/provenance/receipts/BatchOperations.json",
+      "bytes": 1345,
+      "sha256": "876e994d334ed83e19d8f8adb064ab628f54adad2f346d7e0a755f26abc50744"
+    },
+    {
+      "path": "formalization/provenance/receipts/BudgetCoreLite.json",
+      "bytes": 1429,
+      "sha256": "5ca1cc86399975b14d6477b99b3a5816a551470087424ef48f1ed8682fc5bf41"
+    },
+    {
+      "path": "formalization/provenance/receipts/CanonicalGraphLite.json",
+      "bytes": 1207,
+      "sha256": "d46de0cf3de7f9f69ff2fbb0c19f98bdc0a43a5e1d36c08044954bfd67e0b668"
+    },
+    {
+      "path": "formalization/provenance/receipts/CertifiedScheduleLite.json",
+      "bytes": 1048,
+      "sha256": "1137db31411a2d693da9c498d1f14275c4620d0cdad2df78809a00a241911c5b"
+    },
+    {
+      "path": "formalization/provenance/receipts/ConditionalProbability.json",
+      "bytes": 1216,
+      "sha256": "902ea5fe7ac3135b04b73c33245ada29394c89e28c5bf67522f4730d6060e2db"
+    },
+    {
+      "path": "formalization/provenance/receipts/ControlledEntropyExecution.json",
+      "bytes": 1143,
+      "sha256": "8949fce0aa960945d249cbe0aa76885516f49e83cad1a6d843cc0ddbdaad1d23"
+    },
+    {
+      "path": "formalization/provenance/receipts/CurveballKernelLaw.json",
+      "bytes": 1310,
+      "sha256": "bd80418e9ec0285db75bbd5fda0afb410526703d0c65356960abbe89e3a95f0b"
+    },
+    {
+      "path": "formalization/provenance/receipts/CurveballTransitionCore.json",
+      "bytes": 794,
+      "sha256": "dac84a9559a1b54aba7e7146db37dd3e4df7b3a6f302f672833f09da41f3003e"
+    },
+    {
+      "path": "formalization/provenance/receipts/CurveballTVLite.json",
+      "bytes": 1492,
+      "sha256": "5a2fdb487de4b3757f3332ad38860d94ddcfbcd8166dc0ba4819019de8b07174"
+    },
+    {
+      "path": "formalization/provenance/receipts/ExactBodyExtractionLite.json",
+      "bytes": 1440,
+      "sha256": "8ff1e23bb8752a417851533cb4e75f240ba32a22664361806ebba438b54573c4"
+    },
+    {
+      "path": "formalization/provenance/receipts/FiniteCurveballKernel.json",
+      "bytes": 1041,
+      "sha256": "fc324e16168066c3f3301b1fec5b55ba195dcce635a53e78e54d84e272396d87"
+    },
+    {
+      "path": "formalization/provenance/receipts/FiniteLawMapping.json",
+      "bytes": 1208,
+      "sha256": "83a668fa006f9bbfb01dd7db63bcf429047465825a0bb010fe733fbeeaa262a8"
+    },
+    {
+      "path": "formalization/provenance/receipts/FiniteProbability.json",
+      "bytes": 1655,
+      "sha256": "3c9b1693be70109e1e0a3c827b199bde0af290ff5c199fac23e8cb0a1f3102c8"
+    },
+    {
+      "path": "formalization/provenance/receipts/FiniteTapeLaw.json",
+      "bytes": 1102,
+      "sha256": "f0c4631747fa1aa1679a828891985844c17c2bba0b2ff997c0f0d86c489f4fb1"
+    },
+    {
+      "path": "formalization/provenance/receipts/GenericTVLite.json",
+      "bytes": 746,
+      "sha256": "7fe59847313c9ab9752dda00a3c5e102cc5a7c0bca819a624a213d475ad866d2"
+    },
+    {
+      "path": "formalization/provenance/receipts/GraphFiberOnly.json",
+      "bytes": 1219,
+      "sha256": "c6ab5ed2dcf85cbb89c06bc7be3d8709b94e2887e2c910fdec29c2a4a54d8ca7"
+    },
+    {
+      "path": "formalization/provenance/receipts/GraphStructureOnly.json",
+      "bytes": 1112,
+      "sha256": "a733dcbca8325e24b8a386ed766e4537a37c33c01b4e75d0aba56d9a04bd31b7"
+    },
+    {
+      "path": "formalization/provenance/receipts/IIDRank.json",
+      "bytes": 1088,
+      "sha256": "18ec6e4826805db48d2e0769a61420a6ed84b653eb7cfcdc6a05cc9fe94742a6"
+    },
+    {
+      "path": "formalization/provenance/receipts/NatFinSubsets.json",
+      "bytes": 1009,
+      "sha256": "98daf7138d734b80524598772d8bbb4c4cdd6a3fd5c95a2ff19728b96ee0bf2f"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeArithmetic.json",
+      "bytes": 827,
+      "sha256": "420d2e47946778db26456ac6a4af08caddb21d01cefaaa72a5f79190644d5038"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeBatchLaw.json",
+      "bytes": 1179,
+      "sha256": "216492732a814a6afb2e74c8bd316771c7f1fe4a7eb1a62883b5adac7cbdd592"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeBatchObserverJoins.json",
+      "bytes": 1437,
+      "sha256": "d6def7e03570f34e89e68da4ace64155514c605b4530d7cc73060cae360b36d9"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeBatchStatistics.json",
+      "bytes": 1182,
+      "sha256": "84c400b713b48db24ef962a29e19045d898bb9d9c47c42da242821fbf6bb0b5e"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeByteBatchLaw.json",
+      "bytes": 1105,
+      "sha256": "9e65c5daf234fb8e1751263e8c3b60f9e3cc717587f65104547b52957ad8ce1f"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeByteTapeLaw.json",
+      "bytes": 1497,
+      "sha256": "ccef67399c342d512c7a3a314e27750a48ab98f9023de324bc79e8f0aef45dce"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeCanonicalCounting.json",
+      "bytes": 1153,
+      "sha256": "1683293b885974bcc7e736280b4931dfa759b9180224a0db58e76dc503517af9"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeCardinality.json",
+      "bytes": 1404,
+      "sha256": "f9b1dde8291eec1442a2d2faa71c4ffd78ec3d54a769c7fdbee6a136d3db0663"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeChecks.json",
+      "bytes": 1226,
+      "sha256": "5595efc2899967bba28c49f3cd43d887ac60599c18400330e6cc48a20fdd8261"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeConcreteExecution.json",
+      "bytes": 1359,
+      "sha256": "5578c0e539ac5913b141742d5cebfbf7d5654126f8173a1dcd909a8532970016"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeDecoderIntegration.json",
+      "bytes": 1594,
+      "sha256": "fde3556c0099062a653729ebcb7f75848fdbb7bab40f58fdce05bf5768df1301"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeDrawAllocationPrefix.json",
+      "bytes": 1029,
+      "sha256": "15a66a159de86287f2fa942d5ca9ce5106de398bed24f70f997ebfa3f8c39b80"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeDrawRow.json",
+      "bytes": 1101,
+      "sha256": "31f6ba253c0ebc31caba3e22d5e4a8dfbe34db46f2a776254709950cc0734fda"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeEntropy.json",
+      "bytes": 821,
+      "sha256": "86d910b0a93bb4bdc8ff65dd1c9b29bdf017da590c370f2cf45cb68bbd8cfd82"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeEntropyPrefixTransfer.json",
+      "bytes": 974,
+      "sha256": "2025f37cc737b989370163c8563e77126a6f9530d82cd01ab50fb11a6a05285d"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeEntropyProof.json",
+      "bytes": 1511,
+      "sha256": "554b087b8a77a68ff4c6ac5942c6af68de978695b56bb884f14c833682d7874c"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeFinalAudit.json",
+      "bytes": 1878,
+      "sha256": "b31c474dd1caf7b8b40d453667ca4cbc1fc83c2545bab3465b2bf12166b1129e"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGeneratedTraceLaw.json",
+      "bytes": 1295,
+      "sha256": "4dff5f9a37728ef6ffea66a6f3a42d965582d0396936f646155c59f9ba52825f"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGenerationFraming.json",
+      "bytes": 1024,
+      "sha256": "da73ddc85180b802e142b43863ac37e015c4b5ed502b5cfda8f995fcaf6c17d3"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGraph.json",
+      "bytes": 817,
+      "sha256": "38a6237c3aee0b7a122c5ceaf063472cab4868a0d5bf1310a1c95061b996fefe"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGraphCapacity.json",
+      "bytes": 1700,
+      "sha256": "16f8041324d2c97f5dcfb4c792d147c03b0a7074c31f41c8437229ac213aa3f4"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGraphProof.json",
+      "bytes": 1611,
+      "sha256": "6858619a3951730def86b6727168682705278a06cc125453dad953dae531f0e8"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeGuardCapacity.json",
+      "bytes": 1169,
+      "sha256": "08a469663a53691382d4c93b184d2f743980154820e353bbd3db50bac6a34cd5"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeInference.json",
+      "bytes": 1308,
+      "sha256": "7d088be13ad3f1e24dea3ebe93fb25a62dc1784c39278efb4cdbe35cb751aee6"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeJointDomination.json",
+      "bytes": 1180,
+      "sha256": "3b9e40ac6c99e92b434e1280d3934024bea7e7edf71b6cd4841ba2e6e6d4d695"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeModelGraphJoins.json",
+      "bytes": 1101,
+      "sha256": "c08bdff3845d0bf1cb305eb06be0433982ce1dad1ef0e924fd3d9eb03010ce0b"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeOneChainLaw.json",
+      "bytes": 1152,
+      "sha256": "35084b93887d6e2124dab7c952fda9d0fab0a37bac3d418b37a46c092f8bf592"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativePairFin.json",
+      "bytes": 1134,
+      "sha256": "3932dfc81d14f4f57af73288f682605e8ccb7a8fb87add9df2b0966a024e4352"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativePairLaw.json",
+      "bytes": 1233,
+      "sha256": "4803612512bf70a27d9f3e9a44d54ff9be97e623f91b9576f4538ac5c61cfd6f"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativePlanJoins.json",
+      "bytes": 1198,
+      "sha256": "514bb7a6e4cf759a54d209aaeb122d789ec8eaf304c080efc63b206c75e004d5"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativePrefixInference.json",
+      "bytes": 1167,
+      "sha256": "7a5c4b708df9f5a6343dd47c80d736df3c41f9310fc5b7b6967c622b9d472b3b"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRankCounting.json",
+      "bytes": 1230,
+      "sha256": "e075144e78d2bcb9d0b0d7ef2ecfb06e725b84f843a3e6e2471d36893e2b2b26"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRankKernel.json",
+      "bytes": 1192,
+      "sha256": "0a2d635177f7ae4a3eca00116118440d068dcbf3d50a1cf1970657bbf1e7c45b"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeReplay.json",
+      "bytes": 828,
+      "sha256": "bbb20d3c1ac54d91d2d39f84a2eeff15e9e9f03887f59e5d40d37886bea2f8d8"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeReplayProof.json",
+      "bytes": 1022,
+      "sha256": "78dfedc74128db2a1b22924bb70c964294ae1b48e6950e0b0ab78b27aa05a780"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRequestCapacity.json",
+      "bytes": 1251,
+      "sha256": "161c223844635b1be05497cff08ff40d27b477f5e131f71d0957e921eee03d6e"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRequestInference.json",
+      "bytes": 919,
+      "sha256": "1fa4c280e460d7a0d005ab9cc6d9016f89763a29c7a10b60066b289e95823511"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeReservedObservation.json",
+      "bytes": 858,
+      "sha256": "5ad93709fbfd3794aa6e35b67384fdeb6b3a54fff677773289f279bd8297247f"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRuntimePrefixTransfer.json",
+      "bytes": 1478,
+      "sha256": "7fe3dc90efa9ecda1a12d1ed3c431049c427e80c4c8becd2482cbb41f9bed9a4"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeRuntimeRejection.json",
+      "bytes": 1324,
+      "sha256": "ebdea1706a097961c5398dde754a33025e3d8bbeb4b481e13bfd15e865e91750"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSamplingBoundary.json",
+      "bytes": 2247,
+      "sha256": "d2c104d1b0f67d6c51b1f007c9f5beaa1909a7616ade904ea0e03d4c36181bc2"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSamplingByteInference.json",
+      "bytes": 1073,
+      "sha256": "d19f5a8b4e03b6f28316bab9d4298c2830afef56177f782b7c7fb30d950477de"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSamplingInference.json",
+      "bytes": 1131,
+      "sha256": "bdc7fabee5cf1d778fff3e7a6c59519c63abe453d457bad424a411494a1b1ea8"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSamplingProtocol.json",
+      "bytes": 815,
+      "sha256": "f6fe9efe00f9e54a7a7b764cb6bc45720a189932ee1fa52f07353e5184403346"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSubset.json",
+      "bytes": 831,
+      "sha256": "2c882a9aebd138829cc62574432c544b1622af85777fda640376615a60a7c5f7"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSubsetCapacity.json",
+      "bytes": 1016,
+      "sha256": "1e090ee6c9c9ea6a7d04486caae599bdda3e93aca35550ab49beb5149a72e0bd"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSubsetRow.json",
+      "bytes": 1008,
+      "sha256": "63ebd1b19dc53b5ca9bda60824af80043fb1b7061a270469f1071b4f2094a342"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeSuccess.json",
+      "bytes": 1080,
+      "sha256": "da8f864db0cef76d64cba19d0c865c2938edb6d5affcd3ec364ffae274294beb"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeTradeRefinement.json",
+      "bytes": 1734,
+      "sha256": "e070285f2ef3ca38d9e6323d343f7bbba439af42dcfabd15e05d6f0cc301b021"
+    },
+    {
+      "path": "formalization/provenance/receipts/NativeTriangles.json",
+      "bytes": 873,
+      "sha256": "bc4035f4724559d98d261a93144abcc8863e5ff595a6e2ecc68cf0e30edf79d0"
+    },
+    {
+      "path": "formalization/provenance/receipts/PairFiberFiniteBridge.json",
+      "bytes": 1167,
+      "sha256": "7aa65539324fc53628d8005e1baec812370485d6e708c1c4e49d4955ffb154d2"
+    },
+    {
+      "path": "formalization/provenance/receipts/PairResamplingFinite.json",
+      "bytes": 754,
+      "sha256": "ea1c2cdb73fa66960649ac62a88746c559bc27149fa24c63bcd15226e78b902f"
+    },
+    {
+      "path": "formalization/provenance/receipts/PartialIndependentBatch.json",
+      "bytes": 1022,
+      "sha256": "b1c2a7d2ebd75e26b44e7bab08b77d940ceb17023244f22b7bf69ff042b89327"
+    },
+    {
+      "path": "formalization/provenance/receipts/PartialTapeBind.json",
+      "bytes": 1117,
+      "sha256": "437f52edee79ab082b797b6f7d89e6f1b5a3e25e3e97907c9b6f960ef272e9c8"
+    },
+    {
+      "path": "formalization/provenance/receipts/ProbabilityProofBundle.json",
+      "bytes": 5208,
+      "sha256": "af5edc8d4702f0c22bf1edd19a4ddc3fa4c56d0097777734492644622bffbaf8"
+    },
+    {
+      "path": "formalization/provenance/receipts/RandomBits.json",
+      "bytes": 1416,
+      "sha256": "6fc58933c4f5e20c1d2d6ab96a9a14e10cc613717e7e37a532a6e572ec50816b"
+    },
+    {
+      "path": "formalization/provenance/receipts/RankCounting.json",
+      "bytes": 1110,
+      "sha256": "30ececd7a08f426bd61fc15f44ca74208eeed0ed6f5f6ea9fe4b77f391eca6e2"
+    },
+    {
+      "path": "formalization/provenance/receipts/ReservedBitTape.json",
+      "bytes": 1196,
+      "sha256": "4c12cdf66fee0fa50fd63e5199af50e81299072bbd0fb0255122fdf69df5ec41"
+    },
+    {
+      "path": "formalization/provenance/receipts/StateCountLite.json",
+      "bytes": 929,
+      "sha256": "834ab907725bf0fe8104485e34089e731da07a69a971b2bc55b45b653adb36a6"
+    },
+    {
+      "path": "formalization/README.md",
+      "bytes": 3799,
+      "sha256": "c9fe53446761707ba15990de73e05ef1801b2e026c49f6ca2e9e04a8a3819638"
+    },
+    {
+      "path": "formalization/replay-plan.json",
+      "bytes": 3342,
+      "sha256": "4ce0a5d1a0519a3179d4564a752f67dcf323f84c5a394e3dfff22a7407cfece0"
+    },
+    {
+      "path": "formalization/replay_proofs.py",
+      "bytes": 333,
+      "sha256": "df7e25c1704ee73297ffd63d5123729a9f439c6e32bfb06c6d4991706ccff634"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeArithmetic.lean",
+      "bytes": 918,
+      "sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeEntropy.lean",
+      "bytes": 1604,
+      "sha256": "50a27c32f87dbc09910eb37d65e7ff2fb247104d7201e7d14d34fa5673e59afa"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeGraph.lean",
+      "bytes": 2447,
+      "sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeReplay.lean",
+      "bytes": 1216,
+      "sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeSamplingProtocol.lean",
+      "bytes": 7479,
+      "sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+    },
+    {
+      "path": "formalization/runtime/frozen/NativeSubset.lean",
+      "bytes": 718,
+      "sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeArithmetic.lean",
+      "bytes": 918,
+      "sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeEntropy.lean",
+      "bytes": 1850,
+      "sha256": "30a59de5d4b04311d0fe4896835c94e495bb983c6d73c34c8fee7e35be5aa149"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeGraph.lean",
+      "bytes": 2447,
+      "sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeReplay.lean",
+      "bytes": 1216,
+      "sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeSamplingProtocol.lean",
+      "bytes": 7479,
+      "sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+    },
+    {
+      "path": "formalization/runtime/optimized/NativeSubset.lean",
+      "bytes": 718,
+      "sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ActualTripleSquare.lean",
+      "bytes": 672,
+      "sha256": "bdaa7a751df0774e7f00af7b5b90fad66105e385cd1db46d158da37308cd1fd9"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/BalancedBlockVariance.lean",
+      "bytes": 6404,
+      "sha256": "75f29e043b63dcd80180389a72a7d9b0f2a8f380cab93c77babc2de909ac200e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/BinaryAssignments.lean",
+      "bytes": 2451,
+      "sha256": "66501f891b8f0f57e49e1e4730b92da036adba1e46e97373581f80cc19279293"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/BinaryColumnPartitions.lean",
+      "bytes": 5809,
+      "sha256": "169cdcd4cb6f29d587cc380a66ea45e2204ca2272714fa429a536072fb4fce08"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CellProjectionTransport.lean",
+      "bytes": 7770,
+      "sha256": "cf7478273ff92e1e522256de44bccf608ec6a9d6d24bbf677d191af45f1a98c7"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CountCoupling.lean",
+      "bytes": 9674,
+      "sha256": "0f5aa62f85b9531624df49147bb7cb681b2cfa6903f259444dfc5cf774461478"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CountCovering.lean",
+      "bytes": 8952,
+      "sha256": "5ce30f9daffc03dc72b7850047ad26fd1fdd99cc7b1454758c9a5aa09f5c33ff"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CountEigenEquation.lean",
+      "bytes": 4376,
+      "sha256": "f39bdd800cba3688b55552b248177cc4eec9475440fe0d441aa01a85b5dc75ed"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CountEigenvalue.lean",
+      "bytes": 3751,
+      "sha256": "4c56deda7e93e76988612e08c8f6beb0caab8eadc000a29f848c81a3a6fcd202"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossCellAffineComposition.lean",
+      "bytes": 5238,
+      "sha256": "8ef3312911467872d25fc40b777572694945fe4387c8ef8979c03d37976afa1f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossCellConditionalExpectation.lean",
+      "bytes": 2453,
+      "sha256": "e8e6a48bb0d0daa759213972025b1ba3a8b6e96cf166220f2259f4fbb947f5ea"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossCellMoments.lean",
+      "bytes": 10164,
+      "sha256": "6feabcda1ea00ea2e5a3465a589d82f06a6d29e4a6fc5adb35389fe3359d874f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossCovariance.lean",
+      "bytes": 4751,
+      "sha256": "e860c47dbae2bfe233c8e65de870647ba48cf609e2c2395b865c052a581af565"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossIndependent.lean",
+      "bytes": 9955,
+      "sha256": "1bf19842ae0c2a91c739ef3febbed58ec3455e16b72448c606fd1433cb6fbb02"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossMatrix.lean",
+      "bytes": 2426,
+      "sha256": "840ed656ed02ada5a8771540f37dad04251aa74e1ec2dc59dfc34649ca504ed6"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossToggleCells.lean",
+      "bytes": 2811,
+      "sha256": "88fcce3ad0b4f9d5cadc6c8fa1ac6d92c291f679fd2753ff6d3603c10bdcffaa"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossToggleGain.lean",
+      "bytes": 6486,
+      "sha256": "9f24f379ae134607ee194fb052ff51d1a56e1fca74ab9971212a1eae9dbadd6e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/CrossTogglePairs.lean",
+      "bytes": 9971,
+      "sha256": "6be8a12dd2bf80fce4cd29ceafe70249d5a90ba34a7a564c823477f01488be43"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/Definitions.lean",
+      "bytes": 4722,
+      "sha256": "62cd5736b5403852e1102e71a5ef17efe6fc03e80417c625e030b54ffe3b747c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointBoundary.lean",
+      "bytes": 3690,
+      "sha256": "249875416b320014af4dbde2f9ea6324c3dd1f18a8840d27481968a7582df07c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointCellCounting.lean",
+      "bytes": 7031,
+      "sha256": "f4bdc3d19c0867d9d999a53067d9bf2331009f91f9bd92e795a78fab980d9afb"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointCellGlobal.lean",
+      "bytes": 2998,
+      "sha256": "13467de85493d8a801972c7432dee01c210e6926584c76c727d3191a426e993c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointCoordinateFeasibility.lean",
+      "bytes": 4591,
+      "sha256": "b497fbf488120f5dc160f73d1b306f1b8f54d5fdfd23671e4b1da494aa43481e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointCrossCellEquiv.lean",
+      "bytes": 7490,
+      "sha256": "eaf8fb663153e9c3acf71160f0a9a1782dc881c26ecad7a7c3e319ac70c08c6f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointEncoding.lean",
+      "bytes": 6279,
+      "sha256": "2f71b4b0644b4f6e6932a335a10a9d98072e403d05725bc76ffe566377c1fde9"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointEqualityFlags.lean",
+      "bytes": 5300,
+      "sha256": "483366d566098d2ae3645aa64b31290f2c23e7e6216a82a4a775262122fdc772"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointFiberCell.lean",
+      "bytes": 2998,
+      "sha256": "d7aeaff25610ca38c658cea26e93173e079d55f101d7ce99d1cd2b81b4ce8c96"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointFiberCoordinates.lean",
+      "bytes": 7982,
+      "sha256": "2f492bfd07e7f8878cdecb40923ce77d5b66513ac775abed7d6ae0484f130d92"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointGraphAffine.lean",
+      "bytes": 5617,
+      "sha256": "ccd69d396b9aaf8969429a9de8888ef3877b9af0412b074e4cc46670ca504d83"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointInternal.lean",
+      "bytes": 2136,
+      "sha256": "24a45d7db395fffe6aa75527240b41093fe4490fa16fe358339fe4be1c273b01"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointProjectionCell.lean",
+      "bytes": 6214,
+      "sha256": "ad076531d00f0e5fe8f92ba5d8e0c2a9601ed59df6418280ff160cc9b6c5e855"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointRealization.lean",
+      "bytes": 9522,
+      "sha256": "e316ea394f16aacf16d302198741d66ee70f3c2afb6324e6349653172634bbcb"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointReconstruct.lean",
+      "bytes": 8086,
+      "sha256": "30f6308971a51b0aff62c2bd470306015d7e08ff18cf19335d943ca2d8a1070d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointStateCell.lean",
+      "bytes": 1291,
+      "sha256": "4e3d030daadae63ea1d65e7f4358b427153632629eb7f6959ad5ddf9b95d5a68"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/DisjointStateLaw.lean",
+      "bytes": 8093,
+      "sha256": "6e5d68442b8a34b0d7a22b82adbf77bbf4e1debdb9c00e3e3c11e4714225f52f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/EnergyTransfer.lean",
+      "bytes": 3995,
+      "sha256": "1d7d8cbca36e7b4e6a1fd04b934547dd8d9b840a7c2ba3355272fba7b2c0a14d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FiberLabelCounting.lean",
+      "bytes": 4461,
+      "sha256": "0834ea4e09113f824542d3576902a401cdefbe357bf05b7c12292cf8855281ba"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FiniteVarianceDecomposition.lean",
+      "bytes": 3721,
+      "sha256": "2c47a1274ad3f86b948d996bcf4bb2e5d704f2b7000137c3fafd90e161c55b77"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FiniteVarianceEuclidean.lean",
+      "bytes": 1916,
+      "sha256": "e822a97f2cda8406d7b318a655c6012963107b04b8e8ec731674e00d249ed10e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FixedBlockCount.lean",
+      "bytes": 6534,
+      "sha256": "e70838af817fe1aef476a2fbda4801780e0f3d67cd8e1a29b8d7b94f1d117925"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FixedBlockMarginal.lean",
+      "bytes": 9686,
+      "sha256": "2c1c7f3f82ef036eaa750e0720ef31dce3c8b8ce1c089f1a7ff9daa0f42c65e4"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FixedBlockPartitions.lean",
+      "bytes": 4189,
+      "sha256": "acc9adc6bb7cdbf8f7b1ce5d00cc351fbffbafe0132dd8b6de6866f8a3024793"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FixedBlockVariance.lean",
+      "bytes": 8230,
+      "sha256": "9f649e012c547fed8cce7822f323cf1520ecd82857ce9102930ddeed27f0b8a6"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ForcedColumns.lean",
+      "bytes": 9238,
+      "sha256": "5ff9d5135aa92adfd19eea7a60f881b80f303d464afd8ecf9ade6e317536b3fb"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FourVertexSwitch.lean",
+      "bytes": 8012,
+      "sha256": "c6e355ef21f68a033a97f0af79bf997986f87782adcf22b598aaa45b8f7ad6f5"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FrameSynthesis.lean",
+      "bytes": 6661,
+      "sha256": "abec6e2ef80be8f48fe4361dd8802aad53fcb115a576cd43c33eaa264fe94bdf"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/FrozenRows.lean",
+      "bytes": 4382,
+      "sha256": "03c36830c661fd4fff3fd23a7a277ca4107d76799ffb4f3bba0a219860c5449d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/GramComparison.lean",
+      "bytes": 7553,
+      "sha256": "4d8e6e7a9aa1910149c0b39a8a143427fe3898c2b1ede5c65ca1ca5fa826f666"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/HavelConnectivity.lean",
+      "bytes": 5209,
+      "sha256": "383773079074e1f751c293c6a395eb8dac50c7f63c46fba6aa21658b6834e866"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/HavelInduction.lean",
+      "bytes": 7693,
+      "sha256": "0e40e2bda785143e5bb2484256daf49730deaf96ea39b5d614c610c5f5080722"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/KernelNormalization.lean",
+      "bytes": 2019,
+      "sha256": "c2869bef0fab4d5b0fe11ccc773871249e894d7ff8679cc16f24e79821a1702a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/MatchingCount.lean",
+      "bytes": 6355,
+      "sha256": "a8aac391ecdc71580014fd815139a4a417710f0921f7007f2c7158b6331d84c1"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/MatrixRowVariance.lean",
+      "bytes": 4359,
+      "sha256": "c0e4fa05d4383275cd2ecc3ea3c8167141c7ace96e7c61828f9af846c98225ae"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/NeighborAlignment.lean",
+      "bytes": 1768,
+      "sha256": "876093bbe8e96bf8b8ee7c545eebd104dfc4f6ab25c8a822cee1af4a18f37072"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/OrthogonalPairResampling.lean",
+      "bytes": 10549,
+      "sha256": "03e80f02380e3142b99011951cdd7bac1e05e0b98a08dbd7f6d551820390b22e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairActualAffine.lean",
+      "bytes": 3957,
+      "sha256": "81521f5ad99fd0cd2d8c214a7dbec5f5bb365510c69f5d2ffa4342b9d629078c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairAffineInteraction.lean",
+      "bytes": 4778,
+      "sha256": "37ebfd5f3d2513521b6ecb88083b38d4fc33cceb5a6e99071b9320ed2455a8a3"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairAggregation.lean",
+      "bytes": 7772,
+      "sha256": "bf4436c612d46618a782cb8d1150e32ece55d246f44fef5f9bd8857c183d4b3d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairAssignmentMoves.lean",
+      "bytes": 4517,
+      "sha256": "7f255c22e4f781855443d262f8cddcd67c6a5706784cb221f0c500b253186a9b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairCrossToggleTransport.lean",
+      "bytes": 4187,
+      "sha256": "67bc01983266eb9ab0f8bc60e408ca04ba1f423e245b0353814a293a51e686f4"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairDisjointAssembly.lean",
+      "bytes": 3575,
+      "sha256": "7dd67cb22cbab2f0ad7ef9fa8981e1f7399e817dbb6c86e557bfd6af0ddb380e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairDisjointBudget.lean",
+      "bytes": 3154,
+      "sha256": "6bb0632096b8fd8c48d969ff2a11f39979fd5390d10599ae40226b637e28a154"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityBudget.lean",
+      "bytes": 12621,
+      "sha256": "d9cd633ff5c79f8b838b12e4fe7c52b0c69ccc47493e7517a7dc64dd48d042ff"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityBudgetUnordered.lean",
+      "bytes": 3314,
+      "sha256": "c4834dc1308763f26f570841215aa7f908e867b2976bec9adab42433a8cf323e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityLocalization.lean",
+      "bytes": 4024,
+      "sha256": "b60c26e6d9fd82cdb2a04faeb96aa81df751e4629d4f6c89694ab6c64930e022"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityOrientation.lean",
+      "bytes": 4793,
+      "sha256": "3f78e926ce6b209044f32749f1d63357335d8063799f1e3c877c76c920913e19"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityProjection.lean",
+      "bytes": 8133,
+      "sha256": "c38a28a4abde4aa0baf7e5edcac68cd924ff2594a4b9fe27b04b2942b2cfbed4"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityRestriction.lean",
+      "bytes": 4913,
+      "sha256": "0321af7d7260475cd742194e60d338a62cb8585727596dccb3002016d0d5f236"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualitySlice.lean",
+      "bytes": 5841,
+      "sha256": "24ec4b769ec5074ace82dfafbe88e5560af892b458301ceac4cb6b525d6dfec8"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityUnordered.lean",
+      "bytes": 6198,
+      "sha256": "bb8c74e90166fba41772091ca833e7ef57ec41c3dd9028df07eadf5e568e229b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairEqualityUnorderedSum.lean",
+      "bytes": 3005,
+      "sha256": "8f945def26bdb7f305f80ba4d940efd2969eb37e60ef92cbd4a0bea364680d93"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiber.lean",
+      "bytes": 12782,
+      "sha256": "2b4253ac143e383fbc3350019dd9eb8f2749dbf1c832b99e861cbc427a83cbca"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberBridge.lean",
+      "bytes": 4139,
+      "sha256": "38c3e181f707e76c77f8f59da832465d5a2fbac721c66a39ff442bbad92b5415"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberConnectivity.lean",
+      "bytes": 3152,
+      "sha256": "609f18e4371287750cea13d07d8e04375ae66e7b6694a07a7f2ca53ebbe19c19"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberDegree.lean",
+      "bytes": 5056,
+      "sha256": "ff2e90564a85c1f46252e662f917d0b817968ab9bc2918c52a96cb6b170e370a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberEnergy.lean",
+      "bytes": 5454,
+      "sha256": "4821101d673b36008c18b91ba74ee087e94187ef2cfec2b4a66a34f2e5d12343"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberEqualityTransport.lean",
+      "bytes": 6863,
+      "sha256": "81168b0b88409ae9c9667204d184b50c6173d264df8e255256a4e3e7745bb3ef"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberEquiv.lean",
+      "bytes": 4582,
+      "sha256": "00e8bd86949098685ea79061dfddde7188afd923ed02637c125f24c5a1dc4268"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberOrientation.lean",
+      "bytes": 4828,
+      "sha256": "ea68218a30cc76265eedee974a1ac3d06823fc03d06681e85e6f219f37a0d097"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberRedundancy.lean",
+      "bytes": 2148,
+      "sha256": "94caacc30d3959d68418858cd6e56036d6d7d3f128902c7a9030294c9c743839"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFibers.lean",
+      "bytes": 7614,
+      "sha256": "01ac43bb20ae3ac9cf3b9a1aa19bad449322be37aca2bfcd68873b2b5f37c49f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberSliceComparison.lean",
+      "bytes": 5132,
+      "sha256": "d1d72e2e338d3ce06259798de8be58da77fd628566fb98ea59943be54bfcea9a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairFiberTransport.lean",
+      "bytes": 4482,
+      "sha256": "3f9dae285623a277294f953e3b2cadedbaac8b9a001e6ab2410dc097217efd3d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairGeneratorSquare.lean",
+      "bytes": 3428,
+      "sha256": "e6af454fbb904bb4e82d7e65167fff5e76041e015cc5f122cb92cecf9f07f48b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairOrbit.lean",
+      "bytes": 5438,
+      "sha256": "d3953398f9825470b7940945237cdb801646c39e0a6c0c77cb98905b8406a3bc"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairPoincare.lean",
+      "bytes": 4295,
+      "sha256": "41596276f2825548821dbe0790f0f828955ede902ad063cd71dc6e88c8f38d9f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairProjectionCell.lean",
+      "bytes": 5124,
+      "sha256": "eda9d2531df28af1b186e09e32781bc4e321302bab8ba9c398c5566e4b076959"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairRangeInteraction.lean",
+      "bytes": 1771,
+      "sha256": "a625848e86bdda6e1596ec6bfc95cb9517798d112bf20baba84bece1cb4e5f49"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairSquaredEnergy.lean",
+      "bytes": 4265,
+      "sha256": "dade12d536d6fad72f4a17d815f8e13255573e22d1a14be416f262693572ca83"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairSwapFlip.lean",
+      "bytes": 8903,
+      "sha256": "ba0f148fa6bd686944c6030db4721a871af7d2241424299af4d8dfbba96bb8e3"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairSwapFlipProjection.lean",
+      "bytes": 3800,
+      "sha256": "278ef68b221bfc909b949fe39bf5e1e9ce0c0ebbc25443417489dd54c387062b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairSwapInjectivity.lean",
+      "bytes": 2657,
+      "sha256": "bb010b212840603e8015570642d9cd50c86ba33fdf97251f6c898d0cd2f592b5"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairTradeSwitch.lean",
+      "bytes": 10537,
+      "sha256": "338c5524bdf0754ee58826da35ff82e5ab3ae0c92313d9653b6703251994bd6d"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PairTripleBridge.lean",
+      "bytes": 3648,
+      "sha256": "66af510d346755fcf6c8a1a86129cb4a03e1bc100a719fec25f5cc001930c770"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PermutationFactors.lean",
+      "bytes": 2778,
+      "sha256": "6ed01342bf6f05b0844b52843d75622494bc12281ca4602c1b69a9d671a0028a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PermutationGenerator.lean",
+      "bytes": 6331,
+      "sha256": "03964eef72a86916e12c7c1b41c5194a1c5edf73e7e014e5f17fb2728c09f5c2"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/PermutationPathComparison.lean",
+      "bytes": 9288,
+      "sha256": "c33a00a3518a84ac46929be8bfafd2641b6630e7081de2a2a31c6c581fd41105"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ProjectionRangeInteraction.lean",
+      "bytes": 9613,
+      "sha256": "5a001bed26185f8ced573ecdcabcf78591fb695dda91ed9a5231debe5184702a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ProjectionTools.lean",
+      "bytes": 5108,
+      "sha256": "b00d67db35f8b84435b91a0c422d66853c82470d3a67ceb5841ac60ad1714621"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ProposalLaplacian.lean",
+      "bytes": 4755,
+      "sha256": "1c9430b833d8e10a84e055236da8c73512cf4078b8003e10ffb0b4bd19d85621"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/ProposalUniqueness.lean",
+      "bytes": 5739,
+      "sha256": "8c689e3c72630b43da3d561caecdc871140ac3dca7ff072fbf7304bf87c91aaf"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/RankOneInteraction.lean",
+      "bytes": 11709,
+      "sha256": "f828884f0ea5224c9909d14ef569cc10ddbbd6f0bacc6b4fede37f884557413f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceActualSynthesis.lean",
+      "bytes": 4919,
+      "sha256": "0e2020a299a35368ebdab02fc34bc584d4a0212114b1372b30e247962f198409"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceBounds.lean",
+      "bytes": 3375,
+      "sha256": "32565eb15330961a06a8a5a3906537339c4265608fd672be0a029e7295ef4ee6"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceCardEncoding.lean",
+      "bytes": 2257,
+      "sha256": "0dae6bc65edd736866c267da6f81589e64632b489180d93a72f3c2f8aa5e0285"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceCoefficientAlgebra.lean",
+      "bytes": 10658,
+      "sha256": "8c8470c6314daa21e4987f53af51d8a03d1445c23f0816f38dcaf2c8cebe7988"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceEquality.lean",
+      "bytes": 7189,
+      "sha256": "689bd84554d48a25cec67b66f0c2a103762c0fb850b688dd397cd582c693e92b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceEuclideanGenerator.lean",
+      "bytes": 4348,
+      "sha256": "5b92614eaa4735a5650e7ddb2701e2bd73a1e790876e461f20e0bfc275ce485f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceFrameProjection.lean",
+      "bytes": 2057,
+      "sha256": "18cb7193fa854470edc998f608e57770288e033cd72aa09b90273473a43c95ce"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGenerator.lean",
+      "bytes": 7846,
+      "sha256": "7694658c3d08069a07eaec3af876f57981e024500c9a14672b5fb7302be1d126"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGeneratorEquality.lean",
+      "bytes": 3093,
+      "sha256": "ebf362238c67a702e841ce0f1e181f1f6a4437e64126711c97f30dc6970ba8f5"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGeneratorSampling.lean",
+      "bytes": 3079,
+      "sha256": "c0ec4f4e7b6b9b784914eaae2e1bf3118e997a0be521cbcd245ad31c50781418"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGramAction.lean",
+      "bytes": 5724,
+      "sha256": "88b9a06d856761194c8c193c5fc6e0fdce6c5d0feedd47289574caf162c90663"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGramConstant.lean",
+      "bytes": 2650,
+      "sha256": "c8e5aa88d64b5a2d1811ce78b14007a810b12a10ab8257d9059851d029f1512c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGramOrbit.lean",
+      "bytes": 3916,
+      "sha256": "e75b7f01405c1f04ecc8a8abf30075194b0e3d1eac3f309f40af166c91675712"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGramProfile.lean",
+      "bytes": 4056,
+      "sha256": "e54651483b51357f45fb508cf65c34ae10002229e80f69ef2a19ac7308dad1fd"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceGramScalars.lean",
+      "bytes": 1568,
+      "sha256": "4d8a3d3e01e93502df8223c5afe1fb90b33f20407d02d069aacbf72e7e4621ff"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceImageNorm.lean",
+      "bytes": 10400,
+      "sha256": "4f214fd6296fb80d77d274f880058ad2478508f9bf2815df8e76478de9566b69"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceMoments.lean",
+      "bytes": 17433,
+      "sha256": "9f8776a077ef7794bc00fd43c4b2387e25d9c9bd8ff2a02d904b30bfb6ddd29f"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceNormalizedFamily.lean",
+      "bytes": 7268,
+      "sha256": "527525f5a9fe17c7c913d0ffe286443336ee425cd7f999ab4a9bb446665723e1"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceOperatorComparison.lean",
+      "bytes": 7191,
+      "sha256": "335e7d87dff29a446d682a3cf34dcced91cb45176b61928e3fbd83c65159bf22"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SlicePathComparison.lean",
+      "bytes": 4787,
+      "sha256": "ba4f4372e9b463596d62e3777f1682942925f470c27bcbff3f8dbad7ead9204a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SlicePermutationAction.lean",
+      "bytes": 4787,
+      "sha256": "74ad4658f7967e9f4305a2477831fe73c1b918cd393f0a1ce620930071182d5b"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceProjectionComparison.lean",
+      "bytes": 3563,
+      "sha256": "85bc3d03be9a354e154c7cb457c27372d63ac001498805516715011551f62819"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceReindexedComparison.lean",
+      "bytes": 3695,
+      "sha256": "adb01137e58d69d841d010d17d48da560700f2e823ce0244a0a28ab0756491db"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceSynthesis.lean",
+      "bytes": 6884,
+      "sha256": "2724af0b60ae91ee8d2885073d431f3fe47b17b83c5d7495a324246e790f627c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceSynthesisAction.lean",
+      "bytes": 2682,
+      "sha256": "222a6f545736b234943faf533af00162bcd379c68831340316816e2537514fca"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SliceSynthesisBounds.lean",
+      "bytes": 2305,
+      "sha256": "32bb7cff2159005f06a6b7bb98422598548f6b579935a81a938cf1e6cc0e2030"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SpectralFromSquare.lean",
+      "bytes": 4769,
+      "sha256": "3782cf6883e98c95cab759b88aa174735d62e333ce39fb0e52905f85e7ff21c8"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchFlip.lean",
+      "bytes": 11406,
+      "sha256": "ccd1d97d770082e61f0ca08b4a734718f69ed88496a2681824b795c81d29710a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchFoundations.lean",
+      "bytes": 7307,
+      "sha256": "f20919edc9152cf689a86607879096588f6b6476fa04bf8f43ad3fbd6f18df4c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchInFiber.lean",
+      "bytes": 2296,
+      "sha256": "eb2745947d421c560d344c531bf92d7b9d22148ab9a7d0271f95ac23fcbb1e55"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchLaplacian.lean",
+      "bytes": 3830,
+      "sha256": "ab226af72ef76387b10880833e962957d7886c76d2bfeeb5dca9ada9f3a97e4e"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchMultiplicity.lean",
+      "bytes": 4861,
+      "sha256": "ebc092deb9843180f64be8be2199113c51d97f4266da0c740353dc37c123e087"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchPairFiber.lean",
+      "bytes": 7074,
+      "sha256": "0c2cbfab5dc18f86ffa440621959eeea370793001fb5c9712bb0a26ba0f2e435"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/SwitchWitness.lean",
+      "bytes": 6818,
+      "sha256": "e97a8c6e7502ee98b58807c107c012c5967ed248afb428916572bb2758955820"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TransitiveAverage.lean",
+      "bytes": 2179,
+      "sha256": "88e6e86c49806e1284da73e188a0553fbb7781289d7f2cb069b0540ea4d60bed"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleActualRowBound.lean",
+      "bytes": 8200,
+      "sha256": "01f7688757b8af1b346be5e90c73b67aafb162238d59c1a9bc4544cc3ce5aa15"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleCellTransport.lean",
+      "bytes": 11265,
+      "sha256": "acac92fb10ca64bf8713f2fd6e2f8ac4f3aaa28e14d93389d6842bba42fceb7c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleCellVarianceGluing.lean",
+      "bytes": 8102,
+      "sha256": "7b453c87a2b19ee3c44fa533650aa60508d5c3a418c5d905be2d27e492ee9be1"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleCountEigenvalue.lean",
+      "bytes": 1639,
+      "sha256": "312d646386e4c1268fd42c065fdb9228f70b64d6cb918b5b653e68bd1c57823a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleCountGram.lean",
+      "bytes": 6586,
+      "sha256": "87e43d372f4b08767b5967362dd55a27acfbd2f9e0ad4574d5ed52a43756b782"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleCountLaw.lean",
+      "bytes": 8275,
+      "sha256": "5241966dafdc5a55a39d48f098417ab80d1fdbd1f32de9a2ca49bc685bd45f8a"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleGraphEncoding.lean",
+      "bytes": 5458,
+      "sha256": "39554df5f43e38764a5b76c274c1a11395e6c202e96f8e129e1a4c5a533b9597"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleInternalEncoding.lean",
+      "bytes": 12153,
+      "sha256": "ea6ac3883d7e9168ee45f4e15e358ee4bd808ee7e2458eb990ed1a9ef21b8fa7"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleMatrixEncoding.lean",
+      "bytes": 5743,
+      "sha256": "79d2a68e5bb7f27ac530c254ee5eed76de7504c0739940e6d44ece892a4b4fa8"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleMatrixFinEquiv.lean",
+      "bytes": 3160,
+      "sha256": "5c6db515b55c2cdd2369b98a3855ad679c89d0071d78765055314d4a0ab1f70c"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TriplePairFiber.lean",
+      "bytes": 11596,
+      "sha256": "f57767d6300fdc2b5aa22f63115db87928e52bab2306a2764af3947e2ef25670"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleProjectionBridge.lean",
+      "bytes": 2920,
+      "sha256": "433d4a51d1b3ef3235c2fb43573919f8972925ad6366763b366ad47bfe50c183"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/TripleStateReindex.lean",
+      "bytes": 5225,
+      "sha256": "bd29eb2e0f44761c784d37fbff689e473d1474350b061204f1bd3a0ba5b15f98"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/UnorderedPairSums.lean",
+      "bytes": 2379,
+      "sha256": "fc230126733dfc65a26415baf02e3486665c065f6f2e15929afc8509480c13f1"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/VariableBlockVariance.lean",
+      "bytes": 6871,
+      "sha256": "63dc0478db3a27ad81e491f4fcf063f992870e621c9a367fb2c1af178cf8abfb"
+    },
+    {
+      "path": "formalization/upstream/lean/OAI/Probability/SwitchChain/WeightedConditionalVariance.lean",
+      "bytes": 13170,
+      "sha256": "aefd612fe02c3e76ce336ea080112c495276c4eee0c0a7a4da5091893b999196"
+    },
+    {
+      "path": "formalization/upstream/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "formalization/upstream-provenance/exact-body-extraction-map.json",
+      "bytes": 530292,
+      "sha256": "c16ebc653ba4acd77eb1796fca00c82c7e80b8d90434a0f6c40a5ae77aaabaae"
+    },
+    {
+      "path": "formalization/upstream-provenance/focused-module-order.json",
+      "bytes": 3862,
+      "sha256": "8f4a61e9d1abf304aa9959795a422aa48d7fdf2a73d7a9562b7bee2d8efc9bbd"
+    },
+    {
+      "path": "formalization/upstream-provenance/lake-manifest.json",
+      "bytes": 3565,
+      "sha256": "2f062b37d81873c44789bde7cc9ee35df560d6e859779af09fb5063967d744cb"
+    },
+    {
+      "path": "formalization/upstream-provenance/source-lock.json",
+      "bytes": 116611,
+      "sha256": "5fbe912edcaa8d7b8e1dbd2d1a1de11057409ed2aa7423cff450586bb51ff2e7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 42909,
+      "sha256": "263861486d425ff3dce7b8736f9587289f5e9f250ade83f59f2fe6df12c92d6a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 2350,
+      "sha256": "162f3916e6b8327475f9ebc47c8854e2c4f63679eaeda68013d1560107c8061a"
+    },
+    {
+      "path": "PACKAGE-TEST-PLAN.json",
+      "bytes": 1934,
+      "sha256": "0113beb6ddd0a7c1736366df242b9c564d4dadd904bd0e7a4c5fa197d6e35d07"
+    },
+    {
+      "path": "paper/curveball-note.pdf",
+      "bytes": 89127,
+      "sha256": "c42fdccb085b7f0fbaad1084a28f991c5442fd005a64d78a95b2397fec5e3cd2"
+    },
+    {
+      "path": "paper/curveball-note.tex",
+      "bytes": 22818,
+      "sha256": "b81cae87c6d9eea1ace473fbe77600ecbe489455500bf3ea8c2d430a817f9e9c"
+    },
+    {
+      "path": "paper/LICENSE.md",
+      "bytes": 1077,
+      "sha256": "72de7beb5175d50041057b7babd737051dbec859402958167fb19126165078ab"
+    },
+    {
+      "path": "paper/provenance.json",
+      "bytes": 750,
+      "sha256": "b1283c0188066903e6ef3b40ed14c2de43e2736e92010255ca2a43cdcf2bc79d"
+    },
+    {
+      "path": "paper/README.md",
+      "bytes": 1078,
+      "sha256": "69fcfb6540325ee3376f058cf60b66761168460092f807baf0638f9c458090a0"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 804,
+      "sha256": "25d46de4cc27978d37816ed9cbda9bf8404816bd4cb3af6c09c08c76650ca363"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6117,
+      "sha256": "78f4029a51b5280a2f987224c857ceda39634853649a9b94eaa207148e6cebfe"
+    },
+    {
+      "path": "RELEASE-STATUS.json",
+      "bytes": 1220,
+      "sha256": "f7d3de7128dd786f177f4a1e6a62d9cfaecfe4828b635f5f8998200e7275e4dc"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 251,
+      "sha256": "7de583afb293b6be59dab69dfe8cdfde90ab1258b3d59bf60601a5636ef03575"
+    },
+    {
+      "path": "run.py",
+      "bytes": 269,
+      "sha256": "79b38ade589d447f9f5d67125c02ab9445686ad3c97f1ed6c92c8b0dd54d5ff2"
+    },
+    {
+      "path": "sample_native.py",
+      "bytes": 260,
+      "sha256": "dfc0e89119dd2c433340eb0fc7fcaf1ab8a87172f916e0a016a7f9544a6e42e4"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 44394,
+      "sha256": "11b70e84a2c1fd419afb95a35f9eb8f011b03de2c085d014da077c454556ffa5"
+    },
+    {
+      "path": "src/curveball_budget/__init__.py",
+      "bytes": 81,
+      "sha256": "aa6b4e850957cfceddbc4266eadebea4ea32f9d03bfe6feb5e6010d82f2aa3a6"
+    },
+    {
+      "path": "src/curveball_budget/arithmetic_cli.py",
+      "bytes": 1277,
+      "sha256": "1f872c69a1fc771d7a84dfb430d4a05eb270920a17256cf745e877ae048f283d"
+    },
+    {
+      "path": "src/curveball_budget/arithmetic_invocation.py",
+      "bytes": 9700,
+      "sha256": "4943702f9a0b5221035d9187cc7a2f680431d922d84f1da6e7c3d1f7fd932bba"
+    },
+    {
+      "path": "src/curveball_budget/sampling_cli.py",
+      "bytes": 2235,
+      "sha256": "b7f6db32ec273125b6be002e9007e38ddc3a3104c90cb0a651f8d897b003fd9e"
+    },
+    {
+      "path": "src/curveball_budget/sampling_invocation.py",
+      "bytes": 13116,
+      "sha256": "e49acceb915fb50a8339ab03b2e548f955995c5fed4f1802c48ef8b4c2009a55"
+    },
+    {
+      "path": "src/curveball_budget/sampling_protocol.py",
+      "bytes": 6075,
+      "sha256": "efa36a7da051e84965ce48bf094d8f28d5f023f94d23b326ffa8d256b8e65a54"
+    },
+    {
+      "path": "src/degree_null/__init__.py",
+      "bytes": 184,
+      "sha256": "7cf9e58648b600cbd3852291161b2ab271500d358d2bc6b637c1e009c8518636"
+    },
+    {
+      "path": "src/degree_null/cli.py",
+      "bytes": 5102,
+      "sha256": "2317e4049651a044bd938bdc341e9aae7253bfbd919e7433fbed29ac41824269"
+    },
+    {
+      "path": "src/degree_null/inputs.py",
+      "bytes": 4504,
+      "sha256": "f47ef09695fd652bff7e8f5c06c3d94e70e26aae4017e8bb8be1273274ace404"
+    },
+    {
+      "path": "src/degree_null/jobs.py",
+      "bytes": 15107,
+      "sha256": "d6a66b318c5cdf4835d386b3b583959ce0e29647c56719b79f620eec137f900b"
+    },
+    {
+      "path": "src/degree_null/kernel.py",
+      "bytes": 11624,
+      "sha256": "a0c200d7676560fcac2832503beb40eb3cca52b70304f05a938a55b948c5fe5f"
+    },
+    {
+      "path": "src/degree_null/report.py",
+      "bytes": 10025,
+      "sha256": "aed7f0a4a857421e00b765a2f4d4963dc59aaaaf573708debfe62c088c7c911a"
+    },
+    {
+      "path": "tests/test_tool.py",
+      "bytes": 9044,
+      "sha256": "78218139bbee1dc8c9dadcffc4f94cc3e38520fae5b805150ed7401908a9ff2b"
+    },
+    {
+      "path": "tools/install_reference_manifest.py",
+      "bytes": 6672,
+      "sha256": "6b0a8519833c3dbe935bdf7d87cb0199e6f3298bfff30ab97ce1e2c55592472c"
+    },
+    {
+      "path": "tools/verify_release_tree.py",
+      "bytes": 2720,
+      "sha256": "f9a8e47535cd05941070c1b7f48950ef14d4da009447239df4d8ae297a5f1fa6"
+    }
+  ]
+}

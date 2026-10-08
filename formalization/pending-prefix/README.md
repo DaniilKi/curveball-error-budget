@@ -1,0 +1,1 @@
+The three transfer modules are now accepted and included byte-for-byte in proof/. Earlier pending preparations and failed runs remain privately preserved. See prefix-proof-ledger.json for exact accepted pins.

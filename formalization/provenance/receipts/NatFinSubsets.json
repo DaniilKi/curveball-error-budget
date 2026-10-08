@@ -1,0 +1,29 @@
+{
+  "module": "NatFinSubsets",
+  "source_sha256": "708edcc1f7ca6f8c176c852a89c9b0d9d23d6f29ddaa97c90568de76d173c81c",
+  "olean_sha256": "91a91ae2a67b190992fe011f1c778d5835f23a69ebbfb4483481643ff41786a5",
+  "imports": [
+    "NativePairLaw",
+    "GraphFiberOnly"
+  ],
+  "receipt_sha256": "a64fc0ce1db28c720974cd5261d1bbdaa0206d4231b45601b26db1bf9992bc45",
+  "log_sha256": "fe6b46539f54d72504761ea49452591efcca446bb2cb8a3d10ffc9f9172b09cf",
+  "printed_axioms": {
+    "CurveballVerified.boundedAssignmentEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativeAssignmentEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.985,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NatFinSubsets.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

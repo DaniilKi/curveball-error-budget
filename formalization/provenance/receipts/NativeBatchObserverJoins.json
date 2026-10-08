@@ -1,0 +1,44 @@
+{
+  "module": "NativeBatchObserverJoins",
+  "source_sha256": "52664f722e9b9bec0d16c0a4b4d75cc032edc814d060f44388b1b3185afbf2b1",
+  "olean_sha256": "5cb04f55c38dc6ddbf260772c01d3fbcbe046acf213bc99b50468b173389e5fd",
+  "imports": [
+    "NativeCanonicalCounting",
+    "NativeReplayProof",
+    "NativeBatchLaw"
+  ],
+  "receipt_sha256": "448a5d34ad164bd44a7d0a95beb8acd97aa6a516dbb03790640cae9cc8208ab3",
+  "log_sha256": "41217f84866f180ff6236efa196ac7814fb299261bd3916275877b0ea201fc99",
+  "printed_axioms": {
+    "CurveballVerified.generateTrace_success_replay": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_replay_success_observer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.generateTrace_success_observer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.oneChain_success_observer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.batch_success_observer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.828,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeBatchObserverJoins.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

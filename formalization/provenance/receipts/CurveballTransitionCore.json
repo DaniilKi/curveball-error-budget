@@ -1,0 +1,18 @@
+{
+  "module": "CurveballTransitionCore",
+  "source_sha256": "00d55c40dca27337808806676f66322dff70c887bf4b3cd6f0133fd4808a203f",
+  "olean_sha256": "c89d536d8a86d0326e1b01b013fc41c958dc996ed9790a04d6775a6a203b6a56",
+  "imports": [
+    "PairResamplingFinite",
+    "Mathlib.Data.Matrix.Mul"
+  ],
+  "receipt_sha256": "0cecbc621d6fb2f0da4cfc7e1e903be1573e000b79f5344f06afb3b2f05a0d51",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 8.172,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/CurveballTransitionCore.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

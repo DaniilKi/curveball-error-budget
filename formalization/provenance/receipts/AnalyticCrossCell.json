@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticCrossCell",
+  "source_sha256": "27d9e3449c9e0e0cbf37d7ff6b97a9d0f6bbaf4460b7b2db8224fef73ce19304",
+  "olean_sha256": "a112546b96829c73ca370b615315feb20c4091ec569e45c4d55da93ace0a64da",
+  "imports": [
+    "AnalyticDisjointEncoding"
+  ],
+  "receipt_sha256": "3e3595c46034cfb703f3afe3295aa224625f716f9131aa5e86871c511241ae8f",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 28.781,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticCrossCell.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

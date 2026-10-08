@@ -1,0 +1,43 @@
+{
+  "module": "ExactBodyExtractionLite",
+  "source_sha256": "6679c7dcf3758ee1799245672eb6e0621c30e2ee5c0f26859d7fbf30cddd2e9a",
+  "olean_sha256": "72613028c43aa876e72884754ab6796f32009174d9269df50d960fd50d2e31bd",
+  "imports": [
+    "AnalyticUnorderedBudget"
+  ],
+  "receipt_sha256": "f400cb5ba342292fd81e7f85ce29be49c4f989225ece0576783335ee2ca24c46",
+  "log_sha256": "fac3f9533a7019b9b4d5721c3e39a0f26099381b87becbc66d878cbc266180c9",
+  "printed_axioms": {
+    "CurveballAssurance.generator_square_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.generator_centered_poincare_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.curveballApply_eq_fiber_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.pair_expectation_eq_subset_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.ordinary_curveball_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.0,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/ExactBodyExtractionLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

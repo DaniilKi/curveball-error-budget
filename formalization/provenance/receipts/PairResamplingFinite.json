@@ -1,0 +1,17 @@
+{
+  "module": "PairResamplingFinite",
+  "source_sha256": "d2d9c96e3c1b94751606cb566c1b90678c5fb722d92c740eb60a715a248c6dbf",
+  "olean_sha256": "6abf8a9bb7d55d1a50258653fc4bdfab7c92683b9486a63501a9b928d4253993",
+  "imports": [
+    "GraphStructureOnly"
+  ],
+  "receipt_sha256": "78a02ef6501f98252786956869256a1bda17e621da30314becb00dfa4290ce6d",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 8.656,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/PairResamplingFinite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

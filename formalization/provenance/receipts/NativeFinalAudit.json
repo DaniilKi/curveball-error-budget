@@ -1,0 +1,62 @@
+{
+  "module": "NativeFinalAudit",
+  "source_sha256": "fe897e882314eef02b60db761d056974cd6e7811a39bc8f5873908f432ca628a",
+  "olean_sha256": "53e6dd26bc0ee19e61b87d232d002bf9930d9edbfad205da871c3652f8926877",
+  "imports": [
+    "NativeRequestInference"
+  ],
+  "receipt_sha256": "ce445f9466ad27b6638d4428e086ee4b243222ddc96de03802d872104b0a879b",
+  "log_sha256": "ab08e0ff1d94ecb6fde39c2bc7d1723856f42a80d192f8dc6b991b1224e7c730",
+  "printed_axioms": {
+    "CurveballVerified.native_request_type_I": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_reply_reject_admissible": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_native_byte_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_raw_byte_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.main_validated_exact_fields": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.ordinary_curveball_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_curveball_tv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_byte_batch_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.batch_success_observer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 20.062,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeFinalAudit.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

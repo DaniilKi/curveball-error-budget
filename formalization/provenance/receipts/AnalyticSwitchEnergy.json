@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticSwitchEnergy",
+  "source_sha256": "ada66ae2723b49be7668905b2a3a59e46c8eec83c478b3283a7c84fb941b885f",
+  "olean_sha256": "b25a4925e3da166c6954d253be8d3903013eb73b45ad081eb3ab2036fdd7a505",
+  "imports": [
+    "AnalyticGeneratorSquare"
+  ],
+  "receipt_sha256": "b210c3a9a42bc617f69cc724b903be5abf9d812985ac4307aa63a8c634b528a2",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 16.156,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticSwitchEnergy.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

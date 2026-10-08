@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticCountVariance",
+  "source_sha256": "b279860f83835074b3a93f0c410247fd9b48e8a3d28994890fe41ae046b8853c",
+  "olean_sha256": "11b4d17259c816006a039a4129e082dab842551b68709efdd0b8eae3d69e5211",
+  "imports": [
+    "AnalyticEncoding"
+  ],
+  "receipt_sha256": "dd71284040d332c012c521c36b82349dbe0900699542d3a49b309baa65e90a79",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 20.797,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticCountVariance.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

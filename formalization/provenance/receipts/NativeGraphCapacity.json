@@ -1,0 +1,53 @@
+{
+  "module": "NativeGraphCapacity",
+  "source_sha256": "5f82b2e013eb13ce8165b2a13fe4c28c9e2e7c16fb9ae3486d414e7a4c0d382e",
+  "olean_sha256": "3fe8157723470c0b52cde952d0132f4ae6b8728168040a0d4cb1546e14617060",
+  "imports": [
+    "NativeCardinality",
+    "Mathlib.Data.Nat.Choose.Basic"
+  ],
+  "receipt_sha256": "37f8e26bc6e98f140a73a91f2923137f476b5d71df13aa6fc22101a43ca32ed6",
+  "log_sha256": "8bd546690eaaf1fe35e2362a976f0b9487e4bf5536c7c7943c4cf4719df64729",
+  "printed_axioms": {
+    "CurveballVerified.native_left_subset_exclusive": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_left_length_le_exclusive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_exclusive_length_le_sub_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_exclusive_length_le_sub_two_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.binomial_le_global_central": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_subset_choose_le_global": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_subset_choose_le_global_raw": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.015,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeGraphCapacity.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

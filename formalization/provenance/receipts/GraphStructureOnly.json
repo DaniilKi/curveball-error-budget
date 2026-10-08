@@ -1,0 +1,24 @@
+{
+  "module": "GraphStructureOnly",
+  "source_sha256": "518eec3f8e46569a670bab2829e6b6b23117d84f68899060a5a622b3d1a2b178",
+  "olean_sha256": "8f130a6a8aea9c87183d6f44338159b37064ad3ec51b21676566f7e26059c791",
+  "imports": [
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Combinatorics.SimpleGraph.Finite",
+    "Mathlib.Data.Finset.Powerset",
+    "Mathlib.Data.Nat.Choose.Basic",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Tactic.Ext",
+    "Mathlib.Tactic.Tauto",
+    "Lean.Elab.Tactic.Omega"
+  ],
+  "receipt_sha256": "55b10fd45258bd6a6451477e8dbb891ac6e4afa4f4d7911e93c47d495be10cea",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 14.344,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/GraphStructureOnly.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

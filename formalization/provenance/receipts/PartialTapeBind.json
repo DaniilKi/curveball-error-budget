@@ -1,0 +1,33 @@
+{
+  "module": "PartialTapeBind",
+  "source_sha256": "6c95798d50c32c73b566b4bba843d1c7336bf42f5fba72db02186c8529d363cf",
+  "olean_sha256": "7ef01e5e738c2a302ea3f9f21b5cf1941bb9990883059845afe37d7883220efb",
+  "imports": [
+    "ProbabilityProofBundle"
+  ],
+  "receipt_sha256": "2a456f12ef13ec67dd4c69f16c81c7fe0068547067c1d7c3cacfbf16b1c5a78a",
+  "log_sha256": "679e6d6784153b8ec85e14e3291998c44b3e6bcafb5f15a1f642f77492d1aa31",
+  "printed_axioms": {
+    "CurveballVerified.bindTapeLaw_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.bindTapeLaw_pushforward": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.bindTapeLaw_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.25,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/PartialTapeBind.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

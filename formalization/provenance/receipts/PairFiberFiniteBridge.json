@@ -1,0 +1,34 @@
+{
+  "module": "PairFiberFiniteBridge",
+  "source_sha256": "292379f9cd4289cb420ae3ed4b964f6b3913fa04e449ad1fe0b636fa9ac5d3ab",
+  "olean_sha256": "fe4b270ea563348e6b4ea75569f71b8c448d4ae3283fe67fd89dc19d76bb59e6",
+  "imports": [
+    "GraphFiberOnly",
+    "PairResamplingFinite"
+  ],
+  "receipt_sha256": "092112eac17840edbf5a5bc07f4cee1ed6f44cbf3afb5e4318d3f67e071dea8e",
+  "log_sha256": "53eb0bbe14aeb7d5c17b0bbfc4fece0ad0b5be44055d81ef5c39307f40766ffa",
+  "printed_axioms": {
+    "OAI.Problem315.PairFiber.sameFiber_iff_key_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OAI.Problem315.PairFiber.resamplingFiberEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "OAI.Problem315.PairFiber.fiberStates_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.547,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/PairFiberFiniteBridge.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,32 @@
+{
+  "module": "NativeByteBatchLaw",
+  "source_sha256": "c033b0382ae94f1b377109b9afa989f766470b7b11fef5d64725fedc13cfb559",
+  "olean_sha256": "23e930070d96713231ba1730a3af578e73421a655da8e05ef906cfa512e01522",
+  "imports": [
+    "NativeByteTapeLaw"
+  ],
+  "receipt_sha256": "198139d75476ffbf548c9b4a431a42ba9e931f68b317b3c2f70e17fb30128dd9",
+  "log_sha256": "9bb1f22d7f2ac11a1b06ebde52c3805fe1be9486eca07973abc2b0505a6445b7",
+  "printed_axioms": {
+    "CurveballVerified.native_entropy_bits_length": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_byte_batch_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_byte_batch_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.484,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeByteBatchLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

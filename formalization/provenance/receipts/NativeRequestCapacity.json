@@ -1,0 +1,37 @@
+{
+  "module": "NativeRequestCapacity",
+  "source_sha256": "996e8bcb72534b8c0362ee0c40e4d946315ad716cc53c9d150fe58b5ef809f7c",
+  "olean_sha256": "85b3cd68f5a324476f494144448fd67ffc9c2747bf38393e3610d73c443abd66",
+  "imports": [
+    "NativeSubsetCapacity"
+  ],
+  "receipt_sha256": "d65672c101d96b4e7789259d51d61f74e86f93e10f96afaf30c4027059e6804b",
+  "log_sha256": "1977c10326b05e36e88089fa64888ee30033ccca69c0616956008b2da73dbb2c",
+  "printed_axioms": {
+    "CurveballVerified.sampling_width_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.sampling_width_monotone": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.sampling_pair_reserve_capacity": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.sampling_subset_reserve_capacity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 40.531,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRequestCapacity.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

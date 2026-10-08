@@ -1,0 +1,53 @@
+{
+  "module": "NativeTradeRefinement",
+  "source_sha256": "98f5ef8b43312ce0d48d21e1fce71b10ca11c1134d5177d0222b5ad1caf851e8",
+  "olean_sha256": "77af48c2e40fb260ddcf7adaf527793a364ba21b0c9fc1a8ceb0a3bfcd8de3b9",
+  "imports": [
+    "NativeCardinality"
+  ],
+  "receipt_sha256": "e7d020825c12a8b1d92c47f31156eb8e821a7ed372d946e94859a6e56bbaf24b",
+  "log_sha256": "5250c2ac1e6cc31016f1f19c1aef879aeba7713ce650d98329821c9997759470",
+  "printed_axioms": {
+    "CurveballVerified.native_possibleEdges_nodup": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativeMaterialize_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativeMaterialize_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_trade_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_trade_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_trade_success_checks": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_step_success_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 10.797,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeTradeRefinement.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

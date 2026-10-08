@@ -1,0 +1,49 @@
+{
+  "module": "CurveballTVLite",
+  "source_sha256": "6e9e910c0bd1b4172dd4f4462d39b33803734a9272711d6d0fcbfdc7218b05e1",
+  "olean_sha256": "29f3c64b40b3f7b0daa58fa37c0bf11d0de141536f35b426e3cd98dbad79e047",
+  "imports": [
+    "GenericTVLite",
+    "CurveballTransitionCore"
+  ],
+  "receipt_sha256": "eb8ccd05f85a2a8504e7efd8e9443717cdd336bdd0c8d7ed66048c58549f66a9",
+  "log_sha256": "d9bdfe4ef4b5345e1ec40057f06c625e91713c74a88e3c1824c2faae88b9fc82",
+  "printed_axioms": {
+    "CurveballVerified.transition_apply": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.transition_symmetric": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.transition_rows": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.transition_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.transition_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.ordinary_curveball_tv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.375,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/CurveballTVLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,26 @@
+{
+  "status": "optimized_release_candidate_assembly_mainreview_go_pending",
+  "metadata_version_staged": "0.2.0",
+  "public_version_or_tag_created": false,
+  "preferred_shipped_backend": "optimized_exact_transfer_accepted_final_release_review_pending",
+  "frozen_backend_fallback": "separately_labeled_requires_final_review_no_automatic_switch",
+  "frozen_packet_sha256": "c9bb05549519a3d9433fc180f1a8cfc43a00eb73c42c629974932c92ca931521",
+  "owner_holds_compiler_slot": false,
+  "compiler_calls": 0,
+  "package_build_calls": 0,
+  "native_sampler_calls": 0,
+  "published": false,
+  "scientific_rejection_authorized": false,
+  "tv_assurance_authorized": false,
+  "ideal_randomness_claim": false,
+  "graph_refinement_binary_claim": false,
+  "remaining": [
+    "independent final wheel/sdist/native inventory and installed-command release review GO",
+    "public release authorization and publication (none performed)"
+  ],
+  "preserve_v0.1.0": true,
+  "zenodo_write": false,
+  "arxiv_write": false,
+  "optimized_owner_transfer_accepted": true,
+  "scope": "Source assembly status; actual package/installed controls are in separate hash-bound candidate-validation.json and private raw receipts."
+}

@@ -1,0 +1,71 @@
+native_request_type_I : ∀ (r : Request) (hlimits : withinLimits r = true),
+  arithmeticPlan r = true →
+    eventMass (nativeRequestNullExperiment r hlimits) (nativeRequestReject r hlimits) ≤ ↑r.alphaNum / ↑r.alphaDen
+CurveballVerified.native_request_type_I : ∀ (r : CurveballNativeSampling.Request)
+  (hlimits : @Eq.{1} Bool (CurveballNativeSampling.withinLimits r) Bool.true)
+  (hplan : @Eq.{1} Bool (CurveballNativeSampling.arithmeticPlan r) Bool.true),
+  @LE.le.{0} Real Real.instLE
+    (@CurveballVerified.eventMass
+      (Prod.{0, 0}
+        (OAI.Problem315.GraphState (CurveballNativeSampling.Request.n r)
+          (CurveballVerified.nativeRequestDegrees r hlimits))
+        (CurveballVerified.BatchSpace (Fin (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256))))
+          (CurveballNativeSampling.entropyBytes r)))
+      (@instFintypeProd.{0, 0}
+        (OAI.Problem315.GraphState (CurveballNativeSampling.Request.n r)
+          (CurveballVerified.nativeRequestDegrees r hlimits))
+        (CurveballVerified.BatchSpace (Fin (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256))))
+          (CurveballNativeSampling.entropyBytes r))
+        (@Subtype.fintype.{0} (SimpleGraph.{0} (Fin (CurveballNativeSampling.Request.n r)))
+          (OAI.Problem315.Realizes (CurveballNativeSampling.Request.n r)
+            (CurveballVerified.nativeRequestDegrees r hlimits))
+          (fun (a : SimpleGraph.{0} (Fin (CurveballNativeSampling.Request.n r))) =>
+            Classical.propDecidable
+              (OAI.Problem315.Realizes (CurveballNativeSampling.Request.n r)
+                (CurveballVerified.nativeRequestDegrees r hlimits) a))
+          (@instFintypeSimpleGraphOfDecidableEq.{0} (Fin (CurveballNativeSampling.Request.n r))
+            (Fin.fintype (CurveballNativeSampling.Request.n r))
+            (instDecidableEqFin (CurveballNativeSampling.Request.n r))))
+        (@CurveballVerified.instFintypeBatchSpace
+          (Fin (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256))))
+          (Fin.fintype (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256))))
+          (CurveballNativeSampling.entropyBytes r)))
+      (CurveballVerified.nativeRequestNullExperiment r hlimits) (CurveballVerified.nativeRequestReject r hlimits)
+      fun
+        (a :
+          Prod.{0, 0}
+            (OAI.Problem315.GraphState (CurveballNativeSampling.Request.n r)
+              (CurveballVerified.nativeRequestDegrees r hlimits))
+            (CurveballVerified.BatchSpace (Fin (@OfNat.ofNat.{0} Nat (nat_lit 256) (instOfNatNat (nat_lit 256))))
+              (CurveballNativeSampling.entropyBytes r))) =>
+      Classical.propDecidable (CurveballVerified.nativeRequestReject r hlimits a))
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@Nat.cast.{0} Real Real.instNatCast (CurveballNativeSampling.Request.alphaNum r))
+      (@Nat.cast.{0} Real Real.instNatCast (CurveballNativeSampling.Request.alphaDen r)))
+'CurveballVerified.native_request_type_I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.native_reply_reject_admissible' depends on axioms: [propext, Quot.sound]
+def CurveballVerified.nativeRequestDegrees : (r : Request) → withinLimits r = true → Fin r.n → ℕ :=
+fun r hlimits => graphDegree (canonicalOfNative r.n r.edges ⋯).toSimpleGraph
+def CurveballVerified.nativeRequestNullExperiment : (r : Request) →
+  (hlimits : withinLimits r = true) →
+    FiniteLaw (GraphState r.n (nativeRequestDegrees r hlimits) × BatchSpace (Fin 256) (entropyBytes r)) :=
+fun r hlimits =>
+  productLaw (uniformLaw (GraphState r.n (nativeRequestDegrees r hlimits)))
+    (batchLaw (fun x => uniformLaw (Fin 256)) (entropyBytes r))
+def CurveballVerified.nativeRequestReject : (r : Request) →
+  (hlimits : withinLimits r = true) →
+    GraphState r.n (nativeRequestDegrees r hlimits) × BatchSpace (Fin 256) (entropyBytes r) → Prop :=
+fun r hlimits x => nativeReplyReject (requestAt r (nativeModelOfGraph ⋯ x.1)) (bytesFromBlocks (entropyBytes r) x.2)
+def CurveballVerified.nativeReplyReject : Request → ByteArray → Prop :=
+fun r bytes =>
+  bytes.size = entropyBytes r ∧
+    ∃ outs count rest,
+      batch r r.b (bytesBits bytes) = some (outs, count, rest) ∧
+        completionGuard r outs count rest = false ∧ (computedFields r outs count).rank = true
+'CurveballVerified.actual_native_byte_rank_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.native_raw_byte_rank_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballNativeSamplingBoundary.main_validated_exact_fields' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballAssurance.ordinary_curveball_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.checked_curveball_tv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.native_byte_batch_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.batch_success_observer' depends on axioms: [propext, Classical.choice, Quot.sound]

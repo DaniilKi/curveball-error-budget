@@ -1,0 +1,32 @@
+{
+  "module": "NativeSamplingInference",
+  "source_sha256": "f141ca5fdd3eaec16ed6bb076cd45ff8a75a92804b56c91d8d5d575fca69f11e",
+  "olean_sha256": "3817c3594159926c744639b68eb6c5ca2230852d01c85698fe9693131feaae5c",
+  "imports": [
+    "NativeInference",
+    "NativeJointDomination",
+    "NativeBatchStatistics",
+    "NativePlanJoins",
+    "NativeGuardCapacity"
+  ],
+  "receipt_sha256": "9f284a2a165c62c05d822090de9ec5778113afc4206fde7cb842aa8132294d9f",
+  "log_sha256": "97b785573c6cd5941739442bcfea94f1805c22657b4941b0b55bebb63668929c",
+  "printed_axioms": {
+    "CurveballVerified.actual_native_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_completed_rank_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 20.109,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSamplingInference.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

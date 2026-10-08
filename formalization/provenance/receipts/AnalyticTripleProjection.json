@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticTripleProjection",
+  "source_sha256": "d39f04ccb55b24d06261be29dca9b5a614e5489429f432c79fc1b56e06141292",
+  "olean_sha256": "e0eeaaf7042ed0408e316bf516810f56ef385f679d013d696e03f4ecff17ba6e",
+  "imports": [
+    "AnalyticMatrixVariance"
+  ],
+  "receipt_sha256": "fafa180e4d5feea0925c61c05207502e135c0da6b8fda30a30f762c7b5a17ff2",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 17.172,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticTripleProjection.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

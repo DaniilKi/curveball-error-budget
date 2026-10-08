@@ -1,0 +1,24 @@
+{
+  "module": "StateCountLite",
+  "source_sha256": "90fda95c9390c17b94fad3eba513c03b7f589fa8a4f73cce1766848066687bee",
+  "olean_sha256": "afcfd1655af712afdece96040e5d92f7c3da74bad4db09d862f9269e01bca315",
+  "imports": [
+    "ExactBodyExtractionLite",
+    "Mathlib.Combinatorics.SimpleGraph.DegreeSum"
+  ],
+  "receipt_sha256": "9ba1327db85916ae8664a168fba7fffd13a6558b63e5e9d7613242c74bf2310e",
+  "log_sha256": "47b92bb4b8300acbe1e36b619a369ae3c51f36e402c36f5765f6a6602444672e",
+  "printed_axioms": {
+    "CurveballVerified.state_count_choose_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.203,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/StateCountLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "module": "NativeGenerationFraming",
+  "source_sha256": "d9d7430df1f1c8f5e2ef486333ecae344e4b31d1868a4c2bd716eda1457cb38e",
+  "olean_sha256": "36dac87ca302fcbede13ef1bf70f26d3f38a52227e948c14e597433bb134edce",
+  "imports": [
+    "NativeGeneratedTraceLaw"
+  ],
+  "receipt_sha256": "cebe695d298d8c7819375084683aa3f26fd8cbe505eca1b22c0781627a5b33f0",
+  "log_sha256": "ff016b9c5bac7dac096bda6a8831e1dad255f02a5a62ebcce17a843636eaea80",
+  "printed_axioms": {
+    "CurveballVerified.generate_allocated_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.one_chain_allocated_prefix": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.438,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeGenerationFraming.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

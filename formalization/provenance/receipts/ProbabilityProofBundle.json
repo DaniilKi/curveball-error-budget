@@ -1,0 +1,194 @@
+{
+  "module": "ProbabilityProofBundle",
+  "source_sha256": "8fbf54612b308549c11e276ecac2e2b5854c0a5d129f06bb1ec20be7e141138b",
+  "olean_sha256": "d01a5c564028bc87ede6b07e9b533f94d1df671d946d398b78836cc74bb1751c",
+  "imports": [
+    "BatchOperations",
+    "NativeEntropyProof",
+    "NativeSubset",
+    "Mathlib.Data.Nat.Choose.Basic",
+    "Mathlib.Data.List.Sublists",
+    "Mathlib.Data.Fintype.EquivFin",
+    "Mathlib.Data.Finset.Powerset",
+    "Mathlib.Data.Matrix.Mul",
+    "Lean.Elab.Tactic.Omega"
+  ],
+  "receipt_sha256": "9172246d55a7996aa4c0553e44bdb285b7639e0336de4eba3ad862d194a96f50",
+  "log_sha256": "c8f00f5408b50b89689db7b5ab98f4d4ba5226ae8cbde58d2ff68d42e5aee7e9",
+  "printed_axioms": {
+    "CurveballVerified.below_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.above_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.rejection_word_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.cappedWords_none_succ": [
+      "propext"
+    ],
+    "CurveballVerified.accepted_word_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.mapLaw_event": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.mapLaw_comp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.firstWordLaw_none": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.firstWordLaw_some": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.capped_failure_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.capped_success_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.fillFailure_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.capped_counterfactual_uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.abort_event_inclusion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.abort_typeI_transfer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.bitTape_cappedWords": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.fixed_bits_refines": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.fixedBitsOutput_refines": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_capped_bit_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.native_choose_eq": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.unrankSubset_eq": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.subsetAt_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.unrankSubset_at": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.unrankSubset_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.choiceSet_bijective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.subsetAssignmentEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.subset_assignment_uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.iterateKernel_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.iteratePartial_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.partial_rejection_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.mapPartialLaw_success": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.mapPartialLaw_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.capped_success_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.batchVectorEquiv": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.iid_batch_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 13.188,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/ProbabilityProofBundle.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

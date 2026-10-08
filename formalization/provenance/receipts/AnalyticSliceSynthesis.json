@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticSliceSynthesis",
+  "source_sha256": "5f0b2bd12abd2af5bd7ee8798815ea322ac06aa9276651c5749a1c7a5edc1e75",
+  "olean_sha256": "bbdf06614f75412ef75884c3ad846722f5ca925a5ba43d84aa1cff342ad94f1a",
+  "imports": [
+    "AnalyticSliceTransport"
+  ],
+  "receipt_sha256": "efe07b134d15364c84e3e58a77c48fb73e815f135c79ef8b4d8841b76c9ffd08",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 25.656,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticSliceSynthesis.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

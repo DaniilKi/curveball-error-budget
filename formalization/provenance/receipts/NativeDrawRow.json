@@ -1,0 +1,32 @@
+{
+  "module": "NativeDrawRow",
+  "source_sha256": "d6a189d1fde3cd06187cd13a15c1b6c987d9758e24371a8628349ba9170a6c65",
+  "olean_sha256": "a7b254055e8d6cb82c3391079a360026575841330e99a97045ee45885643639e",
+  "imports": [
+    "NativeSubsetRow",
+    "NativePairFin",
+    "PartialTapeBind",
+    "NativeReservedObservation",
+    "NativeSamplingProtocol"
+  ],
+  "receipt_sha256": "2aee87b5335a4c89eb60d23637a63d71281ce8235da91047ef324c8ee3ce336f",
+  "log_sha256": "45b30708c6451320df1c7d1a77859feb40940752f074b865afeb5931cbb73ac1",
+  "printed_axioms": {
+    "CurveballVerified.samplingStep_split": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.sampling_draw_row_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 13.485,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeDrawRow.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

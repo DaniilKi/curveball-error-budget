@@ -1,0 +1,33 @@
+{
+  "module": "FiniteTapeLaw",
+  "source_sha256": "c63379d9aa4d84ddae1460e70ac98f014a9038f7b438fefa8cf6f98b60c60488",
+  "olean_sha256": "ddef99cbc638a28b213b521d920de7b1577289db566c19d47fa9fd19908b91bd",
+  "imports": [
+    "ReservedBitTape",
+    "Mathlib.Data.List.OfFn"
+  ],
+  "receipt_sha256": "ff31ae93eddac526c3a206e8733fcc10ad36a29b6ab83d22b6a64f5c5bcd5101",
+  "log_sha256": "fe411524e1178bc4b2fa7899a5606496edb8baa79dd86da1a24555f7dd88dd82",
+  "printed_axioms": {
+    "CurveballVerified.tapeOfVector": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballVerified.blockTapeEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.uniform_reserved_tape_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 31.406,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/FiniteTapeLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,30 @@
+{
+  "module": "CertifiedScheduleLite",
+  "source_sha256": "095233cad28231e2d0cf473e1af2a6bb2ed4951dde5b1d543eacca78fc06e611",
+  "olean_sha256": "9c39b84a8ee597127484329ee027a8eb7535df205fead06b6524518c6ab7982b",
+  "imports": [
+    "CurveballTVLite",
+    "StateCountLite",
+    "BudgetCoreLite"
+  ],
+  "receipt_sha256": "0e279076c4afa179e3749cf7b74fbd6627bbe06dd57460ec64ea112cdfa35bb7",
+  "log_sha256": "73a29a63e1a07562864b65423ba17e18ff0b3ea801f962840f79633eb0992700",
+  "printed_axioms": {
+    "CurveballVerified.exp_neg_nat_le_binary": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_curveball_tv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.656,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/CertifiedScheduleLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,40 @@
+{
+  "module": "NativeInference",
+  "source_sha256": "cb4331fa58c27002e2b82e66d53e77db11e4762b91634b54d8961c1500340e09",
+  "olean_sha256": "043339ee367e364a99588fb5a52cd4f5e0eb56e990f2cdd52d6c2cbb0146166e",
+  "imports": [
+    "CurveballKernelLaw",
+    "NativeArithmetic",
+    "NativeRankCounting"
+  ],
+  "receipt_sha256": "a282db8c90bed09fa5ac6b0ea73891c34d6f4210c8080c37525473522f16a09a",
+  "log_sha256": "44af021dff9ea95278e292ffa1ccf58b0e31c4945e80427f4f505c9251f9d802",
+  "printed_axioms": {
+    "CurveballVerified.rankCount_observed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_rank_implies_cutoff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.rational_cutoff_identity": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_curveball_inference_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.578,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeInference.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

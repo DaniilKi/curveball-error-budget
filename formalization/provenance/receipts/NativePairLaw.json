@@ -1,0 +1,33 @@
+{
+  "module": "NativePairLaw",
+  "source_sha256": "00061cea4b798abb58c16e3c80772b262de67f9f75c1f7bd5cbb003b32b940c0",
+  "olean_sha256": "b298e3cfee2bb45fde9d0c7fdc59641d8705c94ab90bca8fefd855dec6893ae9",
+  "imports": [
+    "NativeDecoderIntegration"
+  ],
+  "receipt_sha256": "85baf499fef1ec89c87d446035e17a5b110a2b42bdb0064d736d965baf706656",
+  "log_sha256": "ad1330f3310d674edc41964bedc6b96983a5822accee5a328ad5091676a73b9f",
+  "printed_axioms": {
+    "CurveballSubsetVerified.nativePairAssignment_at": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.native_pair_uniform": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.actual_capped_pair_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.563,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativePairLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

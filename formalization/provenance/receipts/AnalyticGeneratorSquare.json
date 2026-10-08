@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticGeneratorSquare",
+  "source_sha256": "382faf716cbbd3cc7b210f0dfbfd46e8b835918ac809f15c14470dee56ede991",
+  "olean_sha256": "62e355ebac3da8f13c055896c645893103f7a60c72985e455411b7a7f6c761e8",
+  "imports": [
+    "AnalyticConnectivity"
+  ],
+  "receipt_sha256": "849ff480efc8d7e4ecf5ded6481db809c9b7a4bf0aa37aba3dc86bb8caf00a01",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 16.297,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticGeneratorSquare.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

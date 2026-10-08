@@ -1,0 +1,47 @@
+{
+  "module": "NativeEntropyProof",
+  "source_sha256": "92622d51ee15e5930efa5f21c89899126a3572598656df18702aa6d176f86c28",
+  "olean_sha256": "e3cd2e743214a1cc0df377e33fec3ca2f71a5b3d141aa12f2b2390df46b7b523",
+  "imports": [
+    "NativeEntropy",
+    "RandomBits"
+  ],
+  "receipt_sha256": "798fe5d3d86ed1cf8997deda2c7db4b873189d2691266a7e331a1ce003dfef56",
+  "log_sha256": "287a11c5f469548bb3f4328b13c0337090dce365797a1e83e63cc1e847530faa",
+  "printed_axioms": {
+    "CurveballNative.bitsValue_eq": [
+      "propext"
+    ],
+    "CurveballNative.drawBelowAux_eq": [
+      "propext"
+    ],
+    "CurveballNative.drawBelow_eq": [
+      "propext"
+    ],
+    "CurveballNative.drawBelowFixed_range": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNative.drawBelowFixed_suffix": [
+      "propext"
+    ],
+    "CurveballNative.drawBelowFixed_prefix": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNative.drawBelowReserved_range": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNative.drawBelowReserved_prefix": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 10.937,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeEntropyProof.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

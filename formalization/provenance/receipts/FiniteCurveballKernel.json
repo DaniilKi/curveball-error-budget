@@ -1,0 +1,29 @@
+{
+  "module": "FiniteCurveballKernel",
+  "source_sha256": "59d5a16b1f8206ee1ffb507c22a7e45ef1c054aa9a8f9482190cce0efefd7def",
+  "olean_sha256": "88f161876aa1dfdd9b49fd8d6b15f8998af43059f723d435202f968047fdeb21",
+  "imports": [
+    "NativeRankKernel",
+    "NativePairFin"
+  ],
+  "receipt_sha256": "2ff1181c532495791dbd56f9fd0fa102a74206b5499a9af8888a2301355bad13",
+  "log_sha256": "52ad0a51d8fcd7d7083ba9a7af3f73a94a13d5daa28e1c4dea8ebab56e79a285",
+  "printed_axioms": {
+    "CurveballVerified.finite_transition_normalized": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.finite_curveball_iterate_mass": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.375,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/FiniteCurveballKernel.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

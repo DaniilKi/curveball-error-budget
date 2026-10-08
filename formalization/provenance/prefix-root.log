@@ -1,0 +1,6 @@
+native_prefix_request_type_I : ∀ (r : Request) (hlimits : withinLimits r = true),
+  arithmeticPlan r = true →
+    eventMass (nativeRequestNullExperiment r hlimits) (nativePrefixRequestReject r hlimits) ≤ ↑r.alphaNum / ↑r.alphaDen
+'CurveballVerified.native_prefix_request_type_I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CurveballVerified.native_prefix_reject_admissible' depends on axioms: [propext, Quot.sound]
+'CurveballNativeSamplingPrefix.mainOptimized_eq_frozen' depends on axioms: [propext, Classical.choice, Quot.sound]

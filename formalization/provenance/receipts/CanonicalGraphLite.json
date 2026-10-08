@@ -1,0 +1,33 @@
+{
+  "module": "CanonicalGraphLite",
+  "source_sha256": "b6c64de17b011dc34056b166ce8900aab7fff90b060bab922a12754177ec88c3",
+  "olean_sha256": "a41b8d0bf977cf39a4bcf4d8105ac70a000b6fd693bab1d47c21b99bd7c4dbfe",
+  "imports": [
+    "GraphStructureOnly"
+  ],
+  "receipt_sha256": "a0ba1f501b3c62722df66b88fd9353225470b4f49617491e0b1d8e4ba5b29dcb",
+  "log_sha256": "870a26e63c53b8270dfe3d43c4e8d37bcd69d635401c86895f56d5eb745572b6",
+  "printed_axioms": {
+    "CurveballVerified.degree_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.executeTrade_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.executeTrade_degree": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.75,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/CanonicalGraphLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

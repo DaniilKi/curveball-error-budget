@@ -1,0 +1,41 @@
+{
+  "module": "NativeCardinality",
+  "source_sha256": "272d80b6b93e83b4ebcd68228d0157e6d7ab53550d4168dab381c588013079fc",
+  "olean_sha256": "fc1c68ddce1aa56d9614401ab2c2299c837b7ef45a48fd14dfdb9975284ed9e5",
+  "imports": [
+    "NativeGraphProof"
+  ],
+  "receipt_sha256": "8404ec210227837024cd04870e599924662cf2c9c641ef0fd6ee0c8bfa799136",
+  "log_sha256": "d1da33618b22d94c3735184071dfc4533dd12b745c66440f1464681214cdb615",
+  "printed_axioms": {
+    "CurveballVerified.native_graphValid_iff": [
+      "propext"
+    ],
+    "CurveballVerified.canonicalOfNative_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.chosenSet_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_left_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_degree_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.047,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeCardinality.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

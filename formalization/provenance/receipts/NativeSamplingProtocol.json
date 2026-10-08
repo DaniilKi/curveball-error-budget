@@ -1,0 +1,20 @@
+{
+  "module": "NativeSamplingProtocol",
+  "source_sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1",
+  "olean_sha256": "111089c1605596ca8bc8f98ff7e63c2648eb6595e8c3215dee362b620c7218c7",
+  "imports": [
+    "NativeGraph",
+    "NativeEntropy",
+    "NativeSubset",
+    "NativeReplay"
+  ],
+  "receipt_sha256": "7c7d43d6ba170f33abe1257e9ca9e67b3eb3b4667845ffe58fcfc504e3501052",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 2.547,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSamplingProtocol.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

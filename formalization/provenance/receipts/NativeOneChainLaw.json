@@ -1,0 +1,33 @@
+{
+  "module": "NativeOneChainLaw",
+  "source_sha256": "e9d1505289778219e14a5c139d5c0f2165403700b937640e3497e2d6a12d653e",
+  "olean_sha256": "94125e6f56bbb501a499939da1b39f6dbdfc8ba841cbffed1f59a68575aa587b",
+  "imports": [
+    "NativeGeneratedTraceLaw"
+  ],
+  "receipt_sha256": "c2be605bde30139eb30eacde414eb46cfd658c3f795bbcb9a44748a6b8081241",
+  "log_sha256": "7a37a88cef497652621c4c968dcb64a17b23a73307a311eb4dbbb15e66ef1ea3",
+  "printed_axioms": {
+    "CurveballVerified.partial_success_mass_mono": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.one_chain_projection_implies_generated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_one_chain_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.516,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeOneChainLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

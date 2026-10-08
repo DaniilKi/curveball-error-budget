@@ -1,0 +1,30 @@
+{
+  "module": "NativeModelGraphJoins",
+  "source_sha256": "15c6b5278bec0e42c1e4d812987356e8f3a8a60876ce154474a4f9dce31871b4",
+  "olean_sha256": "1487c3c0159cf135dd51e9fef4e92dc31e0ff8ed3fbee8fd93f2c74dd53e152f",
+  "imports": [
+    "NativeCanonicalCounting",
+    "NativeConcreteExecution",
+    "Mathlib.Combinatorics.SimpleGraph.DegreeSum"
+  ],
+  "receipt_sha256": "d0cd1df0b372a5646d48798939f61ceae830667f06672d6a316f87b4ec5712a7",
+  "log_sha256": "2ad1867b64853e6b369b6c8e295c3961fc5cb19070d1f1d520caec9a420bcd43",
+  "printed_axioms": {
+    "CurveballVerified.native_model_edge_count": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativeModelOfGraph_project": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.235,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeModelGraphJoins.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

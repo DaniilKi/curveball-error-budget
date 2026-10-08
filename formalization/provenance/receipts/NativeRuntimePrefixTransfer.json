@@ -1,0 +1,44 @@
+{
+  "module": "NativeRuntimePrefixTransfer",
+  "source_sha256": "2a38a7525a1ab47d6da496a3373888f2b06e0967b5bf020af84c39595d6443bb",
+  "olean_sha256": "db47b549ebf007d00c88cb64367de7a541cefa547853dcf8c6fa3f8270690243",
+  "imports": [
+    "NativeEntropyPrefixTransfer",
+    "NativeSamplingBoundary"
+  ],
+  "receipt_sha256": "844947d4e0420e7aa37bffb1302e5d462386ea7b33804afa0fcbdd946cbbbef0",
+  "log_sha256": "20d2c8d502e74c014926de03431c1e46842be0f8b590bfa0628e725c6d37697a",
+  "printed_axioms": {
+    "CurveballNativeSamplingPrefix.draw_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.generateTrace_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.oneChain_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.batch_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingPrefix.tapeReplyPrefix_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 2.796,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeRuntimePrefixTransfer.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

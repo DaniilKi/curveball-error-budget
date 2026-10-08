@@ -1,0 +1,39 @@
+{
+  "module": "CurveballKernelLaw",
+  "source_sha256": "e4285be10948b7cf467eb2627fd0739d79484fb9ddd3cfe587d546f0905af616",
+  "olean_sha256": "66f7a7bf24bcb85a098c021b223448dadb805196813078e8dec668167624946c",
+  "imports": [
+    "CertifiedScheduleLite",
+    "ProbabilityProofBundle"
+  ],
+  "receipt_sha256": "5c0112fbb9c4638212e8091a09236c244ee3ab7fc093d582fbfa5d6166b9857b",
+  "log_sha256": "c7afeac0bc010d7b55be3cf9e8999c22a99348e3247ca10e9ef8b1c63160d946",
+  "printed_axioms": {
+    "CurveballVerified.curveball_execution_power": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_curveball_execution_tv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_curveball_experiment_tv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.checked_curveball_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.078,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/CurveballKernelLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

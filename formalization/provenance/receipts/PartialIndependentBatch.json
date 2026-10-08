@@ -1,0 +1,28 @@
+{
+  "module": "PartialIndependentBatch",
+  "source_sha256": "e8dbe91b13a92f5bcc0dcea75eb34bec3e2fe30a03a596accbfb46c4cc296275",
+  "olean_sha256": "b27cdc9f4abfe170008787d2cfabb613f1a773afff456e90541e11d9066b3e66",
+  "imports": [
+    "PartialTapeBind"
+  ],
+  "receipt_sha256": "4efd4eb6ede8c7c53703981ea2e77c2aaed74d31e8df673d9805a4ee64dcb557",
+  "log_sha256": "6b4cf0042aa296045d158c028fdc8ef7e7ee03d09b56da1ac0a3d5640acccaef",
+  "printed_axioms": {
+    "CurveballVerified.independent_batch_success_succ": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.independent_batch_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.359,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/PartialIndependentBatch.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

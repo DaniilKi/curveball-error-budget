@@ -1,0 +1,33 @@
+{
+  "module": "NativeCanonicalCounting",
+  "source_sha256": "8ee035b4b54245c5134869257b5258ea7a82a4ba5f3782391a70d9b6d7d2f951",
+  "olean_sha256": "852938b061bd186ea6cea672128671085a9f666022b0c5403e54b7c7a49bdad3",
+  "imports": [
+    "NativeCardinality"
+  ],
+  "receipt_sha256": "aeccc0aba7b6ba6ad24408b8a8ef76b89ba6832a5442b5314263b69f39ff1075",
+  "log_sha256": "55ba17f2094b78d3d40651c55bc46e4641e452d776e29dad65275bac9d4798dd",
+  "printed_axioms": {
+    "CurveballVerified.native_length_canonical_card": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_canonical_card_edgeFinset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_length_edgeFinset": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 42.344,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeCanonicalCounting.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

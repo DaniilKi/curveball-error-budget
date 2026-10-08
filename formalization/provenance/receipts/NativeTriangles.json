@@ -1,0 +1,23 @@
+{
+  "module": "NativeTriangles",
+  "source_sha256": "25e5917a2ec3c6408ab143aa2220cd2c7cc3aae0731117e33efbe7971a26e6d1",
+  "olean_sha256": "57827e89f9ebb7b90bdbfbc359f901eef71ee27a835e2d84667b55a53ca6a3a2",
+  "imports": [
+    "NativeCardinality"
+  ],
+  "receipt_sha256": "9218cc43c3a91d690f821351f421fe312fef744196510c9b7966e18bd3b94944",
+  "log_sha256": "4ceb8752a55343e621e2c1722324181031009ec4dc8e14ae154ff08be0b4228c",
+  "printed_axioms": {
+    "CurveballVerified.native_triangles_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.313,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeTriangles.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

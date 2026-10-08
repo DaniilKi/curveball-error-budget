@@ -1,10 +1,7 @@
-name = "curveball_assurance"
-version = "0.1.0"
-defaultTargets = ["ExactBodyExtraction"]
+name = "curveball_native_proof"
+version = "0.2.0"
+defaultTargets = []
 leanOptions = { autoImplicit = false, maxRecDepth = 4096, maxHeartbeats = 1000000 }
-
-[[lean_lib]]
-name = "ExactBodyExtraction"
 
 [[require]]
 name = "mathlib"

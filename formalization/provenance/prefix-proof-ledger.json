@@ -1,0 +1,3239 @@
+{
+  "schema": 1,
+  "status": "owner_kernel_accepted_exact_optimized_transfer_main_release_review_pending",
+  "root": "CurveballVerified.native_prefix_request_type_I",
+  "whole_io_expression_root": "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen",
+  "owner_raw_ledger_sha256": "1af0ae50a38d8c30840528a127373b4c3824e95a7ec95bd3560ac59fc801fc48",
+  "owner_packet_sha256": "62122dc81c09885062e83bb81bd62753052e7fa47809f3c9d0484237811f1e55",
+  "frozen_owner_raw_ledger_sha256": "aafe3813d74c6199fd8750d851a9aafe236817a16a196a69cc2c4185c6dcd103",
+  "prefix_source_map_sha256": "f3b900427ef370d91f7b15b88d543640e9ba574feab1cd3b245027e0c4384c8a",
+  "modules": [
+    {
+      "module": "AnalyticConnectivity",
+      "source_sha256": "ecea50731ef0d58de4a71f133c6a6ee5e8dfc030d9adfde07d2d40669663423a",
+      "olean_sha256": "5a3dcdc6e3ea7c4a759a5eacfdcfab0cc84e146bb176afd78675114d1db0cdd2",
+      "imports": [
+        "AnalyticTripleProjection"
+      ],
+      "receipt_sha256": "f8e806e21c3fec920c81b6b73ddb9b09a2b968288f5ddffae2915cedd6097c73",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 15.422,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticConnectivity.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticCountVariance",
+      "source_sha256": "b279860f83835074b3a93f0c410247fd9b48e8a3d28994890fe41ae046b8853c",
+      "olean_sha256": "11b4d17259c816006a039a4129e082dab842551b68709efdd0b8eae3d69e5211",
+      "imports": [
+        "AnalyticEncoding"
+      ],
+      "receipt_sha256": "dd71284040d332c012c521c36b82349dbe0900699542d3a49b309baa65e90a79",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 20.797,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticCountVariance.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticCrossCell",
+      "source_sha256": "27d9e3449c9e0e0cbf37d7ff6b97a9d0f6bbaf4460b7b2db8224fef73ce19304",
+      "olean_sha256": "a112546b96829c73ca370b615315feb20c4091ec569e45c4d55da93ace0a64da",
+      "imports": [
+        "AnalyticDisjointEncoding"
+      ],
+      "receipt_sha256": "3e3595c46034cfb703f3afe3295aa224625f716f9131aa5e86871c511241ae8f",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 28.781,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticCrossCell.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticCrossToggle",
+      "source_sha256": "f7cd3f7d7fdd91fbd20d43b80d6e6370793e8fea1eab649c1a284a2b96eb2089",
+      "olean_sha256": "cfc67510678d17eb843a169bc4e8a4cc75ae892973d6a35276e341a936077250",
+      "imports": [
+        "AnalyticSwitchEnergy"
+      ],
+      "receipt_sha256": "6e259cd39bbaf7dd7e05d833f01ff0ae1a2d2b47c99afabf861af5181a2aa194",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 25.563,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticCrossToggle.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticDisjointEncoding",
+      "source_sha256": "79fc9322db6e69b31a035d3e1e97dd69e7d702f463b955bc413cb1c87672b568",
+      "olean_sha256": "25a02c0965f6f0f86ea4e1213ab7016b8d8bfa5e1311a4820dc2902ad8e917ed",
+      "imports": [
+        "AnalyticCrossToggle"
+      ],
+      "receipt_sha256": "9942d5cf2fcd4dadfaa639ca1500549ae08905793d33db5036ae7334f1d3c96a",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 26.313,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticDisjointEncoding.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticEncoding",
+      "source_sha256": "e26a07bfab4585fc318fa2425878e2af9f72de7bbcd23d89b3b98bbe10f331b7",
+      "olean_sha256": "9a60e363fbfbf49c6707479da7bc6e2f9d1af25c744312d81bc48221a86d1214",
+      "imports": [
+        "AnalyticPrelude"
+      ],
+      "receipt_sha256": "c68ee6d3b1b6ab9d9717881a12ec799fb6a9e53adc08830072ea5019f42924be",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 29.953,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticEncoding.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticGeneratorSquare",
+      "source_sha256": "382faf716cbbd3cc7b210f0dfbfd46e8b835918ac809f15c14470dee56ede991",
+      "olean_sha256": "62e355ebac3da8f13c055896c645893103f7a60c72985e455411b7a7f6c761e8",
+      "imports": [
+        "AnalyticConnectivity"
+      ],
+      "receipt_sha256": "849ff480efc8d7e4ecf5ded6481db809c9b7a4bf0aa37aba3dc86bb8caf00a01",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 16.297,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticGeneratorSquare.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticMatrixVariance",
+      "source_sha256": "7abcf72f2e64b70083715b4df0fecd4b257b4679128ff353634978f884693b36",
+      "olean_sha256": "746255ee11bf0e6bf10f003265a01d60b1c8f888a3ea8cb309f8fd5d14b65da8",
+      "imports": [
+        "AnalyticCountVariance"
+      ],
+      "receipt_sha256": "f5d6dde99a28cd22a9acb9bc1cdb2acf13ab5cc04ee9d69670200746a25d5703",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 19.969,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticMatrixVariance.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticPrelude",
+      "source_sha256": "fb58766a44bdd8940a89254cf4868048427c64c96afa853cf6a01c2043d4fe2d",
+      "olean_sha256": "494f906358b72b9135a9447cfb072e5c9eccc48a663cfa60f38b48c67e70ecc3",
+      "imports": [
+        "GraphFiberOnly",
+        "PairFiberFiniteBridge",
+        "Mathlib.Analysis.InnerProductSpace.Spectrum",
+        "Mathlib.Analysis.InnerProductSpace.Projection.Basic",
+        "Mathlib.Analysis.InnerProductSpace.PiL2",
+        "Mathlib.Combinatorics.SimpleGraph.Finite",
+        "Mathlib.Combinatorics.SimpleGraph.Matching",
+        "Mathlib.Combinatorics.SimpleGraph.LapMatrix",
+        "Mathlib.Analysis.InnerProductSpace.Positive",
+        "Mathlib.Algebra.Order.Chebyshev",
+        "Mathlib.LinearAlgebra.Matrix.PosDef",
+        "Mathlib.Data.Finset.Powerset",
+        "Lean.Elab.Tactic.Omega",
+        "Aesop",
+        "Mathlib.Tactic.Tauto",
+        "Mathlib.Tactic.Ext",
+        "Mathlib.Tactic.FinCases",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Abel",
+        "Mathlib.Tactic.Convert"
+      ],
+      "receipt_sha256": "8401b6424df74f7eb31843c7cfa940d0072ab5524877fb7048f829ab10428d17",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 49.5,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticPrelude.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticSliceProjection",
+      "source_sha256": "62bcfbf8254acbda7ae785dd6cde23b8f215aa799613f6aa45d8deef67a31f61",
+      "olean_sha256": "a02d902d6c67c5088ec7ed29ebe5ae7115c0243309d0d87871d77a2b5f09ac2f",
+      "imports": [
+        "AnalyticSliceSynthesis"
+      ],
+      "receipt_sha256": "aaa998ba3c742b398ef2b8e0cda498991f99604990fb0e55d55bf19689764e82",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 24.86,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticSliceProjection.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticSliceSynthesis",
+      "source_sha256": "5f0b2bd12abd2af5bd7ee8798815ea322ac06aa9276651c5749a1c7a5edc1e75",
+      "olean_sha256": "bbdf06614f75412ef75884c3ad846722f5ca925a5ba43d84aa1cff342ad94f1a",
+      "imports": [
+        "AnalyticSliceTransport"
+      ],
+      "receipt_sha256": "efe07b134d15364c84e3e58a77c48fb73e815f135c79ef8b4d8841b76c9ffd08",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 25.656,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticSliceSynthesis.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticSliceTransport",
+      "source_sha256": "e0a7c876ea5d3d0b42ca490719dfd8efda8393055b59bbf1854b3004da83f6ca",
+      "olean_sha256": "22a1676e072c99caf0ac597d1884d8d3e7ff7415d775884047853687d2cdfc41",
+      "imports": [
+        "AnalyticCrossCell"
+      ],
+      "receipt_sha256": "441dd4419b715cd62437130d645f2f3f35cf5decc7b258a7e7c4a4a27c70275e",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 27.14,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticSliceTransport.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticSwitchEnergy",
+      "source_sha256": "ada66ae2723b49be7668905b2a3a59e46c8eec83c478b3283a7c84fb941b885f",
+      "olean_sha256": "b25a4925e3da166c6954d253be8d3903013eb73b45ad081eb3ab2036fdd7a505",
+      "imports": [
+        "AnalyticGeneratorSquare"
+      ],
+      "receipt_sha256": "b210c3a9a42bc617f69cc724b903be5abf9d812985ac4307aa63a8c634b528a2",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 16.156,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticSwitchEnergy.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticTripleProjection",
+      "source_sha256": "d39f04ccb55b24d06261be29dca9b5a614e5489429f432c79fc1b56e06141292",
+      "olean_sha256": "e0eeaaf7042ed0408e316bf516810f56ef385f679d013d696e03f4ecff17ba6e",
+      "imports": [
+        "AnalyticMatrixVariance"
+      ],
+      "receipt_sha256": "fafa180e4d5feea0925c61c05207502e135c0da6b8fda30a30f762c7b5a17ff2",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 17.172,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticTripleProjection.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "AnalyticUnorderedBudget",
+      "source_sha256": "bb6f18e560745abc9b6b55ced5aa7c73721badbb50d9210b01bdb3973d5c9a00",
+      "olean_sha256": "a21bfbf9ec2529f52dd5e9903ce7cb4cb77b498354fc669b628f39ec14e3c4bf",
+      "imports": [
+        "AnalyticSliceProjection"
+      ],
+      "receipt_sha256": "a1420c71bbe9ee0eea997538f6ab8d96077158d57da6862f3da2cdae5acbabab",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 16.969,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/AnalyticUnorderedBudget.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "BatchOperations",
+      "source_sha256": "e54822c8e39c3bed9386990f5d29d94a97466a7316be0656bb74e0f2bab122c4",
+      "olean_sha256": "26852447b5fc9def04762d538a5175a0bdff5e4179f90f980b7abb4f4f21a938",
+      "imports": [
+        "FiniteLawMapping",
+        "ConditionalProbability"
+      ],
+      "receipt_sha256": "6818216414abe14600eb8c2507a23c99f92c3d0baba48a4184f08802bb48f3e3",
+      "log_sha256": "a05057db4005ce2c40a1751a194c6ccce5518b9727a4a0d02cc2597a777351f2",
+      "printed_axioms": {
+        "CurveballVerified.mapLaw_product": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.batchLaw_uniform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.batch_map_uniform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.independent_suffix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.719,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/BatchOperations.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "BudgetCoreLite",
+      "source_sha256": "c0f241d2d111b06ab9509f511287c61fea41441688e5e93ca2b1e92cdb2e0f0e",
+      "olean_sha256": "b20b822a7934be03baeb40d32479ed886adb53b0e6624b68f3e0eb35332e19c1",
+      "imports": [
+        "Mathlib.Data.Nat.Choose.Basic",
+        "Lean.Elab.Tactic.Omega",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Positivity",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt"
+      ],
+      "receipt_sha256": "4cf066e3921f2f5b63f52c3f52927d0772186b94607170c656593d3fd83e0ada",
+      "log_sha256": "411b8af75e9ade9626a7663636208099cf233bae28e2741156237c093b5047ae",
+      "printed_axioms": {
+        "CurveballVerified.budgetCheck_sound": [
+          "propext"
+        ],
+        "CurveballVerified.integer_budget_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_budget_real_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.rankCheck_sound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.14,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/BudgetCoreLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "CanonicalGraphLite",
+      "source_sha256": "b6c64de17b011dc34056b166ce8900aab7fff90b060bab922a12754177ec88c3",
+      "olean_sha256": "a41b8d0bf977cf39a4bcf4d8105ac70a000b6fd693bab1d47c21b99bd7c4dbfe",
+      "imports": [
+        "GraphStructureOnly"
+      ],
+      "receipt_sha256": "a0ba1f501b3c62722df66b88fd9353225470b4f49617491e0b1d8e4ba5b29dcb",
+      "log_sha256": "870a26e63c53b8270dfe3d43c4e8d37bcd69d635401c86895f56d5eb745572b6",
+      "printed_axioms": {
+        "CurveballVerified.degree_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.executeTrade_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.executeTrade_degree": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.75,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/CanonicalGraphLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "CertifiedScheduleLite",
+      "source_sha256": "095233cad28231e2d0cf473e1af2a6bb2ed4951dde5b1d543eacca78fc06e611",
+      "olean_sha256": "9c39b84a8ee597127484329ee027a8eb7535df205fead06b6524518c6ab7982b",
+      "imports": [
+        "CurveballTVLite",
+        "StateCountLite",
+        "BudgetCoreLite"
+      ],
+      "receipt_sha256": "0e279076c4afa179e3749cf7b74fbd6627bbe06dd57460ec64ea112cdfa35bb7",
+      "log_sha256": "73a29a63e1a07562864b65423ba17e18ff0b3ea801f962840f79633eb0992700",
+      "printed_axioms": {
+        "CurveballVerified.exp_neg_nat_le_binary": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_curveball_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.656,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/CertifiedScheduleLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "ConditionalProbability",
+      "source_sha256": "18ed87ecf67a0890baf533625ce16dcb3dcbbc0a9e6e915c34c41348760b8ff1",
+      "olean_sha256": "da713a83f59c51b04756d2e0c90a49a2f5899cf9f426def068139fae58b069ed",
+      "imports": [
+        "FiniteProbability"
+      ],
+      "receipt_sha256": "ff68e646a1bea72dced19f351cb67dbbeabf366e197ffdb7df3fc40b948e8587",
+      "log_sha256": "1f48b05fb0575944b98e7d776131db1edea81be15581653baf318a10a2658726",
+      "printed_axioms": {
+        "CurveballVerified.tv_conditional": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.tv_conditional_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.conditional_batch_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.765,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/ConditionalProbability.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "ControlledEntropyExecution",
+      "source_sha256": "042e2b85ad9fb5c48e0999b4b99fa21d572f1e7cc632bda080aeca2313a11059",
+      "olean_sha256": "2fc39c9ea96bc976430a1d91ae35b9ea680c89b71493bdc203f7929db1d19c6f",
+      "imports": [
+        "ProbabilityProofBundle"
+      ],
+      "receipt_sha256": "058ea35b9d4ed38965123ca0d05fe590523a5f2f14a9861e9a1525f0a2b4daec",
+      "log_sha256": "0333b1ee479cdd042526ebcd621fd08c6a5a1cd72f71520a4640f44d35d73f76",
+      "printed_axioms": {
+        "CurveballVerified.mapLaw_weighted_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.controlledLaw_succ_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.controlledLaw_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.5,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/ControlledEntropyExecution.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "CurveballKernelLaw",
+      "source_sha256": "e4285be10948b7cf467eb2627fd0739d79484fb9ddd3cfe587d546f0905af616",
+      "olean_sha256": "66f7a7bf24bcb85a098c021b223448dadb805196813078e8dec668167624946c",
+      "imports": [
+        "CertifiedScheduleLite",
+        "ProbabilityProofBundle"
+      ],
+      "receipt_sha256": "5c0112fbb9c4638212e8091a09236c244ee3ab7fc093d582fbfa5d6166b9857b",
+      "log_sha256": "c7afeac0bc010d7b55be3cf9e8999c22a99348e3247ca10e9ef8b1c63160d946",
+      "printed_axioms": {
+        "CurveballVerified.curveball_execution_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_curveball_execution_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_curveball_experiment_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_curveball_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.078,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/CurveballKernelLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "CurveballTVLite",
+      "source_sha256": "6e9e910c0bd1b4172dd4f4462d39b33803734a9272711d6d0fcbfdc7218b05e1",
+      "olean_sha256": "29f3c64b40b3f7b0daa58fa37c0bf11d0de141536f35b426e3cd98dbad79e047",
+      "imports": [
+        "GenericTVLite",
+        "CurveballTransitionCore"
+      ],
+      "receipt_sha256": "eb8ccd05f85a2a8504e7efd8e9443717cdd336bdd0c8d7ed66048c58549f66a9",
+      "log_sha256": "d9bdfe4ef4b5345e1ec40057f06c625e91713c74a88e3c1824c2faae88b9fc82",
+      "printed_axioms": {
+        "CurveballVerified.transition_apply": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.transition_symmetric": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.transition_rows": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.transition_positive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.transition_gap": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.ordinary_curveball_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.375,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/CurveballTVLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "CurveballTransitionCore",
+      "source_sha256": "00d55c40dca27337808806676f66322dff70c887bf4b3cd6f0133fd4808a203f",
+      "olean_sha256": "c89d536d8a86d0326e1b01b013fc41c958dc996ed9790a04d6775a6a203b6a56",
+      "imports": [
+        "PairResamplingFinite",
+        "Mathlib.Data.Matrix.Mul"
+      ],
+      "receipt_sha256": "0cecbc621d6fb2f0da4cfc7e1e903be1573e000b79f5344f06afb3b2f05a0d51",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 8.172,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/CurveballTransitionCore.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "ExactBodyExtractionLite",
+      "source_sha256": "6679c7dcf3758ee1799245672eb6e0621c30e2ee5c0f26859d7fbf30cddd2e9a",
+      "olean_sha256": "72613028c43aa876e72884754ab6796f32009174d9269df50d960fd50d2e31bd",
+      "imports": [
+        "AnalyticUnorderedBudget"
+      ],
+      "receipt_sha256": "f400cb5ba342292fd81e7f85ce29be49c4f989225ece0576783335ee2ca24c46",
+      "log_sha256": "fac3f9533a7019b9b4d5721c3e39a0f26099381b87becbc66d878cbc266180c9",
+      "printed_axioms": {
+        "CurveballAssurance.generator_square_unconditional": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballAssurance.generator_centered_poincare_unconditional": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballAssurance.curveballApply_eq_fiber_average": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballAssurance.pair_expectation_eq_subset_average": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballAssurance.ordinary_curveball_gap": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.0,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/ExactBodyExtractionLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "FiniteCurveballKernel",
+      "source_sha256": "59d5a16b1f8206ee1ffb507c22a7e45ef1c054aa9a8f9482190cce0efefd7def",
+      "olean_sha256": "88f161876aa1dfdd9b49fd8d6b15f8998af43059f723d435202f968047fdeb21",
+      "imports": [
+        "NativeRankKernel",
+        "NativePairFin"
+      ],
+      "receipt_sha256": "2ff1181c532495791dbd56f9fd0fa102a74206b5499a9af8888a2301355bad13",
+      "log_sha256": "52ad0a51d8fcd7d7083ba9a7af3f73a94a13d5daa28e1c4dea8ebab56e79a285",
+      "printed_axioms": {
+        "CurveballVerified.finite_transition_normalized": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.finite_curveball_iterate_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.375,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/FiniteCurveballKernel.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "FiniteLawMapping",
+      "source_sha256": "76a38b40f9043123bc3278a853ef41f2eed53bf1d1a3cba459dd3a3e5699675d",
+      "olean_sha256": "de54066efd27d8637088616cf968031c4e020c7f581341c1b0ebb93db5cbffa2",
+      "imports": [
+        "IIDRank",
+        "RandomBits"
+      ],
+      "receipt_sha256": "13e6ce98133b3142daff6bae2de5952ab914b02988b6ab9cb9564870ec930d86",
+      "log_sha256": "bd6aff1b2b4f7e9cd1c98fce714071d19b24fadde1e5709acdbbb07a86712c94",
+      "printed_axioms": {
+        "CurveballVerified.mapLaw": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.map_uniform_bijection": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.fair_bits_uniform_word": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.188,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/FiniteLawMapping.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "FiniteProbability",
+      "source_sha256": "c6dc514094b6696d41c1615261b85026e9b1fe02b512a6a052ada86311f2e336",
+      "olean_sha256": "0ab929a8db8a5040b85ce11fc3caa1d08e6c5882beadae5bdafa8f4f1c7e2346",
+      "imports": [
+        "Mathlib.Basic.Real.Basic",
+        "Mathlib.Data.Fintype.Prod",
+        "Mathlib.Data.Fintype.BigOperators",
+        "Mathlib.Algebra.BigOperators.Group.Finset.Pi",
+        "Mathlib.Algebra.BigOperators.Ring.Finset",
+        "Mathlib.Tactic.GCongr",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Positivity"
+      ],
+      "receipt_sha256": "01b597f319a996c7383f115ae74e8fcb8b294473a1259bf88e9a22cbf6afa438",
+      "log_sha256": "cc3acee72f2066681879558c7cb92760b3aa4e6a47b2140397ccf85c60073021",
+      "printed_axioms": {
+        "CurveballVerified.tv_product": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.tv_batch_constant": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.event_transfer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.adjusted_event_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 13.344,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/FiniteProbability.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "FiniteTapeLaw",
+      "source_sha256": "c63379d9aa4d84ddae1460e70ac98f014a9038f7b438fefa8cf6f98b60c60488",
+      "olean_sha256": "ddef99cbc638a28b213b521d920de7b1577289db566c19d47fa9fd19908b91bd",
+      "imports": [
+        "ReservedBitTape",
+        "Mathlib.Data.List.OfFn"
+      ],
+      "receipt_sha256": "ff31ae93eddac526c3a206e8733fcc10ad36a29b6ab83d22b6a64f5c5bcd5101",
+      "log_sha256": "fe411524e1178bc4b2fa7899a5606496edb8baa79dd86da1a24555f7dd88dd82",
+      "printed_axioms": {
+        "CurveballVerified.tapeOfVector": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.blockTapeEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.uniform_reserved_tape_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 31.406,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/FiniteTapeLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "GenericTVLite",
+      "source_sha256": "30db7e0c4fb50d686c08bf480b0d9248e492763d22ebe179f45e9f4398dde39a",
+      "olean_sha256": "c55ea42e69154eff420ea53f2476f91d5f6be3890f58fbe90de12a8fbc0c084c",
+      "imports": [
+        "ExactBodyExtractionLite"
+      ],
+      "receipt_sha256": "1e70469d0bd25bea4b5bea07ca1d6128c482e8251c55cb021922ce5dde72ced8",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 13.484,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/GenericTVLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "GraphFiberOnly",
+      "source_sha256": "c0d701fe22478d76bed8ec7caabda4e24f723d6290b3a05a1acc07929358f7fc",
+      "olean_sha256": "054ed8ccd71b2d621d4067af2bad4852dba9665ed5b930e70522716303ab571d",
+      "imports": [
+        "GraphStructureOnly"
+      ],
+      "receipt_sha256": "c7f51eb0b3b343934973aded7e7ef6af22803acb2bad9ce6dedf65885dcc64f2",
+      "log_sha256": "a51cf27a72a882c76a0b3300edcad22eca8d7c3bb9c59b7d45b54b43c6b6ece7",
+      "printed_axioms": {
+        "OAI.Problem315.PairFiber.stateFiberEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OAI.Problem315.PairFiber.assignment_natCard": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OAI.Problem315.PairFiber.stateFiber_natCard": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.032,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/GraphFiberOnly.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "GraphStructureOnly",
+      "source_sha256": "518eec3f8e46569a670bab2829e6b6b23117d84f68899060a5a622b3d1a2b178",
+      "olean_sha256": "8f130a6a8aea9c87183d6f44338159b37064ad3ec51b21676566f7e26059c791",
+      "imports": [
+        "Mathlib.Basic.Real.Basic",
+        "Mathlib.Combinatorics.SimpleGraph.Finite",
+        "Mathlib.Data.Finset.Powerset",
+        "Mathlib.Data.Nat.Choose.Basic",
+        "Mathlib.Algebra.BigOperators.Ring.Finset",
+        "Mathlib.Tactic.Ext",
+        "Mathlib.Tactic.Tauto",
+        "Lean.Elab.Tactic.Omega"
+      ],
+      "receipt_sha256": "55b10fd45258bd6a6451477e8dbb891ac6e4afa4f4d7911e93c47d495be10cea",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 14.344,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/GraphStructureOnly.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "IIDRank",
+      "source_sha256": "dc5bb3f2a69686303f3449aeab34a7fb4befaadb496cfb216338ef1ea5b48cad",
+      "olean_sha256": "6f6531cce3b05a25316f786fd593f2920a2772e65765895bb2e3d0674654cf2f",
+      "imports": [
+        "RankCounting",
+        "Mathlib.Data.Fintype.Pi"
+      ],
+      "receipt_sha256": "6372c3107efeec2758c13515bc639e281dc8309cdb91bd02eab9f7b470058e1e",
+      "log_sha256": "e2682d78737c3f1c428c8964844eaa7240e7e1db9ffc00242a4a7f6ffd9fe626",
+      "printed_axioms": {
+        "CurveballVerified.rankCount_reindex": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.iid_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.219,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/IIDRank.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NatFinSubsets",
+      "source_sha256": "708edcc1f7ca6f8c176c852a89c9b0d9d23d6f29ddaa97c90568de76d173c81c",
+      "olean_sha256": "91a91ae2a67b190992fe011f1c778d5835f23a69ebbfb4483481643ff41786a5",
+      "imports": [
+        "NativePairLaw",
+        "GraphFiberOnly"
+      ],
+      "receipt_sha256": "a64fc0ce1db28c720974cd5261d1bbdaa0206d4231b45601b26db1bf9992bc45",
+      "log_sha256": "fe6b46539f54d72504761ea49452591efcca446bb2cb8a3d10ffc9f9172b09cf",
+      "printed_axioms": {
+        "CurveballVerified.boundedAssignmentEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativeAssignmentEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.985,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NatFinSubsets.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeArithmetic",
+      "source_sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d",
+      "olean_sha256": "a622731b09ec6713eff93727aee098fb908100bc71d2595673b719001767c09e",
+      "imports": [
+        "Init"
+      ],
+      "receipt_sha256": "af1428184553e611c93af780618b2b0783a6feaecb89aea02f48bdea822c06cf",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 2.719,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeArithmetic.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeBatchLaw",
+      "source_sha256": "7dc822747d8b37a492ef94d9096c823cf7311c29a5c4c2bd890e3521f99f1eb4",
+      "olean_sha256": "56fff29cd58322892721e5a9a4b97320202044d9a363988b537ee6561ca1360a",
+      "imports": [
+        "NativeOneChainLaw",
+        "NativeGenerationFraming",
+        "PartialIndependentBatch"
+      ],
+      "receipt_sha256": "40799a9d52f40ba0a0c86588dca01e12b0f127c021ce35f024c6f7f7c03cacdb",
+      "log_sha256": "393b1c3d8e771e39a3145ed9c0dbd0ef9d1acc965636ed367a8bf1c18347d8d4",
+      "printed_axioms": {
+        "CurveballVerified.batch_projection_eq_execute": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_batch_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_batch_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.453,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeBatchLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeBatchObserverJoins",
+      "source_sha256": "52664f722e9b9bec0d16c0a4b4d75cc032edc814d060f44388b1b3185afbf2b1",
+      "olean_sha256": "5cb04f55c38dc6ddbf260772c01d3fbcbe046acf213bc99b50468b173389e5fd",
+      "imports": [
+        "NativeCanonicalCounting",
+        "NativeReplayProof",
+        "NativeBatchLaw"
+      ],
+      "receipt_sha256": "448a5d34ad164bd44a7d0a95beb8acd97aa6a516dbb03790640cae9cc8208ab3",
+      "log_sha256": "41217f84866f180ff6236efa196ac7814fb299261bd3916275877b0ea201fc99",
+      "printed_axioms": {
+        "CurveballVerified.generateTrace_success_replay": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_replay_success_observer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.generateTrace_success_observer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.oneChain_success_observer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.batch_success_observer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.828,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeBatchObserverJoins.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeBatchStatistics",
+      "source_sha256": "9b70ef0807ffcfbe0c281493b801d1ed5e87b2a1b7fa019a5c704278b466a660",
+      "olean_sha256": "bf636541694c149e11a8b06fcbd46f7358246141b63f2173bb093223273a8f59",
+      "imports": [
+        "NativeBatchLaw",
+        "NativeTriangles",
+        "NativeRankCounting"
+      ],
+      "receipt_sha256": "99cc8f9e3683147e87e710cf3ac4ac2a13f94152b4a41de3378a108fa21e43bf",
+      "log_sha256": "daf2835ee1569b190a543cdc8f3b35584a78c91c73ea32f09e2c5380cf379580",
+      "printed_axioms": {
+        "CurveballVerified.native_model_triangles": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.raw_graph_batch_statistics": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.raw_graph_batch_exceed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.594,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeBatchStatistics.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeByteBatchLaw",
+      "source_sha256": "c033b0382ae94f1b377109b9afa989f766470b7b11fef5d64725fedc13cfb559",
+      "olean_sha256": "23e930070d96713231ba1730a3af578e73421a655da8e05ef906cfa512e01522",
+      "imports": [
+        "NativeByteTapeLaw"
+      ],
+      "receipt_sha256": "198139d75476ffbf548c9b4a431a42ba9e931f68b317b3c2f70e17fb30128dd9",
+      "log_sha256": "9bb1f22d7f2ac11a1b06ebde52c3805fe1be9486eca07973abc2b0505a6445b7",
+      "printed_axioms": {
+        "CurveballVerified.native_entropy_bits_length": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_byte_batch_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_byte_batch_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.484,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeByteBatchLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeByteTapeLaw",
+      "source_sha256": "6763e508e2410d4a8346e680a6aa0942f2ea1fa5d3b8562f46c3cc5eac3b5bcf",
+      "olean_sha256": "88a7134c2bf53c7b030a0608130cdd30f87d6ab6b17cfd1e5ab20cbe95a1bb68",
+      "imports": [
+        "NativeBatchStatistics",
+        "Init.Data.ByteArray.Lemmas",
+        "Init.Data.UInt.Lemmas"
+      ],
+      "receipt_sha256": "7bd2464e9c7387b7305d133333c9fecd45c620ab628fe889de734370f60c2d80",
+      "log_sha256": "557329503aecb1a8632d6accc36a712b3aa0ee4f12d5247973ceb79776b28e17",
+      "printed_axioms": {
+        "CurveballVerified.byteArray_toList_eq_data": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.decode_byte_vector": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.byteVectorBits_bijective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.bytesBits_bytesFromBlocks": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.uniform_native_byte_tape_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_bytesBits_pushforward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 9.765,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeByteTapeLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeCanonicalCounting",
+      "source_sha256": "8ee035b4b54245c5134869257b5258ea7a82a4ba5f3782391a70d9b6d7d2f951",
+      "olean_sha256": "852938b061bd186ea6cea672128671085a9f666022b0c5403e54b7c7a49bdad3",
+      "imports": [
+        "NativeCardinality"
+      ],
+      "receipt_sha256": "aeccc0aba7b6ba6ad24408b8a8ef76b89ba6832a5442b5314263b69f39ff1075",
+      "log_sha256": "55ba17f2094b78d3d40651c55bc46e4641e452d776e29dad65275bac9d4798dd",
+      "printed_axioms": {
+        "CurveballVerified.native_length_canonical_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_canonical_card_edgeFinset": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_length_edgeFinset": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 42.344,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeCanonicalCounting.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeCardinality",
+      "source_sha256": "272d80b6b93e83b4ebcd68228d0157e6d7ab53550d4168dab381c588013079fc",
+      "olean_sha256": "fc1c68ddce1aa56d9614401ab2c2299c837b7ef45a48fd14dfdb9975284ed9e5",
+      "imports": [
+        "NativeGraphProof"
+      ],
+      "receipt_sha256": "8404ec210227837024cd04870e599924662cf2c9c641ef0fd6ee0c8bfa799136",
+      "log_sha256": "d1da33618b22d94c3735184071dfc4533dd12b745c66440f1464681214cdb615",
+      "printed_axioms": {
+        "CurveballVerified.native_graphValid_iff": [
+          "propext"
+        ],
+        "CurveballVerified.canonicalOfNative_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.chosenSet_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_left_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_degree_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.047,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeCardinality.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeChecks",
+      "source_sha256": "f7934b27a79bf0e6ed899c80611d9cd4409b2e92e37e3e9a83b1eac0c5cdb814",
+      "olean_sha256": "493619aed4954be485e1f4c11a37abf7907a6dca3828655ced5258cf5a4c4d64",
+      "imports": [
+        "NativeGraph"
+      ],
+      "receipt_sha256": "52799650f349b43da5096ed28f5026a51848e40db3208dc381b466790c4032f9",
+      "log_sha256": "17181172666bc55e1d105b34c16891d0010ddec740148ae4493124ff8308f276",
+      "printed_axioms": {
+        "CurveballNative.graphValid_iff": [
+          "propext"
+        ],
+        "CurveballNative.adjacent_iff": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.outside_iff": [
+          "propext"
+        ],
+        "CurveballNative.possibleEdges_mem": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.trade_success_valid": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.trade_success_canonical": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 1.454,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeChecks.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeConcreteExecution",
+      "source_sha256": "7e4b7c4abcc16fbf41688695f4109aa733b08dc59644bd06765849a07a557b14",
+      "olean_sha256": "2dd9e1b28e9129c7980fc8905155e7afdfeb8d2f8309d17435e71d8e38f313c2",
+      "imports": [
+        "NativeSubsetCapacity",
+        "FiniteCurveballKernel",
+        "ControlledEntropyExecution"
+      ],
+      "receipt_sha256": "1511ba96e4d9dbf547cf885f129031eafc70d1842d43507b03062748bc9a3ffb",
+      "log_sha256": "a3f422e5d81d43fadab1c1cf76ccaf15fbec4b9a1490a98ffb24e4e0b8baf722",
+      "printed_axioms": {
+        "CurveballVerified.nativeConcreteStep_project": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.observeNativeModel_after_trade": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_concrete_row_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_concrete_execution_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.844,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeConcreteExecution.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeDecoderIntegration",
+      "source_sha256": "62740b422a9b1812958edd8b28a5bbc58f510875072a5384879f6d3f9089ae5d",
+      "olean_sha256": "0635c6598d03f69972e26806abf1e00d71852c34759dcebf58ad437068cdc1f5",
+      "imports": [
+        "ProbabilityProofBundle",
+        "NativeTradeRefinement"
+      ],
+      "receipt_sha256": "dfe9423c667da349624736082b2477d7bf24c9221dab537d249b589acedaf5e0",
+      "log_sha256": "e19aab074bf3c416a856a8b475a24a654a9be17a8449ce4fc5f8c93f553afb71",
+      "printed_axioms": {
+        "CurveballSubsetVerified.unrankPair_complete": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.unrankPair_list": [
+          "propext"
+        ],
+        "CurveballSubsetVerified.unrankPair_valid": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.unrankPair_injective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.decoded_subset_legal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.decoded_trade_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.547,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeDecoderIntegration.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeDrawAllocationPrefix",
+      "source_sha256": "ec1638493b1b6ea1b71903ddd73df0feb08bfc4fd064d388c7bd6224b4433baa",
+      "olean_sha256": "7025a2f9789b365e7c3c41912d13b96b0866879b5f780db664618dc8c78bcf73",
+      "imports": [
+        "NativeConcreteExecution"
+      ],
+      "receipt_sha256": "6231b87ea84ab6aa6f1c06ea35e1be95964cafde3c6bcdbb72a443c70830a8fe",
+      "log_sha256": "1a699bb799f2d2ff019bbff8b5aaac3ebb44c0593572aa952726a7a5d15b245b",
+      "printed_axioms": {
+        "CurveballVerified.draw_allocated_prefix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.draw_allocated_success_suffix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.531,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeDrawAllocationPrefix.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeDrawRow",
+      "source_sha256": "d6a189d1fde3cd06187cd13a15c1b6c987d9758e24371a8628349ba9170a6c65",
+      "olean_sha256": "a7b254055e8d6cb82c3391079a360026575841330e99a97045ee45885643639e",
+      "imports": [
+        "NativeSubsetRow",
+        "NativePairFin",
+        "PartialTapeBind",
+        "NativeReservedObservation",
+        "NativeSamplingProtocol"
+      ],
+      "receipt_sha256": "2aee87b5335a4c89eb60d23637a63d71281ce8235da91047ef324c8ee3ce336f",
+      "log_sha256": "45b30708c6451320df1c7d1a77859feb40940752f074b865afeb5931cbb73ac1",
+      "printed_axioms": {
+        "CurveballVerified.samplingStep_split": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.sampling_draw_row_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 13.485,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeDrawRow.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeEntropy",
+      "source_sha256": "50a27c32f87dbc09910eb37d65e7ff2fb247104d7201e7d14d34fa5673e59afa",
+      "olean_sha256": "9cb0a8619150acb9e126138e28fb279b630daeea6eea8dfe0cd3fbb68c221a1f",
+      "imports": [
+        "Init"
+      ],
+      "receipt_sha256": "7d3657583aee0582f348222f144a4b56fc80e3576b70e9657b2a6618918c44f1",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 1.984,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeEntropy.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeEntropyPrefixTransfer",
+      "source_sha256": "7e3f112b0e266050f1bb5b3f912a59e980edf87230790a9a710f0bff2fca2e25",
+      "olean_sha256": "50c486afb8f6d1cbe746445941f9d0df37beb95c4642b268aa2126dab04cfc7d",
+      "imports": [
+        "NativeEntropy"
+      ],
+      "receipt_sha256": "e134cba3348e901a9be745932fc7ede56a44162a631c05bfe3ac938ea27510eb",
+      "log_sha256": "25d2faca3b883cf7634103fac8a3fa1568cf85e3057d926080cffee1cecec168",
+      "printed_axioms": {
+        "CurveballNativePrefixModel.drawBelowReserved_eq_frozen": [
+          "propext"
+        ],
+        "CurveballNativePrefixModel.drawBelowReserved_function_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 2.5,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeEntropyPrefixTransfer.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeEntropyProof",
+      "source_sha256": "92622d51ee15e5930efa5f21c89899126a3572598656df18702aa6d176f86c28",
+      "olean_sha256": "e3cd2e743214a1cc0df377e33fec3ca2f71a5b3d141aa12f2b2390df46b7b523",
+      "imports": [
+        "NativeEntropy",
+        "RandomBits"
+      ],
+      "receipt_sha256": "798fe5d3d86ed1cf8997deda2c7db4b873189d2691266a7e331a1ce003dfef56",
+      "log_sha256": "287a11c5f469548bb3f4328b13c0337090dce365797a1e83e63cc1e847530faa",
+      "printed_axioms": {
+        "CurveballNative.bitsValue_eq": [
+          "propext"
+        ],
+        "CurveballNative.drawBelowAux_eq": [
+          "propext"
+        ],
+        "CurveballNative.drawBelow_eq": [
+          "propext"
+        ],
+        "CurveballNative.drawBelowFixed_range": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.drawBelowFixed_suffix": [
+          "propext"
+        ],
+        "CurveballNative.drawBelowFixed_prefix": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.drawBelowReserved_range": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.drawBelowReserved_prefix": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.937,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeEntropyProof.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeFinalAudit",
+      "source_sha256": "fe897e882314eef02b60db761d056974cd6e7811a39bc8f5873908f432ca628a",
+      "olean_sha256": "53e6dd26bc0ee19e61b87d232d002bf9930d9edbfad205da871c3652f8926877",
+      "imports": [
+        "NativeRequestInference"
+      ],
+      "receipt_sha256": "ce445f9466ad27b6638d4428e086ee4b243222ddc96de03802d872104b0a879b",
+      "log_sha256": "ab08e0ff1d94ecb6fde39c2bc7d1723856f42a80d192f8dc6b991b1224e7c730",
+      "printed_axioms": {
+        "CurveballVerified.native_request_type_I": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_reply_reject_admissible": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_native_byte_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_raw_byte_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.main_validated_exact_fields": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballAssurance.ordinary_curveball_gap": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.checked_curveball_tv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_byte_batch_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.batch_success_observer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 20.062,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeFinalAudit.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGeneratedTraceLaw",
+      "source_sha256": "7d9e01bf119f025dba45b8e911339dd3518e89d92a2c7397130eac96c356f87e",
+      "olean_sha256": "7de8a09023a32e9b9c5515fc5bcd1e288798b432bcc6c12f552f378adeb38c2e",
+      "imports": [
+        "NativeDrawAllocationPrefix"
+      ],
+      "receipt_sha256": "83131fb8e5b1b13ed7f79b4448ea27d4e47eb36eab29fe72ab7adac1c35ccda6",
+      "log_sha256": "695703edef9d3eafc2e7bbc22a31729a87444d743dab83e90baa1a3e5d9e231b",
+      "printed_axioms": {
+        "CurveballVerified.uniform_chunks_tape_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.generated_projection_eq_controlled": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_generated_trace_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_generated_trace_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.343,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeGeneratedTraceLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGenerationFraming",
+      "source_sha256": "d9d7430df1f1c8f5e2ef486333ecae344e4b31d1868a4c2bd716eda1457cb38e",
+      "olean_sha256": "36dac87ca302fcbede13ef1bf70f26d3f38a52227e948c14e597433bb134edce",
+      "imports": [
+        "NativeGeneratedTraceLaw"
+      ],
+      "receipt_sha256": "cebe695d298d8c7819375084683aa3f26fd8cbe505eca1b22c0781627a5b33f0",
+      "log_sha256": "ff016b9c5bac7dac096bda6a8831e1dad255f02a5a62ebcce17a843636eaea80",
+      "printed_axioms": {
+        "CurveballVerified.generate_allocated_prefix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.one_chain_allocated_prefix": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.438,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeGenerationFraming.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGraph",
+      "source_sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014",
+      "olean_sha256": "7d0467ccfa998e2a8cc46c5bbf77f3e803b8dd402edb9e751f9a607f305852f4",
+      "imports": [
+        "Init"
+      ],
+      "receipt_sha256": "474a844f16cfe48bb79c816d21eb602d405e9a9d384a7f20e2e3630304cdff35",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 5.453,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeGraph.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGraphCapacity",
+      "source_sha256": "5f82b2e013eb13ce8165b2a13fe4c28c9e2e7c16fb9ae3486d414e7a4c0d382e",
+      "olean_sha256": "3fe8157723470c0b52cde952d0132f4ae6b8728168040a0d4cb1546e14617060",
+      "imports": [
+        "NativeCardinality",
+        "Mathlib.Data.Nat.Choose.Basic"
+      ],
+      "receipt_sha256": "37f8e26bc6e98f140a73a91f2923137f476b5d71df13aa6fc22101a43ca32ed6",
+      "log_sha256": "8bd546690eaaf1fe35e2362a976f0b9487e4bf5536c7c7943c4cf4719df64729",
+      "printed_axioms": {
+        "CurveballVerified.native_left_subset_exclusive": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_left_length_le_exclusive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_exclusive_length_le_sub_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_exclusive_length_le_sub_two_raw": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.binomial_le_global_central": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_subset_choose_le_global": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_subset_choose_le_global_raw": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.015,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeGraphCapacity.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGraphProof",
+      "source_sha256": "42a19ef463b78f0bb90e78afc19d32996633a7789a0326c3639c739af69b8353",
+      "olean_sha256": "358ad7a7eacfd45d00d6160fb6d4e364e62049e8d0eb0c1b05496bcad01c990a",
+      "imports": [
+        "NativeGraph",
+        "NativeSuccess",
+        "CanonicalGraphLite"
+      ],
+      "receipt_sha256": "64f1dcac083633bd1e786e22d2552a0acd48d5d1159aaf78e8272446f0192dff",
+      "log_sha256": "59444d49e3d7fa079abe81bc6d55d6b2601dc55c0340140610c4ece0bf8c891d",
+      "printed_axioms": {
+        "CurveballVerified.native_adjacent_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_common_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_left_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_exclusive_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_possibleEdges_mem": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_tradeAdjacent_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.343,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeGraphProof.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeGuardCapacity",
+      "source_sha256": "7e8e392265723eb91c85104d401a1bc81230d2b4d1defabbd6e9b63d38f795bb",
+      "olean_sha256": "2dce2362593ad100c919215ad558c54f19ced1e504def426176a631dec13b3c2",
+      "imports": [
+        "NativeGraphCapacity",
+        "NativeRequestCapacity",
+        "NativeConcreteExecution"
+      ],
+      "receipt_sha256": "0b5da77ddafc21be8991ff06bccf59ab766ff71d4ebf9ea6d7a59e5d1cb9b7f8",
+      "log_sha256": "7b70655462f73685ef19b0a269f74a813aad137f6308166231e96748166d5dcc",
+      "printed_axioms": {
+        "CurveballVerified.native_subset_bound_global": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_limits_sampling_capacities": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_limits_representation_bound": [
+          "propext"
+        ]
+      },
+      "elapsed_seconds": 9.625,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeGuardCapacity.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeInference",
+      "source_sha256": "cb4331fa58c27002e2b82e66d53e77db11e4762b91634b54d8961c1500340e09",
+      "olean_sha256": "043339ee367e364a99588fb5a52cd4f5e0eb56e990f2cdd52d6c2cbb0146166e",
+      "imports": [
+        "CurveballKernelLaw",
+        "NativeArithmetic",
+        "NativeRankCounting"
+      ],
+      "receipt_sha256": "a282db8c90bed09fa5ac6b0ea73891c34d6f4210c8080c37525473522f16a09a",
+      "log_sha256": "44af021dff9ea95278e292ffa1ccf58b0e31c4945e80427f4f505c9251f9d802",
+      "printed_axioms": {
+        "CurveballVerified.rankCount_observed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_rank_implies_cutoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.rational_cutoff_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_curveball_inference_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.578,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeInference.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeJointDomination",
+      "source_sha256": "24888a4a98d6ab137c33824a504620bfc2a7450b1b3cd6df927d37b9cc28ab31",
+      "olean_sha256": "5bf9e68d9409a9487237ee8b77176304f28e05289b8e92fdb4067aefc8a9e40e",
+      "imports": [
+        "NativeBatchLaw",
+        "ConditionalProbability"
+      ],
+      "receipt_sha256": "a23f79fca0947c0a58a70b0c792ff0a1e8d85e78ad644f4398c77ed322bc24cd",
+      "log_sha256": "360db052f4f02663bd935a126d70f5f2806b68d15658cd040774838f5cf9cdac",
+      "printed_axioms": {
+        "CurveballVerified.sampling_capacities_requestAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_replicate_mass_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_joint_event_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 9.172,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeJointDomination.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeModelGraphJoins",
+      "source_sha256": "15c6b5278bec0e42c1e4d812987356e8f3a8a60876ce154474a4f9dce31871b4",
+      "olean_sha256": "1487c3c0159cf135dd51e9fef4e92dc31e0ff8ed3fbee8fd93f2c74dd53e152f",
+      "imports": [
+        "NativeCanonicalCounting",
+        "NativeConcreteExecution",
+        "Mathlib.Combinatorics.SimpleGraph.DegreeSum"
+      ],
+      "receipt_sha256": "d0cd1df0b372a5646d48798939f61ceae830667f06672d6a316f87b4ec5712a7",
+      "log_sha256": "2ad1867b64853e6b369b6c8e295c3961fc5cb19070d1f1d520caec9a420bcd43",
+      "printed_axioms": {
+        "CurveballVerified.native_model_edge_count": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativeModelOfGraph_project": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.235,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeModelGraphJoins.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeOneChainLaw",
+      "source_sha256": "e9d1505289778219e14a5c139d5c0f2165403700b937640e3497e2d6a12d653e",
+      "olean_sha256": "94125e6f56bbb501a499939da1b39f6dbdfc8ba841cbffed1f59a68575aa587b",
+      "imports": [
+        "NativeGeneratedTraceLaw"
+      ],
+      "receipt_sha256": "c2be605bde30139eb30eacde414eb46cfd658c3f795bbcb9a44748a6b8081241",
+      "log_sha256": "7a37a88cef497652621c4c968dcb64a17b23a73307a311eb4dbbb15e66ef1ea3",
+      "printed_axioms": {
+        "CurveballVerified.partial_success_mass_mono": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.one_chain_projection_implies_generated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_one_chain_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.516,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeOneChainLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativePairFin",
+      "source_sha256": "21dd339e4257e0717372367bdb14778dcfac6273179d5e8fdb247bb32388b338",
+      "olean_sha256": "481b3428d4acde82b307cc1a477786beb359935770f5432a3eb869d679ba7fb2",
+      "imports": [
+        "NatFinSubsets",
+        "CurveballTransitionCore"
+      ],
+      "receipt_sha256": "1d63025d220d1a4b8f63142063341958fdb9d49b617c170046a22fddcd2d3828",
+      "log_sha256": "b14911c543eb85d96ebf6fc91390d49ce180ebde8183c8c341bb085360525692",
+      "printed_axioms": {
+        "CurveballVerified.pairFinEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativePairEndpoint_spec": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativePairEndpoint_sum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.344,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativePairFin.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativePairLaw",
+      "source_sha256": "00061cea4b798abb58c16e3c80772b262de67f9f75c1f7bd5cbb003b32b940c0",
+      "olean_sha256": "b298e3cfee2bb45fde9d0c7fdc59641d8705c94ab90bca8fefd855dec6893ae9",
+      "imports": [
+        "NativeDecoderIntegration"
+      ],
+      "receipt_sha256": "85baf499fef1ec89c87d446035e17a5b110a2b42bdb0064d736d965baf706656",
+      "log_sha256": "ad1330f3310d674edc41964bedc6b96983a5822accee5a328ad5091676a73b9f",
+      "printed_axioms": {
+        "CurveballSubsetVerified.nativePairAssignment_at": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.native_pair_uniform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.actual_capped_pair_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.563,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativePairLaw.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativePlanJoins",
+      "source_sha256": "6887c34b8f5e9d2800d21c4f88eb7b210281badbcd04dfdacc0acfa510acc1fa",
+      "olean_sha256": "80db9584e6b68979093c2a5020e2fc71bf748dff8c313c4e2628c453fb3fb3f3",
+      "imports": [
+        "NativeBatchStatistics",
+        "BudgetCoreLite"
+      ],
+      "receipt_sha256": "f40923d183d5dac0ebf96bfc3fc434e0a7b48a8a48093da56e38a1d2ba5d158c",
+      "log_sha256": "dd741b4d81a61728e3cadd54885d0b8662baa051c6546e8c2ec58b64a3a9c2de",
+      "printed_axioms": {
+        "CurveballVerified.native_limits_dimensions": [
+          "propext"
+        ],
+        "CurveballVerified.native_plan_budget": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_plan_joint_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_plan_degree_budget": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 140.547,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativePlanJoins.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativePrefixInference",
+      "source_sha256": "20ddc5d9aae4fad011e89d9c7d9b89b35c9ea0edd7251b43f357038ef2cef1b8",
+      "olean_sha256": "b217e172f3a9f9b8065c03f62fed9903a354b9c8f1be4082fc117f27fd9ee5b5",
+      "imports": [
+        "NativeFinalAudit",
+        "NativeRuntimePrefixTransfer"
+      ],
+      "receipt_sha256": "c4c012cf462c43011dd2ee2e832f1bdda139ac89607afcc3b097c2b3d904266d",
+      "log_sha256": "46cbbf2ebc97409b278707d4a23ed3a73698aa1b83d06a8742d19a5e594f9029",
+      "printed_axioms": {
+        "CurveballVerified.native_prefix_request_type_I": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_prefix_reject_admissible": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 14.016,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativePrefixInference.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRankCounting",
+      "source_sha256": "c72d4aa1c92c1a3b0594c94c154449e2b92c7dbb96fa39f137ad32a6bc92b4ba",
+      "olean_sha256": "f6e20ff5869d3d9bb5c1445bbb19887e20f8fa8719637e4f336eaa36e026046a",
+      "imports": [
+        "ProbabilityProofBundle",
+        "NativeArithmetic",
+        "Mathlib.Algebra.BigOperators.Fin",
+        "Mathlib.Tactic.FieldSimp"
+      ],
+      "receipt_sha256": "54d4b6a7d5b1f636a9425cbca94478818f0b5c4ac070c7de6034b692f8ebf389",
+      "log_sha256": "1bee38a5e90aca478e7bf2c8eddaffbff75ab262c1bce6c6eaf9d27571e53d31",
+      "printed_axioms": {
+        "CurveballVerified.rankCount_observed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_rank_implies_cutoff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.rational_cutoff_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 9.469,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRankCounting.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRankKernel",
+      "source_sha256": "475a0c912149390b3ea2b346d9ed69fe9aae63afc55a452820576895b0fb65ee",
+      "olean_sha256": "be17b570e5bf3d6e5c62ee4758a72ebd5832dab35988c1c8d9a79b57e782a504",
+      "imports": [
+        "NatFinSubsets",
+        "PairFiberFiniteBridge",
+        "CurveballTransitionCore",
+        "FiniteTapeLaw"
+      ],
+      "receipt_sha256": "7cdc171cbdf81d9e9d280d9b6d64434a512f8dd80eb515fdace8f9a08d327060",
+      "log_sha256": "1006be3f5ef9d883477f32b0ce4a51fec09519bd1c311da57d27c1cc7083a516",
+      "printed_axioms": {
+        "CurveballVerified.nativeRankOutput_at": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.fiberLaw_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_rank_uniform_fiber": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 18.907,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRankKernel.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeReplay",
+      "source_sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3",
+      "olean_sha256": "42df2790685bfd88d20d6d69f40da9f4c8579232e997bd8c6574d4c51a04496d",
+      "imports": [
+        "NativeGraph"
+      ],
+      "receipt_sha256": "526cdde6acbf1f969a38dea3f2a77ce54efee89551d785b00ee7965c8ab0925e",
+      "log_sha256": "1a15d0e95793e2c9ae37c423bdf870bc0a883baa3bedb863e64ba3eadeda0b72",
+      "printed_axioms": {
+        "CurveballNative.replay_attempted_count": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 1.39,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeReplay.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeReplayProof",
+      "source_sha256": "a4226473dd460257f2bd3f0fc75edf49e16635bdfaaa0b679c55f2324131b382",
+      "olean_sha256": "9041819c37f76fd9368e5d439aaa7f7c9d3194618d38a7a238367fb9dab02fe6",
+      "imports": [
+        "NativeReplay",
+        "NativeTradeRefinement"
+      ],
+      "receipt_sha256": "30bfda75f0b18ff75d4e7bbb05e8455eb5efbed426ced7394822215764b8e694",
+      "log_sha256": "d90aa0114dd96771e7a694384495d21ef74ccf2977624959359768f94c0092c3",
+      "printed_axioms": {
+        "CurveballVerified.native_replay_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_replay_degrees": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.907,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeReplayProof.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRequestCapacity",
+      "source_sha256": "996e8bcb72534b8c0362ee0c40e4d946315ad716cc53c9d150fe58b5ef809f7c",
+      "olean_sha256": "85b3cd68f5a324476f494144448fd67ffc9c2747bf38393e3610d73c443abd66",
+      "imports": [
+        "NativeSubsetCapacity"
+      ],
+      "receipt_sha256": "d65672c101d96b4e7789259d51d61f74e86f93e10f96afaf30c4027059e6804b",
+      "log_sha256": "1977c10326b05e36e88089fa64888ee30033ccca69c0616956008b2da73dbb2c",
+      "printed_axioms": {
+        "CurveballVerified.sampling_width_capacity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.sampling_width_monotone": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.sampling_pair_reserve_capacity": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.sampling_subset_reserve_capacity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 40.531,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRequestCapacity.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRequestInference",
+      "source_sha256": "1e34fe15bcf784408daa059231986be59e62053438c9d7b5e970051923236ee4",
+      "olean_sha256": "35dbfb89b53c15d288c8355a542ec6a901221e6e5c10eae764b48babbae5d2fe",
+      "imports": [
+        "NativeRuntimeRejection",
+        "NativeModelGraphJoins"
+      ],
+      "receipt_sha256": "f6f368ffccbe82e518935a8761adabca8de946f7bf870cefe42fb13dd38a3e0e",
+      "log_sha256": "5c181cdce13f04abe662da46e23d5051a0d06e5b77d54b0bafe73d04cf7dfc44",
+      "printed_axioms": {
+        "CurveballVerified.native_request_type_I": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 20.672,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRequestInference.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeReservedObservation",
+      "source_sha256": "a17a6166e35e3cff18fba02e2360d1e9125a1b156377c50490ff7da6d7072c96",
+      "olean_sha256": "3347554a10c57e5fc2e44307dd099194ddcbddb18cd4917e7b7cf68c76487d4e",
+      "imports": [
+        "FiniteTapeLaw"
+      ],
+      "receipt_sha256": "ab836893ea9a0b942ec52f9c9825e66b28cc91e89a38cd884b64d4f1366ed8b5",
+      "log_sha256": "1762825d4ededdcccceb8499fbccee1614823b1d0051026c93ab6bc429a4fd03",
+      "printed_axioms": {
+        "CurveballVerified.reserved_observation": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 12.031,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeReservedObservation.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRuntimePrefixTransfer",
+      "source_sha256": "2a38a7525a1ab47d6da496a3373888f2b06e0967b5bf020af84c39595d6443bb",
+      "olean_sha256": "db47b549ebf007d00c88cb64367de7a541cefa547853dcf8c6fa3f8270690243",
+      "imports": [
+        "NativeEntropyPrefixTransfer",
+        "NativeSamplingBoundary"
+      ],
+      "receipt_sha256": "844947d4e0420e7aa37bffb1302e5d462386ea7b33804afa0fcbdd946cbbbef0",
+      "log_sha256": "20d2c8d502e74c014926de03431c1e46842be0f8b590bfa0628e725c6d37697a",
+      "printed_axioms": {
+        "CurveballNativeSamplingPrefix.draw_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.generateTrace_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.oneChain_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.batch_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingPrefix.tapeReplyPrefix_eq_frozen": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 2.796,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRuntimePrefixTransfer.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeRuntimeRejection",
+      "source_sha256": "d1a4540fe27c717dd95ea4cc7509239f45d42d8392fb99359d2519cbc3b0f7d2",
+      "olean_sha256": "6d942e40549d3b5d2210c0e147e39a3108fba292a7f6a8c9c52caaf1eb8c2888",
+      "imports": [
+        "NativeSamplingByteInference",
+        "NativeBatchObserverJoins",
+        "NativeSamplingBoundary"
+      ],
+      "receipt_sha256": "f1480cbb5d42350fd774deb6b11703e8df5646b46dbcf549760b541cf5bea463",
+      "log_sha256": "3917b04c6c03849a18dc3b8bd2330c09538e340e51716241508fabe74e679dfc",
+      "printed_axioms": {
+        "CurveballVerified.native_reply_reject_success": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_reply_reject_projected": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.conditional_map_event_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_raw_byte_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 20.093,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeRuntimeRejection.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSamplingBoundary",
+      "source_sha256": "8c45ac81103b5c0b796869e8c18775004ada7875600456c68bb4b1a7a3b35f67",
+      "olean_sha256": "209b959389665756b34ffa951b24789e90a597b5cbd6786b412f07e6e9869830",
+      "imports": [
+        "NativeSamplingProtocol",
+        "NativeChecks"
+      ],
+      "receipt_sha256": "b943b54954fdfdb7dfb8dab5681e3a45015fbc286371f799d7e5ab5b7b52f27e",
+      "log_sha256": "f61105e918435c4eab7a9b8bc744718bb6dc69d6bc9a7441ee9e0ce10136f517",
+      "printed_axioms": {
+        "CurveballNativeSamplingBoundary.parse_success": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.parse_success_utf8": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.parse_validates_graph": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.arithmeticPlan_native_budget": [
+          "propext"
+        ],
+        "CurveballNativeSamplingBoundary.render_exact_fields": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.fields_rank_cutoff": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.errors_not_admissible": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.tapeReply_success": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.writeTapeResult_exact_reply": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.main_validated_exact_fields": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.main_malformed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballNativeSamplingBoundary.main_plan_failure": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 1.985520499991253,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSamplingBoundary.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSamplingByteInference",
+      "source_sha256": "0238de69b2c133bbd19d352de9a7c895fb0d4623f966dff61cfca8dff61a9df3",
+      "olean_sha256": "58d5a5af360bcb16e46043e4d4bb3af830c45a84d132a4b36bc64d97f4a95aee",
+      "imports": [
+        "NativeByteBatchLaw",
+        "NativeSamplingInference"
+      ],
+      "receipt_sha256": "4fd4f121596fd2426ed4551b9f986d44d10ae4eb9a7f6023a02da1155cc5e3c8",
+      "log_sha256": "03984b08e7ceee97fa0b289b09d3957e548f9171196e9f6eb696b1f66cb12504",
+      "printed_axioms": {
+        "CurveballVerified.native_byte_graph_experiment_eq_bits": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_native_byte_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 18.735,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSamplingByteInference.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSamplingInference",
+      "source_sha256": "f141ca5fdd3eaec16ed6bb076cd45ff8a75a92804b56c91d8d5d575fca69f11e",
+      "olean_sha256": "3817c3594159926c744639b68eb6c5ca2230852d01c85698fe9693131feaae5c",
+      "imports": [
+        "NativeInference",
+        "NativeJointDomination",
+        "NativeBatchStatistics",
+        "NativePlanJoins",
+        "NativeGuardCapacity"
+      ],
+      "receipt_sha256": "9f284a2a165c62c05d822090de9ec5778113afc4206fde7cb842aa8132294d9f",
+      "log_sha256": "97b785573c6cd5941739442bcfea94f1805c22657b4941b0b55bebb63668929c",
+      "printed_axioms": {
+        "CurveballVerified.actual_native_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_completed_rank_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 20.109,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSamplingInference.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSamplingProtocol",
+      "source_sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1",
+      "olean_sha256": "111089c1605596ca8bc8f98ff7e63c2648eb6595e8c3215dee362b620c7218c7",
+      "imports": [
+        "NativeGraph",
+        "NativeEntropy",
+        "NativeSubset",
+        "NativeReplay"
+      ],
+      "receipt_sha256": "7c7d43d6ba170f33abe1257e9ca9e67b3eb3b4667845ffe58fcfc504e3501052",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 2.547,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSamplingProtocol.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSubset",
+      "source_sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff",
+      "olean_sha256": "5a60956eeb13809ca82c9a3367e089d697d74cd5a64b19f47b844b3fd1d633a9",
+      "imports": [
+        "NativeArithmetic"
+      ],
+      "receipt_sha256": "13439d8b62c872cf77197e3ec3b58ee60384786260ac967b3817468843a6d89b",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 1.969,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeSubset.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSubsetCapacity",
+      "source_sha256": "c4140aae18876785602092047a8eaee532d279443c432f5a7ec0bcd78058c13a",
+      "olean_sha256": "b2d281250132ef8647b2dc3d310a810357d5f8b4eb0fe52e4cabbe6f1944d9f6",
+      "imports": [
+        "NativeDrawRow"
+      ],
+      "receipt_sha256": "05b7afa85ce6bc3d5233470b7aefc3b023bd99e034876f8dd3cf5361108a0174",
+      "log_sha256": "9502f46bcd58e63e39a20b5d6ee79a11632f817c7873030844f8822a09a1de64",
+      "printed_axioms": {
+        "CurveballVerified.native_subset_bound_positive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_all_pair_bounds_positive": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.969,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSubsetCapacity.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSubsetRow",
+      "source_sha256": "4993cefcc07273489b2f943cad29af4d7c248b84f6e863483bb8878faad762f1",
+      "olean_sha256": "194c4a7aa390c54af78cef2931b4e9a3127393b5cb2b923cdb6a408323a3c4a7",
+      "imports": [
+        "NativeRankKernel"
+      ],
+      "receipt_sha256": "0cad9c8c53a33f1cfa405e47b159773e433ae334173da3f1988c726366f72fe1",
+      "log_sha256": "4269fcc61ffb30163a8ff7938f7f7d6fe58b56269be126b828ffe2b54531cb58",
+      "printed_axioms": {
+        "CurveballVerified.native_reserved_subset_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_reserved_subset_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.516,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSubsetRow.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeSuccess",
+      "source_sha256": "872e0135eca0c6224a9780b4d1f4d85c3ffcc256e3a24914ef71aa4f3693d01f",
+      "olean_sha256": "eab2c9262b6dd004e104494976978f83e5969e924e6e7634d6e545412393bdb0",
+      "imports": [
+        "NativeChecks"
+      ],
+      "receipt_sha256": "cb87735d5a71250b4707a839ebbeeb5c8421784dbe0be7c95362525004e6b036",
+      "log_sha256": "4b193a6f428f4a2540d622109dab117526bb6611743c534ae1798292fe648602",
+      "printed_axioms": {
+        "CurveballNative.trade_success_checks": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.common_mem": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.left_mem": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballNative.exclusive_mem": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 1.547,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeSuccess.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeTradeRefinement",
+      "source_sha256": "98f5ef8b43312ce0d48d21e1fce71b10ca11c1134d5177d0222b5ad1caf851e8",
+      "olean_sha256": "77af48c2e40fb260ddcf7adaf527793a364ba21b0c9fc1a8ceb0a3bfcd8de3b9",
+      "imports": [
+        "NativeCardinality"
+      ],
+      "receipt_sha256": "e7d020825c12a8b1d92c47f31156eb8e821a7ed372d946e94859a6e56bbaf24b",
+      "log_sha256": "5250c2ac1e6cc31016f1f19c1aef879aeba7713ce650d98329821c9997759470",
+      "printed_axioms": {
+        "CurveballVerified.native_possibleEdges_nodup": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativeMaterialize_valid": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.nativeMaterialize_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_trade_valid": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_trade_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_trade_success_checks": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.native_step_success_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 10.797,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/NativeTradeRefinement.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "NativeTriangles",
+      "source_sha256": "25e5917a2ec3c6408ab143aa2220cd2c7cc3aae0731117e33efbe7971a26e6d1",
+      "olean_sha256": "57827e89f9ebb7b90bdbfbc359f901eef71ee27a835e2d84667b55a53ca6a3a2",
+      "imports": [
+        "NativeCardinality"
+      ],
+      "receipt_sha256": "9218cc43c3a91d690f821351f421fe312fef744196510c9b7966e18bd3b94944",
+      "log_sha256": "4ceb8752a55343e621e2c1722324181031009ec4dc8e14ae154ff08be0b4228c",
+      "printed_axioms": {
+        "CurveballVerified.native_triangles_refines": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.313,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/NativeTriangles.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "PairFiberFiniteBridge",
+      "source_sha256": "292379f9cd4289cb420ae3ed4b964f6b3913fa04e449ad1fe0b636fa9ac5d3ab",
+      "olean_sha256": "fe4b270ea563348e6b4ea75569f71b8c448d4ae3283fe67fd89dc19d76bb59e6",
+      "imports": [
+        "GraphFiberOnly",
+        "PairResamplingFinite"
+      ],
+      "receipt_sha256": "092112eac17840edbf5a5bc07f4cee1ed6f44cbf3afb5e4318d3f67e071dea8e",
+      "log_sha256": "53eb0bbe14aeb7d5c17b0bbfc4fece0ad0b5be44055d81ef5c39307f40766ffa",
+      "printed_axioms": {
+        "OAI.Problem315.PairFiber.sameFiber_iff_key_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OAI.Problem315.PairFiber.resamplingFiberEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "OAI.Problem315.PairFiber.fiberStates_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 8.547,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/PairFiberFiniteBridge.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "PairResamplingFinite",
+      "source_sha256": "d2d9c96e3c1b94751606cb566c1b90678c5fb722d92c740eb60a715a248c6dbf",
+      "olean_sha256": "6abf8a9bb7d55d1a50258653fc4bdfab7c92683b9486a63501a9b928d4253993",
+      "imports": [
+        "GraphStructureOnly"
+      ],
+      "receipt_sha256": "78a02ef6501f98252786956869256a1bda17e621da30314becb00dfa4290ce6d",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "printed_axioms": {},
+      "elapsed_seconds": 8.656,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/PairResamplingFinite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "PartialIndependentBatch",
+      "source_sha256": "e8dbe91b13a92f5bcc0dcea75eb34bec3e2fe30a03a596accbfb46c4cc296275",
+      "olean_sha256": "b27cdc9f4abfe170008787d2cfabb613f1a773afff456e90541e11d9066b3e66",
+      "imports": [
+        "PartialTapeBind"
+      ],
+      "receipt_sha256": "4efd4eb6ede8c7c53703981ea2e77c2aaed74d31e8df673d9805a4ee64dcb557",
+      "log_sha256": "6b4cf0042aa296045d158c028fdc8ef7e7ee03d09b56da1ac0a3d5640acccaef",
+      "printed_axioms": {
+        "CurveballVerified.independent_batch_success_succ": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.independent_batch_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.359,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/PartialIndependentBatch.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "PartialTapeBind",
+      "source_sha256": "6c95798d50c32c73b566b4bba843d1c7336bf42f5fba72db02186c8529d363cf",
+      "olean_sha256": "7ef01e5e738c2a302ea3f9f21b5cf1941bb9990883059845afe37d7883220efb",
+      "imports": [
+        "ProbabilityProofBundle"
+      ],
+      "receipt_sha256": "2a456f12ef13ec67dd4c69f16c81c7fe0068547067c1d7c3cacfbf16b1c5a78a",
+      "log_sha256": "679e6d6784153b8ec85e14e3291998c44b3e6bcafb5f15a1f642f77492d1aa31",
+      "printed_axioms": {
+        "CurveballVerified.bindTapeLaw_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.bindTapeLaw_pushforward": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.bindTapeLaw_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.25,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/PartialTapeBind.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "ProbabilityProofBundle",
+      "source_sha256": "8fbf54612b308549c11e276ecac2e2b5854c0a5d129f06bb1ec20be7e141138b",
+      "olean_sha256": "d01a5c564028bc87ede6b07e9b533f94d1df671d946d398b78836cc74bb1751c",
+      "imports": [
+        "BatchOperations",
+        "NativeEntropyProof",
+        "NativeSubset",
+        "Mathlib.Data.Nat.Choose.Basic",
+        "Mathlib.Data.List.Sublists",
+        "Mathlib.Data.Fintype.EquivFin",
+        "Mathlib.Data.Finset.Powerset",
+        "Mathlib.Data.Matrix.Mul",
+        "Lean.Elab.Tactic.Omega"
+      ],
+      "receipt_sha256": "9172246d55a7996aa4c0553e44bdb285b7639e0336de4eba3ad862d194a96f50",
+      "log_sha256": "c8f00f5408b50b89689db7b5ab98f4d4ba5226ae8cbde58d2ff68d42e5aee7e9",
+      "printed_axioms": {
+        "CurveballVerified.below_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.above_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.rejection_word_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.cappedWords_none_succ": [
+          "propext"
+        ],
+        "CurveballVerified.accepted_word_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.mapLaw_event": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.mapLaw_comp": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.firstWordLaw_none": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.firstWordLaw_some": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.capped_failure_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.capped_success_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.fillFailure_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.capped_counterfactual_uniform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.abort_event_inclusion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.abort_typeI_transfer": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.bitTape_cappedWords": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.fixed_bits_refines": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.fixedBitsOutput_refines": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_capped_bit_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.native_choose_eq": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.unrankSubset_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.subsetAt_bijective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.unrankSubset_at": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.unrankSubset_valid": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.choiceSet_bijective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.subsetAssignmentEquiv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballSubsetVerified.subset_assignment_uniform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.iterateKernel_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.iteratePartial_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.partial_rejection_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.mapPartialLaw_success": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.mapPartialLaw_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.capped_success_dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.batchVectorEquiv": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.iid_batch_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 13.188,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/ProbabilityProofBundle.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "RandomBits",
+      "source_sha256": "ac58b09b02c53b5ad62d5da0be6cf89ecf2d4f3b0fe5ec233232fde98dfbc7b4",
+      "olean_sha256": "d797e8cbe8c469e4141465390321280c11ac07f049a8b6f5e63b547addcf3445",
+      "imports": [
+        "Lean.Elab.Tactic.Omega",
+        "Mathlib.Data.Fintype.EquivFin",
+        "Mathlib.Data.Fintype.Pi",
+        "Mathlib.Data.Fintype.BigOperators",
+        "Mathlib.Data.List.OfFn"
+      ],
+      "receipt_sha256": "b6f52d09e9a7401afc377682871f6bd1c8be8983fc6f839cd44976e460fd8132",
+      "log_sha256": "bb8e5a4e00423b04c200195289a8fb90ebb2a8f0a1a7d677faaa46feae0d5ce8",
+      "printed_axioms": {
+        "CurveballVerified.bitsValue_bound": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.bitsValue_injective_fixed_length": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.decodeBits_bijective": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.drawBelow_range": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.328,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/RandomBits.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "RankCounting",
+      "source_sha256": "b2e950af45a041f9ebfbad9453b736963c63f4d3d307b96f989da8cae33c0aa3",
+      "olean_sha256": "9454c24a16da698bd30a0c8de089eb22bb3c904bd32434d90135c65c4f064c7a",
+      "imports": [
+        "FiniteProbability",
+        "Mathlib.Data.Finset.Max"
+      ],
+      "receipt_sha256": "b463551faa01a26aa5fb7196760cb29c5421c305eaf247d0d4b377af19ca9fdc",
+      "log_sha256": "7c28e76166b9260068b674b0969ffc230a21ee28eabf0e58e74138558af11325",
+      "printed_axioms": {
+        "CurveballVerified.smallRanks_card": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.conservative_rank_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 13.703,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/RankCounting.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "ReservedBitTape",
+      "source_sha256": "87567c8ae0804ac55379ad00e63d4959f2c4e0798c2fa5a390e3036c7b0ff899",
+      "olean_sha256": "f25257cfb86c02721ffae7bd64f64cdb3adfa5c1d97355cfe157dc4add6adb33",
+      "imports": [
+        "ProbabilityProofBundle"
+      ],
+      "receipt_sha256": "749586d859e705b5a62bacbd1ed300cb709025f42dc0e44ef7d8470cbd6dc897",
+      "log_sha256": "f7a2d3af6f706efdc7325265abc495f7c551baccc3826edb978504964e150fd0",
+      "printed_axioms": {
+        "CurveballVerified.reserved_bits_refines": [
+          "propext",
+          "Quot.sound"
+        ],
+        "CurveballVerified.actual_reserved_bit_law": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CurveballVerified.reserved_suffix_independent": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.75,
+      "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+      "source": "formalization/proof/ReservedBitTape.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    },
+    {
+      "module": "StateCountLite",
+      "source_sha256": "90fda95c9390c17b94fad3eba513c03b7f589fa8a4f73cce1766848066687bee",
+      "olean_sha256": "afcfd1655af712afdece96040e5d92f7c3da74bad4db09d862f9269e01bca315",
+      "imports": [
+        "ExactBodyExtractionLite",
+        "Mathlib.Combinatorics.SimpleGraph.DegreeSum"
+      ],
+      "receipt_sha256": "9ba1327db85916ae8664a168fba7fffd13a6558b63e5e9d7613242c74bf2310e",
+      "log_sha256": "47b92bb4b8300acbe1e36b619a369ae3c51f36e402c36f5765f6a6602444672e",
+      "printed_axioms": {
+        "CurveballVerified.state_count_choose_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      "elapsed_seconds": 11.203,
+      "source_snapshot_binding": "matching snapshot",
+      "source": "formalization/proof/StateCountLite.lean",
+      "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+      "exit_code": 0,
+      "stop_reason": null
+    }
+  ],
+  "frozen90unchanged": true,
+  "optimized_native_binary_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7",
+  "optimized_runtime_sources": [
+    {
+      "module": "NativeArithmetic",
+      "sha256": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d"
+    },
+    {
+      "module": "NativeGraph",
+      "sha256": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014"
+    },
+    {
+      "module": "NativeEntropy",
+      "sha256": "30a59de5d4b04311d0fe4896835c94e495bb983c6d73c34c8fee7e35be5aa149"
+    },
+    {
+      "module": "NativeSubset",
+      "sha256": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff"
+    },
+    {
+      "module": "NativeReplay",
+      "sha256": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3"
+    },
+    {
+      "module": "NativeSamplingProtocol",
+      "sha256": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+    }
+  ],
+  "generated_artifacts": [
+    {
+      "sha256": "85306b04df6ebcfbda0fe0b131878565c8edc7aae24019e9cacde68c09a6b864",
+      "bytes": 10129,
+      "name": "NativeArithmetic.c"
+    },
+    {
+      "sha256": "42f306fae622c8a05a66532c3e407af12c2135606be9a3054f39f07387b118d1",
+      "bytes": 12108,
+      "name": "NativeArithmetic.o"
+    },
+    {
+      "sha256": "a622731b09ec6713eff93727aee098fb908100bc71d2595673b719001767c09e",
+      "bytes": 71384,
+      "name": "NativeArithmetic.olean"
+    },
+    {
+      "sha256": "8e9dc17dfa46493fc2c611c92c4cce6b69dc969f7f171e2d6f691ec071ee3631",
+      "bytes": 16424,
+      "name": "NativeEntropy.c"
+    },
+    {
+      "sha256": "ddd09392d649c3e725af1099a6ff9954dd7cd54cc1081e908edb7ddbc3200ff3",
+      "bytes": 17433,
+      "name": "NativeEntropy.o"
+    },
+    {
+      "sha256": "e774cfdaa0b878549b8e0650631d6a2cc56845d1a1e562955ecabc63a3ed97ba",
+      "bytes": 96752,
+      "name": "NativeEntropy.olean"
+    },
+    {
+      "sha256": "6124ab7f5d7aa20146c74f0c8756970f82ce5fed88cf3cc0126e9365efff180b",
+      "bytes": 54931,
+      "name": "NativeGraph.c"
+    },
+    {
+      "sha256": "8e059fda173f4df62d0e9fe4f12837ff9cd98beddb5ad630c25059bad64170ae",
+      "bytes": 58144,
+      "name": "NativeGraph.o"
+    },
+    {
+      "sha256": "7d0467ccfa998e2a8cc46c5bbf77f3e803b8dd402edb9e751f9a607f305852f4",
+      "bytes": 214456,
+      "name": "NativeGraph.olean"
+    },
+    {
+      "sha256": "94488b1975db3c0f80c3fc2095a1118fb578cd607ada6ef128ff3eca1b272352",
+      "bytes": 39133,
+      "name": "NativeReplay.c"
+    },
+    {
+      "sha256": "d44cdfd94aeca5e05d20e983d50840239c3f656e0efb81e9174f57d14e38064d",
+      "bytes": 38426,
+      "name": "NativeReplay.o"
+    },
+    {
+      "sha256": "42df2790685bfd88d20d6d69f40da9f4c8579232e997bd8c6574d4c51a04496d",
+      "bytes": 205448,
+      "name": "NativeReplay.olean"
+    },
+    {
+      "sha256": "1bb0d317d920e49403bee67a86d3729c0075c706998f224bcda2d6ae984806d8",
+      "bytes": 204543,
+      "name": "NativeSamplingProtocol.c"
+    },
+    {
+      "sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7",
+      "bytes": 4304896,
+      "name": "NativeSamplingProtocol.exe"
+    },
+    {
+      "sha256": "39073e410f9d978604fb3d0b5a1535fdafb7721f2a0f01af4efe31843770d4a4",
+      "bytes": 187108,
+      "name": "NativeSamplingProtocol.o"
+    },
+    {
+      "sha256": "111089c1605596ca8bc8f98ff7e63c2648eb6595e8c3215dee362b620c7218c7",
+      "bytes": 760096,
+      "name": "NativeSamplingProtocol.olean"
+    },
+    {
+      "sha256": "e01da02075ad219e5bc083898285eac8083844fb35b97bcbd84621f6e8cac7b5",
+      "bytes": 9765,
+      "name": "NativeSubset.c"
+    },
+    {
+      "sha256": "fde4b44e58383c429a1446b71b7489fef9fcad6c40ef9fedbbb66cffce0c267b",
+      "bytes": 12955,
+      "name": "NativeSubset.o"
+    },
+    {
+      "sha256": "5a60956eeb13809ca82c9a3367e089d697d74cd5a64b19f47b844b3fd1d633a9",
+      "bytes": 68496,
+      "name": "NativeSubset.olean"
+    }
+  ],
+  "release_contract": [
+    "Uniform labelled graph with fixed degree vector; independent uniform full byte vectors",
+    "Parameters fixed for the explicit experiment; data selection/multiplicity require separate justification",
+    "Failure never rejects; no retry-until-success or conditioning on completion",
+    "Literal internally computed triangle exceedances, ties and repeated outputs retained",
+    "Actual withinLimits and arithmeticPlan gates are the only explicit root premises",
+    "Runtime caps 4<=n<=26, b<=32, trades<=1024, cap<=128, entropy<=262144 bytes",
+    "Compiler/native generation, physical IO/byte capture and entropy provenance remain external trust",
+    "Pinned compiled vendor caches trusted; no clean dependency rebuild",
+    "Original OpenAI mathematical results credited; no priority or novelty assignment here"
+  ],
+  "standard_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "compiled_objects_included": false,
+  "lean": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "official_openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
+}

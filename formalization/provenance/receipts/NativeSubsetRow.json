@@ -1,0 +1,28 @@
+{
+  "module": "NativeSubsetRow",
+  "source_sha256": "4993cefcc07273489b2f943cad29af4d7c248b84f6e863483bb8878faad762f1",
+  "olean_sha256": "194c4a7aa390c54af78cef2931b4e9a3127393b5cb2b923cdb6a408323a3c4a7",
+  "imports": [
+    "NativeRankKernel"
+  ],
+  "receipt_sha256": "0cad9c8c53a33f1cfa405e47b159773e433ae334173da3f1988c726366f72fe1",
+  "log_sha256": "4269fcc61ffb30163a8ff7938f7f7d6fe58b56269be126b828ffe2b54531cb58",
+  "printed_axioms": {
+    "CurveballVerified.native_reserved_subset_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_reserved_subset_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.516,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSubsetRow.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

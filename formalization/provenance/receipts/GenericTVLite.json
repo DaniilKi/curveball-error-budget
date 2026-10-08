@@ -1,0 +1,17 @@
+{
+  "module": "GenericTVLite",
+  "source_sha256": "30db7e0c4fb50d686c08bf480b0d9248e492763d22ebe179f45e9f4398dde39a",
+  "olean_sha256": "c55ea42e69154eff420ea53f2476f91d5f6be3890f58fbe90de12a8fbc0c084c",
+  "imports": [
+    "ExactBodyExtractionLite"
+  ],
+  "receipt_sha256": "1e70469d0bd25bea4b5bea07ca1d6128c482e8251c55cb021922ce5dde72ced8",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 13.484,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/GenericTVLite.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

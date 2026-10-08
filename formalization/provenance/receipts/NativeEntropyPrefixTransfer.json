@@ -1,0 +1,25 @@
+{
+  "module": "NativeEntropyPrefixTransfer",
+  "source_sha256": "7e3f112b0e266050f1bb5b3f912a59e980edf87230790a9a710f0bff2fca2e25",
+  "olean_sha256": "50c486afb8f6d1cbe746445941f9d0df37beb95c4642b268aa2126dab04cfc7d",
+  "imports": [
+    "NativeEntropy"
+  ],
+  "receipt_sha256": "e134cba3348e901a9be745932fc7ede56a44162a631c05bfe3ac938ea27510eb",
+  "log_sha256": "25d2faca3b883cf7634103fac8a3fa1568cf85e3057d926080cffee1cecec168",
+  "printed_axioms": {
+    "CurveballNativePrefixModel.drawBelowReserved_eq_frozen": [
+      "propext"
+    ],
+    "CurveballNativePrefixModel.drawBelowReserved_function_eq_frozen": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 2.5,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeEntropyPrefixTransfer.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

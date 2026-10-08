@@ -1,0 +1,57 @@
+{
+  "status": "plan_executed_in_separate_private_candidate_test_receipts",
+  "python_tested": "3.14.8 Windows AMD64",
+  "build_dependencies": "Resolve official PyPI build/setuptools releases and lock exact downloaded hashes/versions before final package build; no guessed build-tool versions in this source stage.",
+  "commands_after_owner_slot_release_and_final_proof_binding": [
+    [
+      "python",
+      "-m",
+      "build",
+      "--no-isolation"
+    ],
+    [
+      "python",
+      "-m",
+      "venv",
+      "PRIVATE_ISOLATED_TEST_ENV"
+    ],
+    [
+      "PRIVATE_ENV_PYTHON",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "EXACT_WHEEL"
+    ],
+    [
+      "PRIVATE_ENV_REFERENCE",
+      "--help"
+    ],
+    [
+      "PRIVATE_ENV_REFERENCE",
+      "--request",
+      "BAD_OR_SUPPORTED_SYNTHETIC_REQUEST",
+      "--installation",
+      "BOUND_LOCAL_MANIFEST",
+      "--installation-sha256",
+      "EXACT_HASH"
+    ]
+  ],
+  "required_controls": [
+    "version0.2.0 matches pyproject/package/CITATION",
+    "wheel source-only py3noneany noexe/objects/Lean dependency bulk",
+    "sdist explicit reviewed allowlist and source hashes",
+    "entrypoint help both backend scopes",
+    "pending/unknown/malformed/hash-mismatched manifests refuse before entropy/native launch",
+    "native provided fixtures including n6 exact results via production launcher",
+    "OS entropyoneallocation/no retries/refusalcaps/wholebatch",
+    "manifest binds actual shipped executable/sixsources/proofreview/buildreceipts/installedPython bytes",
+    "separateplatformnativeassetlicenses/digests",
+    "final independent release inventory/claims"
+  ],
+  "current_scientific_flags_all_false": true,
+  "wheel_built": false,
+  "sdist_built": false,
+  "installed_cli_tested": false,
+  "result_location": "candidate-validation.json sidecar; exact private full receipts retained"
+}

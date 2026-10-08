@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "status": "optimized_candidate_local_install_approved_final_release_mainreview_pending",
+  "profiles": {
+    "frozen": {
+      "approved_for_local_install": false,
+      "status": "frozen_owner_root_accepted_final_release_review_pending",
+      "source_modules": {
+        "NativeArithmetic": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d",
+        "NativeGraph": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014",
+        "NativeEntropy": "50a27c32f87dbc09910eb37d65e7ff2fb247104d7201e7d14d34fa5673e59afa",
+        "NativeSubset": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff",
+        "NativeReplay": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3",
+        "NativeSamplingProtocol": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+      },
+      "native_executable_name": "NativeSamplingProtocol.exe",
+      "native_executable_sha256": "63d63da1eab74805d5bdc1ca597fca299da2815399928453c4c357fb2089cc3c",
+      "accepted_core_manifest": null,
+      "build_receipts": null,
+      "additional_artifacts": [],
+      "scientific_guarantee_enabled": false,
+      "scientific_rejection_authorized": false,
+      "tv_assurance_authorized": false,
+      "ideal_randomness_claim": false,
+      "graph_refinement_binary_claim": false
+    },
+    "optimized": {
+      "approved_for_local_install": true,
+      "status": "exact_optimized_owner_root_accepted_candidate_mainreview_pending",
+      "source_modules": {
+        "NativeArithmetic": "cef98938ca1401348426edec7a04fb9d2e54a05ede991c9ccb996f802ea95a8d",
+        "NativeGraph": "673b302cd3bcb04ab367e251a66932bb04e862a81649c54e54a8b7d5ee6f9014",
+        "NativeEntropy": "30a59de5d4b04311d0fe4896835c94e495bb983c6d73c34c8fee7e35be5aa149",
+        "NativeSubset": "ca0ce0a04559670388a560b781b55aef265da5838b24e16307a03f894d133eff",
+        "NativeReplay": "6126cb0a21c587607fdb0beab22093cbf16d1e720103ae3b4ab40049e12f9db3",
+        "NativeSamplingProtocol": "3e56d89bfb96b0b46ec1016614fce8ff28bfa73f93f378c282afa38bc8e9e3b1"
+      },
+      "native_executable_name": "NativeSamplingProtocol.exe",
+      "native_executable_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7",
+      "accepted_core_manifest": {
+        "path": "proof-provenance.json",
+        "sha256": "c3330cc98a085178dd01c5f7f9cdaa4f1295dcd73c2e7673fec353ddf7fe3b13"
+      },
+      "build_receipts": {
+        "path": "native-build-receipts.json",
+        "sha256": "50dd94d244535491bd0671a5a433018061d3efe85c50c60e66879d4de7da1c42"
+      },
+      "additional_artifacts": [
+        {
+          "path": "LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        {
+          "path": "NOTICE",
+          "sha256": "a526f9a0636fdbfe42fdd554f609d67b3ecc9e394fc4f46ae37625a8d49bac42"
+        },
+        {
+          "path": "README.md",
+          "sha256": "40686aa98a1c2b2bc03503b88e90a3a078d62483be7b293c98b061e7999a60b5"
+        },
+        {
+          "path": "LEAN-LICENSE",
+          "sha256": "e872b4a399a9cd078babf679143a42d6277bc1ee152b6e286ea95b4cee8e227f"
+        },
+        {
+          "path": "LEAN-LICENSES",
+          "sha256": "36d0568a131a975aa466e9e48e2af983e67a6607674b0ed536ea13141e7dbeb8"
+        }
+      ],
+      "scientific_guarantee_enabled": false,
+      "scientific_rejection_authorized": false,
+      "tv_assurance_authorized": false,
+      "ideal_randomness_claim": false,
+      "graph_refinement_binary_claim": false,
+      "proof_transfer_status": "accepted",
+      "independent_binary_review_sha256": "53c37e4a3025416e9826d771c772056ac4588a90882e225693f9b9f6abe08fcc",
+      "release_review_status": "pending_mainreview",
+      "final_release_review_sha256": null,
+      "conditional_contract": {
+        "root": "CurveballVerified.native_prefix_request_type_I",
+        "whole_io_expression_root": "CurveballNativeSamplingPrefix.mainOptimized_eq_frozen",
+        "owner_raw_proof_ledger_sha256": "1af0ae50a38d8c30840528a127373b4c3824e95a7ec95bd3560ac59fc801fc48",
+        "native_executable_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7",
+        "scope": "Unconditional completed native triangle-rank rejection mass under uniform labeled-degree-conditioned observed null and independent full uniform byte vectors",
+        "external_trust": [
+          "Compiler/linker/runtime/loader/hardware",
+          "Pinned compiled dependency caches",
+          "Python argument/parser/hash/capture and physical IO",
+          "Entropy provider stated independent uniform bytes"
+        ],
+        "not_verified": [
+          "NetworKit/legacy Python sampling",
+          "OS entropy quality",
+          "Arbitrary fixed input graph null law",
+          "Every machine/runtime or complete dependency rebuild"
+        ],
+        "refusal_policy": "Failure contributes no rejection; no retry-until-success or conditioning on completion"
+      }
+    }
+  },
+  "python_artifacts": [
+    {
+      "path": "src/curveball_budget/arithmetic_invocation.py",
+      "sha256": "4943702f9a0b5221035d9187cc7a2f680431d922d84f1da6e7c3d1f7fd932bba"
+    },
+    {
+      "path": "src/curveball_budget/sampling_invocation.py",
+      "sha256": "e49acceb915fb50a8339ab03b2e548f955995c5fed4f1802c48ef8b4c2009a55"
+    },
+    {
+      "path": "src/curveball_budget/sampling_protocol.py",
+      "sha256": "efa36a7da051e84965ce48bf094d8f28d5f023f94d23b326ffa8d256b8e65a54"
+    },
+    {
+      "path": "src/curveball_budget/sampling_cli.py",
+      "sha256": "b7f6db32ec273125b6be002e9007e38ddc3a3104c90cb0a651f8d897b003fd9e"
+    },
+    {
+      "path": "src/curveball_budget/__init__.py",
+      "sha256": "aa6b4e850957cfceddbc4266eadebea4ea32f9d03bfe6feb5e6010d82f2aa3a6"
+    }
+  ],
+  "no_downloads": true,
+  "no_binary_execution": true
+}

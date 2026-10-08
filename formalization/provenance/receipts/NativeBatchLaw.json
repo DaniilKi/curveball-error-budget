@@ -1,0 +1,35 @@
+{
+  "module": "NativeBatchLaw",
+  "source_sha256": "7dc822747d8b37a492ef94d9096c823cf7311c29a5c4c2bd890e3521f99f1eb4",
+  "olean_sha256": "56fff29cd58322892721e5a9a4b97320202044d9a363988b537ee6561ca1360a",
+  "imports": [
+    "NativeOneChainLaw",
+    "NativeGenerationFraming",
+    "PartialIndependentBatch"
+  ],
+  "receipt_sha256": "40799a9d52f40ba0a0c86588dca01e12b0f127c021ce35f024c6f7f7c03cacdb",
+  "log_sha256": "393b1c3d8e771e39a3145ed9c0dbd0ef9d1acc965636ed367a8bf1c18347d8d4",
+  "printed_axioms": {
+    "CurveballVerified.batch_projection_eq_execute": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_batch_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_batch_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 8.453,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeBatchLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

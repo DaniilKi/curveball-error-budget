@@ -1,0 +1,47 @@
+{
+  "module": "NativeDecoderIntegration",
+  "source_sha256": "62740b422a9b1812958edd8b28a5bbc58f510875072a5384879f6d3f9089ae5d",
+  "olean_sha256": "0635c6598d03f69972e26806abf1e00d71852c34759dcebf58ad437068cdc1f5",
+  "imports": [
+    "ProbabilityProofBundle",
+    "NativeTradeRefinement"
+  ],
+  "receipt_sha256": "dfe9423c667da349624736082b2477d7bf24c9221dab537d249b589acedaf5e0",
+  "log_sha256": "e19aab074bf3c416a856a8b475a24a654a9be17a8449ce4fc5f8c93f553afb71",
+  "printed_axioms": {
+    "CurveballSubsetVerified.unrankPair_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.unrankPair_list": [
+      "propext"
+    ],
+    "CurveballSubsetVerified.unrankPair_valid": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballSubsetVerified.unrankPair_injective": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.decoded_subset_legal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.decoded_trade_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 10.547,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/NativeDecoderIntegration.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

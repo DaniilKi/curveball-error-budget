@@ -1,0 +1,34 @@
+{
+  "module": "NativePairFin",
+  "source_sha256": "21dd339e4257e0717372367bdb14778dcfac6273179d5e8fdb247bb32388b338",
+  "olean_sha256": "481b3428d4acde82b307cc1a477786beb359935770f5432a3eb869d679ba7fb2",
+  "imports": [
+    "NatFinSubsets",
+    "CurveballTransitionCore"
+  ],
+  "receipt_sha256": "1d63025d220d1a4b8f63142063341958fdb9d49b617c170046a22fddcd2d3828",
+  "log_sha256": "b14911c543eb85d96ebf6fc91390d49ce180ebde8183c8c341bb085360525692",
+  "printed_axioms": {
+    "CurveballVerified.pairFinEquiv": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativePairEndpoint_spec": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.nativePairEndpoint_sum": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 10.344,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativePairFin.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,38 @@
+{
+  "module": "NativeGeneratedTraceLaw",
+  "source_sha256": "7d9e01bf119f025dba45b8e911339dd3518e89d92a2c7397130eac96c356f87e",
+  "olean_sha256": "7de8a09023a32e9b9c5515fc5bcd1e288798b432bcc6c12f552f378adeb38c2e",
+  "imports": [
+    "NativeDrawAllocationPrefix"
+  ],
+  "receipt_sha256": "83131fb8e5b1b13ed7f79b4448ea27d4e47eb36eab29fe72ab7adac1c35ccda6",
+  "log_sha256": "695703edef9d3eafc2e7bbc22a31729a87444d743dab83e90baa1a3e5d9e231b",
+  "printed_axioms": {
+    "CurveballVerified.uniform_chunks_tape_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.generated_projection_eq_controlled": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_generated_trace_law": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.actual_generated_trace_dominated": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.343,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeGeneratedTraceLaw.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

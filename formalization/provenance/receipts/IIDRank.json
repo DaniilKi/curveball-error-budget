@@ -1,0 +1,29 @@
+{
+  "module": "IIDRank",
+  "source_sha256": "dc5bb3f2a69686303f3449aeab34a7fb4befaadb496cfb216338ef1ea5b48cad",
+  "olean_sha256": "6f6531cce3b05a25316f786fd593f2920a2772e65765895bb2e3d0674654cf2f",
+  "imports": [
+    "RankCounting",
+    "Mathlib.Data.Fintype.Pi"
+  ],
+  "receipt_sha256": "6372c3107efeec2758c13515bc639e281dc8309cdb91bd02eab9f7b470058e1e",
+  "log_sha256": "e2682d78737c3f1c428c8964844eaa7240e7e1db9ffc00242a4a7f6ffd9fe626",
+  "printed_axioms": {
+    "CurveballVerified.rankCount_reindex": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.iid_rank_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.219,
+  "source_snapshot_binding": "receipt source before/after hash and current object hash; separate authenticated source image in credited ledger",
+  "source": "formalization/proof/IIDRank.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

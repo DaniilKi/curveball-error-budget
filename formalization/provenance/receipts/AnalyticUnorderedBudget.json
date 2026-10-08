@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticUnorderedBudget",
+  "source_sha256": "bb6f18e560745abc9b6b55ced5aa7c73721badbb50d9210b01bdb3973d5c9a00",
+  "olean_sha256": "a21bfbf9ec2529f52dd5e9903ce7cb4cb77b498354fc669b628f39ec14e3c4bf",
+  "imports": [
+    "AnalyticSliceProjection"
+  ],
+  "receipt_sha256": "a1420c71bbe9ee0eea997538f6ab8d96077158d57da6862f3da2cdae5acbabab",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 16.969,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticUnorderedBudget.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

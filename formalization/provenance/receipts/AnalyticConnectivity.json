@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticConnectivity",
+  "source_sha256": "ecea50731ef0d58de4a71f133c6a6ee5e8dfc030d9adfde07d2d40669663423a",
+  "olean_sha256": "5a3dcdc6e3ea7c4a759a5eacfdcfab0cc84e146bb176afd78675114d1db0cdd2",
+  "imports": [
+    "AnalyticTripleProjection"
+  ],
+  "receipt_sha256": "f8e806e21c3fec920c81b6b73ddb9b09a2b968288f5ddffae2915cedd6097c73",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 15.422,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticConnectivity.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

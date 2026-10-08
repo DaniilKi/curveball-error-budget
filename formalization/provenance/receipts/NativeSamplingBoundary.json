@@ -1,0 +1,72 @@
+{
+  "module": "NativeSamplingBoundary",
+  "source_sha256": "8c45ac81103b5c0b796869e8c18775004ada7875600456c68bb4b1a7a3b35f67",
+  "olean_sha256": "209b959389665756b34ffa951b24789e90a597b5cbd6786b412f07e6e9869830",
+  "imports": [
+    "NativeSamplingProtocol",
+    "NativeChecks"
+  ],
+  "receipt_sha256": "b943b54954fdfdb7dfb8dab5681e3a45015fbc286371f799d7e5ab5b7b52f27e",
+  "log_sha256": "f61105e918435c4eab7a9b8bc744718bb6dc69d6bc9a7441ee9e0ce10136f517",
+  "printed_axioms": {
+    "CurveballNativeSamplingBoundary.parse_success": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.parse_success_utf8": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.parse_validates_graph": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.arithmeticPlan_native_budget": [
+      "propext"
+    ],
+    "CurveballNativeSamplingBoundary.render_exact_fields": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.fields_rank_cutoff": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.errors_not_admissible": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.tapeReply_success": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.writeTapeResult_exact_reply": [
+      "propext",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.main_validated_exact_fields": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.main_malformed": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballNativeSamplingBoundary.main_plan_failure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 1.985520499991253,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSamplingBoundary.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

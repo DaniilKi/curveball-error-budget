@@ -1,0 +1,22 @@
+{
+  "module": "NativeReservedObservation",
+  "source_sha256": "a17a6166e35e3cff18fba02e2360d1e9125a1b156377c50490ff7da6d7072c96",
+  "olean_sha256": "3347554a10c57e5fc2e44307dd099194ddcbddb18cd4917e7b7cf68c76487d4e",
+  "imports": [
+    "FiniteTapeLaw"
+  ],
+  "receipt_sha256": "ab836893ea9a0b942ec52f9c9825e66b28cc91e89a38cd884b64d4f1366ed8b5",
+  "log_sha256": "1762825d4ededdcccceb8499fbccee1614823b1d0051026c93ab6bc429a4fd03",
+  "printed_axioms": {
+    "CurveballVerified.reserved_observation": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 12.031,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeReservedObservation.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

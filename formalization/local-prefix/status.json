@@ -1,0 +1,14 @@
+{
+  "status": "accepted_local_complete_decoder_equality_only",
+  "candidate_sha256": "30a59de5d4b04311d0fe4896835c94e495bb983c6d73c34c8fee7e35be5aa149",
+  "proof_sha256": "91a6b5b1f1ddf8f56c63b080a1fcbb3242d3e7c600c5771538f647380b00e3dd",
+  "roots": [
+    "CurveballNativePrefixProof.hasAtLeastPrefix_eq_decide",
+    "CurveballNativePrefixProof.hasAtLeastPrefix_false_iff",
+    "CurveballNativePrefixProof.drawBelowReserved_extensional",
+    "CurveballNativePrefixProof.drawBelowReserved_function_eq"
+  ],
+  "axioms_output": "'CurveballNativePrefixProof.hasAtLeastPrefix_eq_decide' depends on axioms: [propext]\n'CurveballNativePrefixProof.hasAtLeastPrefix_false_iff' depends on axioms: [propext]\n'CurveballNativePrefixProof.drawBelowReserved_extensional' depends on axioms: [propext]\n'CurveballNativePrefixProof.drawBelowReserved_function_eq' depends on axioms: [propext, Quot.sound]\n",
+  "owner_complete_statistical_transfer": false,
+  "scientific_rejection_authorized": false
+}

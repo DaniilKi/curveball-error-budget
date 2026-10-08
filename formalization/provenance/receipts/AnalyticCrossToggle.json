@@ -1,0 +1,17 @@
+{
+  "module": "AnalyticCrossToggle",
+  "source_sha256": "f7cd3f7d7fdd91fbd20d43b80d6e6370793e8fea1eab649c1a284a2b96eb2089",
+  "olean_sha256": "cfc67510678d17eb843a169bc4e8a4cc75ae892973d6a35276e341a936077250",
+  "imports": [
+    "AnalyticSwitchEnergy"
+  ],
+  "receipt_sha256": "6e259cd39bbaf7dd7e05d833f01ff0ae1a2d2b47c99afabf861af5181a2aa194",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "printed_axioms": {},
+  "elapsed_seconds": 25.563,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/AnalyticCrossToggle.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

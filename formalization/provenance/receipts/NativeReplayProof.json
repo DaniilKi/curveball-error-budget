@@ -1,0 +1,29 @@
+{
+  "module": "NativeReplayProof",
+  "source_sha256": "a4226473dd460257f2bd3f0fc75edf49e16635bdfaaa0b679c55f2324131b382",
+  "olean_sha256": "9041819c37f76fd9368e5d439aaa7f7c9d3194618d38a7a238367fb9dab02fe6",
+  "imports": [
+    "NativeReplay",
+    "NativeTradeRefinement"
+  ],
+  "receipt_sha256": "30bfda75f0b18ff75d4e7bbb05e8455eb5efbed426ced7394822215764b8e694",
+  "log_sha256": "d90aa0114dd96771e7a694384495d21ef74ccf2977624959359768f94c0092c3",
+  "printed_axioms": {
+    "CurveballVerified.native_replay_refines": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_replay_degrees": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 10.907,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeReplayProof.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "module": "NativeSubsetCapacity",
+  "source_sha256": "c4140aae18876785602092047a8eaee532d279443c432f5a7ec0bcd78058c13a",
+  "olean_sha256": "b2d281250132ef8647b2dc3d310a810357d5f8b4eb0fe52e4cabbe6f1944d9f6",
+  "imports": [
+    "NativeDrawRow"
+  ],
+  "receipt_sha256": "05b7afa85ce6bc3d5233470b7aefc3b023bd99e034876f8dd3cf5361108a0174",
+  "log_sha256": "9502f46bcd58e63e39a20b5d6ee79a11632f817c7873030844f8822a09a1de64",
+  "printed_axioms": {
+    "CurveballVerified.native_subset_bound_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballVerified.native_all_pair_bounds_positive": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "elapsed_seconds": 11.969,
+  "source_snapshot_binding": "matching snapshot",
+  "source": "formalization/proof/NativeSubsetCapacity.lean",
+  "presentation": "sanitized projection of original successful receipt; raw bytes preserved privately",
+  "exit_code": 0,
+  "stop_reason": null
+}
