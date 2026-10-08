@@ -13,3 +13,5 @@ Installed dependencies retain their upstream licenses:
 - setuptools is a build dependency installed separately.
 
 The lock file pins the pilot environment. Pip obtains dependencies from their own distributions and notices. This list does not replace upstream license texts for anyone who chooses to redistribute dependency binaries. NetworKit algorithm citations are retained in NOTICE and the documentation.
+
+Pinned NumPy2.5.3, SciPy1.18.1 and NetworkX3.7 require Python>=3.12; NetworkX also excludes Python3.14.1. Package metadata uses that qualified range. The measured and tested environment was Python3.14.8 on Windows AMD64. Other versions/platforms require validation and suitable binary-wheel availability.

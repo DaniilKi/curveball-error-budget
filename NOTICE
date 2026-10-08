@@ -3,6 +3,12 @@ Copyright 2026 DaniilKi contributors.
 
 Authored code, synthetic examples and documentation in this release are
 provided under the Apache License, Version 2.0. See LICENSE.
+Exception: paper/curveball-note.tex and paper/curveball-note.pdf are the
+unchanged note by Daniil Kiselev, licensed CC BY 4.0 as stated in that note.
+See paper/LICENSE.md for author/title attribution and the official license
+reference https://creativecommons.org/licenses/by/4.0/legalcode.en.
+The project includes these separately licensed components; the software's
+Apache-2.0 terms do not replace the paper's CC BY 4.0 terms.
 
 This research prototype uses the existing ordinary undirected Curveball
 algorithm through NetworKit 11.2.2, a separately installed dependency.
@@ -19,6 +25,13 @@ Fu, Qin and Wang, arXiv:2606.22636v2.
 
 The conditional undirected operator input is OpenAI/math family 131,
 commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb.
+The formalization/upstream directory includes 153 unmodified official Lean
+source files from that repository under its Apache-2.0 license, reproduced
+as formalization/upstream/LICENSE. The combined ExactBodyExtraction removes
+original imports and adds per-file outer sections; exact original proof bodies
+and attribution are preserved. Source, transformation and dependency pins are
+recorded in formalization/provenance. The normalization wrapper is authored
+for this project. No compiled proof or Mathlib/dependency binaries are bundled.
 The ordinary-Curveball corollary and this software are distinct from
 the source manuscript's switch-chain comparison and from any simplex
 projection-volume result.

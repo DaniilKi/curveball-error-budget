@@ -3,6 +3,8 @@ include SOURCE-MANIFEST.json
 recursive-include docs *.md
 recursive-include examples *.csv *.txt
 recursive-include tests *.py
+recursive-include formalization *.lean *.json *.toml *.md *.py lean-toolchain LICENSE
+recursive-include paper *.tex *.pdf *.json *.md
 global-exclude *.pyc
 prune evidence
 prune review

@@ -1,0 +1,174 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,microtype,seqsplit}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Error-budgeted ordinary Curveball sampling for undirected degree sequences},pdfauthor={Daniil Kiselev}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{assumption}[theorem]{Source theorem}
+\newcommand{\TV}{\mathrm{TV}}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Om}{\Omega_d}
+\newcommand{\hash}[1]{\texttt{\seqsplit{#1}}}
+\title{Error-budgeted ordinary Curveball sampling\\for undirected degree sequences}
+\author{Daniil Kiselev}
+\date{8 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Ordinary Curveball is an existing sampler for graphs with prescribed degrees. This note identifies its uniform-pair transition operator with the pair-resampling operator in OpenAI's switch-chain manuscript. Its strong operator inequality and constant-kernel result give ordinary undirected Curveball a spectral gap of at least $1/\binom n2$. We derive a finite total-variation schedule, an exactly rounded implementation, and a whole-batch error budget for Monte Carlo comparisons. A rank-test decision then pays the batch sampling error explicitly. A small reproducible prototype shows feasibility on selected workloads, without establishing exact uniformity of a seeded implementation or a speed improvement over heuristic schedules. OpenAI receives source-theorem credit. Our contribution is the derivative corollary, error accounting and software integration. A focused Lean replay checks the mathematical kernel identity and gap; it does not formally verify the executable, PRNG, or every subsequent TV and inference formula.
+\end{abstract}
+
+\section{Motivation and attribution}
+A degree-preserving null model asks whether a network feature is unusual after holding every named vertex's degree fixed. Sampling error should be distinguished from Monte Carlo uncertainty and from the scientific choice of null model. Curveball and its implementations already exist \cite{CBS,FAST,NK}. This note supplies a conditional explicit schedule for \emph{ordinary, uniform-pair, simple undirected} Curveball, together with reproducible error reporting.
+
+The principal mathematical ingredient is OpenAI's \emph{Polynomial Mixing of the Switch Chain for Every Graphical Degree Sequence} \cite{OAI}, pinned to repository commit \hash{fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb}. Its mixing section proves a strong pair-generator inequality before comparing that generator with a weaker single-switch chain. We use the strong inequality directly. We do not attribute Curveball, heat-bath positivity, spectral-to-TV conversion, or Monte Carlo rank tests to this project.
+
+Close prior work is important. Fu, Qin and Wang \cite{FQW2} obtain a universal two-row heat-bath bound for binary fixed-margin matrices, equivalently bipartite graphs. Their earlier version \cite{FQW1} explicitly describes the arbitrary undirected case as open; that sentence is not retained in version~2. This historical statement is not proof of priority for our note. Carstens and Kleer \cite{CK} study bipartite Curveball/switch comparisons. The SEA 2026 study \cite{SEA} emphasizes empirical mixing diagnostics, which do not themselves give a TV certificate. No identical general undirected software wrapper was located in a bounded search; global firstness is unestablished.
+
+\section{State space and the exact trade}
+Let $V=\{1,\ldots,n\}$ and let $d=(d_1,\ldots,d_n)$ be a graphical vector. The finite nonempty set $\Om$ contains \emph{all} simple undirected graphs on these fixed labels with degree vector $d$. Put $M=|\Om|$ and let $\pi$ be uniform on $\Om$. Disconnected graphs are included. Directed, weighted, multigraph, bipartite-only and connected-only restrictions are different spaces.
+
+For a chosen unordered pair $a=\{i,j\}$, preserve the edge $ij$, all edges outside the pair, and all common neighbors. Define
+\[
+ L=N(i)\setminus(N(j)\cup\{j\}),\qquad
+ R=N(j)\setminus(N(i)\cup\{i\}).
+\]
+Choose a subset $T\subseteq L\cup R$ uniformly among those with $|T|=|L|$. Attach its vertices exclusively to $i$ and the remaining exclusive vertices to $j$. The original allocation $T=L$ is allowed, including singleton fibers. Degrees and simplicity are preserved. Each attempted pair selection is one Markov step, whether or not any edge changes. Conditioning on successful changes would change the kernel.
+
+The fiber for $a$ is exactly the set of these legal allocations. On $L^2(\pi)$, let $E_a$ be uniform averaging on that fiber. Since fibers partition a uniform state space, $E_a$ is a self-adjoint orthogonal projection. With $C=\binom n2$ and $n\ge2$, the ordinary chain is
+\begin{equation}\label{eq:P}
+ P=\frac1C\sum_a E_a=I-\frac HC,
+ \qquad H=\sum_a(I-E_a).
+\end{equation}
+Uniform pair selection and ideal independent uniform subset selection are essential. A GlobalCurveball round, fixed/adaptive pair schedule, or forced-success trade is not covered by \eqref{eq:P}.
+
+\section{Derivative spectral and sampling bounds}
+The inner product below is with respect to uniform $\pi$; multiplying by $M$ recovers the counting-measure convention in the source formalization.
+
+\begin{assumption}[OpenAI pair-resampling ingredients]\label{ass:source}
+For the graph space above with $n\ge4$, the operator $H$ in \eqref{eq:P} satisfies $H^2\succeq H$, and $\ker H$ consists precisely of constant functions.
+\end{assumption}
+
+These are the global-inequality proposition and kernel/Poincare corollary of the source mixing section \cite{OAI}. The inequality uses its triple estimates and disjoint-interaction positivity; the kernel uses switch connectivity. This note invokes those credited ingredients and proves their Curveball consequence. It does not re-prove the source's local spectral analysis.
+
+\begin{theorem}[Ordinary Curveball corollary]\label{thm:gap}
+Using Source Theorem~\ref{ass:source}, for $n\ge4$ and $M>1$, $P$ is reversible with stationary law $\pi$, has no negative eigenvalues, and has spectral gap at least $1/C$. For every $G\in\Om$ and integer $t\ge0$,
+\begin{equation}\label{eq:TV}
+ \|P^t(G,\cdot)-\pi\|_\TV
+ \le\tfrac12\sqrt{M-1}(1-1/C)^t
+ \le\tfrac12\sqrt M\,e^{-t/C}.
+\end{equation}
+\end{theorem}
+\begin{proof}
+Each $E_a$ preserves constants, is self-adjoint and positive semidefinite. Their average is a reversible Markov operator with $0\preceq P\preceq I$; this is the usual heat-bath positivity \cite{DGU}. Also $H$ is positive semidefinite. If $\lambda$ is an eigenvalue of $H$, $\lambda^2\ge\lambda$ forces $\lambda=0$ or $\lambda\ge1$. By its constant kernel, $H\succeq I$ on centered functions. Equation~\eqref{eq:P} gives $P\preceq(1-1/C)I$ on that subspace. The centered density of $\delta_G$ relative to $\pi$ has squared $L^2(\pi)$ norm $M-1$. Reversibility evolves it by $P^t$, so spectral contraction and Cauchy--Schwarz give the first inequality. The second follows from $1-x\le e^{-x}$.
+\end{proof}
+
+If $M=1$, return the sole graph with zero sampling error and zero trades. For $n\le3$, every labeled graphical degree vector determines at most one graph: for three vertices, the edge indicators are $(d_i+d_j-d_k)/2$, with the smaller cases immediate. Thus there is no division-by-zero issue and the nontrivial theorem needs only $n\ge4$.
+
+\begin{proposition}[Computable state-count bounds]\label{prop:count}
+Writing $m=\frac12\sum_i d_i$, valid upper bounds include
+\begin{equation}\label{eq:count}
+ M\le {C\choose m},\qquad
+ M\le\left(\prod_{i=1}^n {n-1\choose d_i}\right)^{1/2}.
+\end{equation}
+The second is a standard entropy-cover bound; neither bound counts the states exactly.
+\end{proposition}
+\begin{proof}
+A graph is one of the $m$-subsets of all $C$ possible edges. For the second bound, take the edge-indicator vector $X$ of a uniform graph. Its entropy is $\log M$. Order the edge coordinates once. Expand each star's entropy by the chain rule; conditioning on only its earlier star coordinates gives at least the conditional entropy obtained by conditioning on all earlier coordinates. Each coordinate appears in precisely two stars, so summing gives $\sum_i\mathcal H(X_{\text{star }i})\ge2\mathcal H(X)=2\log M$. This is the usual entropy-cover argument. A star has at most $\binom{n-1}{d_i}$ possible values, so its entropy is at most that logarithm. Exponentiation proves the claim.
+\end{proof}
+
+For a certified bound $B\ge M$ and $0<\varepsilon<1/2$, the exponential schedule
+\begin{equation}\label{eq:exp}
+ t\ge\left\lceil C\left(\tfrac12\log B+\log\frac1{2\varepsilon}\right)\right\rceil
+\end{equation}
+suffices. The v0.1 tool uses $B=\binom Cm$ and a somewhat looser exactly checked binary schedule, avoiding downward floating-log rounding. Choose integers $u,v\ge0$ with $B\le2^u$ and $(2\varepsilon)^{-1}\le2^v$, and put
+\begin{equation}\label{eq:binary}
+ t=Ck,\qquad k=\lceil u/2\rceil+v.
+\end{equation}
+Because $(1-1/C)^C\le e^{-1}<1/2$, \eqref{eq:TV} is at most $\frac12\sqrt B\,2^{-k}\le\varepsilon$. For rational $\varepsilon=p/q$, the tool additionally checks the exact integer inequality $Bq^2\le4p^2 2^{2k}$. Bit lengths and integer comparisons choose $u,v$. The entropy bound is an available mathematical option, not the v0.1 implemented budget. An isolated/universal-vertex peeling certificate safely recognizes some singleton spaces; other cases use the general bound.
+
+\section{Whole-batch error and Monte Carlo decisions}
+\begin{theorem}[Batch contract]\label{thm:batch}
+Fix a validated restart graph and restart each of $b$ outputs from it, using independent ideal randomness. If output $j$ has law $\mu_j$ with $\|\mu_j-\pi\|_\TV\le\varepsilon_j$, then
+\[
+ \left\|\bigotimes_{j=1}^b\mu_j-\pi^{\otimes b}\right\|_\TV
+ \le\sum_{j=1}^b\varepsilon_j.
+\]
+In particular, allocating $\varepsilon_j=\eta/b$ gives whole-batch error at most $\eta$.
+\end{theorem}
+\begin{proof}
+For each output use a maximal coupling with an independent $\pi$ draw, and make these couplings independent. The probability that any coordinate differs is at most the sum of the marginal mismatch probabilities. The coupling characterization of TV proves the statement. The per-output spectral bound is uniform in the restart graph.
+\end{proof}
+
+The product-law assertion is conditional on the fixed restart graph. If that graph is itself a random observation, apply the uniform bound conditionally and then integrate; outputs sharing that observation need not be independent unconditionally. Distinct deterministic PRNG seeds are a reproducibility mechanism, not a proof of independence or ideal uniform draws. They do not establish Theorem~\ref{thm:batch} for a finite seeded implementation. Partial or adaptively selected batches do not receive the originally planned inference contract.
+
+Let $S$ be a predeclared statistic and let $G_0$ be the observed graph. For $b$ completed outputs define the upper-tail rank score
+\begin{equation}\label{eq:rank}
+ R=\frac{1+\#\{j:S(G_j)\ge S(G_0)\}}{b+1}.
+\end{equation}
+Under the scientific null, $G_0$ itself is uniform on $\Om$, conditional on its labeled degree vector. Ideal independent $\pi$ outputs make the $b+1$ statistics exchangeable. For $a\in[0,1]$, their descending rank with ties counted conservatively gives $\Pr(R\le a)\le a$: breaking ties randomly yields a uniform rank, while the displayed score can only increase that rank. Write $Q_g$ for the actual batch law conditional on $G_0=g$. Uniform-in-start control gives $\int\|Q_g-\pi^{\otimes b}\|_\TV\,d\pi(g)\le\eta$, so the whole observation/output law is within $\eta$ of $\pi^{\otimes(b+1)}$, even though each run restarts at $G_0$. Hence
+\begin{equation}\label{eq:typeI}
+ \Pr_{\rm null}(R\le a)\le a+\eta.
+\end{equation}
+To target overall type-I error with $0<\eta<\alpha<1$, use raw cutoff $a=\alpha-\eta$, equivalently reject only when $\min(1,R+\eta)\le\alpha$. If $\alpha\le\eta$, this contract cannot support rejection; the v0.1 executable refuses that inferential configuration. The tool uses the adjusted rule. At $\alpha=0.05$, $\eta=0.01$, its raw cutoff is $0.04$; comparing the raw score with $0.05$ would instead give the weaker $0.06$ bound.
+
+Sampling accuracy does not remove finite Monte Carlo uncertainty. Under ideal IID null draws, the exceedance count conditional on $G_0$ is binomial with parameter $\pi\{S\ge S(G_0)\}$. An interval of ideal coverage $1-\delta$ can at best claim coverage $1-\delta-\eta$ after this TV transfer; its numerical endpoints also need justified rounding. The current tool reports no confidence interval. Rank resolution is $1/(b+1)$: for $b=19$, the minimum score $0.05$ cannot meet the adjusted $0.04$ cutoff. Multiple/posthoc statistics, selected seeds, repeated interesting batches or outcome-dependent stopping need further analysis. Neither rejection nor non-rejection establishes causation or validity of the null model.
+
+\section{Algorithm and bounded software integration}
+The research package \texttt{degree-null} v0.1.0 wraps ordinary NetworKit Curveball 11.2.2 \cite{NK}. It validates an explicit simple undirected unweighted graph, preserves UTF-8 labels and declared isolated vertices, computes the batch/per-output budget, and refuses plans outside supplied resource limits. For each output it restarts at the original graph, counts \emph{all attempted pair trades}, saves one graph, validates degrees, and records configuration, source/version hashes and the conditional certificate. No GlobalCurveball bound is advertised.
+
+The compiled kernel audit checks uniform distinct-pair generation, uniform fixed-size exclusive assignment, preservation of common neighbors and the internal pair edge, and retention of unchanged allocations. Source-level reasoning and finite shuffle enumeration support correspondence with \eqref{eq:P}; they do not certify the PRNG. Defaults are one thread, 10 million total trades, 60 seconds per invocation, 256 MiB RSS and 128 MiB planned output allocation. Checks occur at chunk boundaries and are research guards, not OS quotas or runtime promises. Graphs stream to separate files. An interrupted unfinished output is discarded and regenerated using its original full schedule; only completed graphs receive individual certificates. A partial job has no whole-batch rank-test claim. Resuming the predeclared job is distinct from adaptive output selection.
+
+\section{Reproducible evaluation and assurance status}
+No experiment was run by the paper writer. The software owner supplied the frozen v0.1 records in Table~\ref{tab:runs}: a 34-vertex karate test from the installed wheel, and a distinct seven-vertex example. Both use Windows AMD64, CPython 3.14.8, NetworKit 11.2.2 and one thread. Their graph sizes, timings and statistics are not interchangeable.
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{lrr}
+\toprule
+ & v0.1 installed karate & v0.1 seven-node example\\
+\midrule
+Vertices / edges &34 /78 &7 /6\\
+Outputs / batch TV budget &99 /0.01 &99 /0.01\\
+Attempted pair trades &9,663,786 &43,659\\
+End-to-end command seconds &4.488588 &2.170926\\
+Observed peak process MiB &83.9023 &82.3711\\
+Triangle exceedances /99 &12 &13\\
+Raw rank score &0.13 &0.14\\
+Adjusted decision score &0.14 &0.15\\
+Rejection &no &no\\
+\bottomrule
+\end{tabular}
+\caption{Saved v0.1 executions, not statistical or hardware performance comparisons. Each adjusted rule uses raw cutoff 0.04 and conditional type-I upper bound 0.05.}\label{tab:runs}
+\end{table}
+
+The karate graph has 45 triangles. Both v0.1 jobs restart 99 outputs using seeds 131001 through 131099. The seven-node graph consists of two groups of three mutually linked people plus an isolate. Each saved command includes imports, validation, graph files, reports and exit; peaks are process memory, not algorithm-only storage. For provenance, the separate earlier karate pilot's final verification command took 3.865489 seconds and 85.253906 MiB, with raw score 0.13 and nominal cutoff 0.05, hence conditional type-I upper bound 0.06. Earlier overlapping-seed timing repeats and the old pilot are not independent replications of the release run. These selected jobs establish feasibility, not a speed breakthrough; heuristic schedules can be faster while supplying no comparable finite-error certificate.
+
+The pilot retains 36 initial failed configurations and their recovered runs. v0.1 tests cover strict ingestion, isolates, exact small-state trade law, planning, budget guards and interrupted-output replay. At the recorded frozen source, seven test groups passed. Independent source audit and finite tests are separate from mathematical proof verification.
+
+\paragraph{Formalization status.} A focused Lean 4.34.1 extraction compiled unchanged source-file bodies from 153 official Lean modules plus an authored Curveball normalization corollary in 135.031 seconds. The saved input was unchanged during compilation. Selected Mathlib imports replace the original broad import directives; per-file outer sections preserve notation scope, and private internal name mangling follows the extraction module. Mathlib pin \hash{d13f23b723b8a846827a245b89c10fc7d3f11612} and matching dependency caches are trusted. The five reported declarations, including the exact fiber/subset identities and \texttt{ordinary\_curveball\_gap}, depend only on \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}, with no \texttt{sorryAx}. The printed gap theorem requires $n\ge4$ and graphical $d$, and states $(1/C)\Var_\pi(f)\le\langle f,(I-P)f\rangle_\pi$. The small-$n$ singleton treatment above is separate.
+
+This is a completed focused kernel check of the mathematical model and gap, not an original module-by-module build, upstream Comparator run, independent-kernel replay, full dependency-source rebuild, or formal verification of Python/PRNG behavior. The state-count rounding, joint-TV calculation and rank-test transfer are proved here and tested separately; they were not all Lean-verified by that replay. Extraction/source-map audit and final external release review remain distinct gates. The compiled input SHA256 is \hash{d6cc089ca8793bf923427f83d96b7c35f55361a03d6331e221b8cd961dec74b6}; the accompanying evidence preserves the map, log, axiom reports and earlier failed replay attempts.
+
+\section{Limitations and responsibility}
+All guarantees depend on the credited source ingredients, the exact ordinary kernel, the stated ideal randomness model, and correct error arithmetic. The mathematical schedule can be conservative and large; this tool refuses oversized plans rather than silently reducing trades. Scientific interpretation additionally depends on the uniform fixed-labeled-degree null, predeclaration, and absence of unaccounted selection or multiplicity. It preserves degree effects but does not identify causes or encode all relevant network constraints.
+
+This is a concise derivative technical note and software integration, not a claim to have invented Curveball or established global priority. OpenAI receives primary credit for the strong undirected pair-generator theorem. Daniil Kiselev is the project author. Substantial AI assistance was used for source analysis, mathematical exposition, software, tests and review; the human project author remains responsible for the released work. No affiliation or identifier is asserted. This note and its editable source are licensed under Creative Commons Attribution 4.0 International; referenced and vendored third-party materials retain their own licenses. Public release is coordinated separately after review.
+
+\begin{thebibliography}{10}
+\bibitem{OAI} OpenAI. \emph{Polynomial Mixing of the Switch Chain for Every Graphical Degree Sequence}. 25 September 2026. Repository pin \hash{fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb}; especially \texttt{build/sections/mixing.tex}. \href{https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026}{Pinned manuscript and source}. Lean modules: \texttt{OrthogonalPairResampling}, \texttt{PairFiberBridge}, \texttt{ActualTripleSquare}, \texttt{PairGeneratorSquare}, \texttt{PairPoincare}.
+\bibitem{CBS} C. J. Carstens, A. Berger and G. Strona. A unifying framework for fast randomization of ecological networks with fixed (node) degrees. \emph{MethodsX} 5 (2018), 773--780. \href{https://doi.org/10.1016/j.mex.2018.06.018}{doi:10.1016/j.mex.2018.06.018}; \href{https://arxiv.org/abs/1609.05137v3}{arXiv:1609.05137v3}.
+\bibitem{FAST} C. J. Carstens, M. Hamann, U. Meyer, M. Penschuck, H. Tran and D. Wagner. \emph{Parallel and I/O-efficient Randomisation of Massive Networks using Global Curveball Trades}. 17 August 2018 revision. \href{https://arxiv.org/abs/1804.08487v2}{arXiv:1804.08487v2}.
+\bibitem{NK} NetworKit contributors. Randomization API and Curveball source, version 11.2.2; source commit \hash{6b3878ee00a6eadd50be3b3047fbcae56bcac685}. \url{https://networkit.github.io/dev-docs/python_api/randomization.html}. Audited TLX gitlink \hash{2dd63ab839909f0b43cd02108a1869c4670b2c8e}.
+\bibitem{DGU} M. Dyer, C. Greenhill and M. Ullrich. Structure and eigenvalues of heat-bath Markov chains. \emph{Linear Algebra and its Applications} 454 (2014), 57--71. \href{https://doi.org/10.1016/j.laa.2014.04.018}{doi:10.1016/j.laa.2014.04.018}.
+\bibitem{FQW1} W. Fu, Q. Qin and G. Wang. \emph{Spectral Gap for the Binary Fixed-Margin Swap Chain}. 21 June 2026, \href{https://arxiv.org/abs/2606.22636v1}{arXiv:2606.22636v1}. Historical introduction statement about the undirected problem.
+\bibitem{FQW2} W. Fu, Q. Qin and G. Wang. Same title, 13 July 2026 revision, \href{https://arxiv.org/abs/2606.22636v2}{arXiv:2606.22636v2}. Sections 3--4 (two-row heat bath and local-to-global reduction).
+\bibitem{CK} C. J. Carstens and P. Kleer. Speeding up Switch Markov Chains for Sampling Bipartite Graphs with Given Degree Sequence. \emph{APPROX/RANDOM 2018}, LIPIcs 116, 36:1--36:18. \href{https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2018.36}{doi:10.4230/LIPIcs.APPROX-RANDOM.2018.36}.
+\bibitem{SEA} D. Ajwani, M. Kallmayer, A. Leonhardt, U. Meyer, R. O'Connor and M. Penschuck. Different Scales of Randomness: Empirical Mixing Times of the Edge Switching and Curveball MCMC. \emph{SEA 2026}, LIPIcs 371, 2:1--2:19. \href{https://doi.org/10.4230/LIPIcs.SEA.2026.2}{doi:10.4230/LIPIcs.SEA.2026.2}.
+\end{thebibliography}
+\end{document}

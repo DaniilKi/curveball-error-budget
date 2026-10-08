@@ -2,7 +2,7 @@
 
 The mathematical input is the undirected pair-resampling inequality in OpenAI/math family131 at commit `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`. Its mixing section proves the operator inequality and a switch-chain comparison. The ordinary-Curveball corollary below is extracted for this software; it is not explicitly stated there as an implementation API.
 
-Let Ω be the labeled simple undirected graphs with a fixed graphical degree vector, M=|Ω|, and C=binom(n,2). For each vertex pair a, let E_a be uniform conditional resampling of its exclusive neighbors, holding other edges, common neighbors and the mutual edge fixed. Each E_a is an orthogonal projection. Set H=Σ_a(I−E_a). **Assume** the source's H²≥H and that the nullspace is the constants.
+Let Ω be the labeled simple undirected graphs with a fixed graphical degree vector, M=|Ω|, and C=binom(n,2). For each vertex pair a, let E_a be uniform conditional resampling of its exclusive neighbors, holding other edges, common neighbors and the mutual edge fixed. Each E_a is an orthogonal projection. Set H=Σ_a(I-E_a). The source proves H²≥H and the centered Poincare bound; the focused replay below checks their normalized ordinary-Curveball consequence.
 
 Ordinary uniform-pair Curveball is K=C⁻¹Σ_a E_a=I−H/C. K is positive semidefinite and its nonconstant spectral gap is at least 1/C. Thus
 
@@ -20,6 +20,8 @@ For a predeclared upper-tail statistic, the ideal conservative rank score is p=(
 
 This is not a claim conditional on an arbitrary fixed observed graph, an exact seeded-PRNG theorem, a model-validity guarantee or a multiplicity correction. Optional stopping, adaptive batch/seed/statistic selection and conditioning on selected successful jobs are outside the stated contract. Resume preserves verified finished constituents and replays unfinished ones from the original fixed workflow; it grants no credit to partial chains.
 
-No independent end-to-end formal compilation of this ordinary-Curveball software contract is claimed. Source theorem assurance and formal replay are a separate review gate. The derivation is a modest spectral corollary and implementation integration, not a new chain or new mixing theorem.
+The focused Lean extraction successfully compiled153 exact upstream file bodies and the normalization corollary. For n>=4 and every graphical degree vector, ordinary_curveball_gap proves the Poincare bound1/binom(n,2); the kernel/fiber identities are also among five declarations whose printed axiom lists contain only propext, Classical.choice and Quot.sound. The source-owner run took135.031seconds with Lean4.34.1 and pinned compiled dependencies; the packaging worker consumed its receipt and independently checked the source bodies/hashes and axiom output. The source release includes the exact extraction, original files, maps, pins and sanitized receipts in formalization/. Below four vertices, supported graphical inputs have unique realizations and use the uniqueness branch.
+
+This is a focused mathematical replay, not an end-to-end formal compilation of Python, NetworKit, its PRNG, the state-count/TV/batch/rank calculations, a full dependency rebuild or upstream Comparator check. The assumptions and software audit above remain necessary. The derivation is a modest spectral corollary and implementation integration, not a new chain or new mixing theorem.
 
 Related theory: [Fu–Qin–Wang2026](https://arxiv.org/html/2606.22636v2) provide the universal row-pair gap for binary fixed-margin matrices/bipartite graphs. [Dyer–Greenhill–Ullrich](https://arxiv.org/abs/1301.4055) establish nonnegative heat-bath spectrum. These are prior ingredients/settings, not claims of this project.

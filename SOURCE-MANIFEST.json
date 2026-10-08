@@ -12,5 +12,6 @@
   "source_pin": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
   "alpha_semantics": "overall target; rawcutoff alpha minus wholebatchTV; conservative score min(1,rank+TV)",
   "resume_export_integrity": "verify_stored_plan fingerprint plus labels mapping before outputs; no partialbatchinference",
-  "scope": "frozenresearchprototype; operator theorem/formal replay remainsconditional; no new sampler or speed theorem"
+  "scope": "frozenresearchprototype; operator theorem/formal replay remainsconditional; no new sampler or speed theorem",
+  "mathematical_assurance": "Focused153official-body Lean replay and ordinary-Curveball gap corollary passed; source receipts consumed and hash/body checked; Python,PRNG andTV/batch/rank not formally verified."
 }

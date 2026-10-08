@@ -1,3 +1,5 @@
+# Tested: Windows AMD64, Python3.14.8. Dependency-compatible Python>=3.12,!=3.14.1.
+# Compatibility is not validation of every admitted Python version/platform.
 networkit==11.2.2
 networkx==3.7
 numpy==2.5.3

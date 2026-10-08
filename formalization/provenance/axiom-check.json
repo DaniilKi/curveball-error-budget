@@ -1,0 +1,42 @@
+{
+  "compiler_output_sha256": "fac3f9533a7019b9b4d5721c3e39a0f26099381b87becbc66d878cbc266180c9",
+  "axiom_reports": {
+    "CurveballAssurance.generator_square_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.generator_centered_poincare_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.curveballApply_eq_fiber_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.pair_expectation_eq_subset_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.ordinary_curveball_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "types_checked_against_source_receipt": true,
+  "compiler_flags": [
+    "-j",
+    "2",
+    "-DautoImplicit=false",
+    "-DmaxRecDepth=4096",
+    "-DmaxHeartbeats=1000000"
+  ],
+  "compiler_version": "Lean4.34.1",
+  "reported_elapsed_seconds": 135.031,
+  "recompiled_by_packaging_worker": false,
+  "scope": "source-owner successful focused extraction receipt and exact bodies rechecked; independent reviewer audited153bodies and five axiom lists; no upstream Comparator or full dependency rebuild"
+}

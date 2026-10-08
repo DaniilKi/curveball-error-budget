@@ -1,0 +1,5 @@
+# Companion technical note
+
+curveball-note.tex and curveball-note.pdf are the unchanged corrected, frozen companion note supplied for this release. provenance.json records their exact hashes. The standalone LaTeX source uses inline bibliography entries and no external figure/data files. Compile it with a suitable TeX distribution providing the declared packages; the packaging worker did not repeat the already-reviewed rendering.
+
+This is a technical note accompanying a research prototype, not a claim of peer-review acceptance, journal publication, a new Curveball chain, an unconditional seeded-software proof, or priority over the attributed upstream mathematics. It distinguishes focused mathematical Lean assurance from executable/PRNG and later error-accounting checks. The paper source and PDF are licensed under **CC BY4.0**, as explicitly stated in the frozen note; see LICENSE.md for attribution and the official license reference. The software and other authored release material retain Apache-2.0 terms. Cite underlying theorem and algorithm sources separately.

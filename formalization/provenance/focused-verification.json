@@ -1,0 +1,107 @@
+{
+  "checked_utc": "2026-10-08T08:45:50.930839+00:00",
+  "official_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "status": "verified focused extraction",
+  "compiler_exit_code": 0,
+  "elapsed_seconds": 135.031,
+  "proof_bodies_checked": 153,
+  "source_unchanged_during_compilation": true,
+  "namespace_section_variable_local_attribute_scopes_mapped": true,
+  "exact_extraction_sha256": "d6cc089ca8793bf923427f83d96b7c35f55361a03d6331e221b8cd961dec74b6",
+  "wrapper_sha256": "f62003c5afe3b49a77f33fcafa2d2d75f204836e4794bcd5c06821419797e525",
+  "axiom_reports": {
+    "CurveballAssurance.generator_square_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.generator_centered_poincare_unconditional": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.curveballApply_eq_fiber_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.pair_expectation_eq_subset_average": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "CurveballAssurance.ordinary_curveball_gap": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "sorryAx_or_extra_axioms": false,
+  "formal_result": "For n >= 4 and every graphical degree sequence d, ordinary Curveball satisfies (1/binom(n,2))*Var_uniform(f) <= <f,(I-P)f>_uniform for every real observable f.",
+  "normalized_kernel": "Uniform unordered vertex pair, then uniform full fixed-size exclusive-neighbor assignment, including the original assignment. Preserve the internal pair edge, common neighbors and all outside edges.",
+  "compiled_artifacts": [
+    {
+      "path": "formalization\\build\\lib\\lean\\ExactBodyExtraction.olean",
+      "bytes": 34087256,
+      "sha256": "3a09b7503fab9f588635527c6129d4bf908000c6f7824bf66a57b6b607479eab"
+    }
+  ],
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "dependency_revisions": [
+    {
+      "package": "mathlib",
+      "expected": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "actual": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+    },
+    {
+      "package": "plausible",
+      "expected": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "actual": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "package": "LeanSearchClient",
+      "expected": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "actual": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "package": "importGraph",
+      "expected": "e928b72544873815af278d38681b31c0293588e3",
+      "actual": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "package": "proofwidgets",
+      "expected": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "actual": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "package": "aesop",
+      "expected": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "actual": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "package": "Qq",
+      "expected": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "actual": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "package": "batteries",
+      "expected": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "actual": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "package": "Cli",
+      "expected": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "actual": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  ],
+  "method_limits": [
+    "Original module-by-module build and upstream Comparator were not completed.",
+    "Focused extraction uses selected official Mathlib imports, unchanged proof bodies, per-file outer sections, and an authored normalization corollary.",
+    "Private Lean name mangling uses the extraction module; public names and source bodies are preserved and private short names do not collide.",
+    "Existing official compiled Mathlib/dependency cache is trusted; no full dependency source rebuild or independent-kernel/Nanoda replay.",
+    "This checks the mathematical kernel model and gap, not the shipped CLI, its randomness implementation, state-count certificate, or joint-TV calculation."
+  ],
+  "source_attribution": "Strong H >= I and the graph/subset equivalence are existing OpenAI proof ingredients. No Kiselev priority claim is made for the chain or bound.",
+  "prior_failures_retained": true,
+  "public_post_or_global_settings_changed": false
+}

@@ -1,4 +1,8 @@
 __pycache__/
+formalization/.lake/
+*.olean
+*.olean.private
+*.olean.server
 *.py[cod]
 *.egg-info/
 .venv/

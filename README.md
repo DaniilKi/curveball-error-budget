@@ -4,11 +4,13 @@
 
 Imagine a friendship network. This tool creates comparison networks in which everyone keeps the same number of friends, but who is connected changes. You can compare a pattern with what happens under that particular reshuffling model. Named nodes and declared isolated nodes are preserved.
 
-The Curveball sampler already exists. This tool adds a conservative, theorem-derived stopping rule, a whole-batch approximation-error budget, checks and reproducible reports. The mathematical contract is **conditional on the source manuscript's undirected operator inequality and ideal independent random draws**. It is not a new sampler, speed breakthrough, established first, or independently machine-verified end-to-end theorem.
+The Curveball sampler already exists. This tool adds a conservative, theorem-derived stopping rule, a whole-batch approximation-error budget, checks and reproducible reports. A focused Lean replay checks the underlying mathematical kernel and gap; the software contract still assumes correspondence to that kernel, ideal independent random draws and the stated complete workflow. It is not a new sampler, speed breakthrough, established first, or independently machine-verified end-to-end software theorem. Clean proof sources, pins, receipts and trust scope are in the source release's [formalization directory](formalization/README.md).
 
 ## Three commands
 
-Use Python 3.11 or later in your own virtual environment. From a source checkout:
+The source release includes the [companion technical note](paper/curveball-note.pdf), its [LaTeX source](paper/curveball-note.tex), and [formal assurance/reproduction details](formalization/README.md).
+
+The tested environment is Windows AMD64 with Python3.14.8. The pinned dependencies require Python3.12 or later and NetworkX excludes Python3.14.1; other compatible versions/platforms have not been validated. Use a separate virtual environment. From a source checkout:
 
 ```text
 python -m pip install --only-binary=:all: -r requirements-lock.txt
@@ -18,7 +20,7 @@ python run.py run --input examples/friendships.csv --vertices examples/people.tx
 
 Open `my-comparison/report.html` locally, or read `report.txt`. No web service, account or internet is needed after installation. The synthetic example has two groups of three friends and an isolated person. It is not personal data.
 
-Install the package with `python -m pip install .`, or install its release wheel. The installed `degree-null` command has the same subcommands as `python run.py`. The first release targets GitHub source/wheel installation; there is no PyPI publication or credential requirement. Tested platform: Windows AMD64, Python 3.14.8, NetworKit 11.2.2. Other supported Python versions and operating systems require validation.
+Install the package with `python -m pip install .`, or install its release wheel. The installed `degree-null` command has the same subcommands as `python run.py`. The first release targets GitHub source/wheel installation; there is no PyPI publication or credential requirement. Tested versions: Python3.14.8 and NetworKit11.2.2. Package metadata admits Python>=3.12 except3.14.1; that compatibility range is not a claim that every admitted environment has been tested.
 
 ## What the example reports
 
@@ -57,6 +59,6 @@ Ctrl-C, a `STOP` file or `--stop-after 2` can pause a job. Remove `STOP` before 
 
 See [the conditional derivation](docs/THEORY.md), [validation scope](docs/VALIDATION.md), [provenance and AI assistance](docs/PROVENANCE.md), and [dependency licensing](docs/THIRD_PARTY.md). Run `python tests/test_tool.py` for bounded tests.
 
-The addition is a short ordinary-undirected Curveball corollary and careful software integration. [Fu–Qin–Wang](https://arxiv.org/html/2606.22636v2) already provide a related universal row-pair binary-matrix/bipartite gap. Ordinary graph Curveball and efficient implementations are prior [2016/2018 work](https://arxiv.org/abs/1609.05137v3) and [ESA2018](https://arxiv.org/html/1804.08487v2). No equally general practical undirected epsilon wrapper surfaced in the bounded search; global priority remains unestablished.
+The addition is a short ordinary-undirected Curveball corollary and careful software integration. [Fu-Qin-Wang v2](https://arxiv.org/html/2606.22636v2) provide a related universal row-pair binary-matrix/bipartite gap. Their [v1 introduction](https://arxiv.org/html/2606.22636v1) explicitly described the analogous arbitrary-degree simple-undirected mixing problem as open; that sentence is attributed to v1. Ordinary graph Curveball and efficient implementations are prior [2016/2018 work](https://arxiv.org/abs/1609.05137v3) and [ESA2018](https://arxiv.org/html/1804.08487v2). No equally general practical undirected epsilon wrapper surfaced in the bounded search; global priority remains unestablished.
 
-Authored source and synthetic examples: **Apache-2.0**. Dependencies retain their own licenses and are installed separately. No third-party binaries, private logs, personal networks or credentials are included.
+Authored software source, tests, synthetic examples and other authored documentation: **Apache-2.0**. The companion paper and its editable source retain their separate [CC BY4.0 terms](paper/LICENSE.md); package metadata records both project-component licenses. Dependencies retain their own licenses and are installed separately. No third-party binaries, private logs, personal networks or credentials are included.

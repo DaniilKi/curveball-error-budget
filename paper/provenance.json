@@ -1,0 +1,21 @@
+{
+  "status": "included unchanged parent-reviewed frozen paper",
+  "files": [
+    {
+      "path": "curveball-note.tex",
+      "bytes": 22818,
+      "sha256": "b81cae87c6d9eea1ace473fbe77600ecbe489455500bf3ea8c2d430a817f9e9c",
+      "copied_unchanged": true
+    },
+    {
+      "path": "curveball-note.pdf",
+      "bytes": 89127,
+      "sha256": "c42fdccb085b7f0fbaad1084a28f991c5442fd005a64d78a95b2397fec5e3cd2",
+      "copied_unchanged": true
+    }
+  ],
+  "source_and_pdf_hashes_match_parent_receipt": true,
+  "standalone_source": true,
+  "paper_rendering_repeated_by_packaging_worker": false,
+  "scope": "parent-corrected frozen paper copied unchanged; packaging hash/privacy scan only; no new DOI, submission or publication"
+}
