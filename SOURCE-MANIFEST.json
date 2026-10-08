@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "utc": "2026-10-08T08:37:40Z",
+  "source_hashes": {
+    "__init__.py": "6ba7e37a6020ec4e54e8e5a486b243b4354e49646258342cdb5bd9a82bc634a8",
+    "cli.py": "6caa4bc8ffc95aef062e10112346a5593d6e9c4e3e11c954b93a3f24698798c6",
+    "inputs.py": "7712c61f8dc5aae9c35ae0d36a79a647f8495521bca5bc6ce53fd7d2d016d665",
+    "jobs.py": "aec943f6bb2582113457b9eee3a4932d28909ae5cf297cded3c98916209690f4",
+    "kernel.py": "cbd894eb63c2491e73b199d19c8d141cd183ec5aff0a15127a043bc0e255581c",
+    "report.py": "d1301b8cd299767fba3e6dc401ed217764df9051ecceb8af11696d3d6574ddbc"
+  },
+  "source_pin": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "alpha_semantics": "overall target; rawcutoff alpha minus wholebatchTV; conservative score min(1,rank+TV)",
+  "resume_export_integrity": "verify_stored_plan fingerprint plus labels mapping before outputs; no partialbatchinference",
+  "scope": "frozenresearchprototype; operator theorem/formal replay remainsconditional; no new sampler or speed theorem"
+}

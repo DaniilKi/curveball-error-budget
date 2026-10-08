@@ -1,0 +1,9 @@
+include LICENSE NOTICE README.md CHANGELOG.md CITATION.cff requirements-lock.txt run.py
+include SOURCE-MANIFEST.json
+recursive-include docs *.md
+recursive-include examples *.csv *.txt
+recursive-include tests *.py
+global-exclude *.pyc
+prune evidence
+prune review
+prune build-vendor

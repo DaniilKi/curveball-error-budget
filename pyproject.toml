@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "degree-null-research"
+version = "0.1.0"
+description = "Conditional error budgets for degree-preserving undirected network comparisons"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "DaniilKi contributors"}]
+dependencies = ["networkit==11.2.2", "psutil==7.2.2"]
+
+[project.scripts]
+degree-null = "degree_null.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,29 @@
+Curveball Error Budget / Degree-preserving Network Comparisons
+Copyright 2026 DaniilKi contributors.
+
+Authored code, synthetic examples and documentation in this release are
+provided under the Apache License, Version 2.0. See LICENSE.
+
+This research prototype uses the existing ordinary undirected Curveball
+algorithm through NetworKit 11.2.2, a separately installed dependency.
+No NetworKit, Python, NumPy, SciPy, psutil, NetworkX, tabulate, setuptools,
+or other third-party runtime binaries are distributed in this source release
+or in this package's pure-Python wheel.
+
+Algorithm attribution:
+Carstens, Berger and Strona, arXiv:1609.05137v3.
+Carstens et al., arXiv:1804.08487v2, ESA 2018.
+Dyer, Greenhill and Ullrich, arXiv:1301.4055.
+Related fixed-margin binary-matrix theory:
+Fu, Qin and Wang, arXiv:2606.22636v2.
+
+The conditional undirected operator input is OpenAI/math family 131,
+commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb.
+The ordinary-Curveball corollary and this software are distinct from
+the source manuscript's switch-chain comparison and from any simplex
+projection-volume result.
+
+AI assistance: OpenAI Codex assisted implementation, tests, documentation
+and separate AI-worker review. These checks are not a human peer review
+or an independent end-to-end machine-checked proof. Human maintainers
+remain responsible for release decisions and scientific claims.
