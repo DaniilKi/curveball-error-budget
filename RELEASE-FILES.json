@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "publication_documentation_overlay_runtime_profile_unchanged",
+  "status": "local_v030_planner_candidate_publication_held",
   "files": [
     {
       "path": "backend-approval.json",
@@ -9,8 +9,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2009,
-      "sha256": "72651762ba37962e23b5393367949b11fb11a3c195ae27d0d753a285e0fc6ec1"
+      "bytes": 3059,
+      "sha256": "6067d905f01e05d87036468fe9d7c8c3f288c9ae9ee0719723e7a55472e8f005"
     },
     {
       "path": "CITATION-v0.1.0.cff",
@@ -19,8 +19,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 527,
-      "sha256": "1717b47edfd0acabac1d16c0e5bd60e842d3161e6e97ec1505873e285d1abc3c"
+      "bytes": 557,
+      "sha256": "6e8661db94807490ef36d12ebf99ceb6d8eedc8b79f85da1a355e48125106d21"
     },
     {
       "path": "docs/ASSUMPTIONS.md",
@@ -2774,8 +2774,8 @@
     },
     {
       "path": "MANIFEST.in",
-      "bytes": 42909,
-      "sha256": "263861486d425ff3dce7b8736f9587289f5e9f250ade83f59f2fe6df12c92d6a"
+      "bytes": 43287,
+      "sha256": "0464d0d5ce64f940597e2ce3415220bc824cd1a6fcc7c4bccdd640934b0a848b"
     },
     {
       "path": "NOTICE",
@@ -2814,13 +2814,13 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 804,
-      "sha256": "25d46de4cc27978d37816ed9cbda9bf8404816bd4cb3af6c09c08c76650ca363"
+      "bytes": 854,
+      "sha256": "4f9e2bf2ade3dd266a4738db580de8864f0a89d238b9febca3fed5068b572b0e"
     },
     {
       "path": "README.md",
-      "bytes": 6117,
-      "sha256": "78f4029a51b5280a2f987224c857ceda39634853649a9b94eaa207148e6cebfe"
+      "bytes": 6973,
+      "sha256": "1e4e8ece6c30fb8748b94840c014004c3fb75ef91a8e7fb0bb1a2738e669cb28"
     },
     {
       "path": "RELEASE-STATUS.json",
@@ -2844,8 +2844,8 @@
     },
     {
       "path": "SOURCE-MANIFEST.json",
-      "bytes": 44394,
-      "sha256": "11b70e84a2c1fd419afb95a35f9eb8f011b03de2c085d014da077c454556ffa5"
+      "bytes": 46001,
+      "sha256": "b60e6ccd22453d68feceec096423bd572dd5cb09c0c1220a128f33981e480b74"
     },
     {
       "path": "src/curveball_budget/__init__.py",
@@ -2879,8 +2879,8 @@
     },
     {
       "path": "src/degree_null/__init__.py",
-      "bytes": 184,
-      "sha256": "7cf9e58648b600cbd3852291161b2ab271500d358d2bc6b637c1e009c8518636"
+      "bytes": 248,
+      "sha256": "713d6d5335feeae1568fe10d9ade01a5656ec6e602735d57ef690b85d8b45ee7"
     },
     {
       "path": "src/degree_null/cli.py",
@@ -2899,8 +2899,8 @@
     },
     {
       "path": "src/degree_null/kernel.py",
-      "bytes": 11624,
-      "sha256": "a0c200d7676560fcac2832503beb40eb3cca52b70304f05a938a55b948c5fe5f"
+      "bytes": 7439,
+      "sha256": "533ee098b5c92775f1fe79d7d3bd13c38fa90734d67c6bf475fad6977f5cfa1f"
     },
     {
       "path": "src/degree_null/report.py",
@@ -2921,6 +2921,56 @@
       "path": "tools/verify_release_tree.py",
       "bytes": 2720,
       "sha256": "f9a8e47535cd05941070c1b7f48950ef14d4da009447239df4d8ae297a5f1fa6"
+    },
+    {
+      "path": "docs/PLANNER.md",
+      "bytes": 7457,
+      "sha256": "2db6649bb746dc5a5519edff9b81fdec127b99ce8e41e0e55db82de18cbb3d1f"
+    },
+    {
+      "path": "examples/plan_only.py",
+      "bytes": 856,
+      "sha256": "1342cda14370dd2bb6230b8e6f7df62cc92707937500a17b8e1a1fb6448c9e15"
+    },
+    {
+      "path": "examples/synthetic-edges.csv",
+      "bytes": 50,
+      "sha256": "4cfbfaad1ad7ec4bff63ea2b8f4fdb6a30986501955e3f3838ed79a014a95a1f"
+    },
+    {
+      "path": "examples/synthetic-vertices.json",
+      "bytes": 77,
+      "sha256": "cf824fc9e54c93e89ac7cbc2e338ba4f750837052de1339e6a0a4dda658bde1e"
+    },
+    {
+      "path": "src/degree_null/planning.py",
+      "bytes": 7283,
+      "sha256": "8312b6ba8b932b88cb2bd8cd7b152348bbd7b3ac2eb18a74db686780da70ec5e"
+    },
+    {
+      "path": "src/degree_null/planning_cli.py",
+      "bytes": 2705,
+      "sha256": "b24a23e48f63908e3c79cf75925cea0a5d3633c7ad1cb49ffc37d07ab6ed160f"
+    },
+    {
+      "path": "src/degree_null/planning_core.py",
+      "bytes": 4781,
+      "sha256": "8a0b65ce854c72d9b6e00e38feded049864b99937d003207db35fdf61565ea17"
+    },
+    {
+      "path": "tests/fixtures/v020-kernel.py",
+      "bytes": 11624,
+      "sha256": "a0c200d7676560fcac2832503beb40eb3cca52b70304f05a938a55b948c5fe5f"
+    },
+    {
+      "path": "tests/fixtures/v020-protected-sha256.json",
+      "bytes": 78759,
+      "sha256": "b718ce908330482c695092b2e4a2263f5f63ae0a776125b1517077898136370b"
+    },
+    {
+      "path": "tests/test_planning.py",
+      "bytes": 18397,
+      "sha256": "2b5a8e191582b3152f1831371adafd5006b03100108832912bdbddc7e84267a0"
     }
   ]
 }

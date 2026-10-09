@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0 - unpublished planner-only integration candidate
+
+- Add `curveball_trade_plan` and the `curveball-plan` entry point for exact ordinary-Curveball attempted-trade planning, without sampler execution or scientific authorization.
+- Factor existing validation/certificate code into one shared core, retaining the legacy certificate API and arithmetic results.
+- Add portable licensed frozen controls, exact arithmetic/kernel-law tests and synthetic examples preserving labels and isolates.
+- Report count-cap exceedance without clipping the sufficient budget; reject global rounds, successful swaps and unsupported model interpretations.
+- Preserve native proof sources, runtime gates, prior releases and paper. No validated full-scale power, backend certification, new mathematical result or heuristic advantage is claimed.
+
+The minor version 0.3.0 reflects the additive API/CLI change. This local release candidate remains unpublished pending confirmation of its planner-and-feasibility scope; no tag or publication is created here.
+
 ## 0.2.0 — conditional Lean native reference research release
 
 - Accepted concrete finite-request Type-I root and complete optimized/frozen IO-expression equality; 93 project proof sources and 153 unchanged credited upstream sources.

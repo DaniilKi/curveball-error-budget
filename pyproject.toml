@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "degree-null-research"
-version = "0.2.0"
+version = "0.3.0"
 description = "Degree-preserving comparisons with separated fast and bounded native reference contracts"
 readme = "README.md"
 requires-python = ">=3.12,!=3.14.1"
@@ -17,6 +17,7 @@ dependencies = []
 fast = ["networkit==11.2.2", "psutil==7.2.2"]
 
 [project.scripts]
+curveball-plan = "degree_null.planning_cli:main"
 degree-null = "degree_null.cli:main"
 curveball-arithmetic-check = "curveball_budget.arithmetic_cli:main"
 curveball-reference = "curveball_budget.sampling_cli:main"

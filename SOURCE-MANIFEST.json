@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "status": "draft_sources_only",
+  "version": "0.3.0",
+  "status": "local_planner_feasibility_release_candidate_publication_pending",
   "baseline_commit": "894a659c22cd29dc33a09019a8c784abacd20ebc",
   "official_openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
   "frozen_proof_packet_sha256": "c9bb05549519a3d9433fc180f1a8cfc43a00eb73c42c629974932c92ca931521",
@@ -934,5 +934,27 @@
   "fast_backend_verified_by_new_native_proof": false,
   "optimized_proof_packet_sha256": "62122dc81c09885062e83bb81bd62753052e7fa47809f3c9d0484237811f1e55",
   "optimized_owner_root": "CurveballVerified.native_prefix_request_type_I",
-  "optimized_binary_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7"
+  "optimized_binary_sha256": "5ec539cfb689d4acb93b7158de0e624656c89d47b7b2fe75ea8febae4ed5c5e7",
+  "planner_extension": {
+    "published_baseline_commit": "9319b8289617a6a08aeb528000bddff4da7ca121",
+    "published_source_manifest_sha256": "11b70e84a2c1fd419afb95a35f9eb8f011b03de2c085d014da077c454556ffa5",
+    "scope": "planner-only API and CLI; exact existing arithmetic shared; no sampling/backend assurance promotion",
+    "native_proof_sources_and_gates_unchanged": true,
+    "scientific_runtime_authorized": false,
+    "pilot_original_promotion_gate_met": false,
+    "public_integration_approved": false,
+    "code_license": "Apache-2.0; existing notices retained",
+    "current_degree_null_source_sha256": {
+      "__init__.py": "713d6d5335feeae1568fe10d9ade01a5656ec6e602735d57ef690b85d8b45ee7",
+      "cli.py": "2317e4049651a044bd938bdc341e9aae7253bfbd919e7433fbed29ac41824269",
+      "inputs.py": "f47ef09695fd652bff7e8f5c06c3d94e70e26aae4017e8bb8be1273274ace404",
+      "jobs.py": "d6a66b318c5cdf4835d386b3b583959ce0e29647c56719b79f620eec137f900b",
+      "kernel.py": "533ee098b5c92775f1fe79d7d3bd13c38fa90734d67c6bf475fad6977f5cfa1f",
+      "planning.py": "8312b6ba8b932b88cb2bd8cd7b152348bbd7b3ac2eb18a74db686780da70ec5e",
+      "planning_cli.py": "b24a23e48f63908e3c79cf75925cea0a5d3633c7ad1cb49ffc37d07ab6ed160f",
+      "planning_core.py": "8a0b65ce854c72d9b6e00e38feded049864b99937d003207db35fdf61565ea17",
+      "report.py": "aed7f0a4a857421e00b765a2f4d4963dc59aaaaf573708debfe62c088c7c911a"
+    },
+    "reviewed_development_candidate_zip_sha256": "0f30f4f91e4902b6dae07732033fea252ad4c446f3e98b52a8cec42a58cded16"
+  }
 }

@@ -1,4 +1,19 @@
-# Curveball Error Budget — v0.2.0 research release
+# Curveball Error Budget - local 0.3.0 planner candidate
+
+This unpublished release candidate adds a standard-library-only planning API
+and `curveball-plan` entry point. It reuses the existing exact ordinary-Curveball
+budget, counts null trades, and reports a caller's trade cap without sampling or
+granting scientific authorization. See [planner contract and examples](docs/PLANNER.md).
+
+The original full-scale power promotion gate failed in the separate pilot; power
+remains unmeasured. That gate concerns promoting a sampler for validated scientific
+inference, rather than planner-only engineering. No sampler certification, new
+scientific discovery, advantage over heuristics or public integration approval is
+claimed. Native sources and runtime gates are unchanged.
+
+The published v0.2.0 documentation and authentic download links are retained below.
+
+## Published v0.2.0 research release
 
 [Download v0.2.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.2.0) · [Changes](CHANGELOG.md) · [Contract and installation](docs/PUBLICATION_v0.2.0.md)
 

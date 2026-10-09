@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the underlying mathematical and algorithmic sources separately."
 title: "Curveball Error Budget: Degree-preserving Network Comparisons"
 type: software
-version: 0.2.0
+version: 0.3.0
 authors:
   - name: "DaniilKi contributors"
 license: Apache-2.0
-abstract: "Separated conditional fast and bounded native reference workflows for ordinary undirected Curveball; exact frozen and optimized finite-request model proofs accepted, final installed-package and release review pending."
+abstract: "Planner-only API/CLI for ordinary undirected Curveball with existing exact count arithmetic; bounded native reference sources and gates unchanged. Local release candidate pending publication approval; no validated sampler or classroom-power claim."
