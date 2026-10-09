@@ -83,28 +83,45 @@ planning output, not NetworKit's sampler/RNG or performance. Only selected
 small synthetic cases are measured; no full-scale runtime/RSS or power claim
 follows. A trade cap remains a count comparison, not an execution limit.
 
-## Separate upstream draft proposal: source checks and pending build
+## Separate upstream draft proposal: current validation
 
-On 2026-10-09 the independently reviewed proposal was opened as
-[draft PR1538](https://github.com/networkit/networkit/pull/1538), head
-`8035f382de0fd46ea24faa888ae8e4947ebdf4d2`, based on NetworKit commit
-`ab420840dbb8a61fcb1ea0d89e5acc44fe66f2ab`. Its 12-file final patch SHA-256 is
-`eb99bd9b4ed1b10e6c4d026f3c022fabbea1b65d0766ee098ad59a0a603a5cb3`.
-It adds a pure-stdlib degree-list helper and frozen record with a proposed
-Cython public import. Eleven helper tests and 27 project-plan comparisons
-pass; Cython 3.2.9 translation passes. Translation is not C++ compile/link/runtime
-verification of the public extension export or installed distribution, which
-remain pending. Automatic CI is being followed for that exact head; no successful
-full build or packaging result is claimed here.
+Checked on 2026-10-09: [draft PR #1538](https://github.com/networkit/networkit/pull/1538)
+is open, unmerged, with no maintainer review/acceptance recorded. Published head
+is `6c6eda3a8408f79c59a07c5e1f711fdb965dabc4`, based on
+`ab420840dbb8a61fcb1ea0d89e5acc44fe66f2ab`. This proposal supplies a degree-list
+helper and frozen record with a compiled public import; it is separate from our
+Graph adapter using released 11.2.2. The older mutable degree-list overlay is
+superseded and is not this graph/node/label/isolate validation.
 
-The draft is not merged or adopted. It proposes MIT AND Apache-2.0 component
-metadata while preserving existing MIT code and explicit Apache notices;
-maintainer licensing preference/acceptance remains unresolved. No relicense or
-new agreement was accepted. Five tests of an older mutable degree-list overlay
-only exercised the source helper; that overlay is superseded and is not this
-graph adapter. No upstream acceptance or engineering improvement is established.
-None of the proposed code is required or copied into this package: our graph
-adapter uses released NetworKit 11.2.2 independently.
+[Main CI](https://github.com/networkit/networkit/actions/runs/37882567526)
+completed successfully with 22 passing jobs; source-built public-export tests
+passed on Linux, macOS arm64 and Windows. The
+[wheel workflow](https://github.com/networkit/networkit/actions/runs/37882567527)
+also succeeded (six successful job statuses plus one skip). This does not mean
+six verified platform wheels: the Linux aarch64 wheel-build step was skipped on PR.
+
+The [targeted Linux x86_64 CPython 3.15 repaired-wheel check](https://github.com/networkit/networkit/actions/runs/37882567527/job/113665356775)
+actually passed archive and installed LICENSE/NOTICE byte hashes, a fresh
+temporary-venv install outside the checkout, compiled/module origins, public
+planner count/cap/type/immutability and component metadata. It invoked no sampler.
+Independent review accepted this evidence. CI checked out merge commit
+`4ff67065e45a2e238e1bf723de6cba17dc407eb3`; its tree equals the published head's
+tree. This tested development wheel is not the released 11.2.2 dependency.
+
+PR artifact uploads remain master-only: the wheel digest is recorded in CI,
+without a locally preserved wheel/sdist archive or independent sdist byte audit.
+Setuptools licensing deprecations and a package-discovery warning remain in logs.
+One [authorized workflow-feedback request](https://github.com/networkit/networkit/pull/1538#issuecomment-6074562014)
+links our tested tutorial. No maintainer response was recorded at this check;
+its earlier CI-status paragraph is a dated snapshot, superseded by the terminal
+results above.
+
+The draft proposes MIT AND Apache-2.0 component metadata and explicit Apache
+notices alongside unchanged MIT code. Maintainer licensing preference and API
+acceptance remain unresolved; no rightsholder grant or relicense is assumed.
+Passing tests is not upstream adoption, a sampler-law/PRNG certificate, scientific
+authorization or a performance advantage. None of the proposed code is required
+or copied into our released Graph adapter.
 
 The conditional mathematical assumptions, ordinary attempted-trade units,
 per-output TV allowance and unchanged native/scientific holds are in

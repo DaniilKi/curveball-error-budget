@@ -1,66 +1,121 @@
-# Curveball Error Budget - graph and degree-list planning
+# Curveball Error Budget
 
-Start with the [beginner tutorial](docs/QUICKSTART.md): install the released
-0.4.0 graph adapter, plan a synthetic graph, and compare the required attempted
-trades with a budget. No sampling or scientific inference is performed.
+Imagine reshuffling a network while everyone keeps the same number of
+connections. Curveball is an existing algorithm for that task. This project
+adds explicit error-budget planning, identity checks and reproducible reporting,
+plus a separate bounded Lean reference implementation. A mathematical budget
+does not establish that a scientific model is appropriate or that a seeded
+sampler has the ideal random law.
 
-Version0.4.0 adds `curveball_trade_plan_from_networkit`: validate a released
-NetworKit11.2.2 Graph and retain ordered active node IDs, optional labels and
-isolates in an immutable planning snapshot. Removed node-ID holes are preserved;
-directed, weighted, looped or parallel-edge graphs are refused. It calls our
-existing exact planner and produces no samples or inferential decision. See
-[graph adapter and optional installation](docs/NETWORKIT_GRAPH.md).
+**Latest release: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).**
+Start with the [tested beginner tutorial](docs/QUICKSTART.md). It uses invented
+data and released NetworKit 11.2.2, requires no proposed upstream API, and runs
+no sampler. Power, causation, a faster algorithm and a new mixing theorem are
+not established by this project.
 
-The [published0.3.0 planner](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.3.0)
-and `curveball-plan` CLI remain available. Base installation needs no NetworKit;
-the graph adapter's optional extra pins11.2.2. No unreleased upstream API is
-required and no upstream adoption is claimed. Source fingerprints change: use
-original pinned environments for earlier jobs, rather than resuming them here.
+## What the releases add
 
-The original classroom full-power gate failed and power remains unmeasured.
-Native proof sources/runtime gates and false scientific authorization are
-unchanged. This release adds input/identity validation and an interface, without
-a new sampler, mathematical theorem, backend/RNG certification, performance
-advantage or dimension13 runtime/compression consequence. See the
-[conditional planner contract](docs/PLANNER.md).
+| Release | Addition | Scope |
+| --- | --- | --- |
+| [0.1.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.1.0) | Input/label checks, conditional batch budgets, streamed jobs and reports; focused mathematical kernel/gap sources | Research wrapper around existing Curveball; fast backend and seeded RNG remain outside the proof |
+| [0.2.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.2.0) | Conditional finite-request Lean reference theorem and optimized/frozen IO-expression equality; separate native artifact | Restricted reference path; release approval leaves scientific runtime authorization false |
+| [0.3.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.3.0) | Exact degree-list planning API and `curveball-plan` CLI | Calculates a conservative count; no samples or inference |
+| [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0) | Immutable NetworKit Graph-to-plan snapshot | Retains sorted active IDs, exact optional labels, isolates and deleted-ID holes |
 
-The published v0.2.0 documentation and authentic download links are retained below.
+## Install and plan
 
-## Published v0.2.0 research release
-
-[Download v0.2.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.2.0) · [Changes](CHANGELOG.md) · [Contract and installation](docs/PUBLICATION_v0.2.0.md)
-
-This release adds a bounded Lean native reference path alongside the existing ordinary undirected Curveball research workflow. The accepted theorem `CurveballVerified.native_prefix_request_type_I` bounds the unconditional mass of completed native triangle-rank rejection replies under a uniform labeled simple graph null conditioned on its exact labeled degree vector and independent uniform full bytes. Its explicit premises are the actual `withinLimits` and `arithmeticPlan` checks. `CurveballNativeSamplingPrefix.mainOptimized_eq_frozen` proves equality of the complete optimized and frozen Lean IO expressions.
-
-Final independent review approved the exact release assets. Their build-time `pending_mainreview` profile remains unchanged: end-user scientific authorization stays false. With all three explicit model declarations, completed OS-mode runs can describe conditional model eligibility; declarations acknowledge assumptions rather than establish a physical random law. Supplied deterministic tapes remain unassured, even when rank is true. See [the release contract](docs/PUBLICATION_v0.2.0.md) for the distinction between release approval and runtime authorization.
-
-Python, the fast NetworKit/legacy implementations, compiler/linker/runtime/loader/hardware, physical IO and the entropy provider remain outside a complete machine proof. Pinned compiled dependency caches are trusted; no fresh dependency rebuild or independent-kernel replay is claimed. This release does not establish an appropriate null for arbitrary observed networks, successful-sampler TV, completion rate or power. Selection and multiplicity need separate control.
-
-## Install
-
-Use an isolated Python environment; selected-host controls passed on Python 3.14.8 and an independent Python 3.12 installation. Other environments have not been validated. The wheel contains Python source and no native executable:
+Use a separate environment. These Windows commands assume Python 3.12 or newer
+as `python`, except 3.14.1; they are checked on Python 3.14.8. The optional
+`networkit` extra installs released 11.2.2 and its declared dependencies from
+PyPI. This project's wheel is published on GitHub, not PyPI.
 
 ```text
-python -m pip install --no-deps https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.2.0/degree_null_research-0.2.0-py3-none-any.whl
-curveball-reference --help
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install "degree-null-research[networkit] @ https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/degree_null_research-0.4.0-py3-none-any.whl#sha256=582e48beb245d590e4e11c499d43a047306fba3dfa05198a194a60657e8f068b"
+.venv\Scripts\curveball-plan.exe --degrees "[1,1,1,1,0,0]" --epsilon 1/100 --max-trades 100
 ```
 
-Download the [reviewed source ZIP](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.2.0/curveball-error-budget-0.2.0-source.zip), [Windows AMD64 native ZIP](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.2.0/curveball-reference-0.2.0-windows-amd64.zip) and [checksums](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.2.0/SHA256SUMS) from the authentic release. Verify hashes before use. Extract the source ZIP into a fresh directory without a `.git` folder, retain all native licenses, and follow [installation instructions](docs/PUBLICATION_v0.2.0.md). The installer validates the exact approved source inventory and the actually installed Python files; it does not download or execute a binary. Use the release source ZIP for that workflow: repository documentation has a separately reviewed publication overlay.
+The last command prints JSON: **150 attempted trades required**, cap 100
+insufficient, exit code 3, no sampling. A cap of 150 passes only the count
+comparison; it is not a runtime or memory promise. Every attempt counts,
+including unchanged outcomes. Counts cannot be converted directly into successful
+swaps or GlobalCurveball rounds. The exact allowance is conditional on the
+ordinary operator's nonnegative spectrum/gap and independent ideal uniform draws.
+See [the planner contract](docs/PLANNER.md).
 
-| Command | Scope |
-|---|---|
-| `curveball-reference` | Bounded native reference; accepted conditional Lean model, conservative authorization hold |
-| `degree-null` | Existing fast NetworKit research workflow; new native proof does not certify it |
-| `degree-null --backend reference` | Legacy Python debugging sampler, separate from the native command |
+For a graph, use `curveball_trade_plan_from_networkit` as shown in the tutorial.
+The adapter accepts simple undirected, unweighted graphs with at most 1,000
+active nodes and refuses loops, duplicate edges and invalid label coverage.
+It does not compact node IDs or draw random numbers. See
+[graph validation and optional installation](docs/NETWORKIT_GRAPH.md).
 
-The fast workflow's optional dependencies remain pinned in `requirements-lock.txt`. The native request interface accepts 4–26 vertices, 1–32 replicates, at most 1,024 attempted trades per replicate, rejection cap at most 128 and at most 262,144 entropy bytes, subject to the exact arithmetic gates. All attempted and null trades count; every replicate restarts from the original graph. A capped or failed run never rejects and is not a completed negative test. There is no resume, fresh-tape retry or conditioning on completion. At this rank resolution, 1% rejection is impossible; 5% requires at least 20 replicates and sufficient error allowance.
+Download the [latest wheel](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/degree_null_research-0.4.0-py3-none-any.whl),
+[review/source bundle](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/curveball-error-budget-v0.4.0-review.zip)
+and [checksums](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/SHA256SUMS.txt).
+Keep original pinned environments for older jobs; source fingerprints differ.
+On macOS/Linux the environment's Python is `.venv/bin/python`; this quickstart
+was not tested there.
 
-## Evidence and scientific change
+## Which path is assured?
 
-The release preserves 93 accepted project proof sources, all 153 unchanged focused upstream OpenAI sources, source/build provenance and replay instructions. Seventeen builder installed controls and fifteen independent final checks passed; [validation](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.2.0/candidate-validation.json) records the exact candidate evidence. Mocked provider/GO/write controls are behavior checks, not entropy evidence or profile promotion. Failed and censored runs remain retained privately.
+| Path | What is established | What remains conditional or unverified |
+| --- | --- | --- |
+| Planner and Graph adapter | Tested exact count arithmetic, input validation and immutable output | Operator/randomness assumptions; no execution, inference or scientific authorization |
+| `curveball-reference` | Accepted Lean finite-request rejection bound and complete optimized/frozen IO-expression equality | Physical entropy, compiler/runtime/dependencies, scientific null and external correspondences; authorization remains false |
+| `degree-null` fast NetworKit workflow | Reviewed research integration and bounded empirical controls | No native-proof certification of its sampler, seeded RNG or scientific inference |
+| `degree-null --backend reference` | Legacy Python debugging sampler | Separate from the Lean native command; no transfer of its proof |
 
-A bounded-prefix decoder optimization preserves values, failures and remaining suffixes. One ordered deterministic native comparison took 2.190 seconds versus 27.595 seconds with the same reply; two earlier 20-second censors and four slower small-prefix cases remain disclosed. The final installed n6 control took 3.364 seconds. These observations establish no general runtime multiplier. See [performance](docs/PERFORMANCE.md).
+The native theorem bounds **unconditional completed triangle-rank rejection
+mass** under a uniform labeled exact-degree null and independent uniform full
+bytes, with actual limits/arithmetic checks. It does not certify successful-run
+TV, physical entropy, completion rate or power. Refusal never rejects and is not
+a completed negative test; do not retry until success or condition on completion.
 
-The underlying Curveball algorithm, mathematical gap/stopping result, degree-conditioned null and companion paper are unchanged. The substantive change is stronger implementation assurance for a separate restricted reference path. It does not retroactively certify earlier NetworKit results or provide a new mixing theorem. The simplex-product dimension-13 optimum has no established runtime or compression consequence here.
+Native limits include 4–26 vertices, 1–32 replicates, at most 1,024 attempted
+trades per replicate, rejection cap at most 128 and at most 262,144 entropy
+bytes, plus exact parser/arithmetic gates. One-percent rejection is impossible
+at this rank resolution; at 5%, at least 20 replicates and sufficient allowance
+are necessary. Predeclaration/null/randomness flags record assumptions rather
+than establish them. For native reproduction use the matched **0.2.0** assets
+and environment in [its installation contract](docs/PUBLICATION_v0.2.0.md),
+not a mixture with the latest wheel. See [proof scope](formalization/README.md)
+and [scientific/execution limits](docs/ASSUMPTIONS.md).
 
-The [v0.1.0 release](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.1.0), its tag/assets, unchanged paper and Zenodo identifiers are preserved. Software/upstream scopes are Apache-2.0; the paper is CC BY 4.0; the native asset includes official Lean license texts. Algorithm attribution, AI assistance and the absence of human peer-review acceptance are disclosed in NOTICE. See LICENSE and paper/LICENSE.md.
+## What the practical evidence says
+
+In SocioPatterns' 31-student classroom pilot, **51 of 71 second-day contact
+edges also occurred on day one**. A prespecified 199-output run had no
+tie-inclusive upper-tail exceedances and adjusted rank score **0.015**, conditional
+on ideal kernel/randomness correspondence. This challenges that degree-only
+recorded-contact baseline; it establishes no social mechanism or causation.
+**The original power gate failed, so power remains unmeasured**, not measured zero.
+No accuracy or runtime advantage over the heuristic comparators was established.
+
+A separate prospective diagnostic covered all **70 observation states in 445
+jobs**. Its weighted estimate was 0.0137143, with a broad simultaneous 95% interval
+[0.0121146, 0.7984326]; it is not precise unconditional calibration or a seeded
+backend certificate. See the published [feasibility note and diagnostic](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.3.0/FEASIBILITY-NOTE.md).
+This study-derived summary follows **CC BY-NC-SA 3.0**, separately from software
+and paper licenses, with SocioPatterns and Fournet/Barrat attribution in
+[the source/license note](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.3.0/LICENSE-SOURCE.md).
+No pupil identifiers, mappings or contact graphs are distributed here.
+
+## Upstream work and citation
+
+As checked on 2026-10-09, [NetworKit draft PR #1538](https://github.com/networkit/networkit/pull/1538)
+is open and unmerged. Current-head main CI passed all 22 jobs; the targeted
+Linux x86_64 CPython 3.15 installed-wheel API, complete notice-byte and metadata
+checks passed. These test an upstream proposal, separately from our released
+11.2.2 Graph adapter. Maintainer acceptance of API scope and mixed-component
+licensing remains unresolved; passing CI is not adoption or sampler certification.
+[Details and limitations](docs/NETWORKIT_GRAPH.md).
+
+Use [CITATION.cff](CITATION.cff) and name the software version used. The existing
+[Zenodo software DOI](https://doi.org/10.5281/zenodo.23240269) archives **0.1.0**;
+it is not a deposit of 0.4.0. The unchanged [technical-note DOI](https://doi.org/10.5281/zenodo.23240350)
+is note version 1.0, not peer-reviewed acceptance or a new deposit. Cite the
+underlying OpenAI/math input and ordinary Curveball/heat-bath prior work
+separately; see [NOTICE](NOTICE) and [paper context](paper/README.md).
+No new sampler, established firstness or dimension-13 runtime/compression
+consequence is claimed. Software is Apache-2.0; the paper is CC BY 4.0.
+Prior release tags/assets and version-specific records are preserved.

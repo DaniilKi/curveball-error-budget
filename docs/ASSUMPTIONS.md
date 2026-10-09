@@ -49,15 +49,25 @@ independent kernel validation, empirical OS-entropy certification or proof of
 scientific appropriateness of a user's null model.
 
 The optimized six-source runtime differs only in NativeEntropy from the frozen
-runtime. Its local decoder equality and deterministic pilot are accepted;
-the namespaced whole-runtime, I/O and rejection-event transfer are accepted
-for the exact optimized binary in this assembly. No scientific flag can become true merely because the
-protocol file stayed unchanged, checksums match, or a local installer ran.
-Final exact shipped source/object/binary/launcher binding and independent
-semantic/package/release review are required before promotion.
+runtime. Its decoder equality, complete IO/rejection-event transfer and exact
+source/generated-artifact/binary binding were accepted; exact v0.2.0 release
+publication review completed. Frozen build-time labels such as `pending_mainreview`
+remain historical evidence, not an outstanding publication review. The shipped
+profile still holds scientific, TV, ideal-randomness and whole-binary-refinement
+flags false. No installer, matching hash or declaration promotes these flags.
 
+Accepted optimized declarations are
+`CurveballVerified.native_prefix_request_type_I` and
+`CurveballNativeSamplingPrefix.mainOptimized_eq_frozen`; see
+[the prefix ledger](../formalization/provenance/prefix-proof-ledger.json).
+Standard axioms and exact source/artifact bindings do not prove external machine
+or scientific assumptions. Any future profile promotion requires separately
+scoped review of changed bytes.
 
-Optimized acceptance: `CurveballVerified.native_prefix_request_type_I` and `CurveballNativeSamplingPrefix.mainOptimized_eq_frozen`, standard axioms, exact six sources/19 generated artifacts/binary5ec539cf...; see prefix-proof-ledger.json. Installed flags remain held pending main review GO. Explicit --predeclared --fixed-degree-null --trust-uniform-bytes acknowledges external scientific/entropy premises; provided deterministic tapes remain unassured. Multiple-testing/selection control is separate.
-
-
-Conditional eligibility requires completed OS-byte mode and explicit --predeclared, --fixed-degree-null, --trust-uniform-bytes declarations, all under the stated external trust. Provided tapes and undeclared runs remain unassured. Main review GO is an additional gate for scientific authorization; a rank flag alone never enables it. No conditional-on-completion probability claim, sample-TV certification or empirical entropy certification is emitted.
+Conditional eligibility requires a completed OS-byte-mode run and explicit
+`--predeclared --fixed-degree-null --trust-uniform-bytes` declarations under the
+stated external trust. They record assumptions, not physical randomness or null
+appropriateness. Provided tapes and undeclared runs remain unassured. A rank flag
+alone grants no scientific authorization. No conditional-on-completion claim,
+successful-sampler TV certificate, power or empirical entropy certification is
+emitted. Use matched archived assets and [the publication/installation contract](PUBLICATION_v0.2.0.md).

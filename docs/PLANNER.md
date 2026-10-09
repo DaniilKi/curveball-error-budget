@@ -127,6 +127,9 @@ scope. API engineering, mathematical novelty, formal reference correctness,
 human peer review and practical efficacy are separate claims; no worldwide-firstness
 claim is made.
 
-This is our project's API, not an accepted NetworKit contribution. A later upstream
-proposal requires maintainer scope/convention agreement and licensing review; copied
-Apache code must not silently be relabeled MIT. The separate source-only upstream proposal is documented in NETWORKIT_GRAPH.md; project release publication does not establish upstream acceptance or backend certification.
+This is our project's API. The separate NetworKit draft proposal has passing
+compiled/export and targeted installed-wheel checks; current status and remaining
+licensing/adoption limits are in [NETWORKIT_GRAPH.md](NETWORKIT_GRAPH.md). It is
+unmerged and maintainer acceptance remains unresolved. Project release publication
+and upstream CI do not establish acceptance or backend/scientific certification.
+Apache-derived code retains its attribution and component notices.

@@ -1,49 +1,36 @@
-# Local reference installation candidate
+# Published native reference installation
 
-The exact optimized proof transfer is accepted. The native candidate is hash-bound for local installation; final release review remains pending.
-Keep scientific flags false. The Python wheel contains no executable.
-Source-only installation preparation does not supply a final package or prove
-that a release asset was reviewed or downloaded from an authentic publisher.
+The exact optimized proof transfer and v0.2.0 artifact publication review are
+accepted. The conservative scientific runtime profile remains held. Historical
+candidate/pending labels in frozen metadata were retained as build-time evidence;
+they do not describe an unfinished publication. See
+[the v0.2.0 contract and installation commands](PUBLICATION_v0.2.0.md).
 
-Use an isolated Python environment and obtain the eventual native asset from
-the reviewed new GitHub release, over ordinary authenticated HTTPS. Verify its
-published SHA256SUMS against the release's reviewed inventory. Do not execute
-an arbitrary downloaded file because it accompanies a matching self-generated
-manifest. The existing v0.1.0 release and archive stay unchanged.
+For native reproduction use the matched published v0.2.0 Python wheel, exact
+source ZIP and Windows AMD64 native ZIP, with the authentic release checksums.
+Do not combine that installation with the current 0.4.0 Python wheel or a
+docs-updated main checkout. Frozen inventories include original documentation;
+intentional docs-only overlays are not identical source release trees.
+All earlier release assets and manifests remain unchanged.
 
-The draft `tools/install_reference_manifest.py` accepts a local runtime
-directory containing the required selected six sources, executable and named
-provenance files. Its approval profile pins their expected hashes and the
-installed Python launcher. It creates a fresh local manifest without network,
-subprocess, PATH changes, registry/configuration changes, credentials, billing
-or automatic execution. It refuses hash mismatches, symlinks, an existing
-output, absolute/traversing approval paths, and scientific flags other than
-false. The generated manifest uses local absolute paths for the launcher;
-that local manifest is private and is never a release asset.
+The installer accepts only the selected named runtime/provenance files and
+actual installed Python pins. It creates a fresh private local manifest without
+network downloads, native execution, PATH/registry changes or new credentials.
+It refuses mismatched hashes, symlinks, existing output, traversing approval paths
+and scientific flags other than false. Keep its absolute-path manifest private.
+Hashes bind bytes; a self-generated matching manifest is not publisher/reviewer
+authentication. The Python wheel contains no native executable.
 
-```text
-python tools/verify_release_tree.py
-python tools/install_reference_manifest.py --profile optimized --runtime-dir LOCAL_RUNTIME --output NEW_LOCAL_INSTALL
-curveball-reference --request examples/native-sampling-six-vertex.request --installation NEW_LOCAL_INSTALL/installation.json --installation-sha256 PRINTED_HASH --entropy-file LOCAL_DETERMINISTIC_TAPE --evidence-dir PRIVATE_RUNS
-```
+The launcher checks its own installed origin against those pins. A source
+inventory alone does not enable execution or scientific authorization. There is
+no resume or fresh-tape retry-to-success path. Supplied deterministic tapes are
+execution controls; OS-byte mode additionally trusts the declared uniform,
+independent full-byte law. Explicit scientific declarations acknowledge that
+law, the exact-degree null and fixed configuration; they do not establish them.
+See [scientific/execution limits](ASSUMPTIONS.md).
 
-The installer permits only the exact accepted optimized candidate and refuses missing proof/build/Python provenance. Frozen fallback remains held. Pass `--python-package-dir` pointing to the actual installed curveball_budget directory; the executing launcher separately checks its own origin/hash against those pins. A complete
-source manifest is not enough to unblock it. There is no refresh/fresh-tape
-retry or resume path. OS entropy is allocated once only after preflight;
-provided deterministic tapes support execution controls only. Preserve failures
-and do not select completed graphs by result.
-
-The optimized owner transfer is accepted. Candidate validation builds the
-Python wheel and source distribution, binds the installed Python source pins,
-and exercises isolated installation/CLI/blocked/refusal controls. The separate
-Windows AMD64 native asset and these exact package bytes still require final
-main review GO. Checksums, local hashes
-and compiler fidelity have distinct roles; the scientific contract additionally
-depends on the stated independent uniform bytes, labeled-degree null and
-trusted physical I/O.
-
-
-Optimized acceptance: `CurveballVerified.native_prefix_request_type_I` and `CurveballNativeSamplingPrefix.mainOptimized_eq_frozen`, standard axioms, exact six sources/19 generated artifacts/binary5ec539cf...; see prefix-proof-ledger.json. Installed flags remain held pending main review GO. Explicit --predeclared --fixed-degree-null --trust-uniform-bytes acknowledges external scientific/entropy premises; provided deterministic tapes remain unassured. Multiple-testing/selection control is separate.
-
-
-Conditional eligibility requires completed OS-byte mode and explicit --predeclared, --fixed-degree-null, --trust-uniform-bytes declarations, all under the stated external trust. Provided tapes and undeclared runs remain unassured. Main review GO is an additional gate for scientific authorization; a rank flag alone never enables it. No conditional-on-completion probability claim, sample-TV certification or empirical entropy certification is emitted.
+The accepted complete Lean IO-expression equality and finite rejection theorem
+do not certify physical entropy, every compiler/runtime/machine, successful-run
+TV, completion rate or power. Preserve refusals, malformed requests, failures and
+timeouts; never select only favorable completions. Current planner-only usage is
+in [the beginner tutorial](QUICKSTART.md), separately from native reproduction.
