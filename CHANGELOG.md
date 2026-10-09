@@ -39,3 +39,7 @@ The minor version 0.3.0 reflects the additive API/CLI change. The exact reviewed
 - Apache-2.0 authored source; separate dependency licenses and AI assistance disclosed.
 
 No new sampler, speed theorem, firstness, or unconditional end-to-end formal verification is claimed.
+
+## 0.5.0
+
+Adds a read-only study adapter and exact reviewed PWR-002 descriptive aggregates, receipt, prose and sanitized provenance. One failed job and all scientific holds remain visible. No new sampler, native proof, runtime authorization or established performance advantage.

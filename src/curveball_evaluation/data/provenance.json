@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "study": "PWR-002",
+  "projection": "sanitized release provenance; full raw evidence retained privately",
+  "accepted_artifacts": {
+    "analysis.json": "f7e57937b122ca06f1191868d0306d8dafe69d594ca39b6b0e8951ce67257bf1",
+    "review-050.json": "31f03e328d100083423845429c363dcbe9a03dbaf253a6fa3d3e0329c7d5c29d",
+    "REPORT.md": "e3370a1f3d3437a1af120b19b6bea5cd5f4451baafb3f1fbbb4df57051042c5d"
+  },
+  "maintained_analysis_source_pins": {
+    "analysis.py": "792fc37d2318d6799471fc5f8d9e180d2a1808d2e47e9180e54603feabbda854",
+    "counter-repair/combined_analysis.py": "09287893f60aa6284eb79fca54a6b79a4709e37b2a60bfce0c9f4e923352e6e6"
+  },
+  "process_receipt_pins": {
+    "continuation-run/guard-receipt.json": "d676f45de7fe0662dc2a77a8202bdb03132517b5ef61866844ebac786173c68f",
+    "continuation-analysis-run/guard-receipt.json": "03d87bde0fc849515f8eed2cccfdba6a4785a29cc2c7fe73ce6a979456514d22"
+  },
+  "derived_composite_receipt": {
+    "path": "combined-run/guard-receipt.json",
+    "sha256": "8b7495a3e54da5347f7b45432d76a67a6c6d512f2b12e8bb7eb654f6aa43ba75",
+    "scope": "derived composite; no additional process started"
+  },
+  "original_failed_guard_receipt_sha256": "28dea171446a98e151522634fe59e7152ece3c45ec667944f80887fe9949906a",
+  "interrupted_job": "bcspwr01|null|2138|pairing",
+  "candidate_charges": 61,
+  "partial_output_count": null,
+  "partial_wall_seconds": null,
+  "zero_seconds_placeholder_is_measurement": false,
+  "original_completed_jobs_preserved": 4275,
+  "untouched_jobs_completed": 4742,
+  "frozen_schedule": {
+    "observations": 4250,
+    "jobs": 9018,
+    "observation_and_output_seeds": 446132,
+    "decimal_string_seeds_preserved": true,
+    "observations_sha256": "5a05785c6614099195da5539e0ed096f9400910e546a3d1c4ae5ac9c2bdac815",
+    "jobs_sha256": "c468d0c4dd5840fe7f1bed6dad7eeef6612fe3c936f264e3fc31b1dfc5ceeec5"
+  },
+  "all_phase_reserved": {
+    "ordinary_attempts": 859938142,
+    "global_rounds": 4935280,
+    "pairing_candidates": 1232349
+  },
+  "charged_wall_seconds_before_empirical_final_bundle": 602.6970292190579,
+  "platform_packaging_cost": "separate release validation receipt; not included in preceding empirical charge",
+  "historical_classroom_failed_power_gate": {
+    "sha256": "b4c067f1aa7cd3372e9f5be650aa4d388b004296c7e888c9d2ae175789afb827",
+    "url": "https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.3.0/FEASIBILITY-NOTE.md",
+    "power": "unmeasured; not zero"
+  },
+  "sources": {
+    "bcspwr01": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/bcspwr/bcspwr01.html",
+    "bcspwr02": "https://math.nist.gov/MatrixMarket/data/Harwell-Boeing/bcspwr/bcspwr02.html",
+    "algorithm_choices": "https://networkit.github.io/dev-docs/notebooks/Randomization.html"
+  },
+  "public_distribution_excludes": [
+    "raw matrices",
+    "observation/output seeds",
+    "sampled graphs and stub vectors",
+    "private process paths",
+    "native runtime binaries"
+  ],
+  "scientific_runtime_authorization_promoted": false,
+  "original_confirmatory_status_restored": false,
+  "reliable_power_certification": false,
+  "reference_advantage_claim": false
+}

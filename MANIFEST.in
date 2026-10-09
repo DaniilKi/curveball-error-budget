@@ -599,3 +599,22 @@ include docs/NETWORKIT_GRAPH.md
 include examples/networkit_graph_plan.py
 include tests/test_networkit_graph.py
 include tests/test_networkit_graph_live.py
+
+# Current source overlay; historical inventory bytes remain unchanged.
+include docs/EVALUATION.md
+include docs/PWR-002.md
+include docs/QUICKSTART.md
+include docs/RELEASE_v0.5.0.md
+include src/curveball_evaluation/__init__.py
+include src/curveball_evaluation/cli.py
+include src/curveball_evaluation/data/LICENSE-SOURCE.md
+include src/curveball_evaluation/data/REPORT.md
+include src/curveball_evaluation/data/analysis.json
+include src/curveball_evaluation/data/provenance.json
+include src/curveball_evaluation/data/review-050.json
+include src/curveball_evaluation/report.py
+include src/curveball_evaluation/study.py
+include tests/test_evaluation_report.py
+include tests/test_study_evidence.py
+include tools/verify_current_release.py
+include release/0.5.0/SOURCE-FILES.json

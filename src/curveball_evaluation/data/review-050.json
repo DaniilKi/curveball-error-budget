@@ -1,0 +1,60 @@
+{
+  "review": "050",
+  "status": "accepted_descriptive_result_evidence",
+  "seal_sha256": "045a3a841a104a1fe3f9748c6ce9f54b97786ddce441fa658226618027429c7c",
+  "accepted_result_pins": {
+    "combined-run/ANALYSIS.json": "f7e57937b122ca06f1191868d0306d8dafe69d594ca39b6b0e8951ce67257bf1",
+    "continuation-run/guard-receipt.json": "d676f45de7fe0662dc2a77a8202bdb03132517b5ef61866844ebac786173c68f",
+    "continuation-analysis-run/guard-receipt.json": "03d87bde0fc849515f8eed2cccfdba6a4785a29cc2c7fe73ce6a979456514d22",
+    "combined-run/records.jsonl.gz": "c23d81b62d7f97dbf1b6f1ebba34615062d65f1fa6f0fd2834292331f0d02d45",
+    "combined-run/guard-receipt.json": "8b7495a3e54da5347f7b45432d76a67a6c6d512f2b12e8bb7eb654f6aa43ba75",
+    "continuation-run/records.jsonl.gz": "7daa6fca10ad61d99c0270609238d3e0693a3e5ab821ffd8512c4aa70db42057",
+    "continuation-run/worker-summary.json": "a791e08a5db5df70addcef4361ca00485854ad37d39962a8321c07f8b79d972c",
+    "continuation-run/environment.json": "629b419f41c42d86a7b8438cbfa3a48b6b64ce53aadb7e1e66bde469fb57e123",
+    "continuation-run/units.bin": "c1305c3384214cc21f3541b0edc246ac81bf4e706d41590801fb5ec78089e2f8",
+    "continuation-run/memory.jsonl": "2d03fac1506805e58736c68c0db788f30e03811f18757054c0a8225d50fa3b74",
+    "continuation-run/stdout.log": "e2b06e3ac1f8bd23c86745169c6735dd8289a0f1f41ce973be10ce3215b9fe6b",
+    "continuation-analysis-run/units.bin": "c1305c3384214cc21f3541b0edc246ac81bf4e706d41590801fb5ec78089e2f8",
+    "continuation-analysis-run/memory.jsonl": "09dce5960fd13d352b63389a7021f69d45806ebb14557bfa8f52171d40fcf08c",
+    "continuation-analysis-run/stdout.log": "8b7bca688f4d7d15e4a88d08bee09cbabe4a69d581798f4704b6f6f1815ec2be",
+    "CONTINUATION-SLOT.json": "b2980f137c168934f3711c10b9e8d7ec7d355c20af2c92889b52db5eb7f75fd0",
+    "CONTINUATION-SLOT-RELEASE.json": "6c59c23468bf295d3e4be06f63e84dc545db6dd478993ff290db3f15c2add1e3",
+    "CONTINUATION-APPROVAL.json": "1205b3ad792be43eb86ba737f41e621fbe873aa5fcfc9ce727accaa46cda4778"
+  },
+  "source_pins": {
+    "analysis.py": "792fc37d2318d6799471fc5f8d9e180d2a1808d2e47e9180e54603feabbda854",
+    "counter-repair/combined_analysis.py": "09287893f60aa6284eb79fca54a6b79a4709e37b2a60bfce0c9f4e923352e6e6"
+  },
+  "independent_audit_counts": {
+    "observations": 4250,
+    "scheduled_jobs": 9018,
+    "completed_jobs": 9017,
+    "interrupted_censored_jobs": 1,
+    "graphs": 446083,
+    "accepted_stub_vectors": 212451
+  },
+  "original_completed_jobs_preserved": 4275,
+  "untouched_jobs_completed": 4742,
+  "interrupted_job": "bcspwr01|null|2138|pairing",
+  "interrupted_candidate_charges_retained": 61,
+  "all_phase_reserved": {
+    "ordinary_attempts": 859938142,
+    "global_rounds": 4935280,
+    "pairing_candidates": 1232349
+  },
+  "cumulative_charged_wall_seconds_before_final_bundle": 602.6970292190579,
+  "unattributed_reservations": [
+    0,
+    0,
+    0
+  ],
+  "statistical_scope": "descriptive administrative completion only",
+  "original_confirmatory_status_restored": false,
+  "reliable_power_certification": false,
+  "reference_advantage_claim": false,
+  "matched605_cost_label_valid": false,
+  "scientific_runtime_authorization_promoted": false,
+  "publication_authorized": false,
+  "new_sampling_authorized": false,
+  "receipt_scope": "exact result/source/guard evidence; final packaging cost/inventory remains to be recorded"
+}

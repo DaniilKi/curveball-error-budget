@@ -40,3 +40,5 @@ AI assistance: OpenAI Codex assisted implementation, tests, documentation
 and separate AI-worker review. These checks are not a human peer review
 or an independent end-to-end machine-checked proof. Human maintainers
 remain responsible for release decisions and scientific claims.
+
+PWR-002 historical pattern provenance: NIST Matrix Market Harwell-Boeing BCSPWR01/02; B. Dembart and J. Lewis, Boeing Computer Services. No original matrices are redistributed. See src/curveball_evaluation/data/LICENSE-SOURCE.md.

@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the underlying mathematical and algorithmic sources separately."
 title: "Curveball Error Budget: Degree-preserving Network Comparisons"
 type: software
-version: 0.4.0
+version: 0.5.0
 authors:
   - name: "DaniilKi contributors"
 license: Apache-2.0
-abstract: "Planner-only API/CLI for ordinary undirected Curveball with existing exact count arithmetic; bounded native reference sources and gates unchanged. Additive NetworKit graph-to-planner snapshot with active node/label validation; no validated sampler, classroom-power or upstream-adoption claim."
+abstract: "Conditional error-budget planning and immutable Graph snapshots with a read-only descriptive study-evidence interface. Preserves censored jobs, negative findings and scientific holds; no validated seeded sampler, reliable-power, performance-advantage or upstream-adoption claim."

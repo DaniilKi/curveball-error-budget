@@ -7,7 +7,8 @@ plus a separate bounded Lean reference implementation. A mathematical budget
 does not establish that a scientific model is appropriate or that a seeded
 sampler has the ideal random law.
 
-**Latest release: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).**
+**Release candidate: 0.5.0; publication awaits exact release review.**
+Published planner tutorial: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).
 Start with the [tested beginner tutorial](docs/QUICKSTART.md). It uses invented
 data and released NetworKit 11.2.2, requires no proposed upstream API, and runs
 no sampler. Power, causation, a faster algorithm and a new mixing theorem are
@@ -21,6 +22,7 @@ not established by this project.
 | [0.2.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.2.0) | Conditional finite-request Lean reference theorem and optimized/frozen IO-expression equality; separate native artifact | Restricted reference path; release approval leaves scientific runtime authorization false |
 | [0.3.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.3.0) | Exact degree-list planning API and `curveball-plan` CLI | Calculates a conservative count; no samples or inference |
 | [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0) | Immutable NetworKit Graph-to-plan snapshot | Retains sorted active IDs, exact optional labels, isolates and deleted-ID holes |
+| 0.5.0 candidate | Read-only accepted descriptive study evidence | Retains failed job, denominators and scientific holds; no sampling |
 
 ## Install and plan
 
@@ -49,7 +51,7 @@ active nodes and refuses loops, duplicate edges and invalid label coverage.
 It does not compact node IDs or draw random numbers. See
 [graph validation and optional installation](docs/NETWORKIT_GRAPH.md).
 
-Download the [latest wheel](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/degree_null_research-0.4.0-py3-none-any.whl),
+Download the [tutorial wheel](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/degree_null_research-0.4.0-py3-none-any.whl),
 [review/source bundle](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/curveball-error-budget-v0.4.0-review.zip)
 and [checksums](https://github.com/DaniilKi/curveball-error-budget/releases/download/v0.4.0/SHA256SUMS.txt).
 Keep original pinned environments for older jobs; source fingerprints differ.
@@ -119,3 +121,27 @@ separately; see [NOTICE](NOTICE) and [paper context](paper/README.md).
 No new sampler, established firstness or dimension-13 runtime/compression
 consequence is claimed. Software is Apache-2.0; the paper is CC BY 4.0.
 Prior release tags/assets and version-specific records are preserved.
+
+## Read saved descriptive evidence
+
+Release 0.5.0 adds `curveball-evaluation --format json` (or `markdown`) and the
+[read-only evaluation adapter](docs/EVALUATION.md). It requires no optional
+backend and runs no sampler. See [installation and release scope](docs/RELEASE_v0.5.0.md).
+
+[PWR-002's exact accepted report](docs/PWR-002.md) retains 9,017 completed jobs
+and one interrupted pairing job across the full 9,018-job schedule. Primary
+null detections were 89/3000 for both pairing and Global20; the censored pairing
+outcome gives sensitivity 89..90/3000. Moderate detections were 1146/1200 and
+1153/1200. These are descriptive conditional calculations, not certified power.
+The original confirmatory status is withdrawn; scientific/runtime holds stay false.
+Pairing failed the predeclared +.05 advantage threshold, and Global605 failed
+the cost-matching condition. Partial interrupted time/output count remain unknown.
+The historical classroom failed power gate remains unchanged: its power was
+unmeasured. PWR-002 does not restore that gate or establish real-grid fault detection.
+
+The wheel includes aggregate analysis, exact report/review bytes and sanitized
+provenance; the report's archive references mean the private raw research archive.
+It contains no raw matrices, seeds, graphs, private paths or runtime binaries.
+Known whole-pairing rejection is an existing algorithm under ideal randomness;
+neither this evidence nor the simplex dimension-13 volume theorem establishes
+a new graph algorithm, seeded-law proof or runtime improvement.
