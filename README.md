@@ -1,5 +1,9 @@
 # Curveball Error Budget - graph and degree-list planning
 
+Start with the [beginner tutorial](docs/QUICKSTART.md): install the released
+0.4.0 graph adapter, plan a synthetic graph, and compare the required attempted
+trades with a budget. No sampling or scientific inference is performed.
+
 Version0.4.0 adds `curveball_trade_plan_from_networkit`: validate a released
 NetworKit11.2.2 Graph and retain ordered active node IDs, optional labels and
 isolates in an immutable planning snapshot. Removed node-ID holes are preserved;
