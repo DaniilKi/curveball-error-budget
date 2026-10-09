@@ -1,6 +1,6 @@
 {
-  "version": "0.3.0",
-  "status": "local_planner_feasibility_release_candidate_publication_pending",
+  "version": "0.4.0",
+  "status": "additive_graph_adapter_candidate_publication_pending_exact_review",
   "baseline_commit": "894a659c22cd29dc33a09019a8c784abacd20ebc",
   "official_openai_math_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
   "frozen_proof_packet_sha256": "c9bb05549519a3d9433fc180f1a8cfc43a00eb73c42c629974932c92ca931521",
@@ -945,16 +945,43 @@
     "public_integration_approved": false,
     "code_license": "Apache-2.0; existing notices retained",
     "current_degree_null_source_sha256": {
-      "__init__.py": "713d6d5335feeae1568fe10d9ade01a5656ec6e602735d57ef690b85d8b45ee7",
+      "__init__.py": "35e6877f987653e1621a10c3eed67963394d7c9955c8520f22dfca31d3906a87",
       "cli.py": "2317e4049651a044bd938bdc341e9aae7253bfbd919e7433fbed29ac41824269",
       "inputs.py": "f47ef09695fd652bff7e8f5c06c3d94e70e26aae4017e8bb8be1273274ace404",
       "jobs.py": "d6a66b318c5cdf4835d386b3b583959ce0e29647c56719b79f620eec137f900b",
       "kernel.py": "533ee098b5c92775f1fe79d7d3bd13c38fa90734d67c6bf475fad6977f5cfa1f",
+      "networkit_graph.py": "55e5c35f3f53fb0e61ac0e480f2d61421a8dce9287e3ac5d42eb7b204961e318",
       "planning.py": "8312b6ba8b932b88cb2bd8cd7b152348bbd7b3ac2eb18a74db686780da70ec5e",
       "planning_cli.py": "b24a23e48f63908e3c79cf75925cea0a5d3633c7ad1cb49ffc37d07ab6ed160f",
       "planning_core.py": "8a0b65ce854c72d9b6e00e38feded049864b99937d003207db35fdf61565ea17",
       "report.py": "aed7f0a4a857421e00b765a2f4d4963dc59aaaaf573708debfe62c088c7c911a"
     },
     "reviewed_development_candidate_zip_sha256": "0f30f4f91e4902b6dae07732033fea252ad4c446f3e98b52a8cec42a58cded16"
+  },
+  "graph_adapter_extension": {
+    "base_commit": "a4858a43354b9e26064ac11d3705b88dec8d4f42",
+    "api": "degree_null.curveball_trade_plan_from_networkit",
+    "result": "NetworkitGraphTradePlan",
+    "optional_backend": "networkit==11.2.2",
+    "released_Graph_API_used": true,
+    "proposed_upstream_planner_API_used": false,
+    "node_order": "sorted active IDs including isolates and deleted-ID holes",
+    "scientific_runtime_authorized": false,
+    "upstream_acceptance_claim": false,
+    "upstream_extension_runtime_verification": false,
+    "upstream_proposal_draft_pr": "https://github.com/networkit/networkit/pull/1538",
+    "upstream_proposal_head": "8035f382de0fd46ea24faa888ae8e4947ebdf4d2",
+    "current_degree_null_source_sha256": {
+      "__init__.py": "35e6877f987653e1621a10c3eed67963394d7c9955c8520f22dfca31d3906a87",
+      "cli.py": "2317e4049651a044bd938bdc341e9aae7253bfbd919e7433fbed29ac41824269",
+      "inputs.py": "f47ef09695fd652bff7e8f5c06c3d94e70e26aae4017e8bb8be1273274ace404",
+      "jobs.py": "d6a66b318c5cdf4835d386b3b583959ce0e29647c56719b79f620eec137f900b",
+      "kernel.py": "533ee098b5c92775f1fe79d7d3bd13c38fa90734d67c6bf475fad6977f5cfa1f",
+      "networkit_graph.py": "55e5c35f3f53fb0e61ac0e480f2d61421a8dce9287e3ac5d42eb7b204961e318",
+      "planning.py": "8312b6ba8b932b88cb2bd8cd7b152348bbd7b3ac2eb18a74db686780da70ec5e",
+      "planning_cli.py": "b24a23e48f63908e3c79cf75925cea0a5d3633c7ad1cb49ffc37d07ab6ed160f",
+      "planning_core.py": "8a0b65ce854c72d9b6e00e38feded049864b99937d003207db35fdf61565ea17",
+      "report.py": "aed7f0a4a857421e00b765a2f4d4963dc59aaaaf573708debfe62c088c7c911a"
+    }
   }
 }

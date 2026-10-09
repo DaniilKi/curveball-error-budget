@@ -1,6 +1,14 @@
 # Changelog
 
-## 0.3.0 - unpublished planner-only integration candidate
+## 0.4.0 - NetworKit graph-to-planner adapter
+
+- Add `curveball_trade_plan_from_networkit` and frozen `NetworkitGraphTradePlan` with ordered active IDs, optional exact labels and isolated-node preservation.
+- Validate actual Graph type, undirected/unweighted/simple structure, edge/count/degree agreement and the existing1,000-active-node limit, including deleted-ID holes.
+- Add lazy optional NetworKit11.2.2 dependency, portable boundary controls and separate real released-library synthetic controls; no proposed upstream API is needed.
+- Preserve planner arithmetic, sampler/native sources and scientific holds. No upstream adoption, sampler/RNG certification, power or performance advantage is established.
+
+
+## 0.3.0 - published planner-only API and CLI
 
 - Add `curveball_trade_plan` and the `curveball-plan` entry point for exact ordinary-Curveball attempted-trade planning, without sampler execution or scientific authorization.
 - Factor existing validation/certificate code into one shared core, retaining the legacy certificate API and arithmetic results.
@@ -8,7 +16,7 @@
 - Report count-cap exceedance without clipping the sufficient budget; reject global rounds, successful swaps and unsupported model interpretations.
 - Preserve native proof sources, runtime gates, prior releases and paper. No validated full-scale power, backend certification, new mathematical result or heuristic advantage is claimed.
 
-The minor version 0.3.0 reflects the additive API/CLI change. This local release candidate remains unpublished pending confirmation of its planner-and-feasibility scope; no tag or publication is created here.
+The minor version 0.3.0 reflects the additive API/CLI change. The exact reviewed package was published at tagv0.3.0, commit a4858a43354b9e26064ac11d3705b88dec8d4f42; frozen candidate labels describe build-time provenance.
 
 ## 0.2.0 — conditional Lean native reference research release
 

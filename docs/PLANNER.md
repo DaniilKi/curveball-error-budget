@@ -1,6 +1,6 @@
 # Ordinary Curveball planner
 
-This is an unpublished `0.3.0` integration candidate in this project. The
+The degree-list API/CLI was published in v0.3.0. Version0.4.0 also adds a separately documented [NetworKit graph adapter](NETWORKIT_GRAPH.md); the degree-list planner remains unchanged. The
 planner calculates a sufficient attempted-trade count under explicit mathematical
 and ideal-randomness assumptions. It does not run NetworKit, sample a graph, test a
 scientific hypothesis or grant scientific authorization.
@@ -19,7 +19,7 @@ assert plan.within_trade_limit is False
 record = plan.as_dict()
 ```
 
-In an environment containing this candidate package:
+In an environment containing this package:
 
 ```text
 curveball-plan --degrees "[1,1,1,1,0,0]" --epsilon 1/100 --max-trades 100
@@ -96,7 +96,7 @@ strict public inputs, count/payload reporting, portable tests, a dedicated CLI a
 synthetic documentation. There is no new sampler or mixing theorem.
 
 Legacy jobs bind all Python source hashes. This refactor/addition changes that
-fingerprint, so this candidate must not resume jobs made with v0.2.0. Use their
+fingerprint, so this package must not resume jobs made with earlier source fingerprints. Use their
 original pinned environment; the existing resume guard remains intact.
 
 Run portable planner controls with
@@ -129,5 +129,4 @@ claim is made.
 
 This is our project's API, not an accepted NetworKit contribution. A later upstream
 proposal requires maintainer scope/convention agreement and licensing review; copied
-Apache code must not silently be relabeled MIT. No fork, PR, push, release, deposit
-or outreach is part of this local candidate.
+Apache code must not silently be relabeled MIT. The separate source-only upstream proposal is documented in NETWORKIT_GRAPH.md; project release publication does not establish upstream acceptance or backend certification.

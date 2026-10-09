@@ -1,15 +1,24 @@
-# Curveball Error Budget - local 0.3.0 planner candidate
+# Curveball Error Budget - graph and degree-list planning
 
-This unpublished release candidate adds a standard-library-only planning API
-and `curveball-plan` entry point. It reuses the existing exact ordinary-Curveball
-budget, counts null trades, and reports a caller's trade cap without sampling or
-granting scientific authorization. See [planner contract and examples](docs/PLANNER.md).
+Version0.4.0 adds `curveball_trade_plan_from_networkit`: validate a released
+NetworKit11.2.2 Graph and retain ordered active node IDs, optional labels and
+isolates in an immutable planning snapshot. Removed node-ID holes are preserved;
+directed, weighted, looped or parallel-edge graphs are refused. It calls our
+existing exact planner and produces no samples or inferential decision. See
+[graph adapter and optional installation](docs/NETWORKIT_GRAPH.md).
 
-The original full-scale power promotion gate failed in the separate pilot; power
-remains unmeasured. That gate concerns promoting a sampler for validated scientific
-inference, rather than planner-only engineering. No sampler certification, new
-scientific discovery, advantage over heuristics or public integration approval is
-claimed. Native sources and runtime gates are unchanged.
+The [published0.3.0 planner](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.3.0)
+and `curveball-plan` CLI remain available. Base installation needs no NetworKit;
+the graph adapter's optional extra pins11.2.2. No unreleased upstream API is
+required and no upstream adoption is claimed. Source fingerprints change: use
+original pinned environments for earlier jobs, rather than resuming them here.
+
+The original classroom full-power gate failed and power remains unmeasured.
+Native proof sources/runtime gates and false scientific authorization are
+unchanged. This release adds input/identity validation and an interface, without
+a new sampler, mathematical theorem, backend/RNG certification, performance
+advantage or dimension13 runtime/compression consequence. See the
+[conditional planner contract](docs/PLANNER.md).
 
 The published v0.2.0 documentation and authentic download links are retained below.
 

@@ -594,3 +594,8 @@ include src/degree_null/planning_core.py
 include tests/fixtures/v020-kernel.py
 include tests/fixtures/v020-protected-sha256.json
 include tests/test_planning.py
+include src/degree_null/networkit_graph.py
+include docs/NETWORKIT_GRAPH.md
+include examples/networkit_graph_plan.py
+include tests/test_networkit_graph.py
+include tests/test_networkit_graph_live.py

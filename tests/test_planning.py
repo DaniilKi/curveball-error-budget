@@ -295,7 +295,7 @@ print(json.dumps({"loaded_optional": sorted(blocked & set(sys.modules)),
         metadata = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
         self.assertEqual(metadata["project"]["scripts"]["curveball-plan"], "degree_null.planning_cli:main")
         self.assertEqual(metadata["project"]["version"], degree_null.__version__)
-        self.assertEqual(degree_null.__version__, "0.3.0")
+        self.assertEqual(degree_null.__version__, "0.4.0")
 
     def test_cli_exceeded_cap_is_distinct_from_success(self):
         stdout = io.StringIO()
