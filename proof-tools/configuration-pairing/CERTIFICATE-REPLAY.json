@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "platform": "Windows",
+  "Lean": "4.34.1",
+  "Python": "3.14.8",
+  "core_source_manifest_sha256": "536715beef7a69c5fbcc2d711093cd0d3a1de2ee2f85abc3ccd71e74b11cfaf7",
+  "helper_sha256": "fc36b942ecfa6e160adc2b40856c81935a7f0dc2366690de1daf25ce25b9cda2",
+  "checker_sha256": "ba39f097b165c97f2fffa54c8c2b304412750ead8ec1edb445546dadc0edaf2c",
+  "examples": [
+    {
+      "example": "retained_edge",
+      "status": "passed_kernel_certificate",
+      "capture_sha256": "d5332d7f02751fd93fda6f391b2d9d6198e1464498919169f9f17b56d190bb28",
+      "generated_source_file": "OwnerCapture_455e3e5bab3622ed77a000aab11ef7d75b608b9f6e556459eab152bd7db7956d.lean",
+      "generated_source_sha256": "9dd14fc3a341bc9af2e56923e55d8bea212dd697fde65827068ce62617963b1c",
+      "normalized_capture_sha256": "d5332d7f02751fd93fda6f391b2d9d6198e1464498919169f9f17b56d190bb28",
+      "object_sha256": "95a8844386c91523a8478da5860882f559ec1e4489594739a2dc81d0966ddadc",
+      "private_receipt_sha256": "4b1b87511202009a98f97473103b588e7bad26cd3b4d75a068f91759f933534a",
+      "wall_seconds_including_stable_setup_cleanup": 72.04664319999938,
+      "compiler_wall_seconds": 11.861062800000582,
+      "polled_peak_resident_bytes": 1085104128,
+      "terminal_child_confirmed": true,
+      "printed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "example": "triangle_repeated_owners",
+      "status": "passed_kernel_certificate",
+      "capture_sha256": "000853cf213fb585e6107a839469beeaaa883fcb64b1b781876d9e7de8539baf",
+      "generated_source_file": "OwnerCapture_a265194199656b1210e0b812be5b1fe8f71b30abcc59b5276177c5e63929889d.lean",
+      "generated_source_sha256": "434fa3e466bc80f039558a1bffbf0ed58cb3a65505868156df81c730820e13dd",
+      "normalized_capture_sha256": "000853cf213fb585e6107a839469beeaaa883fcb64b1b781876d9e7de8539baf",
+      "object_sha256": "69634552ec06d2dc928f1cfc4386214754d9ba6c5e0deb872f7741edfaf040b7",
+      "private_receipt_sha256": "e7075f423122fb370883e7d50aa31720beaa180506f82dd92df6b6fee3123b19",
+      "wall_seconds_including_stable_setup_cleanup": 73.46621640000012,
+      "compiler_wall_seconds": 13.276219700001093,
+      "polled_peak_resident_bytes": 1100238848,
+      "terminal_child_confirmed": true,
+      "printed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "example": "fixed_only_zero_residual",
+      "status": "passed_kernel_certificate",
+      "capture_sha256": "f06bcf89e7eabe998f2ca6f4ac00705251604519e02d704a74bf6f2de2eab50a",
+      "generated_source_file": "OwnerCapture_ed8df48641d9246ecc355cd2136d509b5fdb02f3beb478df056905547b3004cc.lean",
+      "generated_source_sha256": "11a56eb69383b1b9bff62a62d4bbadaecc3d19384471d9f26bd9e179d5824da9",
+      "normalized_capture_sha256": "f06bcf89e7eabe998f2ca6f4ac00705251604519e02d704a74bf6f2de2eab50a",
+      "object_sha256": "c81052df1b1649255751df9b7afafc9bb988d03625215a9a728e1a35cb67c2a0",
+      "private_receipt_sha256": "fbba366e600462dc8652e17407e886fee0787e9954b2e313fa8311ed22d353b4",
+      "wall_seconds_including_stable_setup_cleanup": 73.90705140000136,
+      "compiler_wall_seconds": 13.666831900000034,
+      "polled_peak_resident_bytes": 1081417728,
+      "terminal_child_confirmed": true,
+      "printed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "kernel_checked_examples": 3,
+  "sampler_or_RNG_calls": 0,
+  "scientific_runtime_authorized": false,
+  "scope": "Deterministic provided finite data and mathematical decoder join only; metadata is not execution authentication; no uniformity/IID/power/runtime guarantee."
+}

@@ -1,0 +1,6 @@
+.lake/
+build/
+generated/
+__pycache__/
+*.pyc
+test-artifacts/

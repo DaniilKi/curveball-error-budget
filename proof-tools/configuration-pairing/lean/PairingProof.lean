@@ -1,0 +1,5 @@
+import ConfigurationGraphOracle
+import ConfigurationOwnerCertificateExample
+
+#print axioms ConfigurationPairing.ideal_flat_graph_oracle_contract
+#print axioms ConfigurationPairing.ownerCertificateCheck_sound

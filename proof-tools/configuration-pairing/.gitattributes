@@ -1,0 +1,2 @@
+# Preserve the reviewed raw bytes across checkout line-ending policies.
+* -text

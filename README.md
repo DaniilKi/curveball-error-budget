@@ -7,7 +7,7 @@ plus a separate bounded Lean reference implementation. A mathematical budget
 does not establish that a scientific model is appropriate or that a seeded
 sampler has the ideal random law.
 
-**Release candidate: 0.5.0; publication awaits exact release review.**
+**Published prerelease: [0.5.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.5.0).**
 Published planner tutorial: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).
 Start with the [tested beginner tutorial](docs/QUICKSTART.md). It uses invented
 data and released NetworKit 11.2.2, requires no proposed upstream API, and runs
@@ -22,7 +22,16 @@ not established by this project.
 | [0.2.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.2.0) | Conditional finite-request Lean reference theorem and optimized/frozen IO-expression equality; separate native artifact | Restricted reference path; release approval leaves scientific runtime authorization false |
 | [0.3.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.3.0) | Exact degree-list planning API and `curveball-plan` CLI | Calculates a conservative count; no samples or inference |
 | [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0) | Immutable NetworKit Graph-to-plan snapshot | Retains sorted active IDs, exact optional labels, isolates and deleted-ID holes |
-| 0.5.0 candidate | Read-only accepted descriptive study evidence | Retains failed job, denominators and scientific holds; no sampling |
+| [0.5.0 prerelease](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.5.0) | Read-only accepted descriptive study evidence | Retains failed job, denominators and scientific holds; no sampling |
+
+## Optional proof tools on current main
+
+The separate [configuration-pairing proof tools](proof-tools/configuration-pairing/README.md)
+provide the accepted ideal count-cap oracle and a bounded offline certificate
+workflow for captured finite outputs. A checked graph certificate proves a
+deterministic property of that output; it does not establish uniform random
+sampling, IID, power or scientific reliability. This source addition changes no
+package version, sampler, scientific hold or published v0.5.0 artifact.
 
 ## Install and plan
 

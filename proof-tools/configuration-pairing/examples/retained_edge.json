@@ -1,0 +1,43 @@
+{
+  "fixed_edges": [
+    [
+      0,
+      1
+    ]
+  ],
+  "n": 4,
+  "owners": [
+    0,
+    2,
+    1,
+    3
+  ],
+  "returned_adjacency": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0
+    ],
+    [
+      1
+    ]
+  ],
+  "schema_version": 1,
+  "source_binding": {
+    "function_ast_sha256": "fa12271b9c1eb7ed42249aa8b2aa0c649ee385f402c4600ff6f0a0384262e919",
+    "function_source_sha256": "d64ffedd1ed2d74fa39dacd04fc75a754b294ee03cff93dbb42f3455fc063a4d",
+    "reference_sha256": "764f410ec39c4522b1ee283e70dc23ff8cd813bd987bd0954ba823cdf5f8e42d"
+  },
+  "target_degrees": [
+    2,
+    2,
+    1,
+    1
+  ]
+}

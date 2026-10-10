@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "files_sha256": {
+    "build.py": "60efd370c5aed6313dea609b361d78d4d718e08030ec2354302f5662390d55c1",
+    "capture_to_lean.py": "fc36b942ecfa6e160adc2b40856c81935a7f0dc2366690de1daf25ce25b9cda2",
+    "check_capture.py": "ba39f097b165c97f2fffa54c8c2b304412750ead8ec1edb445546dadc0edaf2c",
+    "examples/fixed_only_zero_residual.json": "f06bcf89e7eabe998f2ca6f4ac00705251604519e02d704a74bf6f2de2eab50a",
+    "examples/retained_edge.json": "d5332d7f02751fd93fda6f391b2d9d6198e1464498919169f9f17b56d190bb28",
+    "examples/triangle_repeated_owners.json": "000853cf213fb585e6107a839469beeaaa883fcb64b1b781876d9e7de8539baf",
+    "lake-manifest.json": "3768857efa7268dc5c2b8ebcdcdd0d0f9a7c73c94a5eb27549b789d5233ad60d",
+    "lakefile.toml": "702420bcd05863ba7e4b5eaab46143256c549ae5d254b7c9614d1060293fc613",
+    "lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+    "test_build.py": "ad2b8f8289c583ba6148dd32ebff2ada0da877adfef14664fc55694e67c5eec8",
+    "test_capture_to_lean.py": "320ff0435c3b84a8a9f8ad9253657575d2121e226fd4927a5cd6e71f70c025c5",
+    "test_check_capture.py": "3e4efaee4e607e4bf39075cffd8401adfa55595c5cb91190e354550e0f51caaa"
+  },
+  "reviewed_core_runner_receipt_sha256": "a02490d0db57f1dba6e25a99ef7a66b9321527667dfddb8f70b03db850bd3577",
+  "independent_helper_review_sha256": "ae3f02363634a679f5f853bdad34e0abc4c0e96042a76e6fd5746dab86848606",
+  "independent_checker_review_sha256": "3b92a8d49b27f6acd0e154a72455c9f20ad898a862f748ebd17446f8b02e5f42",
+  "supplied_python_test_groups": 32,
+  "independent_reification_cases": 760,
+  "proof_tooling": "AI-assisted, bounded Python controls; not universal Python formal verification",
+  "failed_proof_and_guard_attempts": "retained privately; excluded from public accepted entrypoints",
+  "scientific_runtime_authorized": false,
+  "new_release_or_tag": false
+}
