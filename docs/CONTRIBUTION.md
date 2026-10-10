@@ -1,0 +1,91 @@
+# Contribution and practical use
+
+The contribution is a usable conditional error budget for existing ordinary
+undirected Curveball, derived from a credited recent OpenAI theorem. It turns an
+error tolerance into an explicit sufficient attempt count, then keeps that
+allowance visible when planning batches and reporting Monte Carlo comparisons.
+
+## Before and after
+
+Ordinary Curveball, GlobalCurveball and efficient implementations already existed.
+Carstens, Berger and Strona describe the undirected algorithm and its uniform
+stationary target; their discussion also includes configuration/perfect-matching
+approaches. Carstens and Kleer prove bipartite Curveball/switch mixing comparisons.
+Fu, Qin and Wang study binary fixed-margin matrices. Earlier rigorous sampling
+theory therefore exists; these settings and operators must not be conflated.
+
+The pinned OpenAI manuscript proves a strong inequality for its undirected
+pair-resampling generator H, before comparison with the switch chain: H^2 >= H,
+with constants as its kernel. For C=binom(n,2), ordinary uniform-pair Curveball
+has P=I-H/C. Each pair update is an orthogonal heat-bath projection, so P has a
+nonnegative spectrum. The credited ingredients give gap(P) >= 1/C for the
+specified ideal operator. The normalization is a derivative corollary, not a new
+mixing theorem credited to this project.
+
+If M is the number of labeled simple graphs in the exact degree class, the usual
+spectral-to-total-variation conversion gives TV <= (1/2)*sqrt(M)*exp(-t/C).
+The planner uses the computable bound B=binom(C,m), exact upward-rounded binary
+arithmetic and a final integer envelope check. This converts a requested tolerance
+into a conservative sufficient number of attempted pair trades, including
+unchanged outcomes. It does not estimate the minimum mixing time.
+
+## When to use it
+
+Use the planner when an explicit distributional sampling-error guarantee matters
+to your prespecified simulation or comparison, the operator/randomness premises fit,
+and the sufficient ordinary-trade count is affordable. Compare it with exact
+pairing rejection and other proven samplers for your degree sequence. A longer
+sufficient schedule buys a stated bound; a short heuristic is not thereby shown
+inaccurate. Our BC39/49 study found inexpensive exact-reference sampling and did
+not demonstrate an unmet need or superiority. The planner can also report that a
+requested count cap is insufficient. Scientific null suitability remains separate.
+
+## What you can use now
+
+- Plan before launching an expensive job, and identify insufficient count caps.
+- Preserve sorted active graph IDs, labels, isolates and deleted-ID holes in an
+  immutable Graph-to-plan snapshot using released NetworKit 11.2.2.
+- Allocate a batch allowance eta across b outputs as eta/b per output, conditional
+  on independent ideal draws and the specified ordinary kernel.
+- Inspect reproducible saved studies, including negative findings and failed jobs.
+- Examine a separate restricted Lean reference result, or check deterministic
+  properties of supplied toy-sized finite captures with the optional proof tools.
+
+An adjusted rank-test rule pays the batch allowance explicitly. Scientific use
+still requires an appropriate labeled degree-only null, a predeclared statistic,
+accounted selection/multiplicity, and the randomness/backend premises. The planner
+performs no sampling or scientific test and grants no runtime authorization.
+
+## Evidence and limitations
+
+The [tutorial](QUICKSTART.md) demonstrates planning with invented data. The
+[planner contract](PLANNER.md) states exact units, arithmetic and limits.
+[PWR-002](PWR-002.md) retains one interrupted job and reports descriptive results:
+the predeclared pairing advantage and cost-matching conditions failed. The earlier
+classroom power gate failed, leaving its power unmeasured. Neither study proves
+an empirical speed/accuracy gain from the theorem or certifies a seeded backend.
+
+The [accepted native reference](../formalization/README.md) and the
+[optional pairing tools](../proof-tools/configuration-pairing/README.md) have
+different contracts. A finite-output certificate establishes deterministic graph
+and owner-data properties; it does not prove the capture is authentic, uniformly
+random or IID. Count-capped ideal oracle results do not justify conditioning on
+time/resource completion. Physical randomness, compiler/runtime correspondences
+and the whole fast NetworKit stack remain outside the accepted assurances.
+
+## Primary sources and credit
+
+- [OpenAI pinned manuscript and source](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Polynomial-Mixing-of-the-Switch-Chain-for-Every-Graphical-Degree-Sequence-September-25-2026): the undirected pair-generator inequality and constant kernel, especially `build/sections/mixing.tex`.
+- [Carstens, Berger and Strona](https://arxiv.org/abs/1609.05137v3): existing undirected Curveball, stationary target and prior sampling methods.
+- [Carstens and Kleer](https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2018.36): bipartite Curveball/switch comparisons.
+- [Fu, Qin and Wang, version 2](https://arxiv.org/abs/2606.22636v2): binary fixed-margin theory, distinct from the undirected graph state space here.
+- [Dyer, Greenhill and Ullrich](https://doi.org/10.1016/j.laa.2014.04.018): heat-bath structure and spectrum.
+- [Global Curveball](https://arxiv.org/abs/1804.08487v2) and [NetworKit tutorial](https://networkit.github.io/dev-docs/notebooks/Randomization.html): existing efficient implementations and recommended empirical schedules.
+- [SEA 2026 empirical mixing study](https://doi.org/10.4230/LIPIcs.SEA.2026.2): empirical diagnostics, distinct from a finite-error theorem.
+
+The editable [technical note](../paper/README.md) supplies the mathematical
+derivation and dated software/evidence scope. No global firstness or peer-review
+acceptance is claimed. OpenAI receives source-theorem credit; existing algorithms,
+heat-bath positivity, spectral conversion and rank tests retain their prior credit.
+AI assistance and separate component licenses are recorded in [NOTICE](../NOTICE).
+The unrelated simplex dimension-13 volume result gives no graph-runtime guarantee.

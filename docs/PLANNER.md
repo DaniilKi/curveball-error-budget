@@ -1,5 +1,11 @@
 # Ordinary Curveball planner
 
+Turn a sampling-error tolerance into an explicit conservative attempt count before
+launching an ordinary Curveball job. This is the practical use of the derivative
+gap corollary from the credited OpenAI pair-resampling theorem; see
+[the contribution and prior work](CONTRIBUTION.md). Existing samplers and earlier
+restricted/bipartite theory retain their credit.
+
 The degree-list API/CLI was published in v0.3.0. Version0.4.0 also adds a separately documented [NetworKit graph adapter](NETWORKIT_GRAPH.md); the degree-list planner remains unchanged. The
 planner calculates a sufficient attempted-trade count under explicit mathematical
 and ideal-randomness assumptions. It does not run NetworKit, sample a graph, test a

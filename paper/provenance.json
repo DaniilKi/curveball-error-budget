@@ -1,6 +1,10 @@
 {
-  "status": "included unchanged parent-reviewed frozen paper",
-  "files": [
+  "technical_note_version": "2.0",
+  "revision_date": "2026-10-10",
+  "scope": "Revised explanation and current software/evidence/proof-tool scope; mathematical theorem/proof blocks preserved as normalized text.",
+  "original_version": "1.0",
+  "original_doi": "10.5281/zenodo.23240350",
+  "original_files": [
     {
       "path": "curveball-note.tex",
       "bytes": 22818,
@@ -14,8 +18,25 @@
       "copied_unchanged": true
     }
   ],
-  "source_and_pdf_hashes_match_parent_receipt": true,
+  "files": [
+    {
+      "path": "curveball-note.tex",
+      "bytes": 30466,
+      "sha256": "c9dcbc558ee54dc04e7c3014e1e4338f8bca40f65cdc0f7bf2bd5ba217d161c4"
+    },
+    {
+      "path": "curveball-note.pdf",
+      "bytes": 97670,
+      "sha256": "ee32f88e0d7b77a8328e3b6d72a73b86e1bc454c283bfa7bb6ccf2d0d10c7b50"
+    }
+  ],
+  "compiler": "Tectonic0.17.0 official Windows release",
+  "compiler_sha256": "99ffcfdbf1ebf8bdda9e791942e3d06aedb12463fddc33f07de6f5211c8bf08d",
   "standalone_source": true,
-  "paper_rendering_repeated_by_packaging_worker": false,
-  "scope": "parent-corrected frozen paper copied unchanged; packaging hash/privacy scan only; no new DOI, submission or publication"
+  "shell_escape": false,
+  "final_compilation_exit_code": 0,
+  "upstream_theorem_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "accepted_proof_tools_commit": "622534c2759e6889828fa4597667518906ff8753",
+  "license": "CC-BY-4.0",
+  "new_zenodo_record_claimed": false
 }

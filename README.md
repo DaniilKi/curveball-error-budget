@@ -1,11 +1,34 @@
 # Curveball Error Budget
 
-Imagine reshuffling a network while everyone keeps the same number of
-connections. Curveball is an existing algorithm for that task. This project
-adds explicit error-budget planning, identity checks and reproducible reporting,
-plus a separate bounded Lean reference implementation. A mathematical budget
-does not establish that a scientific model is appropriate or that a seeded
-sampler has the ideal random law.
+We make a recent OpenAI all-degree-sequence theorem usable as an explicit
+sampling-error budget for ordinary Curveball. Give the planner a graph's degrees
+and an error tolerance; it returns a conservative sufficient number of attempted
+trades, with exact arithmetic and a clear report when your count cap is too small.
+The tested tutorial runs this calculation without sampling a graph.
+
+Curveball already reshuffled networks while preserving every vertex's degree.
+Efficient implementations and rigorous results for important settings already
+existed. The practical advance here is connecting the credited general undirected
+operator bound to usable tolerance-to-count planning, whole-batch error accounting,
+reproducible evaluation and separate, bounded proof/certificate tools.
+
+For example, `[1,1,1,1,0,0]` with tolerance `1/100` produces **150 attempted
+trades**. A cap of 100 is reported as insufficient; it does not silently shorten
+the plan. This is a conditional guarantee for the specified ordinary operator and
+independent ideal uniform draws. It is not a certified law for a seeded backend.
+
+| What existed | What this project enables |
+| --- | --- |
+| Degree-preserving Curveball and efficient ordinary/Global implementations | A separately usable ordinary-chain planner driven by an explicit error tolerance |
+| Rigorous mixing results for restricted degree families and matrix/bipartite settings | A derivative general undirected gap corollary from the pinned OpenAI operator theorem |
+| Empirical diagnostics and heuristic trade counts | A conservative sufficient count and explicit batch sampling-error allowance |
+| Mathematical arguments and implementation tests | Scoped Lean reference results and offline finite-output certificates, with their trust boundaries recorded |
+
+Start with the [tested beginner tutorial](docs/QUICKSTART.md), then see
+[the contribution and credited prior work](docs/CONTRIBUTION.md).
+The useful guarantee is an explicit error allowance under stated premises.
+No measured speed/accuracy advantage, new shuffle, worldwide priority or full
+fast-stack verification is established. Negative studies remain documented below.
 
 **Published prerelease: [0.5.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.5.0).**
 Published planner tutorial: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).
@@ -13,6 +36,17 @@ Start with the [tested beginner tutorial](docs/QUICKSTART.md). It uses invented
 data and released NetworKit 11.2.2, requires no proposed upstream API, and runs
 no sampler. Power, causation, a faster algorithm and a new mixing theorem are
 not established by this project.
+
+## When to use it
+
+Use the planner when an explicit distributional sampling-error guarantee matters
+to your prespecified simulation or comparison, the operator/randomness premises fit,
+and the sufficient ordinary-trade count is affordable. Compare it with exact
+pairing rejection and other proven samplers for your degree sequence. A longer
+sufficient schedule buys a stated bound; a short heuristic is not thereby shown
+inaccurate. Our BC39/49 study found inexpensive exact-reference sampling and did
+not demonstrate an unmet need or superiority. The planner can also report that a
+requested count cap is insufficient. Scientific null suitability remains separate.
 
 ## What the releases add
 

@@ -1,5 +1,12 @@
 # Accepted Curveball proof sources and their limits
 
+These sources support the error-budget project: a focused ordinary-kernel/gap
+corollary, a separate bounded native reference result, and optional ideal pairing
+models/offline certificates. Start with [the practical contribution](../docs/CONTRIBUTION.md).
+The current-main [pairing tools](../proof-tools/configuration-pairing/README.md)
+provide their own exact closure and replay workflow; they are outside frozen v0.5.0
+release files and do not certify the fast sampler or physical random draws.
+
 The conditional reference proof and exact v0.2.0 release artifacts were accepted
 and published. The shipped scientific runtime authorization remains **false**.
 Labels such as `pending_mainreview` in frozen profiles/ledgers describe retained

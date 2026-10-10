@@ -1,10 +1,10 @@
 # Paper license and attribution
 
-The paper **Error-budgeted ordinary Curveball sampling for undirected degree sequences**, by **Daniil Kiselev**, dated8October2026, and its editable LaTeX source are licensed under **Creative Commons Attribution4.0 International (CC BY4.0)**, as declared in the note itself.
+**Error-budgeted ordinary Curveball sampling for undirected degree sequences**, by **Daniil Kiselev**, and its editable LaTeX source are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Current files are revised technical-note version 2.0, dated 10 October 2026. The original version 1.0, dated 8 October 2026, remains unchanged in its [Zenodo record](https://doi.org/10.5281/zenodo.23240350) and historical release.
 
 - License summary: https://creativecommons.org/licenses/by/4.0/
 - Binding license text: https://creativecommons.org/licenses/by/4.0/legalcode.en
 - Files: curveball-note.tex and curveball-note.pdf.
-- These files are distributed unchanged from the corrected frozen paper. Their byte hashes are recorded in provenance.json. The packaging change is the addition of this license/attribution wrapper; it does not alter the paper.
+- Revision 2.0 updates the explanation and current project scope while preserving the original mathematical derivation and identifying its historical executions. Exact current source/PDF hashes are recorded in provenance.json.
 
-When reusing or adapting the paper, provide appropriate author/title credit, retain the license reference and indicate changes as required by CC BY4.0. No journal acceptance, DOI or peer-review status is implied. The software is separately licensed Apache-2.0; this notice does not relicense upstream algorithm sources or dependency binaries.
+When reusing or adapting the paper, credit the author/title, retain the license reference and indicate changes as CC BY 4.0 requires. Technical-note revision is not journal acceptance or peer review. Software is separately Apache-2.0; this notice does not relicense attributed upstream sources or dependency binaries.
