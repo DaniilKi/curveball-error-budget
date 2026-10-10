@@ -83,10 +83,20 @@ planning output, not NetworKit's sampler/RNG or performance. Only selected
 small synthetic cases are measured; no full-scale runtime/RSS or power claim
 follows. A trade cap remains a count comparison, not an execution limit.
 
-## Separate upstream draft proposal: current validation
+## Separate upstream proposal: withdrawn, historical validation retained
 
-Checked on 2026-10-09: [draft PR #1538](https://github.com/networkit/networkit/pull/1538)
-is open, unmerged, with no maintainer review/acceptance recorded. Published head
+[PR #1538](https://github.com/networkit/networkit/pull/1538) was
+[withdrawn by its author](https://github.com/networkit/networkit/pull/1538#issuecomment-6093771445)
+and closed unmerged on 2026-10-10. Tests have not established compelling
+practical advantage, and sufficient practical demand for general-purpose
+library maintenance has not been established. No maintainer review or response
+was recorded before closure; the discussion contained the author's feedback
+request and an automated Coveralls report. The branch and fork remain intact.
+This withdraws the upstream proposal, not the conditional mathematical result
+or the standalone planner. Existing shuffle methods are not invalidated.
+
+The following successful tests are historical implementation evidence, not
+adoption or renewed merge readiness. The preserved proposal head
 is `6c6eda3a8408f79c59a07c5e1f711fdb965dabc4`, based on
 `ab420840dbb8a61fcb1ea0d89e5acc44fe66f2ab`. This proposal supplies a degree-list
 helper and frozen record with a compiled public import; it is separate from our
@@ -112,11 +122,11 @@ PR artifact uploads remain master-only: the wheel digest is recorded in CI,
 without a locally preserved wheel/sdist archive or independent sdist byte audit.
 Setuptools licensing deprecations and a package-discovery warning remain in logs.
 One [authorized workflow-feedback request](https://github.com/networkit/networkit/pull/1538#issuecomment-6074562014)
-links our tested tutorial. No maintainer response was recorded at this check;
-its earlier CI-status paragraph is a dated snapshot, superseded by the terminal
-results above.
+links our tested tutorial. Its earlier CI-status paragraph is a dated snapshot,
+superseded by the terminal results above. The later author withdrawal is linked
+at the start of this section; no maintainer acceptance is claimed.
 
-The draft proposes MIT AND Apache-2.0 component metadata and explicit Apache
+The withdrawn draft proposed MIT AND Apache-2.0 component metadata and explicit Apache
 notices alongside unchanged MIT code. Maintainer licensing preference and API
 acceptance remain unresolved; no rightsholder grant or relicense is assumed.
 Passing tests is not upstream adoption, a sampler-law/PRNG certificate, scientific

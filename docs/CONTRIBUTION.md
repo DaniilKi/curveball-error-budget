@@ -5,6 +5,20 @@ undirected Curveball, derived from a credited recent OpenAI theorem. It turns an
 error tolerance into an explicit sufficient attempt count, then keeps that
 allowance visible when planning batches and reporting Monte Carlo comparisons.
 
+**Current practical conclusion:** the supported contribution is conditional
+mathematical distribution-approximation assurance, made usable through exact
+error-budget planning. Our tested examples have not demonstrated a compelling
+practical advantage over the strongest applicable existing alternatives we
+assessed. A sufficient schedule may require more computation; it buys a stated
+error bound under assumptions, not a demonstrated speed, power or accuracy gain.
+Existing valid significance tests predate this planner.
+
+The [accepted archived bird illustration](BIRD-001.md) reached the same
+.05 non-rejection with the sufficient rule and the older Besag-Clifford rank
+test. It is a compatible worked example, not original-paper replication or
+evidence that exact algorithms generally fail. The mathematical results and
+scoped proof tools remain useful under their stated contracts.
+
 ## Before and after
 
 Ordinary Curveball, GlobalCurveball and efficient implementations already existed.
@@ -71,6 +85,8 @@ The [tutorial](QUICKSTART.md) demonstrates planning with invented data. The
 the predeclared pairing advantage and cost-matching conditions failed. The earlier
 classroom power gate failed, leaving its power unmeasured. Neither study proves
 an empirical speed/accuracy gain from the theorem or certifies a seeded backend.
+The [BIRD-001 summary](BIRD-001.md) retains the later archived-attribute
+illustration, equal .070 rank conclusions and narrowly scoped pairing failure.
 
 The [accepted native reference](../formalization/README.md) and the
 [optional pairing tools](../proof-tools/configuration-pairing/README.md) have
@@ -79,6 +95,20 @@ and owner-data properties; it does not prove the capture is authentic, uniformly
 random or IID. Count-capped ideal oracle results do not justify conditioning on
 time/resource completion. Physical randomness, compiler/runtime correspondences
 and the whole fast NetworKit stack remain outside the accepted assurances.
+
+## Upstream and archived snapshot status
+
+The proposed [NetworKit helper](https://github.com/networkit/networkit/pull/1538)
+was withdrawn and closed unmerged because practical advantage and demand had
+not been established sufficiently to justify upstream maintenance. The tested
+standalone planner remains available; this is not a mathematical withdrawal.
+See the [verified upstream status](NETWORKIT_GRAPH.md).
+
+The reviewed Zenodo upload kit remains frozen at commit
+`ea0f86d1c508e7f2f312c161c2075d111195bc11`, before this conclusion/status update.
+It has not been silently revised or deposited. A kit advertised as including
+these later docs needs a refreshed source archive, exact metadata/checksums and
+review. The current mathematical note and old release assets are unchanged.
 
 ## Primary sources and credit
 

@@ -30,6 +30,20 @@ The useful guarantee is an explicit error allowance under stated premises.
 No measured speed/accuracy advantage, new shuffle, worldwide priority or full
 fast-stack verification is established. Negative studies remain documented below.
 
+**Current practical conclusion:** the supported contribution is conditional
+mathematical distribution-approximation assurance, made usable through exact
+error-budget planning. Our tested examples have not demonstrated a compelling
+practical advantage over the strongest applicable existing alternatives we
+assessed. A sufficient schedule may require more computation; it buys a stated
+error bound under assumptions, not a demonstrated speed, power or accuracy gain.
+Existing valid significance tests predate this planner.
+
+The [accepted archived bird illustration](docs/BIRD-001.md) reached the same
+.05 non-rejection with the sufficient rule and the older Besag-Clifford rank
+test. It is a compatible worked example, not original-paper replication or
+evidence that exact algorithms generally fail. The mathematical results and
+scoped proof tools remain useful under their stated contracts.
+
 **Published prerelease: [0.5.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.5.0).**
 Published planner tutorial: [0.4.0](https://github.com/DaniilKi/curveball-error-budget/releases/tag/v0.4.0).
 Start with the [tested beginner tutorial](docs/QUICKSTART.md). It uses invented
@@ -154,13 +168,16 @@ No pupil identifiers, mappings or contact graphs are distributed here.
 
 ## Upstream work and citation
 
-As checked on 2026-10-09, [NetworKit draft PR #1538](https://github.com/networkit/networkit/pull/1538)
-is open and unmerged. Current-head main CI passed all 22 jobs; the targeted
-Linux x86_64 CPython 3.15 installed-wheel API, complete notice-byte and metadata
-checks passed. These test an upstream proposal, separately from our released
-11.2.2 Graph adapter. Maintainer acceptance of API scope and mixed-component
-licensing remains unresolved; passing CI is not adoption or sampler certification.
-[Details and limitations](docs/NETWORKIT_GRAPH.md).
+[NetworKit PR #1538](https://github.com/networkit/networkit/pull/1538) was
+[withdrawn by its author](https://github.com/networkit/networkit/pull/1538#issuecomment-6093771445)
+and closed unmerged on 2026-10-10. We have not established practical advantage
+or demand sufficient to justify its maintenance in a general-purpose library.
+No maintainer response or acceptance was recorded before withdrawal. The
+conditional mathematical contribution remains in this standalone project;
+withdrawal does not disprove the theorem or invalidate existing shuffle methods.
+The proposal's successful CI is retained as historical implementation evidence,
+separate from our released 11.2.2 Graph adapter. No adoption, licensing acceptance
+or sampler certification is implied. [Details](docs/NETWORKIT_GRAPH.md).
 
 Use [CITATION.cff](CITATION.cff) and name the software version used. The existing
 [Zenodo software DOI](https://doi.org/10.5281/zenodo.23240269) archives **0.1.0**;

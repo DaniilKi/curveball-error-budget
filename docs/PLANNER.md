@@ -133,9 +133,12 @@ scope. API engineering, mathematical novelty, formal reference correctness,
 human peer review and practical efficacy are separate claims; no worldwide-firstness
 claim is made.
 
-This is our project's API. The separate NetworKit draft proposal has passing
-compiled/export and targeted installed-wheel checks; current status and remaining
-licensing/adoption limits are in [NETWORKIT_GRAPH.md](NETWORKIT_GRAPH.md). It is
-unmerged and maintainer acceptance remains unresolved. Project release publication
-and upstream CI do not establish acceptance or backend/scientific certification.
+This is our project's API. The separate NetworKit proposal was withdrawn and
+closed unmerged on 2026-10-10; practical advantage and demand sufficient to
+justify upstream maintenance have not been established. Its passing compiled/export
+and installed-wheel checks remain historical implementation evidence. Current
+status and licensing/adoption limits are in [NETWORKIT_GRAPH.md](NETWORKIT_GRAPH.md).
+The conditional mathematical result and standalone planner are preserved.
+Project publication and upstream CI do not establish acceptance or backend/scientific
+certification.
 Apache-derived code retains its attribution and component notices.
