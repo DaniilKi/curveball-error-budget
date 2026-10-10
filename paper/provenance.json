@@ -21,13 +21,13 @@
   "files": [
     {
       "path": "curveball-note.tex",
-      "bytes": 30466,
-      "sha256": "c9dcbc558ee54dc04e7c3014e1e4338f8bca40f65cdc0f7bf2bd5ba217d161c4"
+      "bytes": 31285,
+      "sha256": "64dd013ca13449c5142aacb14f1dc572df017fbe071ae7c2a546c6a843add308"
     },
     {
       "path": "curveball-note.pdf",
-      "bytes": 97670,
-      "sha256": "ee32f88e0d7b77a8328e3b6d72a73b86e1bc454c283bfa7bb6ccf2d0d10c7b50"
+      "bytes": 99296,
+      "sha256": "c3d8d667d74399857e71d14053f3f59e205e26f72ab42cd4fca6a5ef927b00c0"
     }
   ],
   "compiler": "Tectonic0.17.0 official Windows release",

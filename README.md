@@ -48,6 +48,13 @@ inaccurate. Our BC39/49 study found inexpensive exact-reference sampling and did
 not demonstrate an unmet need or superiority. The planner can also report that a
 requested count cap is insufficient. Scientific null suitability remains separate.
 
+For significance testing alone, existing Besag-Clifford exchangeable MCMC
+tests can avoid a mixing-time requirement. Under their stationary-null and ideal
+kernel premises, a reverse leg and forward spokes give valid rank tests at a
+fixed length. This differs from approximating an independent uniform batch or a
+global tail distribution. See [Howes, Section 3.1](https://arxiv.org/html/2310.04924v2).
+This project did not first make fixed-degree significance tests valid.
+
 ## What the releases add
 
 | Release | Addition | Scope |
